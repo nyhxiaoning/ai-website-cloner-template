@@ -1,0 +1,81 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4] [cursor=pointer]:
+      - img [ref=e6]
+      - generic [ref=e8]: 👈 点击播放
+    - main [ref=e9]:
+      - navigation [ref=e10]:
+        - list [ref=e11]:
+          - listitem [ref=e12] [cursor=pointer]
+          - listitem [ref=e15] [cursor=pointer]
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: C
+          - img [ref=e21]
+          - generic [ref=e24]: 100%
+        - generic [ref=e25]:
+          - generic [ref=e26]: M
+          - img [ref=e27]
+          - generic [ref=e30]: 0%
+        - generic [ref=e31]:
+          - generic [ref=e32]: "Y"
+          - img [ref=e33]
+          - generic [ref=e36]: 29%
+        - generic [ref=e37]:
+          - generic [ref=e38]: K
+          - img [ref=e39]
+          - generic [ref=e42]: 12%
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]: R
+            - generic [ref=e47]: "0"
+          - generic [ref=e48]:
+            - generic [ref=e49]: G
+            - generic [ref=e52]: "224"
+          - generic [ref=e53]:
+            - generic [ref=e54]: B
+            - generic [ref=e57]: "158"
+        - button "#00e09e" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+          - generic [ref=e63]: "#00e09e"
+      - generic [ref=e64]:
+        - heading "青色" [level=1] [ref=e65]
+        - generic [ref=e66]:
+          - button [ref=e67] [cursor=pointer]:
+            - img [ref=e68]
+          - button [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+        - heading "qīng sè" [level=2] [ref=e74]
+        - generic [ref=e75]:
+          - paragraph [ref=e76]: 君子死知己
+          - paragraph [ref=e77]: 提剑出燕京
+          - paragraph [ref=e78]: 陶渊明 · 咏荆轲
+      - generic [ref=e79]:
+        - img "logo" [ref=e80]
+        - generic [ref=e81]: chinese color
+    - generic [ref=e82]:
+      - img [ref=e83]
+      - generic [ref=e85]:
+        - button "红" [ref=e86] [cursor=pointer]
+        - button "黄" [ref=e87] [cursor=pointer]
+        - button "绿" [ref=e88] [cursor=pointer]
+        - button "蓝" [ref=e89] [cursor=pointer]
+        - button "苍" [ref=e90] [cursor=pointer]
+        - button "水" [ref=e91] [cursor=pointer]
+        - button "灰白" [ref=e92] [cursor=pointer]
+        - button "黑" [ref=e93] [cursor=pointer]
+        - button "金银" [ref=e94] [cursor=pointer]
+    - generic [ref=e95]:
+      - button [ref=e96] [cursor=pointer]:
+        - img [ref=e97]
+      - button [ref=e100] [cursor=pointer]:
+        - img [ref=e101]
+      - button [ref=e103] [cursor=pointer]:
+        - img [ref=e104]
+      - button [ref=e107] [cursor=pointer]:
+        - img [ref=e108]
+    - link "京ICP备16015459号-1" [ref=e111] [cursor=pointer]:
+      - /url: https://beian.miit.gov.cn/
+  - button "Open Next.js Dev Tools" [ref=e117] [cursor=pointer]:
+    - img [ref=e118]
+  - alert [ref=e121]

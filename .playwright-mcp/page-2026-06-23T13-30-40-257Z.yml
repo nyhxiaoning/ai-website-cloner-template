@@ -1,0 +1,538 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - complementary [ref=e4] [cursor=pointer]:
+        - img [ref=e5]
+        - generic [ref=e7]: 👈 点击播放
+      - complementary [ref=e8]:
+        - generic [ref=e9]:
+          - list [ref=e10]:
+            - listitem [ref=e11] [cursor=pointer]:
+              - img [ref=e12]
+            - listitem [ref=e14] [cursor=pointer]: 红
+            - listitem [ref=e15] [cursor=pointer]: 黄
+            - listitem [ref=e16] [cursor=pointer]: 绿
+            - listitem [ref=e17] [cursor=pointer]: 蓝
+            - listitem [ref=e18] [cursor=pointer]: 苍
+            - listitem [ref=e19] [cursor=pointer]: 水
+            - listitem [ref=e20] [cursor=pointer]: 灰白
+            - listitem [ref=e21] [cursor=pointer]: 黑
+            - listitem [ref=e22] [cursor=pointer]: 金银
+          - button [ref=e23] [cursor=pointer]:
+            - img [ref=e24]
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem "像刚长出的嫩叶的浅绿色" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]:
+              - generic [ref=e30]:
+                - img [ref=e34]
+                - img [ref=e40]
+                - img [ref=e46]
+                - img [ref=e52]
+              - heading "1 嫩绿" [level=2] [ref=e55]:
+                - generic [ref=e56]: "1"
+                - generic [ref=e57]: 嫩绿
+            - generic [ref=e58]:
+              - paragraph [ref=e59]: "#bddd22"
+              - paragraph [ref=e64]: nèn lǜ
+          - listitem "像柳树芽那样的浅黄色" [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]:
+              - generic [ref=e67]:
+                - img [ref=e71]
+                - img [ref=e77]
+                - img [ref=e83]
+                - img [ref=e89]
+              - heading "2 柳黄" [level=2] [ref=e92]:
+                - generic [ref=e93]: "2"
+                - generic [ref=e94]: 柳黄
+            - generic [ref=e95]:
+              - paragraph [ref=e96]: "#c9dd22"
+              - paragraph [ref=e101]: liǔ huáng
+          - listitem "柳叶的青绿色" [ref=e102] [cursor=pointer]:
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - img [ref=e108]
+                - img [ref=e114]
+                - img [ref=e120]
+                - img [ref=e126]
+              - heading "3 柳绿" [level=2] [ref=e129]:
+                - generic [ref=e130]: "3"
+                - generic [ref=e131]: 柳绿
+            - generic [ref=e132]:
+              - paragraph [ref=e133]: "#afdd22"
+              - paragraph [ref=e138]: liǔ lǜ
+          - listitem "竹子的绿色" [ref=e139] [cursor=pointer]:
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - img [ref=e145]
+                - img [ref=e151]
+                - img [ref=e157]
+                - img [ref=e163]
+              - heading "4 竹青" [level=2] [ref=e166]:
+                - generic [ref=e167]: "4"
+                - generic [ref=e168]: 竹青
+            - generic [ref=e169]:
+              - paragraph [ref=e170]: "#789262"
+              - paragraph [ref=e175]: zhú qīng
+          - listitem "黄绿色，嫩黄色" [ref=e176] [cursor=pointer]:
+            - generic [ref=e177]:
+              - generic [ref=e178]:
+                - img [ref=e182]
+                - img [ref=e188]
+                - img [ref=e194]
+                - img [ref=e200]
+              - heading "5 葱黄" [level=2] [ref=e203]:
+                - generic [ref=e204]: "5"
+                - generic [ref=e205]: 葱黄
+            - generic [ref=e206]:
+              - paragraph [ref=e207]: "#a3d900"
+              - paragraph [ref=e212]: cōng huáng
+          - listitem "1:浅绿又略显微黄的颜色 2:草木青翠的样子" [ref=e213] [cursor=pointer]:
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - img [ref=e219]
+                - img [ref=e225]
+                - img [ref=e231]
+                - img [ref=e237]
+              - heading "6 葱绿" [level=2] [ref=e240]:
+                - generic [ref=e241]: "6"
+                - generic [ref=e242]: 葱绿
+            - generic [ref=e243]:
+              - paragraph [ref=e244]: "#9ed900"
+              - paragraph [ref=e249]: cōng lǜ
+          - listitem "淡淡的青绿色" [ref=e250] [cursor=pointer]:
+            - generic [ref=e251]:
+              - generic [ref=e252]:
+                - img [ref=e256]
+                - img [ref=e262]
+                - img [ref=e268]
+                - img [ref=e274]
+              - heading "7 葱青" [level=2] [ref=e277]:
+                - generic [ref=e278]: "7"
+                - generic [ref=e279]: 葱青
+            - generic [ref=e280]:
+              - paragraph [ref=e281]: "#0eb83a"
+              - paragraph [ref=e286]: cōng qīng
+          - listitem "青绿色" [ref=e287] [cursor=pointer]:
+            - generic [ref=e288]:
+              - generic [ref=e289]:
+                - img [ref=e293]
+                - img [ref=e299]
+                - img [ref=e305]
+                - img [ref=e311]
+              - heading "8 葱倩" [level=2] [ref=e314]:
+                - generic [ref=e315]: "8"
+                - generic [ref=e316]: 葱倩
+            - generic [ref=e317]:
+              - paragraph [ref=e318]: "#0eb840"
+              - paragraph [ref=e323]: cōng qiàn
+          - listitem "翠绿色,形容植物浓绿" [ref=e324] [cursor=pointer]:
+            - generic [ref=e325]:
+              - generic [ref=e326]:
+                - img [ref=e330]
+                - img [ref=e336]
+                - img [ref=e342]
+                - img [ref=e348]
+              - heading "9 青葱" [level=2] [ref=e351]:
+                - generic [ref=e352]: "9"
+                - generic [ref=e353]: 青葱
+            - generic [ref=e354]:
+              - paragraph [ref=e355]: "#0aa344"
+              - paragraph [ref=e360]: qīng cōng
+          - listitem "光润而浓绿的颜色。以上几种绿色都是明亮可爱的色彩。" [ref=e361] [cursor=pointer]:
+            - generic [ref=e362]:
+              - generic [ref=e363]:
+                - img [ref=e367]
+                - img [ref=e373]
+                - img [ref=e379]
+                - img [ref=e385]
+              - heading "10 油绿" [level=2] [ref=e388]:
+                - generic [ref=e389]: "10"
+                - generic [ref=e390]: 油绿
+            - generic [ref=e391]:
+              - paragraph [ref=e392]: "#00bc12"
+              - paragraph [ref=e397]: yóu lǜ
+          - listitem "（沉）深绿" [ref=e398] [cursor=pointer]:
+            - generic [ref=e399]:
+              - generic [ref=e400]:
+                - img [ref=e404]
+                - img [ref=e410]
+                - img [ref=e416]
+                - img [ref=e422]
+              - heading "11 绿沈" [level=2] [ref=e425]:
+                - generic [ref=e426]: "11"
+                - generic [ref=e427]: 绿沈
+            - generic [ref=e428]:
+              - paragraph [ref=e429]: "#0c8918"
+              - paragraph [ref=e434]: lǜ shěn
+          - listitem "1，青绿色。2，青白色,浅蓝色。" [ref=e435] [cursor=pointer]:
+            - generic [ref=e436]:
+              - generic [ref=e437]:
+                - img [ref=e441]
+                - img [ref=e447]
+                - img [ref=e453]
+                - img [ref=e459]
+              - heading "12 碧色" [level=2] [ref=e462]:
+                - generic [ref=e463]: "12"
+                - generic [ref=e464]: 碧色
+            - generic [ref=e465]:
+              - paragraph [ref=e466]: "#1bd1a5"
+              - paragraph [ref=e471]: bì sè
+          - listitem "鲜艳的青绿色" [ref=e472] [cursor=pointer]:
+            - generic [ref=e473]:
+              - generic [ref=e474]:
+                - img [ref=e478]
+                - img [ref=e484]
+                - img [ref=e490]
+                - img [ref=e496]
+              - heading "13 碧绿" [level=2] [ref=e499]:
+                - generic [ref=e500]: "13"
+                - generic [ref=e501]: 碧绿
+            - generic [ref=e502]:
+              - paragraph [ref=e503]: "#2add9c"
+              - paragraph [ref=e508]: bì lǜ
+          - listitem "鲜艳的青蓝色" [ref=e509] [cursor=pointer]:
+            - generic [ref=e510]:
+              - generic [ref=e511]:
+                - img [ref=e515]
+                - img [ref=e521]
+                - img [ref=e527]
+                - img [ref=e533]
+              - heading "14 青碧" [level=2] [ref=e536]:
+                - generic [ref=e537]: "14"
+                - generic [ref=e538]: 青碧
+            - generic [ref=e539]:
+              - paragraph [ref=e540]: "#48c0a3"
+              - paragraph [ref=e545]: qīng bì
+          - listitem "1，翡翠鸟羽毛的青绿色。2，翡翠宝石的颜色。（C-Y≥30的系列色彩，多与白色配合以体现清新明丽感觉，与黑色配合效果不好该色个性柔弱，会被黑色牵制）" [ref=e546] [cursor=pointer]:
+            - generic [ref=e547]:
+              - generic [ref=e548]:
+                - img [ref=e552]
+                - img [ref=e558]
+                - img [ref=e564]
+                - img [ref=e570]
+              - heading "15 翡翠色" [level=2] [ref=e573]:
+                - generic [ref=e574]: "15"
+                - generic [ref=e575]: 翡翠色
+            - generic [ref=e576]:
+              - paragraph [ref=e577]: "#3de1ad"
+              - paragraph [ref=e582]: fěi cuì sè
+          - listitem "绿而略黄的颜色。" [ref=e583] [cursor=pointer]:
+            - generic [ref=e584]:
+              - generic [ref=e585]:
+                - img [ref=e589]
+                - img [ref=e595]
+                - img [ref=e601]
+                - img [ref=e607]
+              - heading "16 草绿" [level=2] [ref=e610]:
+                - generic [ref=e611]: "16"
+                - generic [ref=e612]: 草绿
+            - generic [ref=e613]:
+              - paragraph [ref=e614]: "#40de5a"
+              - paragraph [ref=e619]: cǎo lǜ
+          - listitem "1，一类带绿的蓝色,中等深浅,高度饱和。3，本义是蓝色。4，一般指深绿色。5，也指黑色。6，四色印刷中的一色。2，特指三补色中的一色。" [ref=e620] [cursor=pointer]:
+            - generic [ref=e621]:
+              - generic [ref=e622]:
+                - img [ref=e626]
+                - img [ref=e632]
+                - img [ref=e638]
+                - img [ref=e644]
+              - heading "17 青色" [level=2] [ref=e647]:
+                - generic [ref=e648]: "17"
+                - generic [ref=e649]: 青色
+            - generic [ref=e650]:
+              - paragraph [ref=e651]: "#00e09e"
+              - paragraph [ref=e656]: qīng sè
+          - listitem "鲜绿" [ref=e657] [cursor=pointer]:
+            - generic [ref=e658]:
+              - generic [ref=e659]:
+                - img [ref=e663]
+                - img [ref=e669]
+                - img [ref=e675]
+                - img [ref=e681]
+              - heading "18 青翠" [level=2] [ref=e684]:
+                - generic [ref=e685]: "18"
+                - generic [ref=e686]: 青翠
+            - generic [ref=e687]:
+              - paragraph [ref=e688]: "#00e079"
+              - paragraph [ref=e693]: qīng cuì
+          - listitem "白而发青,尤指脸没有血色" [ref=e694] [cursor=pointer]:
+            - generic [ref=e695]:
+              - generic [ref=e696]:
+                - img [ref=e700]
+                - img [ref=e706]
+                - img [ref=e712]
+                - img [ref=e718]
+              - heading "19 青白" [level=2] [ref=e721]:
+                - generic [ref=e722]: "19"
+                - generic [ref=e723]: 青白
+            - generic [ref=e724]:
+              - paragraph [ref=e725]: "#c0ebd7"
+              - paragraph [ref=e730]: qīng bái
+          - listitem "淡青灰色，极淡的青绿色" [ref=e731] [cursor=pointer]:
+            - generic [ref=e732]:
+              - generic [ref=e733]:
+                - img [ref=e737]
+                - img [ref=e743]
+                - img [ref=e749]
+                - img [ref=e755]
+              - heading "20 鸭卵青" [level=2] [ref=e758]:
+                - generic [ref=e759]: "20"
+                - generic [ref=e760]: 鸭卵青
+            - generic [ref=e761]:
+              - paragraph [ref=e762]: "#e0eee8"
+              - paragraph [ref=e767]: yā luǎn qīng
+          - listitem "深灰绿色" [ref=e768] [cursor=pointer]:
+            - generic [ref=e769]:
+              - generic [ref=e770]:
+                - img [ref=e774]
+                - img [ref=e780]
+                - img [ref=e786]
+                - img [ref=e792]
+              - heading "21 蟹壳青" [level=2] [ref=e795]:
+                - generic [ref=e796]: "21"
+                - generic [ref=e797]: 蟹壳青
+            - generic [ref=e798]:
+              - paragraph [ref=e799]: "#bbcdc5"
+              - paragraph [ref=e804]: xiè ké qīng
+          - listitem "鸦羽的颜色。即黑而带有紫绿光的颜色。" [ref=e805] [cursor=pointer]:
+            - generic [ref=e806]:
+              - generic [ref=e807]:
+                - img [ref=e811]
+                - img [ref=e817]
+                - img [ref=e823]
+                - img [ref=e829]
+              - heading "22 鸦青" [level=2] [ref=e832]:
+                - generic [ref=e833]: "22"
+                - generic [ref=e834]: 鸦青
+            - generic [ref=e835]:
+              - paragraph [ref=e836]: "#424c50"
+              - paragraph [ref=e841]: yā qīng
+          - listitem "1，在光谱中介于蓝与黄之间的那种颜色。2，本义青中带黄的颜色。3，引申为黑色，如绿鬓乌黑而光亮的鬓发。代指为青春年少的容颜。（现代色彩研究中，把绿色提高到了一个重要的位置，和其它红黄兰三原色并列研究，称做\"心理原色\"之一）" [ref=e842] [cursor=pointer]:
+            - generic [ref=e843]:
+              - generic [ref=e844]:
+                - img [ref=e848]
+                - img [ref=e854]
+                - img [ref=e860]
+                - img [ref=e866]
+              - heading "23 绿色" [level=2] [ref=e869]:
+                - generic [ref=e870]: "23"
+                - generic [ref=e871]: 绿色
+            - generic [ref=e872]:
+              - paragraph [ref=e873]: "#00e500"
+              - paragraph [ref=e878]: lǜ sè
+          - listitem "浅黄绿色" [ref=e879] [cursor=pointer]:
+            - generic [ref=e880]:
+              - generic [ref=e881]:
+                - img [ref=e885]
+                - img [ref=e891]
+                - img [ref=e897]
+                - img [ref=e903]
+              - heading "24 豆绿" [level=2] [ref=e906]:
+                - generic [ref=e907]: "24"
+                - generic [ref=e908]: 豆绿
+            - generic [ref=e909]:
+              - paragraph [ref=e910]: "#9ed048"
+              - paragraph [ref=e915]: dòu lǜ
+          - listitem "浅青绿色" [ref=e916] [cursor=pointer]:
+            - generic [ref=e917]:
+              - generic [ref=e918]:
+                - img [ref=e922]
+                - img [ref=e928]
+                - img [ref=e934]
+                - img [ref=e940]
+              - heading "25 豆青" [level=2] [ref=e943]:
+                - generic [ref=e944]: "25"
+                - generic [ref=e945]: 豆青
+            - generic [ref=e946]:
+              - paragraph [ref=e947]: "#96ce54"
+              - paragraph [ref=e952]: dòu qīng
+          - listitem "淡灰绿色" [ref=e953] [cursor=pointer]:
+            - generic [ref=e954]:
+              - generic [ref=e955]:
+                - img [ref=e959]
+                - img [ref=e965]
+                - img [ref=e971]
+                - img [ref=e977]
+              - heading "26 石青" [level=2] [ref=e980]:
+                - generic [ref=e981]: "26"
+                - generic [ref=e982]: 石青
+            - generic [ref=e983]:
+              - paragraph [ref=e984]: "#7bcfa6"
+              - paragraph [ref=e989]: shí qīng
+          - listitem "玉的颜色，高雅的淡绿、淡青色" [ref=e990] [cursor=pointer]:
+            - generic [ref=e991]:
+              - generic [ref=e992]:
+                - img [ref=e996]
+                - img [ref=e1002]
+                - img [ref=e1008]
+                - img [ref=e1014]
+              - heading "27 玉色" [level=2] [ref=e1017]:
+                - generic [ref=e1018]: "27"
+                - generic [ref=e1019]: 玉色
+            - generic [ref=e1020]:
+              - paragraph [ref=e1021]: "#2edfa3"
+              - paragraph [ref=e1026]: yù sè
+          - listitem "绿色而微白" [ref=e1027] [cursor=pointer]:
+            - generic [ref=e1028]:
+              - generic [ref=e1029]:
+                - img [ref=e1033]
+                - img [ref=e1039]
+                - img [ref=e1045]
+                - img [ref=e1051]
+              - heading "28 缥" [level=2] [ref=e1054]:
+                - generic [ref=e1055]: "28"
+                - generic [ref=e1056]: 缥
+            - generic [ref=e1057]:
+              - paragraph [ref=e1058]: "#7fecad"
+              - paragraph [ref=e1063]: piǎo
+          - listitem "艾草的颜色。偏苍白的绿色" [ref=e1064] [cursor=pointer]:
+            - generic [ref=e1065]:
+              - generic [ref=e1066]:
+                - img [ref=e1070]
+                - img [ref=e1076]
+                - img [ref=e1082]
+                - img [ref=e1088]
+              - heading "29 艾绿" [level=2] [ref=e1091]:
+                - generic [ref=e1092]: "29"
+                - generic [ref=e1093]: 艾绿
+            - generic [ref=e1094]:
+              - paragraph [ref=e1095]: "#a4e2c6"
+              - paragraph [ref=e1100]: ài lǜ
+          - listitem "经冬松柏叶的深绿" [ref=e1101] [cursor=pointer]:
+            - generic [ref=e1102]:
+              - generic [ref=e1103]:
+                - img [ref=e1107]
+                - img [ref=e1113]
+                - img [ref=e1119]
+                - img [ref=e1125]
+              - heading "30 松柏绿" [level=2] [ref=e1128]:
+                - generic [ref=e1129]: "30"
+                - generic [ref=e1130]: 松柏绿
+            - generic [ref=e1131]:
+              - paragraph [ref=e1132]: "#21a675"
+              - paragraph [ref=e1137]: sōng bǎi lǜ
+          - listitem "亦作\"松花\"、\"松绿\"。偏黑的深绿色,墨绿。" [ref=e1138] [cursor=pointer]:
+            - generic [ref=e1139]:
+              - generic [ref=e1140]:
+                - img [ref=e1144]
+                - img [ref=e1150]
+                - img [ref=e1156]
+                - img [ref=e1162]
+              - heading "31 松花绿" [level=2] [ref=e1165]:
+                - generic [ref=e1166]: "31"
+                - generic [ref=e1167]: 松花绿
+            - generic [ref=e1168]:
+              - paragraph [ref=e1169]: "#057748"
+              - paragraph [ref=e1174]: sōng huā lǜ
+          - listitem "浅黄绿色。（松树花粉的颜色）《红楼梦》中提及松花配桃红为娇艳" [ref=e1175] [cursor=pointer]:
+            - generic [ref=e1176]:
+              - generic [ref=e1177]:
+                - img [ref=e1181]
+                - img [ref=e1187]
+                - img [ref=e1193]
+                - img [ref=e1199]
+              - heading "32 松花色" [level=2] [ref=e1202]:
+                - generic [ref=e1203]: "32"
+                - generic [ref=e1204]: 松花色
+            - generic [ref=e1205]:
+              - paragraph [ref=e1206]: "#bce672"
+              - paragraph [ref=e1211]: sōng huā sè
+      - generic [ref=e1212]:
+        - generic [ref=e1213]:
+          - text: c
+          - img [ref=e1215]:
+            - generic [ref=e1218]: "100"
+        - generic [ref=e1219]:
+          - text: m
+          - img [ref=e1221]:
+            - generic [ref=e1224]: "0"
+        - generic [ref=e1225]:
+          - text: "y"
+          - img [ref=e1227]:
+            - generic [ref=e1230]: "29"
+        - generic [ref=e1231]:
+          - text: k
+          - img [ref=e1233]:
+            - generic [ref=e1236]: "12"
+        - generic [ref=e1237]: r 0
+        - generic [ref=e1238]: g 224
+        - generic [ref=e1239]: b 158
+        - generic [ref=e1240]:
+          - text: hex
+          - generic [ref=e1241] [cursor=pointer]:
+            - img [ref=e1242]
+            - generic [ref=e1245]: "#00e09e"
+      - generic [ref=e1246]:
+        - heading "青色" [level=1] [ref=e1247]
+        - img [ref=e1249] [cursor=pointer]
+        - heading "qīng sè" [level=2] [ref=e1251]
+        - generic [ref=e1252] [cursor=pointer]:
+          - paragraph [ref=e1253]: 十月到幽州
+          - paragraph [ref=e1254]: 戈鋋若罗星
+          - heading "李白 · 经乱离后天恩流夜郎忆旧游书怀赠江夏韦太守良宰" [level=2] [ref=e1255]
+        - img "figure" [ref=e1256]
+      - generic [ref=e1257]:
+        - img "logo" [ref=e1258]
+        - heading "chinese color" [level=1] [ref=e1259]
+      - generic [ref=e1260]:
+        - complementary [ref=e1261] [cursor=pointer]:
+          - img [ref=e1262]
+        - complementary [ref=e1265] [cursor=pointer]:
+          - img [ref=e1266]
+        - complementary [ref=e1268] [cursor=pointer]:
+          - img [ref=e1269]
+        - link [ref=e1272] [cursor=pointer]:
+          - /url: https://twitter.com/wsygc
+          - img [ref=e1273]
+        - link "Unsplash Wanderer" [ref=e1275] [cursor=pointer]:
+          - /url: https://chromewebstore.google.com/detail/unsplash-wanderer/jdjjjnfdkhpdppedhjgdcecmmcmklopm?authuser=0&hl=en
+          - img "Unsplash Wanderer" [ref=e1276]
+    - complementary [ref=e1277]:
+      - link "京ICP备16015459号-1" [ref=e1278] [cursor=pointer]:
+        - /url: http://www.beian.miit.gov.cn/
+  - insertion [ref=e1280]:
+    - iframe [ref=e1282]:
+      - generic [active] [ref=f7e1]:
+        - generic [ref=f7e6]:
+          - generic [ref=f7e7]:
+            - generic "Take Profit Trader" [ref=f7e9]:
+              - 'link "The #1 Prop Firm Payout Policy" [ref=f7e10] [cursor=pointer]':
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CmZwefYo6aqm-MtWLid4PxpbskAmLkPuwhwGtkOH24BXC2LGGgyoQASDA6aKnAWDLA6AB9oHCtSjIAQGoAwHIA8sEqgT4AU_QorD79KLGeq1CCBLhQA5ujYOIGTr0xf1tnKo_FSAw6IomFguU-jy4TXBvvfjcW_y7ov8V6j_q1BXrseDrBF9Xgtd9Cm_DTFzPScdJvFRfr4dw93q_l0K-Pp6lLREBez7NIVRXLRsRhOdEwA0C_jY3kMynpW4v9XYHF_lzpsvUTiCFa18gSdtk_v_eVkifaY8wKvjLm9L2OkVhyOC_y0UuluDZquyOITPnP9KjOEpFidwIe8SHX5-x2uYCYq3SYqvdAfXedKimjmv_-jUTGLxa6SVTx9a3AcS3YxykkqAzbg78_9e-9diLGtULZJlBy4gBlFyaveYfwATX4qmm0gWIBezPuZZXgAf2uZKVA6gHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpY26zYnbydlQNgAbEJw1gfTObsm1mACgGYCwHICwGiDAwqCgoIjt-xApXisQKqDQJNWcgNAeoNEwiG99mdvJ2VAxXVRcIFHUYLG5LwDQKIDgmwDq-r9vkY2BML0BUByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAu9OGAEiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI6fDZnbydlQMV1UXCBR1GCxuSEAEYASAAEgLuv_D_BwE&num=1&cid=CAQSjAIAEQoqgR621I9xdWaWJIcAGR7SYyM7kO_GGkgwsyAykKh0-erJAWcjbffcH_vRTJ_gsj8_EVrbgU0MMyib1RAVjUA18eWjoTGGg0fn5TnYqogp8UxyCJAUehrJI_xP8ZMkZnA7Gd1kbzG9ZO-5HeC6lAJF6DqX6mWzVX9Dq_y3tr-GZzk4-k9pqkSSMIFe3c7bsKIh6LR3jibuveZxvw5_p8v5QczyYxeDb-iah-vx4ApIk_aITZ9VYK_TVJc5EnFSYv0gBse1FsYPgaxwSHdPtvf3nhoQKkrUZtSluufM84RpqiuV1NpC1Eb_ACfYkOoXD_LZmP9bUsWBv5A5uI9X6XVMa204h2X5xE2tGAE&sig=AOD64_3N8XWnyBfzWv6qpWoeySKEW5LZMw&client=ca-pub-5262669345173962&rf=1&nb=0&adurl=https://try.takeprofittrader.com/funded-trader-mff-nf40-4-0725%3Fgc_id%3D23396595761%26h_ad_id%3D%26gad_source%3D5%26gad_campaignid%3D23400966124%26gclid%3DEAIaIQobChMI6fDZnbydlQMV1UXCBR1GCxuSEAEYASAAEgLuv_D_BwE
+            - generic [ref=f7e11]:
+              - link "5 reasons why people like trading futures with us." [ref=f7e13] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CmZwefYo6aqm-MtWLid4PxpbskAmLkPuwhwGtkOH24BXC2LGGgyoQASDA6aKnAWDLA6AB9oHCtSjIAQGoAwHIA8sEqgT4AU_QorD79KLGeq1CCBLhQA5ujYOIGTr0xf1tnKo_FSAw6IomFguU-jy4TXBvvfjcW_y7ov8V6j_q1BXrseDrBF9Xgtd9Cm_DTFzPScdJvFRfr4dw93q_l0K-Pp6lLREBez7NIVRXLRsRhOdEwA0C_jY3kMynpW4v9XYHF_lzpsvUTiCFa18gSdtk_v_eVkifaY8wKvjLm9L2OkVhyOC_y0UuluDZquyOITPnP9KjOEpFidwIe8SHX5-x2uYCYq3SYqvdAfXedKimjmv_-jUTGLxa6SVTx9a3AcS3YxykkqAzbg78_9e-9diLGtULZJlBy4gBlFyaveYfwATX4qmm0gWIBezPuZZXgAf2uZKVA6gHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpY26zYnbydlQNgAbEJw1gfTObsm1mACgGYCwHICwGiDAwqCgoIjt-xApXisQKqDQJNWcgNAeoNEwiG99mdvJ2VAxXVRcIFHUYLG5LwDQKIDgmwDq-r9vkY2BML0BUByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAu9OGAEiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI6fDZnbydlQMV1UXCBR1GCxuSEAEYASAAEgLuv_D_BwE&num=1&cid=CAQSjAIAEQoqgR621I9xdWaWJIcAGR7SYyM7kO_GGkgwsyAykKh0-erJAWcjbffcH_vRTJ_gsj8_EVrbgU0MMyib1RAVjUA18eWjoTGGg0fn5TnYqogp8UxyCJAUehrJI_xP8ZMkZnA7Gd1kbzG9ZO-5HeC6lAJF6DqX6mWzVX9Dq_y3tr-GZzk4-k9pqkSSMIFe3c7bsKIh6LR3jibuveZxvw5_p8v5QczyYxeDb-iah-vx4ApIk_aITZ9VYK_TVJc5EnFSYv0gBse1FsYPgaxwSHdPtvf3nhoQKkrUZtSluufM84RpqiuV1NpC1Eb_ACfYkOoXD_LZmP9bUsWBv5A5uI9X6XVMa204h2X5xE2tGAE&sig=AOD64_3N8XWnyBfzWv6qpWoeySKEW5LZMw&client=ca-pub-5262669345173962&rf=1&nb=7&adurl=https://try.takeprofittrader.com/funded-trader-mff-nf40-4-0725%3Fgc_id%3D23396595761%26h_ad_id%3D%26gad_source%3D5%26gad_campaignid%3D23400966124%26gclid%3DEAIaIQobChMI6fDZnbydlQMV1UXCBR1GCxuSEAEYASAAEgLuv_D_BwE
+              - link [ref=f7e14] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CmZwefYo6aqm-MtWLid4PxpbskAmLkPuwhwGtkOH24BXC2LGGgyoQASDA6aKnAWDLA6AB9oHCtSjIAQGoAwHIA8sEqgT4AU_QorD79KLGeq1CCBLhQA5ujYOIGTr0xf1tnKo_FSAw6IomFguU-jy4TXBvvfjcW_y7ov8V6j_q1BXrseDrBF9Xgtd9Cm_DTFzPScdJvFRfr4dw93q_l0K-Pp6lLREBez7NIVRXLRsRhOdEwA0C_jY3kMynpW4v9XYHF_lzpsvUTiCFa18gSdtk_v_eVkifaY8wKvjLm9L2OkVhyOC_y0UuluDZquyOITPnP9KjOEpFidwIe8SHX5-x2uYCYq3SYqvdAfXedKimjmv_-jUTGLxa6SVTx9a3AcS3YxykkqAzbg78_9e-9diLGtULZJlBy4gBlFyaveYfwATX4qmm0gWIBezPuZZXgAf2uZKVA6gHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpY26zYnbydlQNgAbEJw1gfTObsm1mACgGYCwHICwGiDAwqCgoIjt-xApXisQKqDQJNWcgNAeoNEwiG99mdvJ2VAxXVRcIFHUYLG5LwDQKIDgmwDq-r9vkY2BML0BUByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAu9OGAEiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI6fDZnbydlQMV1UXCBR1GCxuSEAEYASAAEgLuv_D_BwE&num=1&cid=CAQSjAIAEQoqgR621I9xdWaWJIcAGR7SYyM7kO_GGkgwsyAykKh0-erJAWcjbffcH_vRTJ_gsj8_EVrbgU0MMyib1RAVjUA18eWjoTGGg0fn5TnYqogp8UxyCJAUehrJI_xP8ZMkZnA7Gd1kbzG9ZO-5HeC6lAJF6DqX6mWzVX9Dq_y3tr-GZzk4-k9pqkSSMIFe3c7bsKIh6LR3jibuveZxvw5_p8v5QczyYxeDb-iah-vx4ApIk_aITZ9VYK_TVJc5EnFSYv0gBse1FsYPgaxwSHdPtvf3nhoQKkrUZtSluufM84RpqiuV1NpC1Eb_ACfYkOoXD_LZmP9bUsWBv5A5uI9X6XVMa204h2X5xE2tGAE&sig=AOD64_3N8XWnyBfzWv6qpWoeySKEW5LZMw&client=ca-pub-5262669345173962&rf=1&nb=8&adurl=https://try.takeprofittrader.com/funded-trader-mff-nf40-4-0725%3Fgc_id%3D23396595761%26h_ad_id%3D%26gad_source%3D5%26gad_campaignid%3D23400966124%26gclid%3DEAIaIQobChMI6fDZnbydlQMV1UXCBR1GCxuSEAEYASAAEgLuv_D_BwE
+                - img [ref=f7e15]
+          - generic "Take Profit Trader" [ref=f7e17]:
+            - link "Take Profit Trader" [ref=f7e18] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CmZwefYo6aqm-MtWLid4PxpbskAmLkPuwhwGtkOH24BXC2LGGgyoQASDA6aKnAWDLA6AB9oHCtSjIAQGoAwHIA8sEqgT4AU_QorD79KLGeq1CCBLhQA5ujYOIGTr0xf1tnKo_FSAw6IomFguU-jy4TXBvvfjcW_y7ov8V6j_q1BXrseDrBF9Xgtd9Cm_DTFzPScdJvFRfr4dw93q_l0K-Pp6lLREBez7NIVRXLRsRhOdEwA0C_jY3kMynpW4v9XYHF_lzpsvUTiCFa18gSdtk_v_eVkifaY8wKvjLm9L2OkVhyOC_y0UuluDZquyOITPnP9KjOEpFidwIe8SHX5-x2uYCYq3SYqvdAfXedKimjmv_-jUTGLxa6SVTx9a3AcS3YxykkqAzbg78_9e-9diLGtULZJlBy4gBlFyaveYfwATX4qmm0gWIBezPuZZXgAf2uZKVA6gHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpY26zYnbydlQNgAbEJw1gfTObsm1mACgGYCwHICwGiDAwqCgoIjt-xApXisQKqDQJNWcgNAeoNEwiG99mdvJ2VAxXVRcIFHUYLG5LwDQKIDgmwDq-r9vkY2BML0BUByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAu9OGAEiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI6fDZnbydlQMV1UXCBR1GCxuSEAEYASAAEgLuv_D_BwE&num=1&cid=CAQSjAIAEQoqgR621I9xdWaWJIcAGR7SYyM7kO_GGkgwsyAykKh0-erJAWcjbffcH_vRTJ_gsj8_EVrbgU0MMyib1RAVjUA18eWjoTGGg0fn5TnYqogp8UxyCJAUehrJI_xP8ZMkZnA7Gd1kbzG9ZO-5HeC6lAJF6DqX6mWzVX9Dq_y3tr-GZzk4-k9pqkSSMIFe3c7bsKIh6LR3jibuveZxvw5_p8v5QczyYxeDb-iah-vx4ApIk_aITZ9VYK_TVJc5EnFSYv0gBse1FsYPgaxwSHdPtvf3nhoQKkrUZtSluufM84RpqiuV1NpC1Eb_ACfYkOoXD_LZmP9bUsWBv5A5uI9X6XVMa204h2X5xE2tGAE&sig=AOD64_3N8XWnyBfzWv6qpWoeySKEW5LZMw&client=ca-pub-5262669345173962&rf=1&nb=1&adurl=https://try.takeprofittrader.com/funded-trader-mff-nf40-4-0725%3Fgc_id%3D23396595761%26h_ad_id%3D%26gad_source%3D5%26gad_campaignid%3D23400966124%26gclid%3DEAIaIQobChMI6fDZnbydlQMV1UXCBR1GCxuSEAEYASAAEgLuv_D_BwE
+        - img [ref=f7e22] [cursor=pointer]
+        - button [ref=f7e24] [cursor=pointer]:
+          - img [ref=f7e25]
+        - iframe
+  - insertion [ref=e1283]:
+    - iframe [ref=e1286]:
+      - generic [active] [ref=f9e1]:
+        - generic [ref=f9e6]:
+          - generic [ref=f9e7]:
+            - generic "Take Profit Trader" [ref=f9e10]:
+              - 'link "The #1 Prop Firm Payout Policy" [ref=f9e11] [cursor=pointer]':
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CKCMffIo6aqX5A56Jid4P0trHqA-LkPuwhwGtkOH24BXC2LGGgyoQASDA6aKnAWDLA6AB9oHCtSjIAQGoAwHIA8sEqgT4AU_QduNfk96TwG0nf4YcZQaOmo4meoW7QAP4GO5Jik64SR10LpdLtCcS6ZgTwk0yX_EbkLtw6BJc92l0Qg4I-ShID-EhOemBxkyI0PwiB97YUUnNQuIGGcQJ9-cZlqKPJJazZRpLmIOG09XDdjhgV1GujsZsibYBPiCc5doSEMzzSDuWbE3IxnMKiPZXlnpHxXrtB2EkS3II8LN9h5bkGbp-s_QZNDF_GA5UZh3MSMcukovX0iTk4wlux48dTGoBI7GUsxbW3wvy4la5VgFyTbNX4TWpt8-8efG1ZIa2bjNaBbzBm-M9C-EO9QKIkhT6RXi4C6EhSkrQwATX4qmm0gWIBezPuZZXgAf2uZKVA6gHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpY39vsnLydlQNgAbEJw1gfTObsm1mACgGYCwHICwGqDQJNWcgNAeoNEwiwsO6cvJ2VAxWeRMIFHVLtEfXwDQKIDgmwDq-r9vkY2BML0BUByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAu9OGAEiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIpafunLydlQMVnkTCBR1S7RH1EAEYASAAEgKXq_D_BwE&num=1&cid=CAQSnQIAEQoqgWNc5VFDgZZAHLsuQ5UWN5c6EDhXCyig8a7DmTywjofMt1Vem_ro6AHQwOxkGl-rIShRV6MSm8S1GgFPgZfyIgPosrqTsO90CBI1H_gpGoOshOA45tjksuDPbGYPhTy5H-Kf-56RbR2qdzyJREXdYRqG36AlF1p4z1Flu4pr0YMYRhASwhV_tcgLbnoz1CkoCCCKEIisDTLjr-_wz2-WmRu0aC8PRO6YWJAVzzOwg4IxRfMhKdZjp7Gmg52B18rR40Kfv8I8-awaqE8Gb1RlaMTJOwLsqWh34m7NiFysgmharTUtdBg9DZSQ9Dp3QGKs6uDnbAlyvi8JVZZkbrUGyv_Rn6OMdyhPcnZ9xYqaK7ZbMX0b0HsfAtEYAQ&sig=AOD64_3eCBvvh9qE-NHh14nTBBrPDAWbdg&client=ca-pub-5262669345173962&rf=1&nb=0&adurl=https://try.takeprofittrader.com/funded-trader-mff-nf40-4-0725%3Fgc_id%3D23396595761%26h_ad_id%3D%26gad_source%3D5%26gad_campaignid%3D23400966124%26gclid%3DEAIaIQobChMIpafunLydlQMVnkTCBR1S7RH1EAEYASAAEgKXq_D_BwE
+            - link "No scaling plan? No minimum days till withdrawal? No waiting? Now get daily payouts in PRO Take Profit Trader" [ref=f9e14] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CKCMffIo6aqX5A56Jid4P0trHqA-LkPuwhwGtkOH24BXC2LGGgyoQASDA6aKnAWDLA6AB9oHCtSjIAQGoAwHIA8sEqgT4AU_QduNfk96TwG0nf4YcZQaOmo4meoW7QAP4GO5Jik64SR10LpdLtCcS6ZgTwk0yX_EbkLtw6BJc92l0Qg4I-ShID-EhOemBxkyI0PwiB97YUUnNQuIGGcQJ9-cZlqKPJJazZRpLmIOG09XDdjhgV1GujsZsibYBPiCc5doSEMzzSDuWbE3IxnMKiPZXlnpHxXrtB2EkS3II8LN9h5bkGbp-s_QZNDF_GA5UZh3MSMcukovX0iTk4wlux48dTGoBI7GUsxbW3wvy4la5VgFyTbNX4TWpt8-8efG1ZIa2bjNaBbzBm-M9C-EO9QKIkhT6RXi4C6EhSkrQwATX4qmm0gWIBezPuZZXgAf2uZKVA6gHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpY39vsnLydlQNgAbEJw1gfTObsm1mACgGYCwHICwGqDQJNWcgNAeoNEwiwsO6cvJ2VAxWeRMIFHVLtEfXwDQKIDgmwDq-r9vkY2BML0BUByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAu9OGAEiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIpafunLydlQMVnkTCBR1S7RH1EAEYASAAEgKXq_D_BwE&num=1&cid=CAQSnQIAEQoqgWNc5VFDgZZAHLsuQ5UWN5c6EDhXCyig8a7DmTywjofMt1Vem_ro6AHQwOxkGl-rIShRV6MSm8S1GgFPgZfyIgPosrqTsO90CBI1H_gpGoOshOA45tjksuDPbGYPhTy5H-Kf-56RbR2qdzyJREXdYRqG36AlF1p4z1Flu4pr0YMYRhASwhV_tcgLbnoz1CkoCCCKEIisDTLjr-_wz2-WmRu0aC8PRO6YWJAVzzOwg4IxRfMhKdZjp7Gmg52B18rR40Kfv8I8-awaqE8Gb1RlaMTJOwLsqWh34m7NiFysgmharTUtdBg9DZSQ9Dp3QGKs6uDnbAlyvi8JVZZkbrUGyv_Rn6OMdyhPcnZ9xYqaK7ZbMX0b0HsfAtEYAQ&sig=AOD64_3eCBvvh9qE-NHh14nTBBrPDAWbdg&client=ca-pub-5262669345173962&rf=1&nb=1&adurl=https://try.takeprofittrader.com/funded-trader-mff-nf40-4-0725%3Fgc_id%3D23396595761%26h_ad_id%3D%26gad_source%3D5%26gad_campaignid%3D23400966124%26gclid%3DEAIaIQobChMIpafunLydlQMVnkTCBR1S7RH1EAEYASAAEgKXq_D_BwE
+              - text: No scaling plan? No minimum days till withdrawal? No waiting? Now get daily payouts
+              - generic [ref=f9e15]:
+                - text: in
+                - text: PRO
+              - text: Take Profit Trader
+          - link "Open" [ref=f9e18] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CKCMffIo6aqX5A56Jid4P0trHqA-LkPuwhwGtkOH24BXC2LGGgyoQASDA6aKnAWDLA6AB9oHCtSjIAQGoAwHIA8sEqgT4AU_QduNfk96TwG0nf4YcZQaOmo4meoW7QAP4GO5Jik64SR10LpdLtCcS6ZgTwk0yX_EbkLtw6BJc92l0Qg4I-ShID-EhOemBxkyI0PwiB97YUUnNQuIGGcQJ9-cZlqKPJJazZRpLmIOG09XDdjhgV1GujsZsibYBPiCc5doSEMzzSDuWbE3IxnMKiPZXlnpHxXrtB2EkS3II8LN9h5bkGbp-s_QZNDF_GA5UZh3MSMcukovX0iTk4wlux48dTGoBI7GUsxbW3wvy4la5VgFyTbNX4TWpt8-8efG1ZIa2bjNaBbzBm-M9C-EO9QKIkhT6RXi4C6EhSkrQwATX4qmm0gWIBezPuZZXgAf2uZKVA6gHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpY39vsnLydlQNgAbEJw1gfTObsm1mACgGYCwHICwGqDQJNWcgNAeoNEwiwsO6cvJ2VAxWeRMIFHVLtEfXwDQKIDgmwDq-r9vkY2BML0BUByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAu9OGAEiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIpafunLydlQMVnkTCBR1S7RH1EAEYASAAEgKXq_D_BwE&num=1&cid=CAQSnQIAEQoqgWNc5VFDgZZAHLsuQ5UWN5c6EDhXCyig8a7DmTywjofMt1Vem_ro6AHQwOxkGl-rIShRV6MSm8S1GgFPgZfyIgPosrqTsO90CBI1H_gpGoOshOA45tjksuDPbGYPhTy5H-Kf-56RbR2qdzyJREXdYRqG36AlF1p4z1Flu4pr0YMYRhASwhV_tcgLbnoz1CkoCCCKEIisDTLjr-_wz2-WmRu0aC8PRO6YWJAVzzOwg4IxRfMhKdZjp7Gmg52B18rR40Kfv8I8-awaqE8Gb1RlaMTJOwLsqWh34m7NiFysgmharTUtdBg9DZSQ9Dp3QGKs6uDnbAlyvi8JVZZkbrUGyv_Rn6OMdyhPcnZ9xYqaK7ZbMX0b0HsfAtEYAQ&sig=AOD64_3eCBvvh9qE-NHh14nTBBrPDAWbdg&client=ca-pub-5262669345173962&rf=1&nb=8&adurl=https://try.takeprofittrader.com/funded-trader-mff-nf40-4-0725%3Fgc_id%3D23396595761%26h_ad_id%3D%26gad_source%3D5%26gad_campaignid%3D23400966124%26gclid%3DEAIaIQobChMIpafunLydlQMVnkTCBR1S7RH1EAEYASAAEgKXq_D_BwE
+            - generic [ref=f9e22]:
+              - generic [ref=f9e23]: Open
+              - img [ref=f9e24]
+        - img [ref=f9e29] [cursor=pointer]
+        - button [ref=f9e31] [cursor=pointer]:
+          - img [ref=f9e32]
+        - iframe

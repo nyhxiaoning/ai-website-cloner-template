@@ -1,0 +1,11 @@
+[    2849ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    2863ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    2849ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    2863ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3687ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://colors.ichuantong.cn/:0
+[    3689ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://colors.ichuantong.cn/:0
+[    3697ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    5892ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.search.spotxchange.com/partner?adv_id=7025&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dspotxchange_dbm%26google_hm%3D%24SPOTX_BASE64_USER_ID:0
+[    5911ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.search.spotxchange.com/partner?adv_id=7025&uid=CAESEK-4ubrtSgSujyT48K3QFUw&google_cver=1:0
+[    5915ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://colors.ichuantong.cn/:0
+[  149396ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://colors.ichuantong.cn/#google_vignette:0

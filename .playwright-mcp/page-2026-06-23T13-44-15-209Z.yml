@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - complementary [ref=e2] [cursor=pointer]:
+    - img [ref=e4]
+    - generic [ref=e6]: 👈 点击播放
+  - generic [ref=e7]:
+    - button "信息" [ref=e8]:
+      - img [ref=e9]
+    - button "图片" [ref=e12]:
+      - img [ref=e13]
+    - button "截图" [ref=e15]:
+      - img [ref=e16]
+    - link "分享" [ref=e19] [cursor=pointer]:
+      - /url: https://x.com
+      - img [ref=e20]
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - complementary [ref=e24]:
+        - generic [ref=e25]:
+          - img [ref=e27]
+          - list [ref=e29]:
+            - listitem [ref=e30] [cursor=pointer]: 红
+            - listitem [ref=e31] [cursor=pointer]: 黄
+            - listitem [ref=e32] [cursor=pointer]: 绿
+            - listitem [ref=e33] [cursor=pointer]: 蓝
+            - listitem [ref=e34] [cursor=pointer]: 苍
+            - listitem [ref=e35] [cursor=pointer]: 水
+            - listitem [ref=e36] [cursor=pointer]: 灰白
+            - listitem [ref=e37] [cursor=pointer]: 黑
+            - listitem [ref=e38] [cursor=pointer]: 金银
+      - navigation [ref=e40]:
+        - list [ref=e41]:
+          - listitem [ref=e42] [cursor=pointer]
+          - listitem [ref=e46] [cursor=pointer]
+    - generic [ref=e51]:
+      - img "figure" [ref=e52]
+      - heading "青色" [level=1] [ref=e53]
+      - generic [ref=e54]:
+        - button "收藏" [ref=e55]:
+          - img [ref=e56]
+        - button "下载" [ref=e58]:
+          - img [ref=e59]
+      - heading "qīng sè" [level=2] [ref=e62]
+      - generic [ref=e63]:
+        - paragraph [ref=e64]: 君子死知己
+        - paragraph [ref=e65]: 提剑出燕京
+        - heading "陶渊明 · 咏荆轲" [level=2] [ref=e66]
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]: C
+        - img [ref=e71]
+        - generic [ref=e74]: 100%
+      - generic [ref=e75]:
+        - generic [ref=e76]: M
+        - img [ref=e78]
+        - generic [ref=e81]: 0%
+      - generic [ref=e82]:
+        - generic [ref=e83]: "Y"
+        - img [ref=e85]
+        - generic [ref=e88]: 29%
+      - generic [ref=e89]:
+        - generic [ref=e90]: K
+        - img [ref=e92]
+        - generic [ref=e95]: 12%
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e98]: R
+          - generic [ref=e100]: "0"
+        - generic [ref=e101]:
+          - generic [ref=e102]: G
+          - generic [ref=e105]: "224"
+        - generic [ref=e106]:
+          - generic [ref=e107]: B
+          - generic [ref=e110]: "158"
+      - button "#00e09e" [ref=e112]:
+        - img [ref=e113]
+        - generic [ref=e116]: "#00e09e"
+    - generic [ref=e117]:
+      - img "logo" [ref=e118]
+      - heading "chinese color" [level=1] [ref=e119]
+  - complementary [ref=e120]:
+    - link "京ICP备16015459号-1" [ref=e121] [cursor=pointer]:
+      - /url: https://beian.miit.gov.cn/
+  - button "Open Next.js Dev Tools" [ref=e127] [cursor=pointer]:
+    - img [ref=e128]
+  - alert [ref=e131]

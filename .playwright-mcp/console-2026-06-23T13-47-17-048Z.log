@@ -1,0 +1,11 @@
+[    7307ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    7307ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    7598ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    7307ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    7598ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    7701ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    8039ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://colors.ichuantong.cn/:0
+[   37278ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://googlecm.hit.gemius.pl/googleredir?rid=tknhntsqez&id=ndBK6L_fzwx7rssCbe8.iLes3yi8eMbF6r2JE6Xu.b7.N7&google_gid=CAESEF2yySxeKcIllNFTJ4cLnLE&google_cver=1&google_push=AXcoOmSadwHfgpndYy_mcZoc48I_xzgnbsns2Im10wOuQD2wXYUdJvxynER6wn3MXYEQZB3QuRIIKBL-liiAVXmPMcuXn_62ivn0t4s:0
+[   37358ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://ads.stickyadstv.com/user-matching?id=11:0
+[   37685ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://ads.stickyadstv.com/user-registering?dataProviderId=141&userId=CAESEMzoq8TwmBnfoANnVFT0uM0&google_cver=1:0
+[   37692ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://colors.ichuantong.cn/:0
