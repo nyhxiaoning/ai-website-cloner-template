@@ -1,0 +1,597 @@
+{
+  "sections": [
+    {
+      "tag": "div",
+      "id": "root",
+      "classes": "",
+      "rect": {
+        "w": 1440,
+        "h": 2089,
+        "t": 0
+      },
+      "display": "block",
+      "position": "static",
+      "flexDirection": "row",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gap": "normal",
+      "textPreview": "🐒 西游记取经路线图 🏛️跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险地图视图时间轴视图思维导图赞赏支持☁️☁️☁️☁️☁️\n        \n          \n            🏛️\n          \n          \n        \n      \n      ",
+      "childCount": 1
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "min-h-screen",
+      "rect": {
+        "w": 1440,
+        "h": 2089,
+        "t": 0
+      },
+      "display": "block",
+      "position": "static",
+      "flexDirection": "row",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gap": "normal",
+      "textPreview": "🐒 西游记取经路线图 🏛️跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险地图视图时间轴视图思维导图赞赏支持☁️☁️☁️☁️☁️\n        \n          \n            🏛️\n          \n          \n        \n      \n      ",
+      "childCount": 2
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "w-full glass-effect shadow-2xl overflow-hidden",
+      "rect": {
+        "w": 1440,
+        "h": 1613,
+        "t": 0
+      },
+      "display": "block",
+      "position": "static",
+      "flexDirection": "row",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gap": "normal",
+      "textPreview": "🐒 西游记取经路线图 🏛️跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险地图视图时间轴视图思维导图赞赏支持☁️☁️☁️☁️☁️\n        \n          \n            🏛️\n          \n          \n        \n      \n      ",
+      "childCount": 4
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "relative bg-gradient-to-br from-blue-600 via-teal-600 to-cyan-700 text-white p-8 text-center overflow-hidden",
+      "rect": {
+        "w": 1438,
+        "h": 152,
+        "t": 1
+      },
+      "display": "block",
+      "position": "relative",
+      "flexDirection": "row",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gap": "normal",
+      "textPreview": "🐒 西游记取经路线图 🏛️跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险",
+      "childCount": 2
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "flex justify-center gap-4 p-4 bg-amber-50 border-b border-amber-200",
+      "rect": {
+        "w": 1438,
+        "h": 77,
+        "t": 153
+      },
+      "display": "flex",
+      "position": "static",
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "alignItems": "normal",
+      "gap": "16px",
+      "textPreview": "地图视图时间轴视图思维导图赞赏支持",
+      "childCount": 4
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "relative h-[750px]",
+      "rect": {
+        "w": 1438,
+        "h": 750,
+        "t": 230
+      },
+      "display": "block",
+      "position": "relative",
+      "flexDirection": "row",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gap": "normal",
+      "textPreview": "☁️☁️☁️☁️☁️\n        \n          \n            🏛️\n          \n          \n        \n      \n        \n          \n            🏛️\n          \n          \n       ",
+      "childCount": 2
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "p-6 md:p-8 bg-amber-50 border-t-4 border-orange-300",
+      "rect": {
+        "w": 1438,
+        "h": 632,
+        "t": 980
+      },
+      "display": "block",
+      "position": "static",
+      "flexDirection": "row",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gap": "normal",
+      "textPreview": "西游取经路线概览师徒四人的传奇西行之路起点长安城终点灵山圣地站点81难地点成就功德圆满取经路线的文化意义这条传奇的取经路线，是一座连接现实与虚构、历史与神话的文化桥梁它不仅是一条地理路径，更是一条承载着深厚文化底蕴的精神长廊展现了古代中国与周边文明的交流互动，体现了开放包容的文化精神通过这条路线，我",
+      "childCount": 1
+    },
+    {
+      "tag": "footer",
+      "id": "",
+      "classes": "bg-gradient-to-br from-orange-100 via-green-100 to-blue-100 text-gray-700 py-6 md:py-8 mt-8 md:mt-12 border-t border-orange-300 relative overflow-hidd",
+      "rect": {
+        "w": 1440,
+        "h": 428,
+        "t": 1661
+      },
+      "display": "block",
+      "position": "relative",
+      "flexDirection": "row",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gap": "normal",
+      "textPreview": "🐒西游记81难互动式取经路线图，体验师徒四人的传奇西行之路🌐trial81.toolooz.com🔗快速链接👨‍💻关于我们🛡️隐私政策📜使用条款📧联系我们✉️support@toolooz.com⏰24小时内回复©2025 西游记81难 · 个人项目🗺Leaflet | © Ope",
+      "childCount": 2
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden",
+      "rect": {
+        "w": 1440,
+        "h": 427,
+        "t": 1662
+      },
+      "display": "block",
+      "position": "absolute",
+      "flexDirection": "row",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gap": "normal",
+      "textPreview": "",
+      "childCount": 4
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "max-w-6xl mx-auto px-4 md:px-6 relative z-10",
+      "rect": {
+        "w": 1152,
+        "h": 363,
+        "t": 1694
+      },
+      "display": "block",
+      "position": "relative",
+      "flexDirection": "row",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gap": "normal",
+      "textPreview": "🐒西游记81难互动式取经路线图，体验师徒四人的传奇西行之路🌐trial81.toolooz.com🔗快速链接👨‍💻关于我们🛡️隐私政策📜使用条款📧联系我们✉️support@toolooz.com⏰24小时内回复©2025 西游记81难 · 个人项目🗺Leaflet | © Ope",
+      "childCount": 2
+    }
+  ],
+  "buttons": [
+    {
+      "text": "地图视图",
+      "classes": "px-6 py-2 rounded-full font-medium transition-all duration-300 bg-orange-400 text-white shadow-lg border-2 border-orange-500",
+      "html": "<i class=\"fas fa-map mr-2\"></i>地图视图"
+    },
+    {
+      "text": "时间轴视图",
+      "classes": "px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300",
+      "html": "<i class=\"fas fa-scroll mr-2\"></i>时间轴视图"
+    },
+    {
+      "text": "思维导图",
+      "classes": "px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300",
+      "html": "<i class=\"fas fa-brain mr-2\"></i>思维导图"
+    },
+    {
+      "text": "赞赏支持",
+      "classes": "px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300",
+      "html": "<i class=\"fas fa-heart mr-2\"></i>赞赏支持"
+    },
+    {
+      "text": "",
+      "classes": "p-1 text-gray-500 hover:text-gray-700 transition-colors duration-200",
+      "html": "<i class=\"fas fa-minus text-sm\"></i>"
+    },
+    {
+      "text": "开始",
+      "classes": "px-3 py-2 text-sm text-white rounded-full font-medium transition-all duration-300 flex items-center gap-1 bg-gradient-to-r from-green-500 to-emerald-500 hover:shadow-lg hover:-translate-y-0.5",
+      "html": "<i class=\"fas fa-play text-xs\"></i>开始"
+    },
+    {
+      "text": "重置",
+      "classes": "px-3 py-2 text-sm bg-gradient-to-r from-red-500 to-pink-500 text-white rounded-full font-medium hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-1",
+      "html": "<i class=\"fas fa-redo text-xs\"></i>重置"
+    },
+    {
+      "text": "上一难",
+      "classes": "px-3 py-2 text-sm text-white rounded-full font-medium transition-all duration-300 flex items-center gap-1 bg-gray-400 cursor-not-allowed",
+      "html": "<i class=\"fas fa-chevron-up text-xs\"></i>上一难"
+    },
+    {
+      "text": "下一难",
+      "classes": "px-3 py-2 text-sm text-white rounded-full font-medium transition-all duration-300 flex items-center gap-1 bg-gradient-to-r from-blue-500 to-teal-500 hover:shadow-lg hover:-translate-y-0.5",
+      "html": "<i class=\"fas fa-chevron-down text-xs\"></i>下一难"
+    },
+    {
+      "text": "🔊",
+      "classes": "p-2 rounded-full transition-all duration-300 bg-green-500 text-white",
+      "html": "🔊"
+    },
+    {
+      "text": "👨‍💻关于我们",
+      "classes": "text-slate-600 hover:text-slate-800 transition-all duration-200 flex items-center gap-3 hover:bg-slate-50 px-3 py-2 rounded-xl w-full text-left group text-sm",
+      "html": "<div class=\"w-6 h-6 bg-gradient-to-br from-orange-400 to-orange-600 rounded-lg flex items-center justify-center text-white text-xs group-hover:scale-110 transition-transform duration-200\">👨‍💻</div><"
+    },
+    {
+      "text": "🛡️隐私政策",
+      "classes": "text-slate-600 hover:text-slate-800 transition-all duration-200 flex items-center gap-3 hover:bg-slate-50 px-3 py-2 rounded-xl w-full text-left group text-sm",
+      "html": "<div class=\"w-6 h-6 bg-gradient-to-br from-green-400 to-green-600 rounded-lg flex items-center justify-center text-white text-xs group-hover:scale-110 transition-transform duration-200\">🛡️</div><span"
+    },
+    {
+      "text": "📜使用条款",
+      "classes": "text-slate-600 hover:text-slate-800 transition-all duration-200 flex items-center gap-3 hover:bg-slate-50 px-3 py-2 rounded-xl w-full text-left group text-sm",
+      "html": "<div class=\"w-6 h-6 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center text-white text-xs group-hover:scale-110 transition-transform duration-200\">📜</div><span cl"
+    }
+  ],
+  "tabData": {
+    "地图视图": "<div class=\"min-h-screen\"><div class=\"w-full glass-effect shadow-2xl overflow-hidden\"><div class=\"relative bg-gradient-to-br from-blue-600 via-teal-600 to-cyan-700 text-white p-8 text-center overflow-hidden\"><div class=\"absolute inset-0 opacity-10\"><div class=\"absolute top-0 left-0 w-full h-full animate-float\"><div class=\"w-full h-full opacity-20\" style=\"background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3Cpattern id='cloud' width='20' height='20' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='10' cy='10' r='3' fill='rgba(255,255,255,0.3)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100' height='100' fill='url(%23cloud)'/%3E%3C/svg%3E&quot;); background-repeat: repeat;\"></div></div></div><div class=\"relative z-10\"><h1 class=\"text-4xl md:text-5xl font-bold mb-3 text-shadow-lg\">🐒 西游记取经路线图 🏛️</h1><p class=\"text-lg md:text-xl opacity-90\">跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险</p></div></div><div class=\"flex justify-center gap-4 p-4 bg-amber-50 border-b border-amber-200\"><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-orange-400 text-white shadow-lg border-2 border-orange-500\"><i class=\"fas fa-map mr-2\"></i>地图视图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-scroll mr-2\"></i>时间轴视图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-brain mr-2\"></i>思维导图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-heart mr-2\"></i>赞赏支持</button></div><div class=\"relative h-[750px]\"><div class=\"relative w-full h-full\"><div class=\"map-clouds\"><div class=\"cloud cloud-1\">☁️</div><div class=\"cloud cloud-2\">☁️</div><div class=\"cloud cloud-3\">☁️</div><div class=\"cloud cloud-4\">☁️</div><div class=\"cloud cloud-5\">☁️</div></div><div class=\"w-full h-full z-10 leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom\" tabindex=\"0\" style=\"position: relative;\"><div class=\"leaflet-pane leaflet-map-pane\" style=\"transform: translate3d(120px, -39px, 0px);\"><div class=\"leaflet-pane leaflet-tile-pane\"><div class=\"leaflet-layer \" style=\"z-index: 1; opacity: 1;\"><div class=\"leaflet-tile-container leaflet-zoom-animated\" style=\"z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);\"><img alt=\"\" src=\"https://b.tile.openstreetmap.org/5/25/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(634px, 202px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://c.tile.openstreetmap.org/5/25/13.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(634px, 458px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://a.tile.openstreetmap.org/5/24/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(378px, 202px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://c.tile.openstreetmap.org/5/26/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(890px, 202px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://b.tile.openstreetmap.org/5/24/13.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(378px, 458px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://a.tile.openstreetmap.org/5/26/13.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(890px, 458px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://a.tile.openstreetmap.org/5/25/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(634px, -54px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://a.tile.openstreetmap.org/5/25/14.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(634px, 714px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://c.tile.openstreetmap.org/5/24/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(378px, -54px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://b.tile.openstreetmap.org/5/26/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(890px, -54px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://c.tile.openstreetmap.org/5/24/14.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(378px, 714px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://b.tile.openstreetmap.org/5/26/14.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(890px, 714px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://c.tile.openstreetmap.org/5/23/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(122px, 202px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://a.tile.openstreetmap.org/5/27/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(1146px, 202px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://a.tile.openstreetmap.org/5/23/13.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(122px, 458px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://b.tile.openstreetmap.org/5/27/13.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(1146px, 458px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://b.tile.openstreetmap.org/5/23/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(122px, -54px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://c.tile.openstreetmap.org/5/27/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(1146px, -54px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://b.tile.openstreetmap.org/5/23/14.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(122px, 714px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://c.tile.openstreetmap.org/5/27/14.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(1146px, 714px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://b.tile.openstreetmap.org/5/22/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-134px, 202px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://b.tile.openstreetmap.org/5/28/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(1402px, 202px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://c.tile.openstreetmap.org/5/22/13.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-134px, 458px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://c.tile.openstreetmap.org/5/28/13.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(1402px, 458px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://a.tile.openstreetmap.org/5/22/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-134px, -54px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://a.tile.openstreetmap.org/5/28/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(1402px, -54px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://a.tile.openstreetmap.org/5/22/14.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-134px, 714px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://a.tile.openstreetmap.org/5/28/14.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(1402px, 714px, 0px); opacity: 1;\"></div></div></div><div class=\"leaflet-pane leaflet-overlay-pane\"><svg pointer-events=\"none\" class=\"leaflet-zoom-animated\" width=\"1726\" height=\"900\" viewBox=\"-264 -36 1726 900\" style=\"transform: translate3d(-264px, -36px, 0px);\"><g><path class=\"route-animation leaflet-interactive\" stroke=\"#ff6b6b\" stroke-opacity=\"0.5\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\" d=\"M809 393L799 402L970 518L974 523L1047 451L806 397L815 389L662 333L674 319L669 324L731 347L738 341L765 361L687 321L560 290L562 287L617 304L697 333L699 330L651 375L640 361L635 366L637 364L617 347L619 344L788 389L790 386L606 402L610 397L1115 512L571 333L515 261L519 255L480 361L469 375L471 372L537 443L833 375L424 510L426 507L412 523L1042 389L1045 386L355 171L360 165L321 186L317 192L458 443L219 588L833 375L503 430L292 424L294 422L244 400L505 427L508 424L435 333L439 327L173 536L298 549L301 546L276 575L278 572L833 375L253 600L196 536L82 663\"></path><path class=\"river-flow leaflet-interactive\" stroke=\"#4FC3F7\" stroke-opacity=\"0.4\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\" d=\"M674 361L719 352L765 347\"></path><path class=\"river-flow leaflet-interactive\" stroke=\"#4FC3F7\" stroke-opacity=\"0.4\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\" d=\"M788 497L879 470\"></path><path class=\"river-flow leaflet-interactive\" stroke=\"#4FC3F7\" stroke-opacity=\"0.4\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\" d=\"M264 171L355 201\"></path></g></svg></div><div class=\"leaflet-pane leaflet-shadow-pane\"></div><div class=\"leaflet-pane leaflet-marker-pane\"><div class=\"leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -24px; margin-top: -48px; width: 48px; height: 48px; transform: translate3d(809px, 393px, 0px); z-index: 393;\">\n        <",
+    "时间轴视图": "<div class=\"min-h-screen\"><div class=\"w-full glass-effect shadow-2xl overflow-hidden\"><div class=\"relative bg-gradient-to-br from-blue-600 via-teal-600 to-cyan-700 text-white p-8 text-center overflow-hidden\"><div class=\"absolute inset-0 opacity-10\"><div class=\"absolute top-0 left-0 w-full h-full animate-float\"><div class=\"w-full h-full opacity-20\" style=\"background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3Cpattern id='cloud' width='20' height='20' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='10' cy='10' r='3' fill='rgba(255,255,255,0.3)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100' height='100' fill='url(%23cloud)'/%3E%3C/svg%3E&quot;); background-repeat: repeat;\"></div></div></div><div class=\"relative z-10\"><h1 class=\"text-4xl md:text-5xl font-bold mb-3 text-shadow-lg\">🐒 西游记取经路线图 🏛️</h1><p class=\"text-lg md:text-xl opacity-90\">跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险</p></div></div><div class=\"flex justify-center gap-4 p-4 bg-amber-50 border-b border-amber-200\"><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-map mr-2\"></i>地图视图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-orange-400 text-white shadow-lg border-2 border-orange-500\"><i class=\"fas fa-scroll mr-2\"></i>时间轴视图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-brain mr-2\"></i>思维导图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-heart mr-2\"></i>赞赏支持</button></div><div class=\"relative h-[750px]\"><div class=\"w-full h-full bg-gradient-to-br from-blue-50 to-cyan-50 p-6 overflow-y-auto timeline-scroll\"><div class=\"text-center mb-8\"><h2 class=\"text-2xl font-bold text-gray-800 mb-2\">📜 取经时间轴</h2><p class=\"text-gray-600 text-sm\">师徒四人的西行求法之路</p></div><div class=\"relative max-w-6xl mx-auto\"><div class=\"absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-red-400 via-orange-400 to-teal-500 rounded-full shadow-lg transform -translate-x-1/2\"></div><div class=\"space-y-16\"><div class=\"relative flex items-center justify-center group min-h-[120px]\"><div class=\"absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20\"><div class=\"\n                        w-16 h-16 text-2xl rounded-full border-4 border-white flex items-center justify-center shadow-lg cursor-pointer transition-all duration-300\n                        \n                        opacity-70\n                        bg-gradient-to-br from-red-400 to-orange-400\n                        hover:scale-110\n                      \">🏛️</div></div><div class=\"absolute left-1/2 top-1/2 transform -translate-y-1/2 w-24 h-0.5 bg-gradient-to-l from-gray-400 to-transparent -translate-x-full\"></div><div class=\"w-full flex justify-start items-center\"><div class=\"pr-32 max-w-md w-full\"><div class=\"bg-white rounded-xl shadow-lg p-4 border-l-4 border-blue-400 hover:shadow-xl transition-all duration-300 cursor-pointer\"><div class=\"flex items-center gap-3 mb-3\"><div class=\"w-10 h-10 rounded-full bg-gradient-to-br from-red-400 to-orange-400 flex items-center justify-center text-lg relative\">🏛️</div><div class=\"flex-1\"><h3 class=\"font-bold text-gray-800 text-lg\">长安城</h3><p class=\"text-gray-600 text-sm\">大唐帝都，取经起点</p></div></div><p class=\"text-gray-700 text-sm mb-3 leading-relaxed\">大唐帝都长安，玄奘法师踏上西行求法之路的起点。这里是当时世界上最繁华的都市，唐太宗亲自为玄奘送行。</p><div class=\"flex flex-wrap gap-2\"><span class=\"bg-gradient-to-r from-red-400 to-orange-400 text-white px-2 py-1 rounded-full text-xs font-medium\">初心不改</span><span class=\"bg-gradient-to-r from-red-400 to-orange-400 text-white px-2 py-1 rounded-full text-xs font-medium\">踏上征程</span><span class=\"bg-gradient-to-r from-red-400 to-orange-400 text-white px-2 py-1 rounded-full text-xs font-medium\">告别繁华</span></div><div class=\"mt-3 text-right\"><span class=\"text-teal-600 text-xs font-medium\">点击查看详情 →</span></div></div></div></div></div><div class=\"relative flex items-center justify-center group min-h-[120px]\"><div class=\"absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20\"><div class=\"\n                        w-16 h-16 text-2xl rounded-full border-4 border-white flex items-center justify-center shadow-lg cursor-pointer transition-all duration-300\n                        \n                        opacity-70\n                        bg-gradient-to-br from-indigo-500 to-purple-600\n                        hover:scale-110\n                      \">🏛️<div class=\"absolute -top-2 -right-2 w-6 h-6 text-xs bg-red-500 text-white rounded-full flex items-center justify-center font-bold shadow-md\">1</div></div></div><div class=\"absolute left-1/2 top-1/2 transform -translate-y-1/2 w-24 h-0.5 bg-gradient-to-r from-gray-400 to-transparent translate-x-0\"></div><div class=\"w-full flex justify-end items-center\"><div class=\"pl-32 max-w-md w-full\"><div class=\"bg-white rounded-xl shadow-lg p-4 border-l-4 border-teal-400 hover:shadow-xl transition-all duration-300 cursor-pointer\"><div class=\"flex items-center gap-3 mb-3\"><div class=\"w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-lg relative\">🏛️</div><div class=\"flex-1\"><h3 class=\"font-bold text-gray-800 text-lg\">金蝉遭贬</h3><p class=\"text-gray-600 text-sm\">金蝉子前世被贬</p></div><div class=\"bg-red-500 text-white px-2 py-1 rounded-full text-xs font-bold\">第1难</div></div><p class=\"text-gray-700 text-sm mb-3 leading-relaxed\">唐僧前世是如来座下二徒弟金蝉子，因怠慢佛法被贬谪人间，注定要历经磨难才能重回佛门。</p><div class=\"flex flex-wrap gap-2\"><span class=\"bg-gradient-to-r from-red-400 to-orange-400 text-white px-2 py-1 rounded-full text-xs font-medium\">前世因果</span><span class=\"bg-gradient-to-r from-red-400 to-orange-400 text-white px-2 py-1 rounded-full text-xs font-medium\">怠慢佛法</span><span class=\"bg-gradient-to-r from-red-400 to-orange-400 text-white px-2 py-1 rounded-full text-xs font-medium\">贬谪人间</span></div><div class=\"mt-3 text-right\"><span class=\"text-teal-600 text-xs font-medium\">点击查看详情 →</span></div></div></div></div></div><div class=\"relative flex items-center justify-center group min-h-[120px]\"><div class=\"absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20\"><div class=\"\n                        w-16 h-16 text-2xl rounded-full border-4 border-white flex items-center justify-center shadow-lg cursor-pointer transition-all duration-300\n                        \n                        opacity-70\n                        bg-gradient-to-br from-red-600 to-red-800\n                        hover:scale-110\n                      \">⚔️<div class=\"absolute -top-2 -right-2 w-6 h-6 text-xs bg-red-500 text-white rounded-full flex items-center justify-center font-bold shadow-md\">2</div></div></div><div class=\"absolute left-1/2 top-1/2 transform -translate-y-1/2 w-24 h-0.5 bg-gradient-to-l from-gray-400 to-transparent -translate-x-full\"></div><div class=\"w-full flex justify-start items-center\"><div class=\"pr-32 max-w-md w-full\"><div class=\"bg-white rounded-xl shadow-lg p-4 border-l-4 border-blue-400 hover:shadow-xl transition-all duration-300 cursor-pointer\"><div class=\"flex items-center gap-3 mb-3\"><div class=\"w-10 h-10 rounded-full bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center text-lg relative\">⚔️</div><div class=\"flex-1\"><h3 class=\"font-bold text-gray-800 text-lg\">出胎几杀</h3><p class=\"text-gray-600 text-sm\">出生遭难</p></div><div class=\"bg-red-500 text-white px-2 py-1 rounded-full text-xs font-bold\">第2难</div></div><p class=\"text-gray-700 text-sm mb-3 leading-relaxed\">唐僧父亲陈光蕊遇害，母亲满堂娇为保护婴儿，忍辱偷生。唐僧自出生就面临生死考验。</p><div class=\"flex flex-wrap gap-2\"><span class=\"bg-gradient-to-r from-red-400 to-orange-400 text-white px-2 py-1 rounded-full text-xs font-medium\">父亲遇害</span><span class=\"bg-gradient-to-r from-red-400 to-orange-400 text-white px-2 py-1 rounded-full text-xs font-medium\">母亲受辱</span><span class=\"bg-gradient-to-r from-red-400 to-orange-400 text-white px-2 py-1 rounded-full text-xs font-medium\">婴儿险境</span></div><div class=\"mt-3 text-right\"><span class=\"text-teal-600 text-xs font-medium\">点击查看详情 →</span></div></div></div></div></div><div class=\"relative flex items-center justify-center group min-h-[120px]\"><div class=\"absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20\"><div class=\"\n                        w-16 h-16 text-2xl rounded-full border-4 border-white flex items-center justify-center shadow-lg cursor-pointer transition-all duration-300\n                        \n                        opacity-70\n                        bg-gradient-to-br from-blue-400 to-cyan-400\n                        hover:scale-110\n                      \">🌊<div class=\"absolute -top-2 -right-2 w-6 h-6 text-xs bg-red-500 text-white rounded-full flex items-center justify-center font-bold shadow-md\">3</div></div></div><div class=\"absolute left-1/2 top-1/2 transform -translate-y-1/2 w-24 h-0.5 bg-gradient-to-r from-gray-400 to-transparent translate-x-0\"></div><div class=\"w-full flex justify-end items-center\"><div class=\"pl-32 max-w-md w-full\"><div class=\"bg-white rounded-xl shadow-lg p-4 border-l-4 border-teal-400 hover:shadow-xl transition-all duration-300 cursor-pointer\"><div class=\"flex items-center gap-3 mb-3\"><div class=\"w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-cyan-400 flex items-center justify-center text-lg relative\">🌊</div><div class=\"flex-1\"><h3 class=\"font-bold text-gray-800 text-lg\">满月抛江</h3><p class=\"text-gray-600 text-sm\">抛江遇救</p></div><div class=\"bg-red-500 text-white px-2 py-1 rounded-full text-xs font-bold\">第3难</div></div><p class=\"text-gray-700 text-sm mb-3 leading-relaxed\">满月后的唐僧被母亲含泪抛入江中，幸得金山寺法明长老救起，取名江流儿。</p><div class=\"flex flex-wrap gap-2\"><span class=\"bg-gradient-to-r from-red-400 to-orange-400 ",
+    "思维导图": "<div class=\"min-h-screen\"><div class=\"w-full glass-effect shadow-2xl overflow-hidden\"><div class=\"relative bg-gradient-to-br from-blue-600 via-teal-600 to-cyan-700 text-white p-8 text-center overflow-hidden\"><div class=\"absolute inset-0 opacity-10\"><div class=\"absolute top-0 left-0 w-full h-full animate-float\"><div class=\"w-full h-full opacity-20\" style=\"background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3Cpattern id='cloud' width='20' height='20' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='10' cy='10' r='3' fill='rgba(255,255,255,0.3)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100' height='100' fill='url(%23cloud)'/%3E%3C/svg%3E&quot;); background-repeat: repeat;\"></div></div></div><div class=\"relative z-10\"><h1 class=\"text-4xl md:text-5xl font-bold mb-3 text-shadow-lg\">🐒 西游记取经路线图 🏛️</h1><p class=\"text-lg md:text-xl opacity-90\">跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险</p></div></div><div class=\"flex justify-center gap-4 p-4 bg-amber-50 border-b border-amber-200\"><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-map mr-2\"></i>地图视图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-scroll mr-2\"></i>时间轴视图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-orange-400 text-white shadow-lg border-2 border-orange-500\"><i class=\"fas fa-brain mr-2\"></i>思维导图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-heart mr-2\"></i>赞赏支持</button></div><div class=\"relative min-h-screen\"><div class=\"w-full h-full bg-gradient-to-br from-amber-50 to-orange-50 p-6 overflow-y-auto\"><div class=\"text-center mb-8\"><h1 class=\"text-3xl font-bold text-gray-800 mb-2\">🧠 四大名著思维导图</h1><p class=\"text-gray-600 text-sm mb-4\">系统学习，深度理解，轻松掌握经典名著</p><div class=\"inline-flex items-center gap-2 bg-red-500 text-white px-4 py-2 rounded-full text-sm font-medium animate-pulse\"><span>🔥</span><span>限时特惠，立即抢购！</span></div></div><div class=\"grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12\"><div class=\"bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105 border-l-4 border-orange-400 overflow-hidden\"><div class=\"h-32 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center text-4xl relative\"><span class=\"text-white text-6xl\">🐒</span><div class=\"absolute top-2 right-2 bg-white/20 backdrop-blur-sm rounded-full px-2 py-1 text-white text-xs font-medium\">1-100回</div></div><div class=\"p-4\"><h3 class=\"text-lg font-bold text-gray-800 mb-1\">西游记</h3><p class=\"text-gray-600 text-sm mb-3\">神魔小说巅峰之作</p><p class=\"text-gray-700 text-xs mb-3 leading-relaxed\">唐僧师徒四人西天取经的神话故事</p><div class=\"space-y-1 mb-3\"><div class=\"flex items-center gap-2 text-xs text-gray-600\"><span class=\"w-1.5 h-1.5 bg-green-400 rounded-full\"></span><span>章回图100个</span></div><div class=\"flex items-center gap-2 text-xs text-gray-600\"><span class=\"w-1.5 h-1.5 bg-green-400 rounded-full\"></span><span>知识点汇总</span></div><div class=\"flex items-center gap-2 text-xs text-gray-600\"><span class=\"w-1.5 h-1.5 bg-green-400 rounded-full\"></span><span>必练习题</span></div></div><div class=\"text-center\"><span class=\"text-blue-600 text-xs font-medium\">查看详情 ↓</span></div></div></div><div class=\"bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105 border-l-4 border-blue-400 overflow-hidden\"><div class=\"h-32 bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center text-4xl relative\"><span class=\"text-white text-6xl\">⚔️</span><div class=\"absolute top-2 right-2 bg-white/20 backdrop-blur-sm rounded-full px-2 py-1 text-white text-xs font-medium\">1-119回</div></div><div class=\"p-4\"><h3 class=\"text-lg font-bold text-gray-800 mb-1\">水浒传</h3><p class=\"text-gray-600 text-sm mb-3\">英雄好汉的传奇</p><p class=\"text-gray-700 text-xs mb-3 leading-relaxed\">108位梁山好汉的英雄故事</p><div class=\"space-y-1 mb-3\"><div class=\"flex items-center gap-2 text-xs text-gray-600\"><span class=\"w-1.5 h-1.5 bg-green-400 rounded-full\"></span><span>章回概括</span></div><div class=\"flex items-center gap-2 text-xs text-gray-600\"><span class=\"w-1.5 h-1.5 bg-green-400 rounded-full\"></span><span>人物介绍</span></div><div class=\"flex items-center gap-2 text-xs text-gray-600\"><span class=\"w-1.5 h-1.5 bg-green-400 rounded-full\"></span><span>汇总讲解</span></div></div><div class=\"text-center\"><span class=\"text-blue-600 text-xs font-medium\">查看详情 ↓</span></div></div></div><div class=\"bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105 border-l-4 border-pink-400 overflow-hidden\"><div class=\"h-32 bg-gradient-to-br from-pink-400 to-rose-500 flex items-center justify-center text-4xl relative\"><span class=\"text-white text-6xl\">🌸</span><div class=\"absolute top-2 right-2 bg-white/20 backdrop-blur-sm rounded-full px-2 py-1 text-white text-xs font-medium\">1-120回</div></div><div class=\"p-4\"><h3 class=\"text-lg font-bold text-gray-800 mb-1\">红楼梦</h3><p class=\"text-gray-600 text-sm mb-3\">古典文学的巅峰</p><p class=\"text-gray-700 text-xs mb-3 leading-relaxed\">贾宝玉与林黛玉的爱情悲剧</p><div class=\"space-y-1 mb-3\"><div class=\"flex items-center gap-2 text-xs text-gray-600\"><span class=\"w-1.5 h-1.5 bg-green-400 rounded-full\"></span><span>章回概述</span></div><div class=\"flex items-center gap-2 text-xs text-gray-600\"><span class=\"w-1.5 h-1.5 bg-green-400 rounded-full\"></span><span>人物关系图</span></div><div class=\"flex items-center gap-2 text-xs text-gray-600\"><span class=\"w-1.5 h-1.5 bg-green-400 rounded-full\"></span><span>练习题汇总</span></div></div><div class=\"text-center\"><span class=\"text-blue-600 text-xs font-medium\">查看详情 ↓</span></div></div></div><div class=\"bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105 border-l-4 border-green-400 overflow-hidden\"><div class=\"h-32 bg-gradient-to-br from-green-400 to-emerald-500 flex items-center justify-center text-4xl relative\"><span class=\"text-white text-6xl\">🏛️</span><div class=\"absolute top-2 right-2 bg-white/20 backdrop-blur-sm rounded-full px-2 py-1 text-white text-xs font-medium\">1-120回</div></div><div class=\"p-4\"><h3 class=\"text-lg font-bold text-gray-800 mb-1\">三国演义</h3><p class=\"text-gray-600 text-sm mb-3\">历史演义的典范</p><p class=\"text-gray-700 text-xs mb-3 leading-relaxed\">三国鼎立的历史传奇</p><div class=\"space-y-1 mb-3\"><div class=\"flex items-center gap-2 text-xs text-gray-600\"><span class=\"w-1.5 h-1.5 bg-green-400 rounded-full\"></span><span>章回概述</span></div><div class=\"flex items-center gap-2 text-xs text-gray-600\"><span class=\"w-1.5 h-1.5 bg-green-400 rounded-full\"></span><span>简答题梳理</span></div><div class=\"flex items-center gap-2 text-xs text-gray-600\"><span class=\"w-1.5 h-1.5 bg-green-400 rounded-full\"></span><span>人物思维导图</span></div></div><div class=\"text-center\"><span class=\"text-blue-600 text-xs font-medium\">查看详情 ↓</span></div></div></div></div><div id=\"purchase-section\" class=\"mb-12\"><h2 class=\"text-2xl font-bold text-gray-800 text-center mb-6\">🎁 精选套装推荐</h2><div class=\"grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto\"><div class=\"bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden relative\"><div class=\"absolute top-4 right-4 z-10\"><span class=\"bg-red-500 text-white px-3 py-1 rounded-full text-xs font-bold\">入门首选</span></div><div class=\"h-20 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center relative\"><span class=\"text-white text-3xl\">🐒</span></div><div class=\"p-4\"><div class=\"text-center mb-4\"><h3 class=\"text-lg font-bold text-gray-800 mb-1\">西游记章回图100个</h3><p class=\"text-sm text-gray-600 mb-2\">西游记思维导图（100章）</p><div class=\"flex items-center justify-center gap-2\"><div class=\"text-2xl font-bold text-red-600\">¥9.90</div><div class=\"text-sm text-gray-500 line-through\">¥19.90</div></div></div><div class=\"space-y-1 mb-4\"><div class=\"flex items-center gap-2 text-xs text-gray-700\"><span class=\"text-green-500 font-bold\">✓</span><span>西游记章回图100个</span></div><div class=\"flex items-center gap-2 text-xs text-gray-700\"><span class=\"text-green-500 font-bold\">✓</span><span>PDF格式+高清图片</span></div><div class=\"flex items-center gap-2 text-xs text-gray-700\"><span class=\"text-green-500 font-bold\">✓</span><span>每章详细思维导图</span></div><div class=\"flex items-center gap-2 text-xs text-gray-700\"><span class=\"text-green-500 font-bold\">✓</span><span>人物关系梳理</span></div><div class=\"flex items-center gap-2 text-xs text-gray-700\"><span class=\"text-green-500 font-bold\">✓</span><span>故事情节分析</span></div><div class=\"flex items-center gap-2 text-xs text-gray-700\"><span class=\"text-green-500 font-bold\">✓</span><span>可打印学习资料</span></div></div><div class=\"text-center space-y-2\"><a href=\"https://onefile.toolooz.com/product/5\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"bg-gradient-to-r from-red-500 to-orange-500 text-white px-6 py-2 rounded-full font-bold text-sm hover:from-red-600 hover:to-orange-600 transition-all duration-300 inline-block shadow-lg hover:shadow-xl transform hover:scale-105\"><i class=\"fas fa-shopping-cart mr-2\"></i>立即购买</a><br><a href=\"https://item.taobao.com/item.htm?id=971976802907&amp;spm=a213gs.v2success.0.0.371348317cGqIY\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2 rounded-full font-bold text-sm hover:from-orange-600 hover:to-red-600 transition-all duration-300 inline-block shadow-lg hover:shadow-xl transform hover:scale-105\"><i class=\"fas fa-store mr-2\"></i>淘宝购买</a></div></div></div><div class=\"bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden relative\"><div class=\"absolute top-4 righ",
+    "赞赏支持": "<div class=\"min-h-screen\"><div class=\"w-full glass-effect shadow-2xl overflow-hidden\"><div class=\"relative bg-gradient-to-br from-blue-600 via-teal-600 to-cyan-700 text-white p-8 text-center overflow-hidden\"><div class=\"absolute inset-0 opacity-10\"><div class=\"absolute top-0 left-0 w-full h-full animate-float\"><div class=\"w-full h-full opacity-20\" style=\"background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3Cpattern id='cloud' width='20' height='20' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='10' cy='10' r='3' fill='rgba(255,255,255,0.3)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100' height='100' fill='url(%23cloud)'/%3E%3C/svg%3E&quot;); background-repeat: repeat;\"></div></div></div><div class=\"relative z-10\"><h1 class=\"text-4xl md:text-5xl font-bold mb-3 text-shadow-lg\">🐒 西游记取经路线图 🏛️</h1><p class=\"text-lg md:text-xl opacity-90\">跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险</p></div></div><div class=\"flex justify-center gap-4 p-4 bg-amber-50 border-b border-amber-200\"><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-map mr-2\"></i>地图视图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-scroll mr-2\"></i>时间轴视图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-brain mr-2\"></i>思维导图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-orange-400 text-white shadow-lg border-2 border-orange-500\"><i class=\"fas fa-heart mr-2\"></i>赞赏支持</button></div><div class=\"relative min-h-screen\"><div class=\"w-full h-full bg-gradient-to-br from-pink-50 to-purple-50 p-6 overflow-y-auto\"><div class=\"text-center mb-8\"><h1 class=\"text-3xl font-bold text-gray-800 mb-2\">☕ 赞赏支持</h1><p class=\"text-gray-600 text-sm mb-4\">您的支持是我们前进的动力</p><div class=\"inline-flex items-center gap-2 bg-pink-500 text-white px-4 py-2 rounded-full text-sm font-medium animate-pulse\"><span>❤️</span><span>感谢您的每一份支持！</span></div></div><div class=\"max-w-4xl mx-auto mb-12\"><div class=\"bg-white rounded-xl shadow-lg p-6 border-l-4 border-pink-400\"><div class=\"text-center mb-6\"><div class=\"text-6xl mb-4\">😄</div><h2 class=\"text-xl font-bold text-gray-800 mb-4\">各位亲爱的朋友们</h2></div><div class=\"text-gray-700 leading-relaxed space-y-4\"><p class=\"text-center text-lg\">咱们这个项目，要是你觉得挺不错，挺能解决你的问题，那就别小气，打个小赏怎么样？</p><div class=\"bg-gradient-to-r from-blue-50 to-cyan-50 p-4 rounded-lg border-l-4 border-blue-400\"><p class=\"flex items-center gap-2\"><span class=\"text-2xl\">🔋</span><span>你的支持，对我来说就像是手机快没电时找到充电宝，及时又给力。</span></p></div><div class=\"bg-gradient-to-r from-orange-50 to-yellow-50 p-4 rounded-lg border-l-4 border-orange-400\"><p class=\"flex items-center gap-2\"><span class=\"text-2xl\">🍻</span><span>想表达感谢的话，就当是请我撸个串儿，喝杯饮料，咱心里那个得劲儿啊，干活儿也更起劲儿了。</span></p></div></div></div></div><div class=\"max-w-6xl mx-auto\"><h2 class=\"text-2xl font-bold text-gray-800 text-center mb-8\">💝 赞赏方式</h2><div class=\"grid grid-cols-1 md:grid-cols-2 gap-8\"><div class=\"bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden\"><div class=\"h-20 bg-gradient-to-br from-green-400 to-green-500 flex items-center justify-center\"><span class=\"text-white text-3xl\">💚</span></div><div class=\"p-6\"><div class=\"text-center mb-4\"><h3 class=\"text-xl font-bold text-gray-800 mb-2\">微信赞赏</h3><p class=\"text-gray-600 text-sm\">扫码支持，金额随心</p></div><div class=\"text-center\"><div class=\"p-4 bg-gray-50 rounded-lg\"><img src=\"/donate.jpg\" alt=\"微信赞赏码\" class=\"max-w-full h-auto mx-auto rounded-lg shadow-md\" style=\"max-width: 200px;\"><div class=\"hidden text-gray-500 text-sm mt-2\">赞赏码加载失败，请稍后再试</div><p class=\"text-gray-600 text-xs mt-2\">长按识别二维码进行赞赏</p></div></div><div class=\"mt-4 space-y-2\"><div class=\"flex items-center gap-2 text-sm text-gray-600\"><span class=\"text-green-500\">✓</span><span>支持微信支付</span></div><div class=\"flex items-center gap-2 text-sm text-gray-600\"><span class=\"text-green-500\">✓</span><span>金额自由选择</span></div><div class=\"flex items-center gap-2 text-sm text-gray-600\"><span class=\"text-green-500\">✓</span><span>即时到账</span></div></div></div></div><div class=\"bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden\"><div class=\"h-20 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center\"><span class=\"text-white text-3xl\">☕</span></div><div class=\"p-6\"><div class=\"text-center mb-4\"><h3 class=\"text-xl font-bold text-gray-800 mb-2\">Ko-fi 支持</h3><p class=\"text-gray-600 text-sm\">国际化赞赏平台</p></div><div class=\"text-center\"><a href=\"https://ko-fi.com/naxol\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 inline-block\">前往 Ko-fi 支持</a></div><div class=\"mt-4 space-y-2\"><div class=\"flex items-center gap-2 text-sm text-gray-600\"><span class=\"text-blue-500\">✓</span><span>支持信用卡支付</span></div><div class=\"flex items-center gap-2 text-sm text-gray-600\"><span class=\"text-blue-500\">✓</span><span>支持PayPal支付</span></div><div class=\"flex items-center gap-2 text-sm text-gray-600\"><span class=\"text-blue-500\">✓</span><span>国际用户友好</span></div></div></div></div></div></div><div class=\"max-w-4xl mx-auto mt-12\"><div class=\"bg-gradient-to-r from-pink-100 to-purple-100 rounded-xl p-6 border border-pink-200\"><h3 class=\"text-lg font-bold text-gray-800 text-center mb-4\">🙏 感谢您的支持！</h3><div class=\"text-gray-700 text-center space-y-2\"><p>您的每一份支持都是我们继续前进的动力。</p><p>我们会继续努力，为您提供更好的服务！</p></div></div></div><div class=\"text-center text-gray-600 text-sm max-w-4xl mx-auto mt-12\"><div class=\"bg-white/80 rounded-lg p-6 shadow-sm\"><h3 class=\"font-bold text-gray-800 mb-3\">💡 为什么需要您的支持？</h3><div class=\"grid grid-cols-2 md:grid-cols-4 gap-4 text-left\"><div class=\"flex items-start gap-2\"><span class=\"text-blue-500 mt-1\">💻</span><span>服务器运维成本</span></div><div class=\"flex items-start gap-2\"><span class=\"text-green-500 mt-1\">🎨</span><span>设计和开发时间</span></div><div class=\"flex items-start gap-2\"><span class=\"text-orange-500 mt-1\">📚</span><span>内容研究整理</span></div><div class=\"flex items-start gap-2\"><span class=\"text-purple-500 mt-1\">🔧</span><span>功能持续优化</span></div></div></div></div></div></div><div class=\"p-6 md:p-8 bg-amber-50 border-t-4 border-orange-300\" style=\"background-image: radial-gradient(circle at 20% 20%, rgba(255, 193, 7, 0.1) 0%, transparent 50%), radial-gradient(circle at 80% 80%, rgba(255, 152, 0, 0.1) 0%, transparent 50%), radial-gradient(circle at 40% 60%, rgba(255, 87, 34, 0.05) 0%, transparent 50%);\"><div class=\"max-w-6xl mx-auto\"><div class=\"text-center mb-8\"><h2 class=\"text-2xl md:text-3xl font-bold text-orange-800 mb-2 flex items-center justify-center gap-3\"><i class=\"fas fa-route text-orange-600\"></i>西游取经路线概览<i class=\"fas fa-mountain text-orange-600\"></i></h2><p class=\"text-orange-700 text-sm md:text-base\">师徒四人的传奇西行之路</p></div><div class=\"grid grid-cols-2 md:grid-cols-4 gap-4 mb-8\"><div class=\"text-center p-4 md:p-6 bg-white rounded-2xl shadow-lg hover:-translate-y-2 transition-all duration-300 border-3 border-orange-200\"><div class=\"w-12 h-12 mx-auto mb-3 bg-red-100 rounded-full flex items-center justify-center\"><i class=\"fas fa-home text-2xl text-red-600\"></i></div><div class=\"text-lg font-bold text-red-700 mb-1\">起点</div><div class=\"text-sm text-red-600 font-medium\">长安城</div></div><div class=\"text-center p-4 md:p-6 bg-white rounded-2xl shadow-lg hover:-translate-y-2 transition-all duration-300 border-3 border-orange-200\"><div class=\"w-12 h-12 mx-auto mb-3 bg-teal-100 rounded-full flex items-center justify-center\"><i class=\"fas fa-mountain text-2xl text-teal-600\"></i></div><div class=\"text-lg font-bold text-teal-700 mb-1\">终点</div><div class=\"text-sm text-teal-600 font-medium\">灵山圣地</div></div><div class=\"text-center p-4 md:p-6 bg-white rounded-2xl shadow-lg hover:-translate-y-2 transition-all duration-300 border-3 border-orange-200\"><div class=\"w-12 h-12 mx-auto mb-3 bg-blue-100 rounded-full flex items-center justify-center\"><i class=\"fas fa-map-marker-alt text-2xl text-blue-600\"></i></div><div class=\"text-lg font-bold text-blue-700 mb-1\">站点</div><div class=\"text-sm text-blue-600 font-medium\">81难地点</div></div><div class=\"text-center p-4 md:p-6 bg-white rounded-2xl shadow-lg hover:-translate-y-2 transition-all duration-300 border-3 border-orange-200\"><div class=\"w-12 h-12 mx-auto mb-3 bg-green-100 rounded-full flex items-center justify-center\"><i class=\"fas fa-trophy text-2xl text-green-600\"></i></div><div class=\"text-lg font-bold text-green-700 mb-1\">成就</div><div class=\"text-sm text-green-600 font-medium\">功德圆满</div></div></div><div class=\"bg-white rounded-2xl p-6 md:p-8 shadow-lg border-3 border-orange-200\"><div class=\"flex items-center justify-center mb-4\"><i class=\"fas fa-scroll text-orange-600 text-2xl mr-3\"></i><h3 class=\"text-xl font-bold text-orange-800\">取经路线的文化意义</h3><i class=\"fas fa-scroll text-orange-600 text-2xl ml-3\"></i></div><div class=\"text-center text-orange-800 leading-relaxed text-base md:text-lg\"><p class=\"mb-4\"><i class=\"fas fa-bridge text-orange-600 mr-2\"></i>这条传奇的取经路线，是一座连接现实与虚构、历史与神话的文化桥梁</p><p class=\"mb-4\"><i class=\"fas fa-road text-orange-600 mr-2\"></i>它不仅是一条地理路径，更是一条承载着深厚文化底蕴的精神长廊</p><p class=\"mb-4\"><i class=\"fas fa-handshake text-orange-600 mr-2\"></i>展现了古代中国与周边文明的交流互动，体现了开放包容的文化精神</p><p><i class=\"fas fa-eye text-orange-600 mr-2\"></i>通过这条路线，我们得以窥见古人的智慧与想象，感受那个时代的文化魅力</p></div></div></div></div></div><footer class=\"bg-gradient-to-br from-orange-100 via-green-100 to-blue-100 text-gray-700 py-6 md:py-8 mt-8 md:mt-12 border-t border-orange-300 relative overflow-hidden\" style=\"background-image:"
+  },
+  "fontAwesomeIcons": [
+    "fas fa-map mr-2",
+    "fas fa-scroll mr-2",
+    "fas fa-brain mr-2",
+    "fas fa-heart mr-2",
+    "fas fa-route text-orange-600",
+    "fas fa-mountain text-orange-600",
+    "fas fa-home text-2xl text-red-600",
+    "fas fa-mountain text-2xl text-teal-600",
+    "fas fa-map-marker-alt text-2xl text-blue-600",
+    "fas fa-trophy text-2xl text-green-600",
+    "fas fa-scroll text-orange-600 text-2xl mr-3",
+    "fas fa-scroll text-orange-600 text-2xl ml-3",
+    "fas fa-bridge text-orange-600 mr-2",
+    "fas fa-road text-orange-600 mr-2",
+    "fas fa-handshake text-orange-600 mr-2",
+    "fas fa-eye text-orange-600 mr-2"
+  ],
+  "cssVars": {
+    "--tw-contain-size": "",
+    "--tw-ring-offset-shadow": "0 0 #0000",
+    "--tw-contrast": "",
+    "--fa-style-family-classic": "\"Font Awesome 6 Free\"",
+    "--tw-backdrop-sepia": "",
+    "--tw-ring-shadow": "0 0 #0000",
+    "--tw-sepia": "",
+    "--tw-skew-x": "0",
+    "--tw-ordinal": "",
+    "--tw-backdrop-saturate": "",
+    "--tw-contain-style": "",
+    "--tw-backdrop-blur": "",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Free\"",
+    "--tw-shadow": "0 0 #0000",
+    "--tw-translate-x": "0",
+    "--tw-ring-offset-width": "0px",
+    "--tw-ring-inset": "",
+    "--tw-gradient-via-position": "",
+    "--tw-backdrop-invert": "",
+    "--tw-saturate": "",
+    "--tw-scroll-snap-strictness": "proximity",
+    "--tw-numeric-spacing": "",
+    "--tw-grayscale": "",
+    "--tw-border-spacing-x": "0",
+    "--tw-scale-x": "1",
+    "--tw-backdrop-hue-rotate": "",
+    "--tw-shadow-colored": "0 0 #0000",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--tw-gradient-to-position": "",
+    "--tw-border-spacing-y": "0",
+    "--tw-brightness": "",
+    "--tw-numeric-fraction": "",
+    "--tw-backdrop-grayscale": "",
+    "--tw-hue-rotate": "",
+    "--tw-scale-y": "1",
+    "--tw-pan-y": "",
+    "--tw-backdrop-contrast": "",
+    "--tw-drop-shadow": "",
+    "--tw-skew-y": "0",
+    "--tw-ring-color": "rgb(59 130 246 / .5)",
+    "--tw-backdrop-brightness": "",
+    "--tw-slashed-zero": "",
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Free\"",
+    "--tw-blur": "",
+    "--tw-invert": "",
+    "--tw-pan-x": "",
+    "--tw-translate-y": "0",
+    "--fa-style-family-brands": "\"Font Awesome 6 Brands\"",
+    "--tw-backdrop-opacity": "",
+    "--tw-gradient-from-position": "",
+    "--tw-numeric-figure": "",
+    "--tw-rotate": "0",
+    "--tw-pinch-zoom": "",
+    "--tw-contain-paint": "",
+    "--tw-contain-layout": "",
+    "--tw-ring-offset-color": "#fff"
+  },
+  "characterSVGs": [],
+  "markerData": [
+    {
+      "text": "🏛️",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"0\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-red-40"
+    },
+    {
+      "text": "🏛️\n          \n          \n            \n              1",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"1\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-indigo"
+    },
+    {
+      "text": "⚔️\n          \n          \n            \n              2",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"2\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-red-60"
+    },
+    {
+      "text": "🌊\n          \n          \n            \n              3",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"3\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-blue-4"
+    },
+    {
+      "text": "⚖️\n          \n          \n            \n              4",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"4\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-orange"
+    },
+    {
+      "text": "🐅\n          \n          \n            \n              5",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"5\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-red-60"
+    },
+    {
+      "text": "⭐\n          \n          \n            \n              6",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"6\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-indigo"
+    },
+    {
+      "text": "🐅\n          \n          \n            \n              7",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"7\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-red-60"
+    },
+    {
+      "text": "🐒\n          \n          \n            \n              8",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"8\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-green-"
+    },
+    {
+      "text": "🐉\n          \n          \n            \n              9",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"9\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-blue-4"
+    },
+    {
+      "text": "🔥\n          \n          \n            \n              10",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"10\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-orang"
+    },
+    {
+      "text": "🐻\n          \n          \n            \n              11",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"11\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-green"
+    },
+    {
+      "text": "🐷\n          \n          \n            \n              12",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"12\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-green"
+    },
+    {
+      "text": "🌪️\n          \n          \n            \n              13",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"13\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-gray-"
+    },
+    {
+      "text": "🏔️\n          \n          \n            \n              14",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"14\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-green"
+    },
+    {
+      "text": "🌊\n          \n          \n            \n              15",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"15\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-blue-"
+    },
+    {
+      "text": "👨‍🦲\n          \n          \n            \n              16",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"16\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-blue-"
+    },
+    {
+      "text": "👩‍👧‍👧\n          \n          \n            \n              17",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"17\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-orang"
+    },
+    {
+      "text": "🍑\n          \n          \n            \n              18",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"18\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-orang"
+    },
+    {
+      "text": "🌳\n          \n          \n            \n              19",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"19\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-orang"
+    },
+    {
+      "text": "💀\n          \n          \n            \n              20",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"20\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-red-6"
+    },
+    {
+      "text": "🐺\n          \n          \n            \n              21",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"21\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-gray-"
+    },
+    {
+      "text": "👑\n          \n          \n            \n              22",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"22\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-yello"
+    },
+    {
+      "text": "🐅\n          \n          \n            \n              23",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"23\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-yello"
+    },
+    {
+      "text": "👑\n          \n          \n            \n              24",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"24\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-green"
+    },
+    {
+      "text": "🏺\n          \n          \n            \n              25",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"25\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-gray-"
+    },
+    {
+      "text": "👻\n          \n          \n            \n              26",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"26\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-yello"
+    },
+    {
+      "text": "⚔️\n          \n          \n            \n              27",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"27\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-yello"
+    },
+    {
+      "text": "👶\n          \n          \n            \n              28",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"28\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-pink-"
+    },
+    {
+      "text": "🔥\n          \n          \n            \n              29",
+      "classes": "leaflet-marker-icon custom-marker leaflet-zoom-animated leaflet-interactive",
+      "html": "\n        <div class=\"relative marker-container\" data-location-index=\"29\">\n          <div class=\"w-12 h-12 rounded-full border-4 border-white flex items-center justify-center text-2xl shadow-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1 marker-bounce bg-gradient-to-br from-gray-"
+    }
+  ],
+  "otherViews": [
+    {
+      "classes": "w-full glass-effect shadow-2xl overflow-hidden",
+      "text": "🐒 西游记取经路线图 🏛️跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险地图视图时间轴视图思维导图赞赏支持☕ 赞赏支持您的支持是我们前进的动力❤️感谢您的每一份支持！😄各位亲爱的朋友们咱们这个项目，要是你觉得挺不错，挺能解决你的问题，那就别小气，打个小赏怎么样？🔋你的支持，对我来说就像是手机快没电时找到充电宝，及时又给力。🍻想表达感谢的话，就当是请我撸个串儿，喝杯饮料，咱心里那个得劲儿啊，干活儿也更起劲儿了。💝 赞赏方式💚微信赞赏扫码支持，金额随心赞赏码加载失败，请稍后再试长按识别二维码进行赞赏✓支持微信支付✓金额自由选择✓即时到账☕Ko-fi 支持国际化赞赏平台前往 K",
+      "innerHTML": "<div class=\"relative bg-gradient-to-br from-blue-600 via-teal-600 to-cyan-700 text-white p-8 text-center overflow-hidden\"><div class=\"absolute inset-0 opacity-10\"><div class=\"absolute top-0 left-0 w-full h-full animate-float\"><div class=\"w-full h-full opacity-20\" style=\"background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3Cpattern id='cloud' width='20' height='20' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='10' cy='10' r='3' fill='rgba(255,255,255,0.3)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100' height='100' fill='url(%23cloud)'/%3E%3C/svg%3E&quot;); background-repeat: repeat;\"></div></div></div><div class=\"relative z-10\"><h1 class=\"text-4xl md:text-5xl font-bold mb-3 text-shadow-lg\">🐒 西游记取经路线图 🏛️</h1><p class=\"text-lg md:text-xl opacity-90\">跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险</p></div></div><div class=\"flex justify-center gap-4 p-4 bg-amber-50 border-b border-amber-200\"><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-map mr-2\"></i>地图视图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-scroll mr-2\"></i>时间轴视图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-orange-700 hover:bg-orange-100 border-2 border-orange-300\"><i class=\"fas fa-brain mr-2\"></i>思维导图</button><button class=\"px-6 py-2 rounded-full font-medium transition-all duration-300 bg-orange-400 text-white shadow-lg border-2 border-orange-500\"><i class=\"fas fa-heart mr-2\"></i>赞赏支持</button></div><div class=\"relative min-h-screen\"><div class=\"w-full h-full bg-gradient-to-br from-pink-50 to-purple-50 p-6 overflow-y-auto\"><div class=\"text-center mb-8\"><h1 class=\"text-3xl font-bold text-gray-800 mb-2\">☕ 赞赏支持</h1><p class=\"text-gray-600 text-sm mb-4\">您的支持"
+    },
+    {
+      "classes": "relative bg-gradient-to-br from-blue-600 via-teal-600 to-cyan-700 text-white p-8 text-center overflow-hidden",
+      "text": "🐒 西游记取经路线图 🏛️跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险",
+      "innerHTML": "<div class=\"absolute inset-0 opacity-10\"><div class=\"absolute top-0 left-0 w-full h-full animate-float\"><div class=\"w-full h-full opacity-20\" style=\"background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3Cpattern id='cloud' width='20' height='20' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='10' cy='10' r='3' fill='rgba(255,255,255,0.3)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100' height='100' fill='url(%23cloud)'/%3E%3C/svg%3E&quot;); background-repeat: repeat;\"></div></div></div><div class=\"relative z-10\"><h1 class=\"text-4xl md:text-5xl font-bold mb-3 text-shadow-lg\">🐒 西游记取经路线图 🏛️</h1><p class=\"text-lg md:text-xl opacity-90\">跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险</p></div>"
+    },
+    {
+      "classes": "bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden",
+      "text": "💚微信赞赏扫码支持，金额随心赞赏码加载失败，请稍后再试长按识别二维码进行赞赏✓支持微信支付✓金额自由选择✓即时到账",
+      "innerHTML": "<div class=\"h-20 bg-gradient-to-br from-green-400 to-green-500 flex items-center justify-center\"><span class=\"text-white text-3xl\">💚</span></div><div class=\"p-6\"><div class=\"text-center mb-4\"><h3 class=\"text-xl font-bold text-gray-800 mb-2\">微信赞赏</h3><p class=\"text-gray-600 text-sm\">扫码支持，金额随心</p></div><div class=\"text-center\"><div class=\"p-4 bg-gray-50 rounded-lg\"><img src=\"/donate.jpg\" alt=\"微信赞赏码\" class=\"max-w-full h-auto mx-auto rounded-lg shadow-md\" style=\"max-width: 200px;\"><div class=\"hidden text-gray-500 text-sm mt-2\">赞赏码加载失败，请稍后再试</div><p class=\"text-gray-600 text-xs mt-2\">长按识别二维码进行赞赏</p></div></div><div class=\"mt-4 space-y-2\"><div class=\"flex items-center gap-2 text-sm text-gray-600\"><span class=\"text-green-500\">✓</span><span>支持微信支付</span></div><div class=\"flex items-center gap-2 text-sm text-gray-600\"><span class=\"text-green-500\">✓</span><span>金额自由选择</span></div><div class=\"flex items-center gap-2 text-sm text-gray-600\"><span class=\"text-green-500\">✓</span><span>即时到账</span></div></div></div>"
+    },
+    {
+      "classes": "hidden text-gray-500 text-sm mt-2",
+      "text": "赞赏码加载失败，请稍后再试",
+      "innerHTML": "赞赏码加载失败，请稍后再试"
+    },
+    {
+      "classes": "bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden",
+      "text": "☕Ko-fi 支持国际化赞赏平台前往 Ko-fi 支持✓支持信用卡支付✓支持PayPal支付✓国际用户友好",
+      "innerHTML": "<div class=\"h-20 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center\"><span class=\"text-white text-3xl\">☕</span></div><div class=\"p-6\"><div class=\"text-center mb-4\"><h3 class=\"text-xl font-bold text-gray-800 mb-2\">Ko-fi 支持</h3><p class=\"text-gray-600 text-sm\">国际化赞赏平台</p></div><div class=\"text-center\"><a href=\"https://ko-fi.com/naxol\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 inline-block\">前往 Ko-fi 支持</a></div><div class=\"mt-4 space-y-2\"><div class=\"flex items-center gap-2 text-sm text-gray-600\"><span class=\"text-blue-500\">✓</span><span>支持信用卡支付</span></div><div class=\"flex items-center gap-2 text-sm text-gray-600\"><span class=\"text-blue-500\">✓</span><span>支持PayPal支付</span></div><div class=\"flex items-center gap-2 text-sm text-gray-600\"><span class=\"text-blue-500\">✓</span><span>国际用户友好</span></div></div></div>"
+    },
+    {
+      "classes": "absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden",
+      "text": "",
+      "innerHTML": "<div class=\"absolute top-4 left-8 w-12 h-12 bg-gradient-to-br from-orange-300/50 to-orange-500/30 rounded-2xl rotate-12 opacity-80\"></div><div class=\"absolute top-6 right-12 w-8 h-8 bg-gradient-to-br from-green-300/40 to-green-500/25 rounded-full opacity-70\"></div><div class=\"absolute bottom-8 left-16 w-6 h-6 bg-gradient-to-br from-blue-300/50 to-blue-500/30 rounded-lg rotate-45 opacity-60\"></div><div class=\"absolute bottom-4 right-20 w-10 h-10 bg-gradient-to-br from-orange-300/40 to-green-400/25 rounded-xl -rotate-12 opacity-55\"></div>"
+    }
+  ],
+  "leafletData": null,
+  "componentCSS": {
+    "HeroHeader": {
+      "tag": "DIV",
+      "classes": "relative bg-gradient-to-br from-blue-600 via-teal-600 to-cyan-700 text-white p-8 text-center overflow-hidden",
+      "styles": {
+        "background": "rgba(0, 0, 0, 0) linear-gradient(to right bottom, rgb(37, 99, 235), rgb(13, 148, 136), rgb(14, 116, 144)) repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "32px",
+        "margin": "0px",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(229, 231, 235)",
+        "position": "relative",
+        "zIndex": "auto"
+      },
+      "text": "🐒 西游记取经路线图 🏛️跟随唐僧师徒四人的传奇西行之路，体验八十一难的奇幻冒险"
+    },
+    "TabNavigation": {
+      "tag": "DIV",
+      "classes": "flex justify-center gap-4 p-4 bg-amber-50 border-b border-amber-200",
+      "styles": {
+        "background": "rgb(255, 251, 235) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(255, 251, 235)",
+        "padding": "16px",
+        "margin": "0px",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "",
+        "position": "static",
+        "zIndex": "auto"
+      },
+      "text": "地图视图时间轴视图思维导图赞赏支持"
+    },
+    "MapSection": {
+      "tag": "DIV",
+      "classes": "relative h-[750px]",
+      "styles": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(229, 231, 235)",
+        "position": "relative",
+        "zIndex": "auto"
+      },
+      "text": "☁️☁️☁️☁️☁️\n        \n          \n            🏛️\n          \n          \n        \n      \n        \n          \n            🏛️\n          \n          \n            \n              1\n            \n          \n        \n      \n        \n          \n            ⚔️\n          \n          \n            \n              2\n  "
+    },
+    "BottomSection": {
+      "tag": "BUTTON",
+      "classes": "px-3 py-2 text-sm text-white rounded-full font-medium transition-all duration-300 flex items-center gap-1 bg-gray-400 cursor-not-allowed",
+      "styles": {
+        "background": "rgb(156, 163, 175) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(156, 163, 175)",
+        "padding": "8px 12px",
+        "margin": "0px",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgb(255, 255, 255)",
+        "borderRadius": "9999px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(229, 231, 235)",
+        "position": "static",
+        "zIndex": "auto"
+      },
+      "text": "上一难"
+    }
+  }
+}
