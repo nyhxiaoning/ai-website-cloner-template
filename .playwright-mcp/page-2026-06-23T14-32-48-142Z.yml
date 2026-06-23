@@ -1,0 +1,102 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e79]:
+      - generic:
+        - generic: 李白
+      - generic:
+        - generic: 杜甫
+      - generic:
+        - generic: 王维
+      - generic:
+        - generic: 白居易
+      - generic:
+        - generic: 苏轼
+      - generic:
+        - generic: 李清照
+      - generic:
+        - generic: 辛弃疾
+      - generic:
+        - generic: 陶渊明
+      - generic:
+        - generic: 李商隐
+      - generic:
+        - generic: 杜牧
+      - generic:
+        - generic: 柳永
+      - generic:
+        - generic: 王昌龄
+      - generic:
+        - generic: 孟浩然
+      - generic:
+        - generic: 岑参
+      - generic:
+        - generic: 高适
+      - generic:
+        - generic: 寒山
+      - generic:
+        - generic: 张继
+      - generic:
+        - generic: 刘禹锡
+      - generic:
+        - generic: 温庭筠
+      - generic:
+        - generic: 李贺
+    - generic:
+      - generic "诗云 · Poetry Cloud" [ref=e6] [cursor=pointer]: 诗云Poetry Cloud
+      - generic [ref=e7]:
+        - button "五绝" [ref=e8] [cursor=pointer]
+        - button "七绝" [ref=e9] [cursor=pointer]
+        - button "五律" [ref=e10] [cursor=pointer]
+        - button "七律" [ref=e11] [cursor=pointer]
+        - button "自由" [ref=e12] [cursor=pointer]
+      - button "常用字" [ref=e13] [cursor=pointer]
+      - button "格律" [ref=e14] [cursor=pointer]
+      - button "更多" [ref=e15] [cursor=pointer]
+      - button "画质·低" [ref=e16] [cursor=pointer]
+      - generic [ref=e17]: 32,657 诗人 · 933,857 首
+      - button "隐藏界面 · H" [ref=e18] [cursor=pointer]
+    - generic:
+      - generic: WASD 飞行 · 拖拽转向 · 滚轮调速 · 点诗星看其真作 · 点虚空从噪声里捞诗
+      - generic: 速度 ×1.00 · 140 单位/秒
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - button "诗人" [ref=e21] [cursor=pointer]
+        - button "寻诗" [ref=e22] [cursor=pointer]
+        - button "探诗" [ref=e23] [cursor=pointer]
+        - button "朝代" [ref=e24] [cursor=pointer]
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - button "全部" [ref=e28] [cursor=pointer]
+          - button "主要" [ref=e29] [cursor=pointer]
+          - button "唐宋" [ref=e30] [cursor=pointer]
+        - generic [ref=e31]:
+          - button "先秦" [ref=e32] [cursor=pointer]:
+            - generic [ref=e34]: 先秦
+          - button "秦汉" [ref=e35] [cursor=pointer]:
+            - generic [ref=e37]: 秦汉
+          - button "魏晋" [ref=e38] [cursor=pointer]:
+            - generic [ref=e40]: 魏晋
+          - button "南北朝" [ref=e41] [cursor=pointer]:
+            - generic [ref=e43]: 南北朝
+          - button "隋" [ref=e44] [cursor=pointer]:
+            - generic [ref=e46]: 隋
+          - button "唐" [ref=e47] [cursor=pointer]:
+            - generic [ref=e49]: 唐
+          - button "宋" [ref=e50] [cursor=pointer]:
+            - generic [ref=e52]: 宋
+          - button "辽" [ref=e53] [cursor=pointer]:
+            - generic [ref=e55]: 辽
+          - button "金" [ref=e56] [cursor=pointer]:
+            - generic [ref=e58]: 金
+          - button "元" [ref=e59] [cursor=pointer]:
+            - generic [ref=e61]: 元
+          - button "明" [ref=e62] [cursor=pointer]:
+            - generic [ref=e64]: 明
+          - button "清" [ref=e65] [cursor=pointer]:
+            - generic [ref=e67]: 清
+          - button "近现代" [ref=e68] [cursor=pointer]:
+            - generic [ref=e70]: 近现代
+          - button "当代" [ref=e71] [cursor=pointer]:
+            - generic [ref=e73]: 当代
+          - generic [ref=e76]: 五代十国 · 已并入唐
+  - alert [ref=e77]

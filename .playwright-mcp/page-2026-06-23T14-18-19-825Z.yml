@@ -1,0 +1,26 @@
+- generic [ref=e3]:
+  - generic:
+    - generic [ref=e7] [cursor=pointer]: 诗云 Poetry Cloud
+    - generic "点击虚空时捕捉的诗体" [ref=e8]:
+      - button "五绝" [ref=e9] [cursor=pointer]
+      - button "七绝" [ref=e10] [cursor=pointer]
+      - button "五律" [ref=e11] [cursor=pointer]
+      - button "七律" [ref=e12] [cursor=pointer]
+      - button "自由" [ref=e13] [cursor=pointer]
+    - button "常用字" [ref=e14] [cursor=pointer]
+    - button "格律" [ref=e15] [cursor=pointer]
+    - button "更多" [ref=e16] [cursor=pointer]
+    - button "画质·高" [ref=e17] [cursor=pointer]
+    - generic [ref=e18]: 32,657 诗人 · 933,857 首
+    - button "隐藏界面 · H" [ref=e19] [cursor=pointer]
+  - generic:
+    - generic: WASD 飞行 · 拖拽转向 · 滚轮调速 · 点诗星看其真作 · 点虚空从噪声里捞诗
+    - generic: 速度 ×1.00 · 140 单位/秒
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - button "诗人" [ref=e22] [cursor=pointer]
+      - button "寻诗" [ref=e23] [cursor=pointer]
+      - button "探诗" [ref=e24] [cursor=pointer]
+      - button "朝代" [ref=e25] [cursor=pointer]
+      - button "▴" [ref=e26] [cursor=pointer]
+    - textbox "搜索诗人…（回车飞到第一个）" [ref=e27]
