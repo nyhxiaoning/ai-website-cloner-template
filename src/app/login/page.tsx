@@ -3,13 +3,12 @@
 import { useRouter } from 'next/navigation';
 import { LoginPage } from '@/components/LoginPage';
 
-export default function Home() {
+export default function Login() {
   const router = useRouter();
 
   return (
     <LoginPage
       onLogin={async () => {
-        // Simulate login then redirect to dashboard
         await new Promise((r) => setTimeout(r, 1000));
         router.push('/dashboard');
       }}

@@ -7,8 +7,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Microsoft YaHei", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: ui-monospace, monospace;
+  --font-sans: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, monospace;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -48,209 +48,325 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --background: oklch(0.98 0 0);
+  --foreground: oklch(0.2 0 0);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
+  --card-foreground: oklch(0.2 0 0);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --popover-foreground: oklch(0.2 0 0);
+  --primary: 0.546 0.245 262.881;
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.96 0 0);
+  --secondary-foreground: oklch(0.4 0 0);
+  --muted: oklch(0.96 0 0);
+  --muted-foreground: oklch(0.6 0 0);
+  --accent: oklch(0.96 0 0);
+  --accent-foreground: oklch(0.2 0 0);
+  --destructive: oklch(0.637 0.237 25.331);
+  --border: oklch(0.91 0 0);
+  --input: oklch(0.91 0 0);
+  --ring: oklch(0.7 0 0);
+  --chart-1: oklch(0.56 0.2 240);
+  --chart-2: oklch(0.55 0.15 160);
+  --chart-3: oklch(0.5 0.18 280);
+  --chart-4: oklch(0.6 0.2 50);
+  --chart-5: oklch(0.55 0.2 20);
+  --radius: 0.5rem;
+  --sidebar: oklch(0.97 0 0);
+  --sidebar-foreground: oklch(0.2 0 0);
+  --sidebar-primary: oklch(0.546 0.245 262.881);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.93 0 0);
+  --sidebar-accent-foreground: oklch(0.2 0 0);
+  --sidebar-border: oklch(0.9 0 0);
+  --sidebar-ring: oklch(0.7 0 0);
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --background: oklch(0.15 0 0);
+  --foreground: oklch(0.95 0 0);
+  --card: oklch(0.2 0 0);
+  --card-foreground: oklch(0.95 0 0);
+  --popover: oklch(0.2 0 0);
+  --popover-foreground: oklch(0.95 0 0);
+  --primary: oklch(0.6 0.2 262.881);
+  --primary-foreground: oklch(0.15 0 0);
+  --secondary: oklch(0.25 0 0);
+  --secondary-foreground: oklch(0.95 0 0);
+  --muted: oklch(0.25 0 0);
+  --muted-foreground: oklch(0.65 0 0);
+  --accent: oklch(0.25 0 0);
+  --accent-foreground: oklch(0.95 0 0);
+  --destructive: oklch(0.7 0.2 22);
+  --border: oklch(0.3 0 0);
+  --input: oklch(0.3 0 0);
+  --ring: oklch(0.5 0 0);
+  --chart-1: oklch(0.6 0.2 240);
+  --chart-2: oklch(0.6 0.15 160);
+  --chart-3: oklch(0.55 0.18 280);
+  --chart-4: oklch(0.65 0.2 50);
+  --chart-5: oklch(0.6 0.2 20);
+  --sidebar: oklch(0.18 0 0);
+  --sidebar-foreground: oklch(0.95 0 0);
+  --sidebar-primary: oklch(0.6 0.2 262.881);
+  --sidebar-primary-foreground: oklch(0.15 0 0);
+  --sidebar-accent: oklch(0.25 0 0);
+  --sidebar-accent-foreground: oklch(0.95 0 0);
+  --sidebar-border: oklch(0.3 0 0);
+  --sidebar-ring: oklch(0.5 0 0);
 }
 
 /* =============================================
-   Site-specific styles for Journey to the West
+   Fantastic-admin Pro Clone - Design Tokens
    ============================================= */
 
-/* Glass effect */
-.glass-effect {
-  background: inherit;
+:root {
+  --g-header-height: 56px;
+  --g-toolbar-height: 56px;
+  --g-tabbar-height: 42px;
+  --g-sidebar-width: 240px;
+  --g-sidebar-collapsed-width: 64px;
 }
 
-/* Text shadow for hero */
-.text-shadow-lg {
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+.dark {
+  color-scheme: dark;
 }
 
-/* Cloud animations - floating clouds */
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+/* NProgress styles */
+#nprogress {
+  pointer-events: none;
 }
-
-.animate-float {
-  animation: float 6s ease-in-out infinite;
+#nprogress .bar {
+  background: oklch(var(--primary));
+  position: fixed;
+  z-index: 3000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
 }
-
-/* Cloud decorations on map */
-.map-clouds {
+#nprogress .peg {
+  display: block;
   position: absolute;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px oklch(var(--primary)), 0 0 5px oklch(var(--primary));
+  opacity: 1;
+  transform: rotate(3deg) translateY(-4px);
+}
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 2000;
+  top: 11px;
+  right: 14px;
+}
+#nprogress .spinner .spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  border-top-color: oklch(var(--primary));
+  border-left-color: oklch(var(--primary));
+  border-radius: 50%;
+  animation: nprogress-spinner 0.4s linear infinite;
+}
+@keyframes nprogress-spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: oklch(var(--border));
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: oklch(var(--muted-foreground) / 0.5);
+}
+
+/* Loading screen - matches target */
+.fa-loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  background-color: oklch(var(--background));
+  color: oklch(var(--primary));
+}
+
+.fa-loading-container .loading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.fa-loading-container .loading .square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.fa-loading-container .loading .square::before {
+  width: 10px;
+  height: 10px;
+  content: "";
+  border: 3px solid currentColor;
+  border-radius: 15%;
+  animation: fa-square-to-dot 2s linear infinite;
+}
+
+.fa-loading-container .loading .square:nth-child(1)::before { animation-delay: calc(150ms * 1); }
+.fa-loading-container .loading .square:nth-child(2)::before { animation-delay: calc(150ms * 2); }
+.fa-loading-container .loading .square:nth-child(3)::before { animation-delay: calc(150ms * 3); }
+.fa-loading-container .loading .square:nth-child(4)::before { animation-delay: calc(150ms * 4); }
+
+@keyframes fa-square-to-dot {
+  0%, 33.33% {
+    width: 10px;
+    height: 10px;
+    margin: initial;
+    border-width: 3px;
+    border-radius: 15%;
+    transform: rotate(0deg);
+  }
+  50%, 83.33% {
+    width: 0;
+    height: 0;
+    margin: 5px;
+    border-width: 5px;
+    border-radius: 100%;
+    transform: rotate(180deg);
+  }
+  100% {
+    width: 10px;
+    height: 10px;
+    margin: initial;
+    border-width: 3px;
+    border-radius: 15%;
+    transform: rotate(360deg);
+  }
+}
+
+.fa-loading-container .fa-loading-name {
+  position: relative;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.fa-loading-container .fa-loading-tips {
+  position: relative;
+  margin-top: 10px;
+  font-size: 16px;
+  opacity: 0.5;
+  line-height: 1.5;
+}
+
+/* Logout/Login banner background effect */
+.bg-banner {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  pointer-events: none;
-  z-index: 5;
-  overflow: hidden;
+  z-index: 0;
+  background:
+    radial-gradient(closest-side, oklch(var(--border) / 10%) 30%, oklch(var(--primary) / 20%) 30%, oklch(var(--border) / 30%) 50%) no-repeat,
+    radial-gradient(closest-side, oklch(var(--border) / 10%) 30%, oklch(var(--primary) / 20%) 30%, oklch(var(--border) / 30%) 50%) no-repeat;
+  filter: blur(100px);
+  background-position: 100% 100%, 0 0;
+  background-size: 200vw 200vh;
 }
 
-.cloud {
-  position: absolute;
-  font-size: 2rem;
-  opacity: 0.15;
-  animation: cloudDrift linear infinite;
+/* UnoCSS-style utility classes used by Fantastic-admin */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-center-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flex-col-stretch-center {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+.op-50 { opacity: 0.5; }
+.op-60 { opacity: 0.6; }
+.op-70 { opacity: 0.7; }
+.op-80 { opacity: 0.8; }
+
+/* Size utilities */
+.size-full { width: 100%; height: 100%; }
+.size-4 { width: 1rem; height: 1rem; }
+.size-5 { width: 1.25rem; height: 1.25rem; }
+.size-6 { width: 1.5rem; height: 1.5rem; }
+
+/* Transition utilities */
+.transition-background-color {
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
-.cloud-1 {
-  top: 5%;
-  left: -5%;
-  animation-duration: 20s;
-  font-size: 2.5rem;
+/* Hover utilities */
+.hover-bg-accent:hover {
+  background-color: oklch(var(--accent));
+}
+.hover-bg-secondary:hover {
+  background-color: oklch(var(--secondary));
 }
 
-.cloud-2 {
-  top: 15%;
-  left: -5%;
-  animation-duration: 25s;
-  animation-delay: -5s;
-  font-size: 1.8rem;
+/* Text utilities */
+.text-secondary-foreground {
+  color: oklch(var(--secondary-foreground));
 }
 
-.cloud-3 {
-  top: 60%;
-  left: -5%;
-  animation-duration: 22s;
-  animation-delay: -10s;
-  font-size: 2.2rem;
-}
-
-.cloud-4 {
-  top: 70%;
-  left: -5%;
-  animation-duration: 28s;
-  animation-delay: -15s;
-  font-size: 1.5rem;
-}
-
-.cloud-5 {
-  top: 30%;
-  left: -5%;
-  animation-duration: 18s;
-  animation-delay: -3s;
-  font-size: 2rem;
-}
-
-@keyframes cloudDrift {
-  from { transform: translateX(0); }
-  to { transform: translateX(110vw); }
-}
-
-/* Map marker bounce animation */
-.marker-bounce {
-  transition: all 0.3s ease;
-}
-
-@keyframes markerBounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
-}
-
-/* Custom marker styling */
-.custom-marker {
-  background: transparent;
-  border: none;
-}
-
-/* Route animation on map */
-.route-animation {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  animation: drawRoute 8s ease-in-out forwards;
-}
-
-@keyframes drawRoute {
-  to { stroke-dashoffset: 0; }
-}
-
-/* River flow animation */
-.river-flow {
-  stroke-dasharray: 10 15;
-  animation: flow 3s linear infinite;
-}
-
-@keyframes flow {
-  to { stroke-dashoffset: -50; }
-}
-
-/* Leaflet overrides for map */
-.leaflet-container {
-  font-family: "Microsoft YaHei", sans-serif !important;
-}
-
-.leaflet-control-zoom {
-  display: none !important;
-}
-
-.leaflet-control-attribution {
-  font-size: 9px !important;
+/* Layout variables */
+:root {
+  --g-header-height: 56px;
+  --g-toolbar-bg: oklch(var(--background));
+  --g-toolbar-height: 56px;
+  --g-tabbar-height: 42px;
+  --g-sidebar-width: 240px;
+  --g-sidebar-collapsed-width: 64px;
+  --g-slots-layout-top-height: 0px;
 }
 
 @layer base {

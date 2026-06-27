@@ -1,39 +1,40 @@
-// TypeScript interfaces for the Journey to the West clone
-export interface Tribulation {
-  id: number;
-  emoji: string;
+export interface LoginFormData {
+  account: string;
+  password: string;
+  remember: boolean;
+}
+
+export interface UserInfo {
+  id: string;
   name: string;
-  description: string;
-  lat: number;
-  lng: number;
-  gradient: string;
+  avatar: string;
+  role: string;
 }
 
-export interface RouteOverview {
-  startPoint: string;
-  endPoint: string;
-  totalDistance: string;
-  totalStations: number;
-  achievement: string;
-}
-
-export interface CharacterInfo {
-  name: string;
-  emoji: string;
-  description: string;
-  svg: string;
-  gradient: string;
-}
-
-export interface CulturalSignificance {
-  title: string;
-  items: CulturalItem[];
-}
-
-export interface CulturalItem {
+export interface MenuItem {
+  id: string;
+  label: string;
   icon: string;
-  title: string;
-  description: string;
+  path: string;
+  children?: MenuItem[];
+  badge?: string;
 }
 
-export type TabView = 'map' | 'timeline' | 'mindmap' | 'support';
+export interface DashboardStats {
+  title: string;
+  value: string;
+  unit?: string;
+  trend?: 'up' | 'down';
+  trendValue?: string;
+  icon?: string;
+  color?: string;
+}
+
+export interface TableColumn {
+  key: string;
+  label: string;
+  width?: number;
+  sortable?: boolean;
+  type?: 'text' | 'tag' | 'avatar' | 'action';
+  align?: 'left' | 'center' | 'right';
+}

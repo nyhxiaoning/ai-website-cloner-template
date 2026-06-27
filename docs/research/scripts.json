@@ -1,0 +1,27 @@
+[
+  {
+    "src": "https://hm.baidu.com/hm.js?c458e5e4952cbc8ff4d06838d3df3e78",
+    "type": "",
+    "text": ""
+  },
+  {
+    "src": "https://fantastic-admin.hurui.me/pro-example/assets/polyfills-A9GB0He2.js",
+    "type": "module",
+    "text": ""
+  },
+  {
+    "src": "https://fantastic-admin.hurui.me/pro-example/assets/index-ffzmp8YI.js",
+    "type": "module",
+    "text": ""
+  },
+  {
+    "src": "",
+    "type": "",
+    "text": "\n      if (!!window.ActiveXObject || 'ActiveXObject' in window) {\n        document.getElementById('browser-upgrade').style.display = 'block'\n      }\n    "
+  },
+  {
+    "src": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447",
+    "type": "",
+    "text": ""
+  }
+]
