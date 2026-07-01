@@ -1,0 +1,1123 @@
+- generic [active] [ref=f7e1]:
+  - main [ref=f7e2]:
+    - generic [ref=f7e8]:
+      - img [ref=f7e10]
+      - paragraph [ref=f7e14]: ΦΙΛΟΣΟΦΙΑ
+      - heading "西方哲学发展脉络交互图谱" [level=1] [ref=f7e15]
+      - paragraph [ref=f7e16]: 西方哲学思想沿革史卷
+      - paragraph [ref=f7e17]: 本图谱真实精确地还原了六大黄金断代时期的哲学主干网络。 采用古希腊经典神庙美学设计，通过向下流动模拟历史纪元的演进， 在 Alabaster 细砂大理石廊底与 Aegean 爱琴海深蓝间优雅流转。
+      - paragraph [ref=f7e18]:
+        - generic [ref=f7e19]: 💡 双击任何人物卡片，可以直接进入该圣哲的精细生平行卷
+    - generic [ref=f7e20]:
+      - generic:
+        - img
+      - img [ref=f7e22]
+      - img [ref=f7e29]
+      - generic [ref=f7e35]:
+        - generic [ref=f7e36]:
+          - img [ref=f7e37]
+          - heading "传承图谱流层 · 史学罗盘" [level=2] [ref=f7e41]
+          - img [ref=f7e42]
+        - paragraph [ref=f7e46]: 滑动页面即时光穿梭 · 双击卡片开启详细生平
+      - generic [ref=f7e48]:
+        - generic [ref=f7e49]:
+          - img [ref=f7e50]
+          - generic [ref=f7e56]: 谱系学等阶筛选 (Academic Pedigree Selector)
+        - generic [ref=f7e57]:
+          - generic [ref=f7e58]: "快速预设:"
+          - button "显示全部" [ref=f7e59] [cursor=pointer]
+          - button "仅看特级/一级" [ref=f7e60] [cursor=pointer]
+        - generic [ref=f7e61]:
+          - button "★★★★★ 巨擘宗师" [ref=f7e62] [cursor=pointer]
+          - button "★★★★☆ 传世先驱" [ref=f7e63] [cursor=pointer]
+          - button "★★★☆☆ 核心贤哲" [ref=f7e64] [cursor=pointer]
+          - button "★★☆☆☆ 沿袭学者" [ref=f7e65] [cursor=pointer]
+          - button "★☆☆☆☆ 界外探索者" [ref=f7e66] [cursor=pointer]
+      - generic [ref=f7e67]:
+        - generic:
+          - img
+        - generic [ref=f7e68]:
+          - generic [ref=f7e69]:
+            - generic [ref=f7e70]:
+              - generic [ref=f7e71]:
+                - img [ref=f7e72]
+                - heading "传承图谱流层 · 史学罗盘" [level=2] [ref=f7e76]
+              - generic [ref=f7e77]: 滑动页面即时光穿梭 · 双击卡片开启详细生平
+            - generic [ref=f7e78]:
+              - generic [ref=f7e79]:
+                - generic [ref=f7e81]: 古希腊罗马
+                - generic [ref=f7e82]: 中世纪与经
+                - generic [ref=f7e83]: 文艺复兴与
+                - generic [ref=f7e84]: 法兰西启蒙
+                - generic [ref=f7e85]: 德意志古典
+                - generic [ref=f7e86]: 过渡时期与
+                - generic [ref=f7e87]: 现代派、英
+              - generic [ref=f7e88]:
+                - generic [ref=f7e90]:
+                  - generic:
+                    - generic: BC 6世纪
+                  - generic:
+                    - generic: BC 5世纪
+                  - generic:
+                    - generic: BC 4世纪
+                  - generic:
+                    - generic: BC 3~2世纪
+                  - generic:
+                    - generic: BC 1世纪
+                  - generic:
+                    - generic: AD 1世纪
+                  - generic:
+                    - generic: AD 2世纪
+                  - generic:
+                    - generic: AD 3世纪
+                  - generic:
+                    - generic: AD 4世纪
+                  - button "泰勒斯 (Thales)" [ref=f7e91] [cursor=pointer]:
+                    - generic [ref=f7e92]:
+                      - generic [ref=f7e93]: 米利都学派
+                      - heading "泰勒斯" [level=3] [ref=f7e94]
+                      - generic [ref=f7e95]: Thales
+                  - button "阿那克西曼德 (Anaximander)" [ref=f7e96] [cursor=pointer]:
+                    - generic [ref=f7e97]:
+                      - generic [ref=f7e98]: 米利都学派
+                      - heading "阿那克西曼德" [level=3] [ref=f7e99]
+                      - generic [ref=f7e100]: Anaximander
+                  - button "阿那克西美尼 (Anaximenes)" [ref=f7e101] [cursor=pointer]:
+                    - generic [ref=f7e102]:
+                      - generic [ref=f7e103]: 米利都学派
+                      - heading "阿那克西美尼" [level=3] [ref=f7e104]
+                      - generic [ref=f7e105]: Anaximenes
+                  - button "克塞诺芬尼 (Xenophanes)" [ref=f7e106] [cursor=pointer]:
+                    - generic [ref=f7e107]:
+                      - generic [ref=f7e108]: 爱利亚学派
+                      - heading "克塞诺芬尼" [level=3] [ref=f7e109]
+                      - generic [ref=f7e110]: Xenophanes
+                  - button "毕达哥拉斯 (Pythagoras)" [ref=f7e111] [cursor=pointer]:
+                    - generic [ref=f7e112]:
+                      - generic [ref=f7e113]: 毕达哥拉斯学派
+                      - heading "毕达哥拉斯" [level=3] [ref=f7e114]
+                      - generic [ref=f7e115]: Pythagoras
+                  - button "巴门尼德 (Parmenides)" [ref=f7e116] [cursor=pointer]:
+                    - generic [ref=f7e117]:
+                      - generic [ref=f7e118]: 爱利亚学派
+                      - heading "巴门尼德" [level=3] [ref=f7e119]
+                      - generic [ref=f7e120]: Parmenides
+                  - button "赫拉克利特 (Heraclitus)" [ref=f7e121] [cursor=pointer]:
+                    - generic [ref=f7e122]:
+                      - generic [ref=f7e123]: 爱奥尼亚学派
+                      - heading "赫拉克利特" [level=3] [ref=f7e124]
+                      - generic [ref=f7e125]: Heraclitus
+                  - button "克拉底鲁 (Kratylos)" [ref=f7e126] [cursor=pointer]:
+                    - generic [ref=f7e127]:
+                      - generic [ref=f7e128]: 辩证/怀疑倾向
+                      - heading "克拉底鲁" [level=3] [ref=f7e129]
+                      - generic [ref=f7e130]: Kratylos
+                  - button "芝诺 (Zenon)" [ref=f7e131] [cursor=pointer]:
+                    - generic [ref=f7e132]:
+                      - generic [ref=f7e133]: 爱利亚学派
+                      - heading "芝诺" [level=3] [ref=f7e134]
+                      - generic [ref=f7e135]: Zenon
+                  - button "麦里梭 (Melissus)" [ref=f7e136] [cursor=pointer]:
+                    - generic [ref=f7e137]:
+                      - generic [ref=f7e138]: 爱利亚学派
+                      - heading "麦里梭" [level=3] [ref=f7e139]
+                      - generic [ref=f7e140]: Melissus
+                  - button "恩培多克勒 (Empedocles)" [ref=f7e141] [cursor=pointer]:
+                    - generic [ref=f7e142]:
+                      - generic [ref=f7e143]: 多元论学派
+                      - heading "恩培多克勒" [level=3] [ref=f7e144]
+                      - generic [ref=f7e145]: Empedocles
+                  - button "阿那克萨戈拉 (Anaxagoras)" [ref=f7e146] [cursor=pointer]:
+                    - generic [ref=f7e147]:
+                      - generic [ref=f7e148]: 多元论学派
+                      - heading "阿那克萨戈拉" [level=3] [ref=f7e149]
+                      - generic [ref=f7e150]: Anaxagoras
+                  - button "德谟克利特 (Democritus)" [ref=f7e151] [cursor=pointer]:
+                    - generic [ref=f7e152]:
+                      - generic [ref=f7e153]: 原子论学派
+                      - heading "德谟克利特" [level=3] [ref=f7e154]
+                      - generic [ref=f7e155]: Democritus
+                  - button "普罗泰戈拉 (Protagoras)" [ref=f7e156] [cursor=pointer]:
+                    - generic [ref=f7e157]:
+                      - generic [ref=f7e158]: 智者学派
+                      - heading "普罗泰戈拉" [level=3] [ref=f7e159]
+                      - generic [ref=f7e160]: Protagoras
+                  - button "高尔吉亚 (Gorgias)" [ref=f7e161] [cursor=pointer]:
+                    - generic [ref=f7e162]:
+                      - generic [ref=f7e163]: 智者学派
+                      - heading "高尔吉亚" [level=3] [ref=f7e164]
+                      - generic [ref=f7e165]: Gorgias
+                  - button "苏格拉底 (Socrates)" [ref=f7e166] [cursor=pointer]:
+                    - generic [ref=f7e167]:
+                      - generic [ref=f7e168]: 雅典学派
+                      - heading "苏格拉底" [level=3] [ref=f7e169]
+                      - generic [ref=f7e170]: Socrates
+                  - button "欧几里得 (Euclides)" [ref=f7e171] [cursor=pointer]:
+                    - generic [ref=f7e172]:
+                      - generic [ref=f7e173]: 麦加拉学派
+                      - heading "欧几里得" [level=3] [ref=f7e174]
+                      - generic [ref=f7e175]: Euclides
+                  - button "安提斯泰尼 (Antisthenes)" [ref=f7e176] [cursor=pointer]:
+                    - generic [ref=f7e177]:
+                      - generic [ref=f7e178]: 犬儒学派
+                      - heading "安提斯泰尼" [level=3] [ref=f7e179]
+                      - generic [ref=f7e180]: Antisthenes
+                  - button "第欧根尼 (Diogenes)" [ref=f7e181] [cursor=pointer]:
+                    - generic [ref=f7e182]:
+                      - generic [ref=f7e183]: 犬儒学派
+                      - heading "第欧根尼" [level=3] [ref=f7e184]
+                      - generic [ref=f7e185]: Diogenes
+                  - button "亚里斯提卜 (Aristippus)" [ref=f7e186] [cursor=pointer]:
+                    - generic [ref=f7e187]:
+                      - generic [ref=f7e188]: 昔兰尼学派
+                      - heading "亚里斯提卜" [level=3] [ref=f7e189]
+                      - generic [ref=f7e190]: Aristippus
+                  - button "柏拉图 (Plato)" [ref=f7e191] [cursor=pointer]:
+                    - generic [ref=f7e192]:
+                      - generic [ref=f7e193]: 雅典学派
+                      - heading "柏拉图" [level=3] [ref=f7e194]
+                      - generic [ref=f7e195]: Plato
+                  - button "亚里士多德 (Aristotle)" [ref=f7e196] [cursor=pointer]:
+                    - generic [ref=f7e197]:
+                      - generic [ref=f7e198]: 雅典学派
+                      - heading "亚里士多德" [level=3] [ref=f7e199]
+                      - generic [ref=f7e200]: Aristotle
+                  - button "皮浪 (Pyrrhon)" [ref=f7e201] [cursor=pointer]:
+                    - generic [ref=f7e202]:
+                      - generic [ref=f7e203]: 怀疑主义
+                      - heading "皮浪" [level=3] [ref=f7e204]
+                      - generic [ref=f7e205]: Pyrrhon
+                  - button "伊壁鸠鲁 (Epicurus)" [ref=f7e206] [cursor=pointer]:
+                    - generic [ref=f7e207]:
+                      - generic [ref=f7e208]: 伊壁鸠鲁学派
+                      - heading "伊壁鸠鲁" [level=3] [ref=f7e209]
+                      - generic [ref=f7e210]: Epicurus
+                  - button "芝诺 (Zeno)" [ref=f7e211] [cursor=pointer]:
+                    - generic [ref=f7e212]:
+                      - generic [ref=f7e213]: 斯多葛学派
+                      - heading "芝诺" [level=3] [ref=f7e214]
+                      - generic [ref=f7e215]: Zeno
+                  - button "克利安提斯 (Cleanthes)" [ref=f7e216] [cursor=pointer]:
+                    - generic [ref=f7e217]:
+                      - generic [ref=f7e218]: 斯多葛学派
+                      - heading "克利安提斯" [level=3] [ref=f7e219]
+                      - generic [ref=f7e220]: Cleanthes
+                  - button "克里西普 (Chrysippus)" [ref=f7e221] [cursor=pointer]:
+                    - generic [ref=f7e222]:
+                      - generic [ref=f7e223]: 斯多葛学派
+                      - heading "克里西普" [level=3] [ref=f7e224]
+                      - generic [ref=f7e225]: Chrysippus
+                  - button "西塞罗 (Cicero)" [ref=f7e226] [cursor=pointer]:
+                    - generic [ref=f7e227]:
+                      - generic [ref=f7e228]: 折中主义/罗马哲理
+                      - heading "西塞罗" [level=3] [ref=f7e229]
+                      - generic [ref=f7e230]: Cicero
+                  - button "塞涅卡 (Seneca)" [ref=f7e231] [cursor=pointer]:
+                    - generic [ref=f7e232]:
+                      - generic [ref=f7e233]: 罗马斯多葛学派
+                      - heading "塞涅卡" [level=3] [ref=f7e234]
+                      - generic [ref=f7e235]: Seneca
+                  - button "爱比克泰德 (Epictetus)" [ref=f7e236] [cursor=pointer]:
+                    - generic [ref=f7e237]:
+                      - generic [ref=f7e238]: 罗马斯多葛学派
+                      - heading "爱比克泰德" [level=3] [ref=f7e239]
+                      - generic [ref=f7e240]: Epictetus
+                  - button "马克·奥勒留 (Marcus Aurelius)" [ref=f7e241] [cursor=pointer]:
+                    - generic [ref=f7e242]:
+                      - generic [ref=f7e243]: 罗马斯多葛学派
+                      - heading "马克·奥勒留" [level=3] [ref=f7e244]
+                      - generic [ref=f7e245]: Marcus Aurelius
+                  - button "斐洛 (Philo)" [ref=f7e246] [cursor=pointer]:
+                    - generic [ref=f7e247]:
+                      - generic [ref=f7e248]: 犹太柏拉图主义
+                      - heading "斐洛" [level=3] [ref=f7e249]
+                      - generic [ref=f7e250]: Philo
+                  - button "普罗提诺 (Plotinus)" [ref=f7e251] [cursor=pointer]:
+                    - generic [ref=f7e252]:
+                      - generic [ref=f7e253]: 新柏拉图主义
+                      - heading "普罗提诺" [level=3] [ref=f7e254]
+                      - generic [ref=f7e255]: Plotinus
+                  - button "波菲利 (Porphyrios)" [ref=f7e256] [cursor=pointer]:
+                    - generic [ref=f7e257]:
+                      - generic [ref=f7e258]: 新柏拉图主义
+                      - heading "波菲利" [level=3] [ref=f7e259]
+                      - generic [ref=f7e260]: Porphyrios
+                  - button "奥古斯丁 (Augustine)" [ref=f7e261] [cursor=pointer]:
+                    - generic [ref=f7e262]:
+                      - generic [ref=f7e263]: 教父哲学
+                      - heading "奥古斯丁" [level=3] [ref=f7e264]
+                      - generic [ref=f7e265]: Augustine
+                - generic [ref=f7e266]:
+                  - generic:
+                    - generic: 4~5世纪
+                  - generic:
+                    - generic: 6~8世纪
+                  - generic:
+                    - generic: 9世纪
+                  - generic:
+                    - generic: 10~11世纪
+                  - generic:
+                    - generic: 12世纪
+                  - generic:
+                    - generic: 13世纪
+                  - generic:
+                    - generic: 14世纪
+                  - button "波爱修斯 (Boethius)" [ref=f7e268] [cursor=pointer]:
+                    - generic [ref=f7e269]:
+                      - generic [ref=f7e270]: 中世纪过渡
+                      - heading "波爱修斯" [level=3] [ref=f7e271]
+                      - generic [ref=f7e272]: Boethius
+                  - button "爱留根纳 (Eriugena)" [ref=f7e273] [cursor=pointer]:
+                    - generic [ref=f7e274]:
+                      - generic [ref=f7e275]: 经院哲学早期
+                      - heading "爱留根纳" [level=3] [ref=f7e276]
+                      - generic [ref=f7e277]: Eriugena
+                  - button "安瑟尔谟 (Anselmus)" [ref=f7e278] [cursor=pointer]:
+                    - generic [ref=f7e279]:
+                      - generic [ref=f7e280]: 经院派（实在论）
+                      - heading "安瑟尔谟" [level=3] [ref=f7e281]
+                      - generic [ref=f7e282]: Anselmus
+                  - button "图尔的贝伦伽尔 (Berengar)" [ref=f7e283] [cursor=pointer]:
+                    - generic [ref=f7e284]:
+                      - generic [ref=f7e285]: 唯名倾向
+                      - heading "图尔的贝伦伽尔" [level=3] [ref=f7e286]
+                      - generic [ref=f7e287]: Berengar
+                  - button "洛色林 (Roscelinus)" [ref=f7e288] [cursor=pointer]:
+                    - generic [ref=f7e289]:
+                      - generic [ref=f7e290]: 早期唯名论
+                      - heading "洛色林" [level=3] [ref=f7e291]
+                      - generic [ref=f7e292]: Roscelinus
+                  - button "阿伯拉尔 (Abailardus)" [ref=f7e293] [cursor=pointer]:
+                    - generic [ref=f7e294]:
+                      - generic [ref=f7e295]: 概念论
+                      - heading "阿伯拉尔" [level=3] [ref=f7e296]
+                      - generic [ref=f7e297]: Abailardus
+                  - button "阿威罗伊 (Averroe)" [ref=f7e298] [cursor=pointer]:
+                    - generic [ref=f7e299]:
+                      - generic [ref=f7e300]: 阿拉伯哲学
+                      - heading "阿威罗伊" [level=3] [ref=f7e301]
+                      - generic [ref=f7e302]: Averroe
+                  - button "大阿尔伯特 (Albertus Magnus)" [ref=f7e303] [cursor=pointer]:
+                    - generic [ref=f7e304]:
+                      - generic [ref=f7e305]: 阿尔伯特-阿奎那派
+                      - heading "大阿尔伯特" [level=3] [ref=f7e306]
+                      - generic [ref=f7e307]: Albertus Magnus
+                  - button "托马斯·阿奎那 (Thomas Aquinas)" [ref=f7e308] [cursor=pointer]:
+                    - generic [ref=f7e309]:
+                      - generic [ref=f7e310]: 圣托马斯学派
+                      - heading "托马斯·阿奎那" [level=3] [ref=f7e311]
+                      - generic [ref=f7e312]: Thomas Aquinas
+                  - button "罗吉尔·培根 (Roger Bacon)" [ref=f7e313] [cursor=pointer]:
+                    - generic [ref=f7e314]:
+                      - generic [ref=f7e315]: 经验学派（近科学）
+                      - heading "罗吉尔·培根" [level=3] [ref=f7e316]
+                      - generic [ref=f7e317]: Roger Bacon
+                  - button "约翰·邓斯·司各脱 (Duns Scotus)" [ref=f7e318] [cursor=pointer]:
+                    - generic [ref=f7e319]:
+                      - generic [ref=f7e320]: 意志倾斜派
+                      - heading "约翰·邓斯·司各脱" [level=3] [ref=f7e321]
+                      - generic [ref=f7e322]: Duns Scotus
+                  - button "奥卡姆的威廉 (William of Ockham)" [ref=f7e323] [cursor=pointer]:
+                    - generic [ref=f7e324]:
+                      - generic [ref=f7e325]: 唯名论学派
+                      - heading "奥卡姆的威廉" [level=3] [ref=f7e326]
+                      - generic [ref=f7e327]: William of Ockham
+                - generic [ref=f7e328]:
+                  - generic:
+                    - generic: 15世纪
+                  - generic:
+                    - generic: 16世纪
+                  - generic:
+                    - generic: 17世纪前期
+                  - generic:
+                    - generic: 17世纪中期
+                  - generic:
+                    - generic: 17世纪后期
+                  - generic:
+                    - generic: 18世纪初
+                  - button "彼特拉克 (Petrarca)" [ref=f7e330] [cursor=pointer]:
+                    - generic [ref=f7e331]:
+                      - generic [ref=f7e332]: 人文主义
+                      - heading "彼特拉克" [level=3] [ref=f7e333]
+                      - generic [ref=f7e334]: Petrarca
+                  - button "费奇诺 (Marsilio Ficino)" [ref=f7e335] [cursor=pointer]:
+                    - generic [ref=f7e336]:
+                      - generic [ref=f7e337]: 美第奇学派
+                      - heading "费奇诺" [level=3] [ref=f7e338]
+                      - generic [ref=f7e339]: Marsilio Ficino
+                  - button "皮科 (Giovanni Pico)" [ref=f7e340] [cursor=pointer]:
+                    - generic [ref=f7e341]:
+                      - generic [ref=f7e342]: 人文主义
+                      - heading "皮科" [level=3] [ref=f7e343]
+                      - generic [ref=f7e344]: Giovanni Pico
+                  - button "库萨的尼古拉 (Cusanus)" [ref=f7e345] [cursor=pointer]:
+                    - generic [ref=f7e346]:
+                      - generic [ref=f7e347]: 科学/哲理过渡
+                      - heading "库萨的尼古拉" [level=3] [ref=f7e348]
+                      - generic [ref=f7e349]: Cusanus
+                  - button "蒙田 (Montaigne)" [ref=f7e350] [cursor=pointer]:
+                    - generic [ref=f7e351]:
+                      - generic [ref=f7e352]: 怀疑主义
+                      - heading "蒙田" [level=3] [ref=f7e353]
+                      - generic [ref=f7e354]: Montaigne
+                  - button "托马斯·莫尔 (Thomas More)" [ref=f7e355] [cursor=pointer]:
+                    - generic [ref=f7e356]:
+                      - generic [ref=f7e357]: 空想社会主义
+                      - heading "托马斯·莫尔" [level=3] [ref=f7e358]
+                      - generic [ref=f7e359]: Thomas More
+                  - button "马丁·路德 (Martin Luther)" [ref=f7e360] [cursor=pointer]:
+                    - generic [ref=f7e361]:
+                      - generic [ref=f7e362]: 宗教改革
+                      - heading "马丁·路德" [level=3] [ref=f7e363]
+                      - generic [ref=f7e364]: Martin Luther
+                  - button "加尔文 (Calvin)" [ref=f7e365] [cursor=pointer]:
+                    - generic [ref=f7e366]:
+                      - generic [ref=f7e367]: 宗教改革
+                      - heading "加尔文" [level=3] [ref=f7e368]
+                      - generic [ref=f7e369]: Calvin
+                  - button "弗兰西斯·培根 (Francis Bacon)" [ref=f7e370] [cursor=pointer]:
+                    - generic [ref=f7e371]:
+                      - generic [ref=f7e372]: 经验主义
+                      - heading "弗兰西斯·培根" [level=3] [ref=f7e373]
+                      - generic [ref=f7e374]: Francis Bacon
+                  - button "雪堡的爱德华 (Herbert of Cherbury)" [ref=f7e375] [cursor=pointer]:
+                    - generic [ref=f7e376]:
+                      - generic [ref=f7e377]: 自然神论
+                      - heading "雪堡的爱德华" [level=3] [ref=f7e378]
+                      - generic [ref=f7e379]: Herbert of Cherbury
+                  - button "霍布斯 (Hobbes)" [ref=f7e380] [cursor=pointer]:
+                    - generic [ref=f7e381]:
+                      - generic [ref=f7e382]: 近代唯物主义
+                      - heading "霍布斯" [level=3] [ref=f7e383]
+                      - generic [ref=f7e384]: Hobbes
+                  - button "笛卡尔 (Descartes)" [ref=f7e385] [cursor=pointer]:
+                    - generic [ref=f7e386]:
+                      - generic [ref=f7e387]: 理性主义
+                      - heading "笛卡尔" [level=3] [ref=f7e388]
+                      - generic [ref=f7e389]: Descartes
+                  - button "伽桑狄 (Pierre Gassendi)" [ref=f7e390] [cursor=pointer]:
+                    - generic [ref=f7e391]:
+                      - generic [ref=f7e392]: 科学史辩证
+                      - heading "伽桑狄" [level=3] [ref=f7e393]
+                      - generic [ref=f7e394]: Pierre Gassendi
+                  - button "洛克 (Locke)" [ref=f7e395] [cursor=pointer]:
+                    - generic [ref=f7e396]:
+                      - generic [ref=f7e397]: 经验主义
+                      - heading "洛克" [level=3] [ref=f7e398]
+                      - generic [ref=f7e399]: Locke
+                  - button "斯宾诺莎 (Spinoza)" [ref=f7e400] [cursor=pointer]:
+                    - generic [ref=f7e401]:
+                      - generic [ref=f7e402]: 理性主义
+                      - heading "斯宾诺莎" [level=3] [ref=f7e403]
+                      - generic [ref=f7e404]: Spinoza
+                  - button "马勒伯朗士 (Malebranche)" [ref=f7e405] [cursor=pointer]:
+                    - generic [ref=f7e406]:
+                      - generic [ref=f7e407]: 理性主义
+                      - heading "马勒伯朗士" [level=3] [ref=f7e408]
+                      - generic [ref=f7e409]: Malebranche
+                  - button "贝克莱 (Berkeler)" [ref=f7e410] [cursor=pointer]:
+                    - generic [ref=f7e411]:
+                      - generic [ref=f7e412]: 经验/主观唯心
+                      - heading "贝克莱" [level=3] [ref=f7e413]
+                      - generic [ref=f7e414]: Berkeler
+                  - button "马修·廷德尔 (Matthew Tindal)" [ref=f7e415] [cursor=pointer]:
+                    - generic [ref=f7e416]:
+                      - generic [ref=f7e417]: 自然神论
+                      - heading "马修·廷德尔" [level=3] [ref=f7e418]
+                      - generic [ref=f7e419]: Matthew Tindal
+                  - button "莱布尼茨 (Leibniz)" [ref=f7e420] [cursor=pointer]:
+                    - generic [ref=f7e421]:
+                      - generic [ref=f7e422]: 理性主义
+                      - heading "莱布尼茨" [level=3] [ref=f7e423]
+                      - generic [ref=f7e424]: Leibniz
+                  - button "休谟 (Hume)" [ref=f7e425] [cursor=pointer]:
+                    - generic [ref=f7e426]:
+                      - generic [ref=f7e427]: 先驱/怀疑主义
+                      - heading "休谟" [level=3] [ref=f7e428]
+                      - generic [ref=f7e429]: Hume
+                  - button "沃尔夫 (Wolff)" [ref=f7e430] [cursor=pointer]:
+                    - generic [ref=f7e431]:
+                      - generic [ref=f7e432]: 独断形而上学
+                      - heading "沃尔夫" [level=3] [ref=f7e433]
+                      - generic [ref=f7e434]: Wolff
+                - generic [ref=f7e435]:
+                  - generic:
+                    - generic: 18世纪初期
+                  - generic:
+                    - generic: 18世纪中叶
+                  - generic:
+                    - generic: 18世纪中后期
+                  - generic:
+                    - generic: 18世纪末期
+                  - button "伏尔泰 (Voltaire)" [ref=f7e437] [cursor=pointer]:
+                    - generic [ref=f7e438]:
+                      - generic [ref=f7e439]: 自然神论
+                      - heading "伏尔泰" [level=3] [ref=f7e440]
+                      - generic [ref=f7e441]: Voltaire
+                  - button "孟德斯鸠 (Montesquieu)" [ref=f7e442] [cursor=pointer]:
+                    - generic [ref=f7e443]:
+                      - generic [ref=f7e444]: 温和启蒙学
+                      - heading "孟德斯鸠" [level=3] [ref=f7e445]
+                      - generic [ref=f7e446]: Montesquieu
+                  - button "卢梭 (Rousseau)" [ref=f7e447] [cursor=pointer]:
+                    - generic [ref=f7e448]:
+                      - generic [ref=f7e449]: 激进启蒙学
+                      - heading "卢梭" [level=3] [ref=f7e450]
+                      - generic [ref=f7e451]: Rousseau
+                  - button "狄德罗 (Diderot)" [ref=f7e452] [cursor=pointer]:
+                    - generic [ref=f7e453]:
+                      - generic [ref=f7e454]: 百科全书派
+                      - heading "狄德罗" [level=3] [ref=f7e455]
+                      - generic [ref=f7e456]: Diderot
+                  - button "拉美特利 (la Mettrie)" [ref=f7e457] [cursor=pointer]:
+                    - generic [ref=f7e458]:
+                      - generic [ref=f7e459]: 战斗唯物主义
+                      - heading "拉美特利" [level=3] [ref=f7e460]
+                      - generic [ref=f7e461]: la Mettrie
+                  - button "爱尔维修 (Helvetius)" [ref=f7e462] [cursor=pointer]:
+                    - generic [ref=f7e463]:
+                      - generic [ref=f7e464]: 功利唯物派
+                      - heading "爱尔维修" [level=3] [ref=f7e465]
+                      - generic [ref=f7e466]: Helvetius
+                  - button "霍尔巴赫 (Holbach)" [ref=f7e467] [cursor=pointer]:
+                    - generic [ref=f7e468]:
+                      - generic [ref=f7e469]: 战斗唯物机械系统
+                      - heading "霍尔巴赫" [level=3] [ref=f7e470]
+                      - generic [ref=f7e471]: Holbach
+                - generic [ref=f7e472]:
+                  - generic:
+                    - generic: 1780 康德革命
+                  - generic:
+                    - generic: 1800 三大主峰
+                  - generic:
+                    - generic: 1820 经世体系
+                  - generic:
+                    - generic: 1840 众声喧哗
+                  - button "康德 (Kant)" [ref=f7e474] [cursor=pointer]:
+                    - generic [ref=f7e475]:
+                      - generic [ref=f7e476]: 古典批判哲学
+                      - heading "康德" [level=3] [ref=f7e477]
+                      - generic [ref=f7e478]: Kant
+                  - button "费希特 (Fichte)" [ref=f7e479] [cursor=pointer]:
+                    - generic [ref=f7e480]:
+                      - generic [ref=f7e481]: 主观唯心主义
+                      - heading "费希特" [level=3] [ref=f7e482]
+                      - generic [ref=f7e483]: Fichte
+                  - button "谢林 (Schelling)" [ref=f7e484] [cursor=pointer]:
+                    - generic [ref=f7e485]:
+                      - generic [ref=f7e486]: 客观/同一唯心
+                      - heading "谢林" [level=3] [ref=f7e487]
+                      - generic [ref=f7e488]: Schelling
+                  - button "黑格尔 (Hegel)" [ref=f7e489] [cursor=pointer]:
+                    - generic [ref=f7e490]:
+                      - generic [ref=f7e491]: 绝对唯心主义
+                      - heading "黑格尔" [level=3] [ref=f7e492]
+                      - generic [ref=f7e493]: Hegel
+                  - button "大卫·施特劳斯 (David Strauss)" [ref=f7e494] [cursor=pointer]:
+                    - generic [ref=f7e495]:
+                      - generic [ref=f7e496]: 青年黑格尔派
+                      - heading "大卫·施特劳斯" [level=3] [ref=f7e497]
+                      - generic [ref=f7e498]: David Strauss
+                  - button "布·鲍威尔 (Bruno Bauer)" [ref=f7e499] [cursor=pointer]:
+                    - generic [ref=f7e500]:
+                      - generic [ref=f7e501]: 青年黑格尔派
+                      - heading "布·鲍威尔" [level=3] [ref=f7e502]
+                      - generic [ref=f7e503]: Bruno Bauer
+                  - button "埃·鲍威尔 (Edgar Bauer)" [ref=f7e504] [cursor=pointer]:
+                    - generic [ref=f7e505]:
+                      - generic [ref=f7e506]: 青年黑格尔派
+                      - heading "埃·鲍威尔" [level=3] [ref=f7e507]
+                      - generic [ref=f7e508]: Edgar Bauer
+                  - button "费尔巴哈 (Feuerbach)" [ref=f7e509] [cursor=pointer]:
+                    - generic [ref=f7e510]:
+                      - generic [ref=f7e511]: 人本主义唯物论
+                      - heading "费尔巴哈" [level=3] [ref=f7e512]
+                      - generic [ref=f7e513]: Feuerbach
+                  - button "麦克斯·施蒂纳 (Max Stirner)" [ref=f7e514] [cursor=pointer]:
+                    - generic [ref=f7e515]:
+                      - generic [ref=f7e516]: 青年黑格尔/极端利己
+                      - heading "麦克斯·施蒂纳" [level=3] [ref=f7e517]
+                      - generic [ref=f7e518]: Max Stirner
+                - generic [ref=f7e519]:
+                  - generic:
+                    - generic: 1840~1850 意志呼啸
+                  - generic:
+                    - generic: 1860~1870 实证万能
+                  - generic:
+                    - generic: 1880~1890 上帝已死
+                  - generic:
+                    - generic: 1900 世纪之交
+                  - button "叔本华 (Schopenhauer)" [ref=f7e521] [cursor=pointer]:
+                    - generic [ref=f7e522]:
+                      - generic [ref=f7e523]: 非理性主义/悲观意志
+                      - heading "叔本华" [level=3] [ref=f7e524]
+                      - generic [ref=f7e525]: Schopenhauer
+                  - button "克尔凯郭尔 (Kierkegaard)" [ref=f7e526] [cursor=pointer]:
+                    - generic [ref=f7e527]:
+                      - generic [ref=f7e528]: 存在主义先驱
+                      - heading "克尔凯郭尔" [level=3] [ref=f7e529]
+                      - generic [ref=f7e530]: Kierkegaard
+                  - button "孔德 (Comte)" [ref=f7e531] [cursor=pointer]:
+                    - generic [ref=f7e532]:
+                      - generic [ref=f7e533]: 实证主义
+                      - heading "孔德" [level=3] [ref=f7e534]
+                      - generic [ref=f7e535]: Comte
+                  - button "密尔/穆勒 (Mill)" [ref=f7e536] [cursor=pointer]:
+                    - generic [ref=f7e537]:
+                      - generic [ref=f7e538]: 功利主义/实证主义
+                      - heading "密尔/穆勒" [level=3] [ref=f7e539]
+                      - generic [ref=f7e540]: Mill
+                  - button "斯宾塞 (Spencer)" [ref=f7e541] [cursor=pointer]:
+                    - generic [ref=f7e542]:
+                      - generic [ref=f7e543]: 社会达尔文主义
+                      - heading "斯宾塞" [level=3] [ref=f7e544]
+                      - generic [ref=f7e545]: Spencer
+                  - button "尼采 (Nietzsche)" [ref=f7e546] [cursor=pointer]:
+                    - generic [ref=f7e547]:
+                      - generic [ref=f7e548]: 非理性主义/超人哲学
+                      - heading "尼采" [level=3] [ref=f7e549]
+                      - generic [ref=f7e550]: Nietzsche
+                  - button "马克思 (Karl Marx)" [ref=f7e551] [cursor=pointer]:
+                    - generic [ref=f7e552]:
+                      - generic [ref=f7e553]: 唯物主义/社会学革命
+                      - heading "马克思" [level=3] [ref=f7e554]
+                      - generic [ref=f7e555]: Karl Marx
+                - generic [ref=f7e556]:
+                  - generic:
+                    - generic: 1900~1920 意识奠基
+                  - generic:
+                    - generic: 1930~1950 战争废墟
+                  - generic:
+                    - generic: 1960~1980 结构解构
+                  - generic:
+                    - generic: 1990~当代 新实用主义
+                  - button "弗雷格 (Gottlob Frege)" [ref=f7e558] [cursor=pointer]:
+                    - generic [ref=f7e559]:
+                      - generic [ref=f7e560]: 数理逻辑/分析哲学先驱
+                      - heading "弗雷格" [level=3] [ref=f7e561]
+                      - generic [ref=f7e562]: Gottlob Frege
+                  - button "罗素 (Bertrand Russell)" [ref=f7e563] [cursor=pointer]:
+                    - generic [ref=f7e564]:
+                      - generic [ref=f7e565]: 逻辑原子主义/分析哲学
+                      - heading "罗素" [level=3] [ref=f7e566]
+                      - generic [ref=f7e567]: Bertrand Russell
+                  - button "维特根斯坦 (Ludwig Wittgenstein)" [ref=f7e568] [cursor=pointer]:
+                    - generic [ref=f7e569]:
+                      - generic [ref=f7e570]: 逻辑实证主义
+                      - heading "维特根斯坦" [level=3] [ref=f7e571]
+                      - generic [ref=f7e572]: Ludwig Wittgenstein
+                  - button "胡塞尔 (Edmund Husserl)" [ref=f7e573] [cursor=pointer]:
+                    - generic [ref=f7e574]:
+                      - generic [ref=f7e575]: 现象学创始人
+                      - heading "胡塞尔" [level=3] [ref=f7e576]
+                      - generic [ref=f7e577]: Edmund Husserl
+                  - button "海德格尔 (Martin Heidegger)" [ref=f7e578] [cursor=pointer]:
+                    - generic [ref=f7e579]:
+                      - generic [ref=f7e580]: 存在论现象学
+                      - heading "海德格尔" [level=3] [ref=f7e581]
+                      - generic [ref=f7e582]: Martin Heidegger
+                  - button "萨特 (Jean-Paul Sartre)" [ref=f7e583] [cursor=pointer]:
+                    - generic [ref=f7e584]:
+                      - generic [ref=f7e585]: 存在主义
+                      - heading "萨特" [level=3] [ref=f7e586]
+                      - generic [ref=f7e587]: Jean-Paul Sartre
+                  - button "皮尔士 (C.S. Peirce)" [ref=f7e588] [cursor=pointer]:
+                    - generic [ref=f7e589]:
+                      - generic [ref=f7e590]: 美国实用主义先驱
+                      - heading "皮尔士" [level=3] [ref=f7e591]
+                      - generic [ref=f7e592]: C.S. Peirce
+                  - button "威廉·詹姆斯 (William James)" [ref=f7e593] [cursor=pointer]:
+                    - generic [ref=f7e594]:
+                      - generic [ref=f7e595]: 实用主义
+                      - heading "威廉·詹姆斯" [level=3] [ref=f7e596]
+                      - generic [ref=f7e597]: William James
+                  - button "约翰·杜威 (John Dewey)" [ref=f7e598] [cursor=pointer]:
+                    - generic [ref=f7e599]:
+                      - generic [ref=f7e600]: 实用主义/进步教育
+                      - heading "约翰·杜威" [level=3] [ref=f7e601]
+                      - generic [ref=f7e602]: John Dewey
+                  - button "福柯 (Michel Foucault)" [ref=f7e603] [cursor=pointer]:
+                    - generic [ref=f7e604]:
+                      - generic [ref=f7e605]: 后结构主义/权力批判
+                      - heading "福柯" [level=3] [ref=f7e606]
+                      - generic [ref=f7e607]: Michel Foucault
+                  - button "德里达 (Jacques Derrida)" [ref=f7e608] [cursor=pointer]:
+                    - generic [ref=f7e609]:
+                      - generic [ref=f7e610]: 后结构主义/解构主义
+                      - heading "德里达" [level=3] [ref=f7e611]
+                      - generic [ref=f7e612]: Jacques Derrida
+                  - button "罗蒂 (Richard Rorty)" [ref=f7e613] [cursor=pointer]:
+                    - generic [ref=f7e614]:
+                      - generic [ref=f7e615]: 新实用主义
+                      - heading "罗蒂" [level=3] [ref=f7e616]
+                      - generic [ref=f7e617]: Richard Rorty
+          - complementary [ref=f7e618]:
+            - generic [ref=f7e622]:
+              - generic [ref=f7e623]:
+                - generic [ref=f7e624]:
+                  - generic [ref=f7e625]: 雅典学派
+                  - generic [ref=f7e626]: BC 5世纪
+                - heading "苏格拉底" [level=2] [ref=f7e627]
+                - paragraph [ref=f7e628]: Socrates
+              - generic [ref=f7e629]:
+                - heading "📜 核心命题与学说" [level=4] [ref=f7e630]
+                - generic [ref=f7e631]:
+                  - generic [ref=f7e632]: 认识你自己
+                  - generic [ref=f7e633]: 我知道我一无所知
+                  - generic [ref=f7e634]: 产婆术（辩证法）
+                  - generic [ref=f7e635]: 美德即知识
+              - generic [ref=f7e636]:
+                - generic [ref=f7e637]: 📖 思想史综述
+                - text: “ 西方哲学的宗师，与孔子并称。他不写著作，终其一生在中庭广场同青年辩论。通过讽刺、产婆术等对话发现普遍正义。将哲学视线由外在自然转入内在心灵与道德，开启了希腊哲学的辉煌顶峰。 ”
+              - button "双击人物卡 或【点击此处】深入主卷生平" [ref=f7e639] [cursor=pointer]
+              - generic [ref=f7e640]:
+                - heading "⚡ 历史脉络学术关联：" [level=4] [ref=f7e641]
+                - generic [ref=f7e642]:
+                  - button "欧几里得" [ref=f7e643] [cursor=pointer]
+                  - button "安提斯泰尼" [ref=f7e644] [cursor=pointer]
+                  - button "亚里斯提卜" [ref=f7e645] [cursor=pointer]
+                  - button "柏拉图" [ref=f7e646] [cursor=pointer]
+              - generic [ref=f7e647]:
+                - generic [ref=f7e648]: ★
+                - generic [ref=f7e649]: ★
+                - generic [ref=f7e650]: ★
+                - generic [ref=f7e651]: ★
+                - generic [ref=f7e652]: ★
+                - generic [ref=f7e653]: 巨擘宗师
+            - generic [ref=f7e654]:
+              - generic [ref=f7e655]: ⏱️ 历史时空定位 (Temporal Axis)
+              - generic [ref=f7e656]:
+                - button "01·BC 6th ~ AD 4th 古希腊罗马哲学" [ref=f7e658] [cursor=pointer]:
+                  - generic [ref=f7e662]:
+                    - generic [ref=f7e663]: 01·BC 6th ~ AD 4th
+                    - generic [ref=f7e664]: 古希腊罗马哲学
+                - button "02·AD 5th ~ AD 14th 中世纪与经院哲学" [ref=f7e665] [cursor=pointer]:
+                  - generic [ref=f7e668]:
+                    - generic [ref=f7e669]: 02·AD 5th ~ AD 14th
+                    - generic [ref=f7e670]: 中世纪与经院哲学
+                - button "03·15th ~ 17th 文艺复兴与近代早期哲学" [ref=f7e671] [cursor=pointer]:
+                  - generic [ref=f7e674]:
+                    - generic [ref=f7e675]: 03·15th ~ 17th
+                    - generic [ref=f7e676]: 文艺复兴与近代早期哲学
+                - button "04·18th 法兰西启蒙思想和唯物主义" [ref=f7e677] [cursor=pointer]:
+                  - generic [ref=f7e680]:
+                    - generic [ref=f7e681]: 04·18th
+                    - generic [ref=f7e682]: 法兰西启蒙思想和唯物主义
+                - button "05·1770 ~ 1844 德意志古典哲学" [ref=f7e683] [cursor=pointer]:
+                  - generic [ref=f7e686]:
+                    - generic [ref=f7e687]: 05·1770 ~ 1844
+                    - generic [ref=f7e688]: 德意志古典哲学
+                - button "06·1844 ~ 1900 过渡时期与19世纪中后期" [ref=f7e689] [cursor=pointer]:
+                  - generic [ref=f7e692]:
+                    - generic [ref=f7e693]: 06·1844 ~ 1900
+                    - generic [ref=f7e694]: 过渡时期与19世纪中后期
+                - button "07·1900 ~ Present 现代派、英美分析与当代" [ref=f7e695] [cursor=pointer]:
+                  - generic [ref=f7e698]:
+                    - generic [ref=f7e699]: 07·1900 ~ Present
+                    - generic [ref=f7e700]: 现代派、英美分析与当代
+    - generic [ref=f7e702]:
+      - generic [ref=f7e707]:
+        - generic [ref=f7e708]:
+          - img [ref=f7e709]
+          - heading "对话广场 · 雅典论辩" [level=2] [ref=f7e716]
+          - img [ref=f7e717]
+        - paragraph [ref=f7e724]: THE PALESTRA symposium
+        - heading "雅典学园之辩 · 思想交锋" [level=3] [ref=f7e725]
+        - paragraph [ref=f7e726]: 将两位先哲并置于思想沙龙之中。通过极具张力的虚拟对话与辩证对比， 洞若观火地解析心物、理路与救赎之争的异同。
+      - generic [ref=f7e727]:
+        - heading "👑 精选思想公案 (Presets)" [level=4] [ref=f7e728]:
+          - generic [ref=f7e729]: 👑
+          - text: 精选思想公案 (Presets)
+        - generic [ref=f7e730]:
+          - button "第一本原：心灵的终极指向 柏拉图 vs 亚里士多德" [ref=f7e731] [cursor=pointer]:
+            - generic [ref=f7e732]: 第一本原：心灵的终极指向
+            - generic [ref=f7e733]: 柏拉图 vs 亚里士多德
+          - button "知识探求：天赋还是白板 笛卡尔 vs 洛克" [ref=f7e734] [cursor=pointer]:
+            - generic [ref=f7e735]: 知识探求：天赋还是白板
+            - generic [ref=f7e736]: 笛卡尔 vs 洛克
+          - button "救赎之道：寂灭亦或狂歌 叔本华 vs 尼采" [ref=f7e737] [cursor=pointer]:
+            - generic [ref=f7e738]: 救赎之道：寂灭亦或狂歌
+            - generic [ref=f7e739]: 叔本华 vs 尼采
+          - button "历史车轮：绝对精神与生产力 黑格尔 vs 马克思" [ref=f7e740] [cursor=pointer]:
+            - generic [ref=f7e741]: 历史车轮：绝对精神与生产力
+            - generic [ref=f7e742]: 黑格尔 vs 马克思
+      - generic [ref=f7e744]:
+        - generic [ref=f7e745]:
+          - text: 雅典学派
+          - heading "柏拉图" [level=3] [ref=f7e746]
+          - paragraph [ref=f7e747]: Plato
+          - generic [ref=f7e748]:
+            - generic [ref=f7e749]: ★
+            - generic [ref=f7e750]: ★
+            - generic [ref=f7e751]: ★
+            - generic [ref=f7e752]: ★
+            - generic [ref=f7e753]: ★
+        - generic [ref=f7e756]: VS
+        - generic [ref=f7e757]:
+          - text: 雅典学派
+          - heading "亚里士多德" [level=3] [ref=f7e758]
+          - paragraph [ref=f7e759]: Aristotle
+          - generic [ref=f7e760]:
+            - generic [ref=f7e761]: ★
+            - generic [ref=f7e762]: ★
+            - generic [ref=f7e763]: ★
+            - generic [ref=f7e764]: ★
+            - generic [ref=f7e765]: ★
+      - generic [ref=f7e766]:
+        - generic [ref=f7e767]:
+          - text: 公案辩题
+          - heading "“世界的终极绝对本质，究竟是理念实体还是客观事物本身？”" [level=4] [ref=f7e768]
+        - generic [ref=f7e769]:
+          - generic [ref=f7e770]:
+            - generic [ref=f7e772]: 柏拉图
+            - generic [ref=f7e773]: 贤徒，你看看这世间的大理石柱。每一根石柱都会风化、残损，因为它们只是物质界的影子。唯有“石柱的理念”（Idea）在纯粹的智慧界永恒不灭，物质世界只是不完美摹本。
+          - generic [ref=f7e774]:
+            - generic [ref=f7e776]: 亚里士多德
+            - generic [ref=f7e777]: 吾师，我敬爱您，但更爱真理。如果理念脱离了具体的石柱而单独存在，那理念就毫无用处，也无法解释万物的运动。质料与形式结合，才构成了具体的“第一实体（ousia）”！
+          - generic [ref=f7e778]:
+            - generic [ref=f7e780]: 柏拉图
+            - generic [ref=f7e781]: 但如果灵魂不在出生前就见过那完美的绝对真善美，我们如何能在不完美的经验世界中，回忆起并辨认出哪怕一丁点的正义和圆满？
+          - generic [ref=f7e782]:
+            - generic [ref=f7e784]: 亚里士多德
+            - generic [ref=f7e785]: 灵魂不是回忆，而是人心灵通过对多根大理石柱的经验观察，进而抽象概括出其共性形式。认识世界必须自具体的“质料”向“形式目的”演进。
+        - generic [ref=f7e786]:
+          - generic [ref=f7e787]: 主持：古希腊阿卡德米学院秘书处
+          - generic [ref=f7e788]:
+            - button "查阅 柏拉图" [ref=f7e789] [cursor=pointer]
+            - generic [ref=f7e790]: "|"
+            - button "查阅 亚里士多德" [ref=f7e791] [cursor=pointer]
+      - generic [ref=f7e792]:
+        - heading "自定义群星对照" [level=4] [ref=f7e793]:
+          - img [ref=f7e794]
+          - text: 自定义群星对照
+        - generic [ref=f7e800]:
+          - generic [ref=f7e801]:
+            - generic [ref=f7e802]: 选择哲学家一：
+            - combobox [ref=f7e803]:
+              - option "-- 请选择贤哲 --" [selected]
+              - option "阿伯拉尔 (Abailardus) — 概念论"
+              - option "阿那克萨戈拉 (Anaxagoras) — 多元论学派"
+              - option "阿那克西曼德 (Anaximander) — 米利都学派"
+              - option "阿那克西美尼 (Anaximenes) — 米利都学派"
+              - option "阿威罗伊 (Averroe) — 阿拉伯哲学"
+              - option "埃·鲍威尔 (Edgar Bauer) — 青年黑格尔派"
+              - option "爱比克泰德 (Epictetus) — 罗马斯多葛学派"
+              - option "爱尔维修 (Helvetius) — 功利唯物派"
+              - option "爱留根纳 (Eriugena) — 经院哲学早期"
+              - option "安瑟尔谟 (Anselmus) — 经院派（实在论）"
+              - option "安提斯泰尼 (Antisthenes) — 犬儒学派"
+              - option "奥古斯丁 (Augustine) — 教父哲学"
+              - option "奥卡姆的威廉 (William of Ockham) — 唯名论学派"
+              - option "巴门尼德 (Parmenides) — 爱利亚学派"
+              - option "柏拉图 (Plato) — 雅典学派"
+              - option "贝克莱 (Berkeler) — 经验/主观唯心"
+              - option "彼特拉克 (Petrarca) — 人文主义"
+              - option "毕达哥拉斯 (Pythagoras) — 毕达哥拉斯学派"
+              - option "波爱修斯 (Boethius) — 中世纪过渡"
+              - option "波菲利 (Porphyrios) — 新柏拉图主义"
+              - option "布·鲍威尔 (Bruno Bauer) — 青年黑格尔派"
+              - option "大阿尔伯特 (Albertus Magnus) — 阿尔伯特-阿奎那派"
+              - option "大卫·施特劳斯 (David Strauss) — 青年黑格尔派"
+              - option "德里达 (Jacques Derrida) — 后结构主义/解构主义"
+              - option "德谟克利特 (Democritus) — 原子论学派"
+              - option "狄德罗 (Diderot) — 百科全书派"
+              - option "笛卡尔 (Descartes) — 理性主义"
+              - option "第欧根尼 (Diogenes) — 犬儒学派"
+              - option "恩培多克勒 (Empedocles) — 多元论学派"
+              - option "斐洛 (Philo) — 犹太柏拉图主义"
+              - option "费尔巴哈 (Feuerbach) — 人本主义唯物论"
+              - option "费奇诺 (Marsilio Ficino) — 美第奇学派"
+              - option "费希特 (Fichte) — 主观唯心主义"
+              - option "弗兰西斯·培根 (Francis Bacon) — 经验主义"
+              - option "弗雷格 (Gottlob Frege) — 数理逻辑/分析哲学先驱"
+              - option "伏尔泰 (Voltaire) — 自然神论"
+              - option "福柯 (Michel Foucault) — 后结构主义/权力批判"
+              - option "高尔吉亚 (Gorgias) — 智者学派"
+              - option "海德格尔 (Martin Heidegger) — 存在论现象学"
+              - option "赫拉克利特 (Heraclitus) — 爱奥尼亚学派"
+              - option "黑格尔 (Hegel) — 绝对唯心主义"
+              - option "胡塞尔 (Edmund Husserl) — 现象学创始人"
+              - option "霍布斯 (Hobbes) — 近代唯物主义"
+              - option "霍尔巴赫 (Holbach) — 战斗唯物机械系统"
+              - option "加尔文 (Calvin) — 宗教改革"
+              - option "伽桑狄 (Pierre Gassendi) — 科学史辩证"
+              - option "康德 (Kant) — 古典批判哲学"
+              - option "克尔凯郭尔 (Kierkegaard) — 存在主义先驱"
+              - option "克拉底鲁 (Kratylos) — 辩证/怀疑倾向"
+              - option "克里西普 (Chrysippus) — 斯多葛学派"
+              - option "克利安提斯 (Cleanthes) — 斯多葛学派"
+              - option "克塞诺芬尼 (Xenophanes) — 爱利亚学派"
+              - option "孔德 (Comte) — 实证主义"
+              - option "库萨的尼古拉 (Cusanus) — 科学/哲理过渡"
+              - option "拉美特利 (la Mettrie) — 战斗唯物主义"
+              - option "莱布尼茨 (Leibniz) — 理性主义"
+              - option "卢梭 (Rousseau) — 激进启蒙学"
+              - option "罗蒂 (Richard Rorty) — 新实用主义"
+              - option "罗吉尔·培根 (Roger Bacon) — 经验学派（近科学）"
+              - option "罗素 (Bertrand Russell) — 逻辑原子主义/分析哲学"
+              - option "洛克 (Locke) — 经验主义"
+              - option "洛色林 (Roscelinus) — 早期唯名论"
+              - option "马丁·路德 (Martin Luther) — 宗教改革"
+              - option "马克·奥勒留 (Marcus Aurelius) — 罗马斯多葛学派"
+              - option "马克思 (Karl Marx) — 唯物主义/社会学革命"
+              - option "马勒伯朗士 (Malebranche) — 理性主义"
+              - option "马修·廷德尔 (Matthew Tindal) — 自然神论"
+              - option "麦克斯·施蒂纳 (Max Stirner) — 青年黑格尔/极端利己"
+              - option "麦里梭 (Melissus) — 爱利亚学派"
+              - option "蒙田 (Montaigne) — 怀疑主义"
+              - option "孟德斯鸠 (Montesquieu) — 温和启蒙学"
+              - option "密尔/穆勒 (Mill) — 功利主义/实证主义"
+              - option "尼采 (Nietzsche) — 非理性主义/超人哲学"
+              - option "欧几里得 (Euclides) — 麦加拉学派"
+              - option "皮尔士 (C.S. Peirce) — 美国实用主义先驱"
+              - option "皮科 (Giovanni Pico) — 人文主义"
+              - option "皮浪 (Pyrrhon) — 怀疑主义"
+              - option "普罗泰戈拉 (Protagoras) — 智者学派"
+              - option "普罗提诺 (Plotinus) — 新柏拉图主义"
+              - option "萨特 (Jean-Paul Sartre) — 存在主义"
+              - option "塞涅卡 (Seneca) — 罗马斯多葛学派"
+              - option "叔本华 (Schopenhauer) — 非理性主义/悲观意志"
+              - option "斯宾诺莎 (Spinoza) — 理性主义"
+              - option "斯宾塞 (Spencer) — 社会达尔文主义"
+              - option "苏格拉底 (Socrates) — 雅典学派"
+              - option "泰勒斯 (Thales) — 米利都学派"
+              - option "图尔的贝伦伽尔 (Berengar) — 唯名倾向"
+              - option "托马斯·阿奎那 (Thomas Aquinas) — 圣托马斯学派"
+              - option "托马斯·莫尔 (Thomas More) — 空想社会主义"
+              - option "威廉·詹姆斯 (William James) — 实用主义"
+              - option "维特根斯坦 (Ludwig Wittgenstein) — 逻辑实证主义"
+              - option "沃尔夫 (Wolff) — 独断形而上学"
+              - option "西塞罗 (Cicero) — 折中主义/罗马哲理"
+              - option "谢林 (Schelling) — 客观/同一唯心"
+              - option "休谟 (Hume) — 先驱/怀疑主义"
+              - option "雪堡的爱德华 (Herbert of Cherbury) — 自然神论"
+              - option "亚里士多德 (Aristotle) — 雅典学派"
+              - option "亚里斯提卜 (Aristippus) — 昔兰尼学派"
+              - option "伊壁鸠鲁 (Epicurus) — 伊壁鸠鲁学派"
+              - option "约翰·邓斯·司各脱 (Duns Scotus) — 意志倾斜派"
+              - option "约翰·杜威 (John Dewey) — 实用主义/进步教育"
+              - option "芝诺 (Zenon) — 爱利亚学派"
+              - option "芝诺 (Zeno) — 斯多葛学派"
+          - generic [ref=f7e804]:
+            - generic [ref=f7e805]: 选择哲学家二：
+            - combobox [ref=f7e806]:
+              - option "-- 请选择贤哲 --" [selected]
+              - option "阿伯拉尔 (Abailardus) — 概念论"
+              - option "阿那克萨戈拉 (Anaxagoras) — 多元论学派"
+              - option "阿那克西曼德 (Anaximander) — 米利都学派"
+              - option "阿那克西美尼 (Anaximenes) — 米利都学派"
+              - option "阿威罗伊 (Averroe) — 阿拉伯哲学"
+              - option "埃·鲍威尔 (Edgar Bauer) — 青年黑格尔派"
+              - option "爱比克泰德 (Epictetus) — 罗马斯多葛学派"
+              - option "爱尔维修 (Helvetius) — 功利唯物派"
+              - option "爱留根纳 (Eriugena) — 经院哲学早期"
+              - option "安瑟尔谟 (Anselmus) — 经院派（实在论）"
+              - option "安提斯泰尼 (Antisthenes) — 犬儒学派"
+              - option "奥古斯丁 (Augustine) — 教父哲学"
+              - option "奥卡姆的威廉 (William of Ockham) — 唯名论学派"
+              - option "巴门尼德 (Parmenides) — 爱利亚学派"
+              - option "柏拉图 (Plato) — 雅典学派"
+              - option "贝克莱 (Berkeler) — 经验/主观唯心"
+              - option "彼特拉克 (Petrarca) — 人文主义"
+              - option "毕达哥拉斯 (Pythagoras) — 毕达哥拉斯学派"
+              - option "波爱修斯 (Boethius) — 中世纪过渡"
+              - option "波菲利 (Porphyrios) — 新柏拉图主义"
+              - option "布·鲍威尔 (Bruno Bauer) — 青年黑格尔派"
+              - option "大阿尔伯特 (Albertus Magnus) — 阿尔伯特-阿奎那派"
+              - option "大卫·施特劳斯 (David Strauss) — 青年黑格尔派"
+              - option "德里达 (Jacques Derrida) — 后结构主义/解构主义"
+              - option "德谟克利特 (Democritus) — 原子论学派"
+              - option "狄德罗 (Diderot) — 百科全书派"
+              - option "笛卡尔 (Descartes) — 理性主义"
+              - option "第欧根尼 (Diogenes) — 犬儒学派"
+              - option "恩培多克勒 (Empedocles) — 多元论学派"
+              - option "斐洛 (Philo) — 犹太柏拉图主义"
+              - option "费尔巴哈 (Feuerbach) — 人本主义唯物论"
+              - option "费奇诺 (Marsilio Ficino) — 美第奇学派"
+              - option "费希特 (Fichte) — 主观唯心主义"
+              - option "弗兰西斯·培根 (Francis Bacon) — 经验主义"
+              - option "弗雷格 (Gottlob Frege) — 数理逻辑/分析哲学先驱"
+              - option "伏尔泰 (Voltaire) — 自然神论"
+              - option "福柯 (Michel Foucault) — 后结构主义/权力批判"
+              - option "高尔吉亚 (Gorgias) — 智者学派"
+              - option "海德格尔 (Martin Heidegger) — 存在论现象学"
+              - option "赫拉克利特 (Heraclitus) — 爱奥尼亚学派"
+              - option "黑格尔 (Hegel) — 绝对唯心主义"
+              - option "胡塞尔 (Edmund Husserl) — 现象学创始人"
+              - option "霍布斯 (Hobbes) — 近代唯物主义"
+              - option "霍尔巴赫 (Holbach) — 战斗唯物机械系统"
+              - option "加尔文 (Calvin) — 宗教改革"
+              - option "伽桑狄 (Pierre Gassendi) — 科学史辩证"
+              - option "康德 (Kant) — 古典批判哲学"
+              - option "克尔凯郭尔 (Kierkegaard) — 存在主义先驱"
+              - option "克拉底鲁 (Kratylos) — 辩证/怀疑倾向"
+              - option "克里西普 (Chrysippus) — 斯多葛学派"
+              - option "克利安提斯 (Cleanthes) — 斯多葛学派"
+              - option "克塞诺芬尼 (Xenophanes) — 爱利亚学派"
+              - option "孔德 (Comte) — 实证主义"
+              - option "库萨的尼古拉 (Cusanus) — 科学/哲理过渡"
+              - option "拉美特利 (la Mettrie) — 战斗唯物主义"
+              - option "莱布尼茨 (Leibniz) — 理性主义"
+              - option "卢梭 (Rousseau) — 激进启蒙学"
+              - option "罗蒂 (Richard Rorty) — 新实用主义"
+              - option "罗吉尔·培根 (Roger Bacon) — 经验学派（近科学）"
+              - option "罗素 (Bertrand Russell) — 逻辑原子主义/分析哲学"
+              - option "洛克 (Locke) — 经验主义"
+              - option "洛色林 (Roscelinus) — 早期唯名论"
+              - option "马丁·路德 (Martin Luther) — 宗教改革"
+              - option "马克·奥勒留 (Marcus Aurelius) — 罗马斯多葛学派"
+              - option "马克思 (Karl Marx) — 唯物主义/社会学革命"
+              - option "马勒伯朗士 (Malebranche) — 理性主义"
+              - option "马修·廷德尔 (Matthew Tindal) — 自然神论"
+              - option "麦克斯·施蒂纳 (Max Stirner) — 青年黑格尔/极端利己"
+              - option "麦里梭 (Melissus) — 爱利亚学派"
+              - option "蒙田 (Montaigne) — 怀疑主义"
+              - option "孟德斯鸠 (Montesquieu) — 温和启蒙学"
+              - option "密尔/穆勒 (Mill) — 功利主义/实证主义"
+              - option "尼采 (Nietzsche) — 非理性主义/超人哲学"
+              - option "欧几里得 (Euclides) — 麦加拉学派"
+              - option "皮尔士 (C.S. Peirce) — 美国实用主义先驱"
+              - option "皮科 (Giovanni Pico) — 人文主义"
+              - option "皮浪 (Pyrrhon) — 怀疑主义"
+              - option "普罗泰戈拉 (Protagoras) — 智者学派"
+              - option "普罗提诺 (Plotinus) — 新柏拉图主义"
+              - option "萨特 (Jean-Paul Sartre) — 存在主义"
+              - option "塞涅卡 (Seneca) — 罗马斯多葛学派"
+              - option "叔本华 (Schopenhauer) — 非理性主义/悲观意志"
+              - option "斯宾诺莎 (Spinoza) — 理性主义"
+              - option "斯宾塞 (Spencer) — 社会达尔文主义"
+              - option "苏格拉底 (Socrates) — 雅典学派"
+              - option "泰勒斯 (Thales) — 米利都学派"
+              - option "图尔的贝伦伽尔 (Berengar) — 唯名倾向"
+              - option "托马斯·阿奎那 (Thomas Aquinas) — 圣托马斯学派"
+              - option "托马斯·莫尔 (Thomas More) — 空想社会主义"
+              - option "威廉·詹姆斯 (William James) — 实用主义"
+              - option "维特根斯坦 (Ludwig Wittgenstein) — 逻辑实证主义"
+              - option "沃尔夫 (Wolff) — 独断形而上学"
+              - option "西塞罗 (Cicero) — 折中主义/罗马哲理"
+              - option "谢林 (Schelling) — 客观/同一唯心"
+              - option "休谟 (Hume) — 先驱/怀疑主义"
+              - option "雪堡的爱德华 (Herbert of Cherbury) — 自然神论"
+              - option "亚里士多德 (Aristotle) — 雅典学派"
+              - option "亚里斯提卜 (Aristippus) — 昔兰尼学派"
+              - option "伊壁鸠鲁 (Epicurus) — 伊壁鸠鲁学派"
+              - option "约翰·邓斯·司各脱 (Duns Scotus) — 意志倾斜派"
+              - option "约翰·杜威 (John Dewey) — 实用主义/进步教育"
+              - option "芝诺 (Zenon) — 爱利亚学派"
+              - option "芝诺 (Zeno) — 斯多葛学派"
+        - button "开始论辩" [disabled] [ref=f7e808]
+    - generic [ref=f7e810]:
+      - generic [ref=f7e811]:
+        - heading "📜 传承连线与学术定位" [level=3] [ref=f7e812]:
+          - generic [ref=f7e813]: 📜
+          - text: 传承连线与学术定位
+        - list [ref=f7e814]:
+          - listitem [ref=f7e815]:
+            - generic [ref=f7e816]: ➜
+            - generic [ref=f7e817]: "实线箭头 (➜): 严密师资授受/正统流派继承。"
+          - listitem [ref=f7e818]:
+            - generic [ref=f7e819]: ┈➜
+            - generic [ref=f7e820]: "虚线箭头 (┈➜): 跨越时代的间接灵感与思想交锋。"
+          - listitem [ref=f7e821]: 五维学术继承层级
+          - listitem [ref=f7e822]:
+            - list [ref=f7e823]:
+              - listitem [ref=f7e824]:
+                - generic [ref=f7e825]: ★★★★★
+                - generic [ref=f7e826]:
+                  - strong [ref=f7e827]: 巨擘宗师
+                  - text: ": 哲学王座基石，独享「流光」卡片与星盘刻度轴。"
+              - listitem [ref=f7e828]:
+                - generic [ref=f7e829]: ★★★★☆
+                - generic [ref=f7e830]:
+                  - strong [ref=f7e831]: 传世先驱
+                  - text: ": 流派核心奠基人，享金砂哑光卡片与辅助定位轴。"
+              - listitem [ref=f7e832]:
+                - generic [ref=f7e833]: ★★★☆☆
+                - generic [ref=f7e834]:
+                  - strong [ref=f7e835]: 核心贤哲
+                  - text: ": 学说谱系主力承传者，享经典金相层。"
+              - listitem [ref=f7e836]:
+                - generic [ref=f7e837]: ★★☆☆☆
+                - generic [ref=f7e838]:
+                  - strong [ref=f7e839]: 沿袭学者
+                  - text: ": 学派集大成者/完善评注者。"
+              - listitem [ref=f7e840]:
+                - generic [ref=f7e841]: ★☆☆☆☆
+                - generic [ref=f7e842]:
+                  - strong [ref=f7e843]: 界外探索者
+                  - text: ": 旁支外围发展与思想交涉的探索者。"
+      - generic [ref=f7e844]:
+        - heading "🎨 学说学派与卡片色彩" [level=3] [ref=f7e845]:
+          - generic [ref=f7e846]: 🎨
+          - text: 学说学派与卡片色彩
+        - generic [ref=f7e847]:
+          - generic [ref=f7e850]:
+            - strong [ref=f7e851]: 古自然哲学与宇宙学
+            - text: ": 探讨世界的本原与自然科学。"
+          - generic [ref=f7e854]:
+            - strong [ref=f7e855]: 古希腊雅典流派
+            - text: ": 雅典三杰、智者派与学院派。"
+          - generic [ref=f7e858]:
+            - strong [ref=f7e859]: 希腊化与罗马伦理
+            - text: ": 斯多葛、伊壁鸠鲁、新柏拉图。"
+          - generic [ref=f7e862]:
+            - strong [ref=f7e863]: 中世纪神学经院
+            - text: ": 教父、阿奎那、唯名论。"
+          - generic [ref=f7e866]:
+            - strong [ref=f7e867]: 近代唯理论
+            - text: ": 笛卡尔、斯宾诺莎、莱布尼茨。"
+          - generic [ref=f7e870]:
+            - strong [ref=f7e871]: 近代经验论
+            - text: ": 培根、洛克、贝克莱、休谟。"
+          - generic [ref=f7e874]:
+            - strong [ref=f7e875]: 文艺复兴启蒙
+            - text: ": 人文主义、宗教改革与激进派。"
+          - generic [ref=f7e878]:
+            - strong [ref=f7e879]: 德意志古典哲学
+            - text: ": 康德批判、黑格尔绝对精神。"
+          - generic [ref=f7e882]:
+            - strong [ref=f7e883]: 实证与非理性
+            - text: ": 意志主义、实证主义、马克思哲学。"
+      - generic [ref=f7e884]:
+        - heading "🧭 史学操作与时空轴心定位" [level=3] [ref=f7e885]:
+          - generic [ref=f7e886]: 🧭
+          - text: 史学操作与时空轴心定位
+        - generic [ref=f7e887]:
+          - paragraph [ref=f7e888]:
+            - strong [ref=f7e889]: ① 脉络图谱纵向无限滑动
+            - text: ": 页面呈现单一、连续、长画卷轴。下划即是时光穿梭，随滚轮见证两千年哲学长河洗礼！右侧辅助面板实时展示当前高亮的活跃纪元时区（Temporal Axis）。"
+          - paragraph [ref=f7e890]:
+            - strong [ref=f7e891]: ② 学人操作锁定与关系高亮
+            - text: ":"
+          - list [ref=f7e892]:
+            - listitem [ref=f7e893]: "单击卡片: 在右侧\"贤哲神龛\"载入核心概念，并在图中照亮其师资、思想传承影响连线。"
+            - listitem [ref=f7e894]: "双击卡片: 开启解构式的贤哲生平独立行卷，展示学说、传记、不朽经典作品档案，点击\"返回\"一键归队。"
+    - generic [ref=f7e895]:
+      - paragraph [ref=f7e896]: —— L O G O S · A C A D E M Y ——
+      - paragraph [ref=f7e897]: 西方哲学思想库交互史迹脉络图谱 © 2026. Designed with Athens Alabaster Marble & Mediterranean Aegean Blue Palette
+    - generic [ref=f7e898]:
+      - generic [ref=f7e899]: v1.0.2
+      - generic [ref=f7e900]:
+        - button "help" [ref=f7e901] [cursor=pointer]:
+          - img [ref=f7e902]
+          - generic [ref=f7e905]: help
+        - button "contact" [ref=f7e906] [cursor=pointer]:
+          - img [ref=f7e907]
+          - generic [ref=f7e910]: contact
+      - generic [ref=f7e911]:
+        - button "English" [ref=f7e912] [cursor=pointer]
+        - button "Study Track" [ref=f7e913] [cursor=pointer]
+    - navigation [ref=f7e914]:
+      - generic [ref=f7e916]: ΦΙΛΟΣΟΦΙΑ
+      - generic [ref=f7e917]:
+        - button "思想沿革史卷" [ref=f7e918]:
+          - img [ref=f7e919]
+          - generic [ref=f7e922]: 思想沿革史卷
+        - generic [ref=f7e923]: "|"
+        - button "众神多边辩论 NEW" [ref=f7e924]:
+          - img [ref=f7e925]
+          - generic [ref=f7e932]: 众神多边辩论
+          - generic [ref=f7e933]: NEW
+      - generic [ref=f7e935]: 💡 双击人物卡片进入手稿生平行卷
+  - button "Open Next.js Dev Tools" [ref=f7e941] [cursor=pointer]:
+    - img [ref=f7e942]

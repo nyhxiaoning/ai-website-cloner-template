@@ -10,6 +10,7 @@ export interface Philosopher {
   summary?: string;
   connections?: string[];
   color?: string;
+  century?: string;
 }
 
 export interface Era {

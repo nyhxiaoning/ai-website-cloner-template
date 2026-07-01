@@ -136,3 +136,41 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(212, 175, 55, 0.5);
 }
+
+/* Gilded shimmer border for top-tier (★★★★★) philosopher cards */
+.gilded-shimmer-border {
+  position: relative;
+  isolation: isolate;
+}
+
+.gilded-shimmer-border::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: linear-gradient(
+    135deg,
+    #D4AF37 0%,
+    #FFF3B0 25%,
+    #D4AF37 50%,
+    #FFF3B0 75%,
+    #D4AF37 100%
+  );
+  background-size: 400% 400%;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: gilded-shimmer 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes gilded-shimmer {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}

@@ -1,0 +1,13 @@
+[  300498ms] [WARNING] The ScriptProcessorNode is deprecated. Use AudioWorkletNode instead. (https://bit.ly/audio-worklet) @ http://localhost:9800/packages/utils/device-fingerprint.ts:50
+[  300499ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:9800/packages/utils/device-fingerprint.ts:71
+[  300501ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:9800/api/Auth/LoginConfig:0
+[  317676ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:9800/api/Auth/Login:0
+[  319768ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:9800/api/Auth/Login:0
+[  400289ms] [WARNING] The ScriptProcessorNode is deprecated. Use AudioWorkletNode instead. (https://bit.ly/audio-worklet) @ http://localhost:9800/packages/utils/device-fingerprint.ts:50
+[  400293ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:9800/api/Auth/LoginConfig:0
+[  401148ms] [WARNING] The ScriptProcessorNode is deprecated. Use AudioWorkletNode instead. (https://bit.ly/audio-worklet) @ http://localhost:9800/packages/utils/device-fingerprint.ts:50
+[  401170ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:9800/api/Auth/LoginConfig:0
+[  431469ms] [WARNING] The ScriptProcessorNode is deprecated. Use AudioWorkletNode instead. (https://bit.ly/audio-worklet) @ http://localhost:9800/packages/utils/device-fingerprint.ts:50
+[  431531ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:9800/api/Auth/LoginConfig:0
+[  454953ms] [WARNING] The ScriptProcessorNode is deprecated. Use AudioWorkletNode instead. (https://bit.ly/audio-worklet) @ http://localhost:9800/packages/utils/device-fingerprint.ts:50
+[  454955ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:9800/api/Auth/LoginConfig:0
