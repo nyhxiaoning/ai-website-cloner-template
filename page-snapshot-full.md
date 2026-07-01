@@ -1,0 +1,397 @@
+- generic [ref=e3] [box=0,0,1200,5741]:
+  - img [ref=e5] [box=0,0,1200,24]
+  - banner [ref=e7] [box=0,24,1200,342]:
+    - generic [ref=e8] [box=152,72,896,245]:
+      - generic [ref=e9] [box=460,72,280,115]:
+        - img [ref=e10] [box=460,72,280,47]
+        - generic [ref=e14] [box=475,117,251,66]:
+          - heading "ΦΙΛΟΣΟΦΙΑ" [level=2] [ref=e15] [box=511,125,179,32]
+          - paragraph [ref=e16] [box=511,159,179,16]: 西方哲学发展脉络交互图谱
+      - heading "西方哲学思想沿革史卷" [level=1] [ref=e18] [box=402,199,396,40]
+      - paragraph [ref=e19] [box=264,249,672,68]:
+        - text: 本图谱真实精确地还原了六大黄金断代时期的哲学主干网络。采用古希腊经典神庙美学设计，通过向下流动模拟历史纪元的演进，在 Alabaster 细砂大理石廊底与 Aegean 爱琴海深蓝间优雅流转。
+        - generic [ref=e20] [box=461,298,278,16]: 💡 双击任何人物卡片，可以直接进入该圣哲的精细生平行卷
+  - generic [ref=e22] [box=32,398,1136,44]:
+    - button "📜 思想沿革史卷" [ref=e23] [cursor=pointer] [box=32,398,185,42]:
+      - img [ref=e24] [box=54,412,16,16]
+      - generic [ref=e27] [box=78,410,117,20]: 📜 思想沿革史卷
+    - button "⚔️ 众神多边辩论 NEW" [ref=e28] [cursor=pointer] [box=233,398,185,42]:
+      - img [ref=e29] [box=255,412,16,16]
+      - generic [ref=e38] [box=279,410,117,20]: ⚔️ 众神多边辩论
+      - generic [ref=e39] [box=385,394,36,15]: NEW
+  - main [ref=e40] [box=0,466,1200,4918]:
+    - generic [ref=e41] [box=32,482,1136,3758]:
+      - generic [ref=e42] [box=32,482,747,3758]:
+        - generic [ref=e43] [box=32,482,747,37]:
+          - generic [ref=e44] [box=32,482,235,28]:
+            - img [ref=e45] [box=32,486,20,20]
+            - heading "传承图谱流层 · 史学罗盘" [level=3] [ref=e50] [box=60,482,207,28]
+          - generic [ref=e51] [box=571,488,208,15]: 滑动页面即时光穿梭 · 双击卡片开启详细生平
+        - generic [ref=e52] [box=32,559,747,3681]:
+          - generic [ref=e53] [box=32,559,747,165]:
+            - generic [ref=e54] [box=49,576,713,28]:
+              - generic [ref=e55] [box=49,576,362,20]:
+                - generic [ref=e56] [box=49,576,18,20]: 🏛️
+                - heading "谱系学等阶筛选 (Academic Pedigree Selector)" [level=4] [ref=e57] [box=75,578,336,16]
+              - generic [ref=e58] [box=563,576,199,21]:
+                - generic [ref=e59] [box=563,579,43,15]: "快速预设:"
+                - button "显示全部" [ref=e60] [cursor=pointer] [box=614,576,58,21]
+                - button "仅看特级/一级" [ref=e61] [cursor=pointer] [box=680,576,81,21]
+            - generic [ref=e62] [box=49,614,713,17]: 此处控制全图谱的学术定位层级（1-5阶）。勾选的层级以高饱和度实体形态展现；未勾选的层级将以典雅半透明形态学术隐退，更清晰梳理关系。
+            - generic [ref=e63] [box=49,643,713,64]:
+              - button "巨擘宗师 ★★★★★ 形而上学巅峰巨人" [ref=e64] [cursor=pointer] [box=48,642,137,65]:
+                - generic [ref=e67] [box=103,652,44,17]: 巨擘宗师
+                - generic [ref=e68] [box=107,670,23,12]: ★★★★★
+                - generic [ref=e69] [box=87,687,61,11]: 形而上学巅峰巨人
+              - button "传世先驱 ★★★★☆ 学说关键奠基领袖" [ref=e70] [cursor=pointer] [box=192,642,137,65]:
+                - generic [ref=e73] [box=248,652,44,17]: 传世先驱
+                - generic [ref=e74] [box=251,670,23,12]: ★★★★☆
+                - generic [ref=e75] [box=232,687,61,11]: 学说关键奠基领袖
+              - button "核心贤哲 ★★★☆☆ 体系主干核心学者" [ref=e76] [cursor=pointer] [box=337,642,137,65]:
+                - generic [ref=e79] [box=392,652,44,17]: 核心贤哲
+                - generic [ref=e80] [box=396,670,23,12]: ★★★☆☆
+                - generic [ref=e81] [box=376,687,61,11]: 体系主干核心学者
+              - button "沿袭学者 ★★☆☆☆ 流派主干评注沿袭者" [ref=e82] [cursor=pointer] [box=481,642,137,65]:
+                - generic [ref=e85] [box=537,652,44,17]: 沿袭学者
+                - generic [ref=e86] [box=540,670,23,12]: ★★☆☆☆
+                - generic [ref=e87] [box=517,687,69,11]: 流派主干评注沿袭者
+              - button "界外探索者 ★☆☆☆☆ 外围探索思辨交涉" [ref=e88] [cursor=pointer] [box=626,642,137,65]:
+                - generic [ref=e91] [box=676,652,55,17]: 界外探索者
+                - generic [ref=e92] [box=677,670,39,12]: ★☆☆☆☆
+                - generic [ref=e93] [box=665,687,61,11]: 外围探索思辨交涉
+          - generic [ref=e94] [box=32,740,747,3500]:
+            - generic [box=33,1615,745,450]:
+              - img [box=180,1615,450,450]
+            - generic [box=33,3073,745,450]:
+              - img [box=180,3073,450,450]
+            - generic [ref=e95] [box=33,741,100,3498]:
+              - generic [ref=e98] [box=47,733,54,16]: 古希腊罗马
+              - generic [ref=e100] [box=77,760,35,11]: BC 6世纪
+              - generic [ref=e103] [box=77,817,35,11]: BC 5世纪
+              - generic [ref=e106] [box=77,873,35,11]: BC 4世纪
+              - generic [ref=e109] [box=67,929,45,11]: BC 3~2世纪
+              - generic [ref=e112] [box=78,985,34,11]: BC 1世纪
+              - generic [ref=e115] [box=77,1041,35,11]: AD 1世纪
+              - generic [ref=e118] [box=76,1098,36,11]: AD 2世纪
+              - generic [ref=e121] [box=76,1154,36,11]: AD 3世纪
+              - generic [ref=e124] [box=76,1210,36,11]: AD 4世纪
+              - generic [ref=e127] [box=47,1232,54,16]: 中世纪与经
+              - generic [ref=e129] [box=80,1260,32,11]: 4~5世纪
+              - generic [ref=e132] [box=80,1335,32,11]: 6~8世纪
+              - generic [ref=e135] [box=90,1410,22,11]: 9世纪
+              - generic [ref=e138] [box=73,1485,39,11]: 10~11世纪
+              - generic [ref=e141] [box=87,1560,25,11]: 12世纪
+              - generic [ref=e144] [box=87,1635,25,11]: 13世纪
+              - generic [ref=e147] [box=87,1710,25,11]: 14世纪
+              - generic [ref=e150] [box=47,1732,54,16]: 文艺复兴与
+              - generic [ref=e152] [box=87,1760,25,11]: 15世纪
+              - generic [ref=e155] [box=87,1850,25,11]: 16世纪
+              - generic [ref=e158] [box=70,1940,42,11]: 17世纪前期
+              - generic [ref=e161] [box=70,2030,42,11]: 17世纪中期
+              - generic [ref=e164] [box=70,2120,42,11]: 17世纪后期
+              - generic [ref=e167] [box=78,2210,34,11]: 18世纪初
+              - generic [ref=e170] [box=47,2232,54,16]: 法兰西启蒙
+              - generic [ref=e172] [box=69,2260,43,11]: 18世纪初期
+              - generic [ref=e175] [box=69,2409,43,11]: 18世纪中叶
+              - generic [ref=e178] [box=61,2559,51,11]: 18世纪中后期
+              - generic [ref=e181] [box=69,2709,43,11]: 18世纪末期
+              - generic [ref=e184] [box=47,2732,54,16]: 德意志古典
+              - generic [ref=e186] [box=58,2759,54,11]: 1780 康德革命
+              - generic [ref=e189] [box=57,2909,55,11]: 1800 三大主峰
+              - generic [ref=e192] [box=57,3059,55,11]: 1820 经世体系
+              - generic [ref=e195] [box=32,3209,80,11]: 1840 众声喧哗（青年派与人本学）
+              - generic [ref=e198] [box=47,3231,54,16]: 过渡时期与
+              - generic [ref=e200] [box=33,3259,79,11]: 1840~1850 意志呼啸
+              - generic [ref=e203] [box=34,3409,78,11]: 1860~1870 实证万能
+              - generic [ref=e206] [box=33,3559,79,11]: 1880~1890 上帝已死
+              - generic [ref=e209] [box=32,3709,80,11]: 1900 世纪之交的现代化分裂
+              - generic [ref=e212] [box=47,3731,54,16]: 现代派、英
+              - generic [ref=e214] [box=32,3759,80,11]: 1900~1920 意识奠基与逻辑分析
+              - generic [ref=e217] [box=32,3909,80,11]: 1930~1950 战争废墟与存在抉择
+              - generic [ref=e220] [box=32,4059,80,11]: 1960~1980 结构解构与反叛运动
+              - generic [ref=e223] [box=32,4208,80,11]: 1990~当代 后分析科学与新实用主义
+            - generic [ref=e225] [box=133,741,629,3498]:
+              - img [box=133,741,629,3498]
+              - generic [box=133,741,629,3498]:
+                - generic "泰勒斯 (宇宙科学/自然哲学) • 【学术定位】★★★★☆ 传世先驱" [ref=e226] [cursor=pointer] [box=170,778,114,42]
+                - generic "阿那克西曼德 (宇宙科学/自然哲学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e231] [cursor=pointer] [box=296,778,114,42]
+                - generic "阿那克西美尼 (宇宙科学/自然哲学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e236] [cursor=pointer] [box=422,778,114,42]
+                - generic "克塞诺芬尼 (宇宙科学/自然哲学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e241] [cursor=pointer] [box=579,802,114,42]
+                - generic "毕达哥拉斯 (宇宙科学/自然哲学) • 【学术定位】★★★★☆ 传世先驱" [ref=e246] [cursor=pointer] [box=202,826,114,42]
+                - generic "巴门尼德 (宇宙科学/自然哲学) • 【学术定位】★★★★☆ 传世先驱" [ref=e251] [cursor=pointer] [box=579,850,114,42]
+                - generic "赫拉克利特 (宇宙科学/自然哲学) • 【学术定位】★★★★☆ 传世先驱" [ref=e256] [cursor=pointer] [box=107,835,114,42]
+                - generic "克拉底鲁 (其他思想领域) • 【学术定位】★☆☆☆☆ 界外探索者" [ref=e261] [cursor=pointer] [box=95,864,114,42]
+                - generic "芝诺 (宇宙科学/自然哲学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e266] [cursor=pointer] [box=547,874,114,42]
+                - generic "麦里梭 (宇宙科学/自然哲学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e271] [cursor=pointer] [box=629,874,114,42]
+                - generic "恩培多克勒 (宇宙科学/自然哲学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e276] [cursor=pointer] [box=327,850,114,42]
+                - generic "阿那克萨戈拉 (宇宙科学/自然哲学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e281] [cursor=pointer] [box=422,850,114,42]
+                - generic "德谟克利特 (宇宙科学/自然哲学) • 【学术定位】★★★★☆ 传世先驱" [ref=e286] [cursor=pointer] [box=485,850,114,42]
+                - generic "普罗泰戈拉 (古希腊雅典流派) • 【学术定位】★★★★☆ 传世先驱" [ref=e291] [cursor=pointer] [box=189,888,114,42]
+                - generic "高尔吉亚 (古希腊雅典流派) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e296] [cursor=pointer] [box=277,888,114,42]
+                - generic "苏格拉底 (古希腊雅典流派) • 【学术定位】★★★★★ 巨擘宗师" [ref=e301] [cursor=pointer] [box=387,896,119,44]
+                - generic "欧几里得 (古希腊雅典流派) • 【学术定位】★☆☆☆☆ 界外探索者" [ref=e306] [cursor=pointer] [box=233,922,114,42]
+                - generic "安提斯泰尼 (希腊化与罗马伦理学) • 【学术定位】★☆☆☆☆ 界外探索者" [ref=e311] [cursor=pointer] [box=277,922,114,42]
+                - generic "第欧根尼 (希腊化与罗马伦理学) • 【学术定位】★☆☆☆☆ 界外探索者" [ref=e316] [cursor=pointer] [box=277,941,114,42]
+                - generic "亚里斯提卜 (古希腊雅典流派) • 【学术定位】★☆☆☆☆ 界外探索者" [ref=e321] [cursor=pointer] [box=321,922,114,42]
+                - generic "柏拉图 (古希腊雅典流派) • 【学术定位】★★★★★ 巨擘宗师" [ref=e326] [cursor=pointer] [box=390,931,114,42]
+                - generic "亚里士多德 (古希腊雅典流派) • 【学术定位】★★★★★ 巨擘宗师" [ref=e331] [cursor=pointer] [box=390,979,114,42]
+                - generic "皮浪 (希腊化与罗马伦理学) • 【学术定位】★☆☆☆☆ 界外探索者" [ref=e336] [cursor=pointer] [box=485,1018,114,42]
+                - generic "伊壁鸠鲁 (希腊化与罗马伦理学) • 【学术定位】★★★★☆ 传世先驱" [ref=e341] [cursor=pointer] [box=170,1018,114,42]
+                - generic "芝诺 (希腊化与罗马伦理学) • 【学术定位】★★★★☆ 传世先驱" [ref=e346] [cursor=pointer] [box=579,1018,114,42]
+                - generic "克利安提斯 (希腊化与罗马伦理学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e351] [cursor=pointer] [box=547,1042,114,42]
+                - generic "克里西普 (希腊化与罗马伦理学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e356] [cursor=pointer] [box=610,1042,114,42]
+                - generic "西塞罗 (希腊化与罗马伦理学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e361] [cursor=pointer] [box=629,1075,114,42]
+                - generic "塞涅卡 (希腊化与罗马伦理学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e366] [cursor=pointer] [box=591,1094,114,42]
+                - generic "爱比克泰德 (希腊化与罗马伦理学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e371] [cursor=pointer] [box=547,1113,114,42]
+                - generic "马克·奥勒留 (希腊化与罗马伦理学) • 【学术定位】★★★★☆ 传世先驱" [ref=e376] [cursor=pointer] [box=485,1113,114,42]
+                - generic "斐洛 (其他思想领域) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e381] [cursor=pointer] [box=378,1090,114,42]
+                - generic "普罗提诺 (希腊化与罗马伦理学) • 【学术定位】★★★★☆ 传世先驱" [ref=e386] [cursor=pointer] [box=296,1128,114,42]
+                - generic "波菲利 (希腊化与罗马伦理学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e391] [cursor=pointer] [box=265,1152,114,42]
+                - generic "奥古斯丁 (中世纪神学与经院学派) • 【学术定位】★★★★★ 巨擘宗师" [ref=e396] [cursor=pointer] [box=189,1287,114,42]
+                - generic "波爱修斯 (中世纪神学与经院学派) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e401] [cursor=pointer] [box=277,1335,114,42]
+                - generic "爱留根纳 (中世纪神学与经院学派) • 【学术定位】★★★★☆ 传世先驱" [ref=e406] [cursor=pointer] [box=359,1397,114,42]
+                - generic "安瑟尔谟 (中世纪神学与经院学派) • 【学术定位】★★★★☆ 传世先驱" [ref=e411] [cursor=pointer] [box=265,1460,114,42]
+                - generic "图尔的贝伦伽尔 (中世纪神学与经院学派) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e416] [cursor=pointer] [box=422,1460,114,42]
+                - generic "洛色林 (中世纪神学与经院学派) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e421] [cursor=pointer] [box=547,1460,114,42]
+                - generic "阿伯拉尔 (中世纪神学与经院学派) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e426] [cursor=pointer] [box=485,1517,114,42]
+                - generic "阿威罗伊 (其他思想领域) • 【学术定位】★☆☆☆☆ 界外探索者" [ref=e431] [cursor=pointer] [box=170,1517,114,42]
+                - generic "大阿尔伯特 (中世纪神学与经院学派) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e436] [cursor=pointer] [box=296,1575,114,42]
+                - generic "托马斯·阿奎那 (中世纪神学与经院学派) • 【学术定位】★★★★★ 巨擘宗师" [ref=e441] [cursor=pointer] [box=390,1589,114,42]
+                - generic "罗吉尔·培根 (中世纪神学与经院学派) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e446] [cursor=pointer] [box=233,1628,114,42]
+                - generic "约翰·邓斯·司各脱 (中世纪神学与经院学派) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e451] [cursor=pointer] [box=547,1628,114,42]
+                - generic "奥卡姆的威廉 (中世纪神学与经院学派) • 【学术定位】★★★★☆ 传世先驱" [ref=e456] [cursor=pointer] [box=422,1671,114,42]
+                - generic "彼特拉克 (文艺复兴与启蒙运动) • 【学术定位】★★★★☆ 传世先驱" [ref=e461] [cursor=pointer] [box=139,1777,114,42]
+                - generic "费奇诺 (其他思想领域) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e466] [cursor=pointer] [box=221,1777,114,42]
+                - generic "皮科 (文艺复兴与启蒙运动) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e471] [cursor=pointer] [box=296,1815,114,42]
+                - generic "库萨的尼古拉 (其他思想领域) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e476] [cursor=pointer] [box=422,1815,114,42]
+                - generic "蒙田 (希腊化与罗马伦理学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e481] [cursor=pointer] [box=170,1863,114,42]
+                - generic "托马斯·莫尔 (其他思想领域) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e486] [cursor=pointer] [box=252,1863,114,42]
+                - generic "马丁·路德 (文艺复兴与启蒙运动) • 【学术定位】★☆☆☆☆ 界外探索者" [ref=e491] [cursor=pointer] [box=547,1863,114,42]
+                - generic "加尔文 (文艺复兴与启蒙运动) • 【学术定位】★☆☆☆☆ 界外探索者" [ref=e496] [cursor=pointer] [box=485,1863,114,42]
+                - generic "弗兰西斯·培根 (近代经验论) • 【学术定位】★★★★☆ 传世先驱" [ref=e501] [cursor=pointer] [box=139,1921,114,42]
+                - generic "雪堡的爱德华 (文艺复兴与启蒙运动) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e506] [cursor=pointer] [box=359,1911,114,42]
+                - generic "霍布斯 (文艺复兴与启蒙运动) • 【学术定位】★★★★☆ 传世先驱" [ref=e511] [cursor=pointer] [box=214,1940,114,42]
+                - generic "笛卡尔 (近代唯理论) • 【学术定位】★★★★★ 巨擘宗师" [ref=e516] [cursor=pointer] [box=466,1931,114,42]
+                - generic "伽桑狄 (其他思想领域) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e521] [cursor=pointer] [box=403,1959,114,42]
+                - generic "洛克 (近代经验论) • 【学术定位】★★★★★ 巨擘宗师" [ref=e526] [cursor=pointer] [box=170,1979,114,42]
+                - generic "斯宾诺莎 (近代唯理论) • 【学术定位】★★★★★ 巨擘宗师" [ref=e531] [cursor=pointer] [box=503,1979,114,42]
+                - generic "马勒伯朗士 (近代唯理论) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e536] [cursor=pointer] [box=441,2007,114,42]
+                - generic "贝克莱 (其他思想领域) • 【学术定位】★★★★☆ 传世先驱" [ref=e541] [cursor=pointer] [box=151,2041,114,42]
+                - generic "马修·廷德尔 (文艺复兴与启蒙运动) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e546] [cursor=pointer] [box=296,2041,114,42]
+                - generic "莱布尼茨 (近代唯理论) • 【学术定位】★★★★☆ 传世先驱" [ref=e551] [cursor=pointer] [box=529,2041,114,42]
+                - generic "休谟 (希腊化与罗马伦理学) • 【学术定位】★★★★★ 巨擘宗师" [ref=e556] [cursor=pointer] [box=139,2103,114,42]
+                - generic "沃尔夫 (其他思想领域) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e561] [cursor=pointer] [box=485,2103,114,42]
+                - generic "伏尔泰 (文艺复兴与启蒙运动) • 【学术定位】★★★★☆ 传世先驱" [ref=e566] [cursor=pointer] [box=170,2325,114,42]
+                - generic "孟德斯鸠 (文艺复兴与启蒙运动) • 【学术定位】★★★★☆ 传世先驱" [ref=e571] [cursor=pointer] [box=390,2301,114,42]
+                - generic "卢梭 (文艺复兴与启蒙运动) • 【学术定位】★★★★☆ 传世先驱" [ref=e576] [cursor=pointer] [box=591,2469,114,42]
+                - generic "狄德罗 (文艺复兴与启蒙运动) • 【学术定位】★★★★☆ 传世先驱" [ref=e581] [cursor=pointer] [box=189,2526,114,42]
+                - generic "拉美特利 (文艺复兴与启蒙运动) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e586] [cursor=pointer] [box=359,2397,114,42]
+                - generic "爱尔维修 (文艺复兴与启蒙运动) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e591] [cursor=pointer] [box=547,2555,114,42]
+                - generic "霍尔巴赫 (文艺复兴与启蒙运动) • 【学术定位】★★★★☆ 传世先驱" [ref=e596] [cursor=pointer] [box=378,2637,114,42]
+                - generic "康德 (德意志古典哲学) • 【学术定位】★★★★★ 巨擘宗师" [ref=e601] [cursor=pointer] [box=359,2786,114,42]
+                - generic "费希特 (德意志古典哲学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e606] [cursor=pointer] [box=189,2920,114,42]
+                - generic "谢林 (德意志古典哲学) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e611] [cursor=pointer] [box=529,2920,114,42]
+                - generic "黑格尔 (德意志古典哲学) • 【学术定位】★★★★★ 巨擘宗师" [ref=e616] [cursor=pointer] [box=359,2978,114,42]
+                - generic "大卫·施特劳斯 (现代实证与非理性转向) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e621] [cursor=pointer] [box=202,3074,114,42]
+                - generic "布·鲍威尔 (现代实证与非理性转向) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e626] [cursor=pointer] [box=422,3074,114,42]
+                - generic "埃·鲍威尔 (现代实证与非理性转向) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e631] [cursor=pointer] [box=579,3074,114,42]
+                - generic "费尔巴哈 (现代实证与非理性转向) • 【学术定位】★★★★☆ 传世先驱" [ref=e636] [cursor=pointer] [box=296,3112,114,42]
+                - generic "麦克斯·施蒂纳 (现代实证与非理性转向) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e641] [cursor=pointer] [box=139,3112,114,42]
+                - generic "叔本华 (近代唯理论) • 【学术定位】★★★★☆ 传世先驱" [ref=e646] [cursor=pointer] [box=327,3315,114,42]
+                - generic "克尔凯郭尔 (现代实证与非理性转向) • 【学术定位】★★★★☆ 传世先驱" [ref=e651] [cursor=pointer] [box=390,3420,114,42]
+                - generic "孔德 (现代实证与非理性转向) • 【学术定位】★★★★☆ 传世先驱" [ref=e656] [cursor=pointer] [box=547,3430,114,42]
+                - generic "密尔/穆勒 (现代实证与非理性转向) • 【学术定位】★★★★☆ 传世先驱" [ref=e661] [cursor=pointer] [box=547,3459,114,42]
+                - generic "斯宾塞 (现代实证与非理性转向) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e666] [cursor=pointer] [box=591,3487,114,42]
+                - generic "尼采 (近代唯理论) • 【学术定位】★★★★★ 巨擘宗师" [ref=e671] [cursor=pointer] [box=422,3588,114,42]
+                - generic "马克思 (现代实证与非理性转向) • 【学术定位】★★★★★ 巨擘宗师" [ref=e676] [cursor=pointer] [box=189,3439,114,42]
+                - generic "弗雷格 (其他思想领域) • 【学术定位】★★★★☆ 传世先驱" [ref=e681] [cursor=pointer] [box=189,3800,114,42]
+                - generic "罗素 (其他思想领域) • 【学术定位】★★★★☆ 传世先驱" [ref=e686] [cursor=pointer] [box=189,3896,114,42]
+                - generic "维特根斯坦 (现代实证与非理性转向) • 【学术定位】★★★★★ 巨擘宗师" [ref=e691] [cursor=pointer] [box=233,3992,114,42]
+                - generic "奎因 (其他思想领域) • 【学术定位】★★★★☆ 传世先驱" [ref=e696] [cursor=pointer] [box=170,4112,114,42]
+                - generic "胡塞尔 (其他思想领域) • 【学术定位】★★★★☆ 传世先驱" [ref=e701] [cursor=pointer] [box=359,3786,114,42]
+                - generic "海德格尔 (现代实证与非理性转向) • 【学术定位】★★★★★ 巨擘宗师" [ref=e706] [cursor=pointer] [box=378,3910,114,42]
+                - generic "萨特 (现代实证与非理性转向) • 【学术定位】★★★★☆ 传世先驱" [ref=e711] [cursor=pointer] [box=422,4025,114,42]
+                - generic "皮尔士 (其他思想领域) • 【学术定位】★★★☆☆ 核心贤哲" [ref=e716] [cursor=pointer] [box=591,3776,114,42]
+                - generic "威廉·詹姆斯 (其他思想领域) • 【学术定位】★★★★☆ 传世先驱" [ref=e721] [cursor=pointer] [box=591,3872,114,42]
+                - generic "杜威 (其他思想领域) • 【学术定位】★★★★☆ 传世先驱" [ref=e726] [cursor=pointer] [box=591,3968,114,42]
+                - generic "福柯 (其他思想领域) • 【学术定位】★★★★☆ 传世先驱" [ref=e731] [cursor=pointer] [box=340,4102,114,42]
+                - generic "德里达 (其他思想领域) • 【学术定位】★★★★☆ 传世先驱" [ref=e736] [cursor=pointer] [box=415,4121,114,42]
+                - generic "罗蒂 (其他思想领域) • 【学术定位】★★★★☆ 传世先驱" [ref=e741] [cursor=pointer] [box=566,4136,114,42]
+            - generic [box=455,4207,311,24]:
+              - generic [box=464,4212,65,14]: ➜ 学说师承
+              - generic [box=540,4212,65,14]: ➜ 思想撞击
+              - generic [box=617,4212,140,14]: 💡 双击人物卡片进入手稿生平行卷
+      - complementary [ref=e746] [box=811,482,357,808]:
+        - generic [ref=e750] [box=835,503,305,486]:
+          - generic [ref=e751] [box=835,503,305,82]:
+            - generic [ref=e752] [box=835,503,305,20]:
+              - generic [ref=e753] [box=835,504,52,18]: 雅典学派
+              - generic [ref=e754] [box=1084,503,56,20]: BC 5世纪
+            - heading "苏格拉底" [level=2] [ref=e755] [box=835,531,305,35]
+            - paragraph [ref=e756] [box=835,570,305,14]: Socrates
+          - generic [ref=e757] [box=835,600,305,144]:
+            - heading "📜 核心命题与学说" [level=4] [ref=e758] [box=835,600,305,18]
+            - generic [ref=e759] [box=835,624,305,120]:
+              - generic [ref=e760] [box=835,624,301,34]: 认识你自己
+              - generic [ref=e761] [box=835,664,301,34]: 我知道我一无所知
+              - generic [ref=e762] [box=835,704,301,34]: 产婆术（辩证法）
+              - generic [ref=e763] [box=835,744,301,34]: 美德即知识
+          - generic [ref=e764] [box=835,760,305,110]:
+            - generic [ref=e765] [box=846,771,283,15]: 📖 思想史综述
+            - text: “ 西方哲学的宗师，与孔子并称。他不写著作，终其一生在中庭广场同青年辩论。通过“讽刺、产婆术”等对话发现普遍正义。将哲学视线由外在自然转入内在心灵与道德，开启了希腊哲学的辉煌顶峰。 ”
+          - button "双击人物卡 或【点击此处】深入主卷生平" [ref=e767] [cursor=pointer] [box=835,894,305,29]
+          - generic [ref=e768] [box=835,939,305,50]:
+            - heading "⚡ 历史脉络学术关联：" [level=4] [ref=e769] [box=835,948,305,14]
+            - generic [ref=e770] [box=835,969,305,20]:
+              - button "欧几里得" [ref=e771] [cursor=pointer] [box=835,969,53,20]
+              - button "安提斯泰尼" [ref=e772] [cursor=pointer] [box=892,969,63,20]
+              - button "亚里斯提卜" [ref=e773] [cursor=pointer] [box=958,969,63,20]
+              - button "柏拉图" [ref=e774] [cursor=pointer] [box=1025,969,43,20]
+        - generic [ref=e775] [box=811,1019,353,270]:
+          - generic [ref=e776] [box=826,1034,323,18]: ⏱️ 历史时空定位 (Temporal Axis)
+          - generic [ref=e777] [box=826,1060,323,215]:
+            - button "01·公元前6世纪 ~ 公元4世纪 古希腊罗马哲学" [ref=e779] [cursor=pointer] [box=826,1060,323,24]:
+              - generic [ref=e783] [box=844,1060,113,24]:
+                - generic [ref=e784] [box=844,1060,113,11]: 01·公元前6世纪 ~ 公元4世纪
+                - generic [ref=e785] [box=844,1071,113,13]: 古希腊罗马哲学
+            - button "02·公元5世纪 ~ 公元14世纪 中世纪与经院哲学" [ref=e786] [cursor=pointer] [box=826,1092,323,24]:
+              - generic [ref=e789] [box=844,1092,110,24]:
+                - generic [ref=e790] [box=844,1092,110,11]: 02·公元5世纪 ~ 公元14世纪
+                - generic [ref=e791] [box=844,1103,110,13]: 中世纪与经院哲学
+            - button "03·15世纪 ~ 17世纪 文艺复兴与近代早期哲学" [ref=e792] [cursor=pointer] [box=826,1124,323,24]:
+              - generic [ref=e795] [box=844,1124,110,24]:
+                - generic [ref=e796] [box=844,1124,110,11]: 03·15世纪 ~ 17世纪
+                - generic [ref=e797] [box=844,1135,110,13]: 文艺复兴与近代早期哲学
+            - button "04·18世纪 法兰西启蒙思想和唯物主义" [ref=e798] [cursor=pointer] [box=826,1156,323,24]:
+              - generic [ref=e801] [box=844,1156,120,24]:
+                - generic [ref=e802] [box=844,1156,120,11]: 04·18世纪
+                - generic [ref=e803] [box=844,1167,120,13]: 法兰西启蒙思想和唯物主义
+            - button "05·公元1770 ~ 1844 德意志古典哲学" [ref=e804] [cursor=pointer] [box=826,1187,323,24]:
+              - generic [ref=e807] [box=844,1187,87,24]:
+                - generic [ref=e808] [box=844,1187,87,11]: 05·公元1770 ~ 1844
+                - generic [ref=e809] [box=844,1199,87,13]: 德意志古典哲学
+            - button "06·公元1844 ~ 1900 过渡时期与19世纪中后期" [ref=e810] [cursor=pointer] [box=826,1219,323,24]:
+              - generic [ref=e813] [box=844,1219,110,24]:
+                - generic [ref=e814] [box=844,1219,110,11]: 06·公元1844 ~ 1900
+                - generic [ref=e815] [box=844,1231,110,13]: 过渡时期与19世纪中后期
+            - button "07·公元20世纪 ~ 当代 现代派、英美分析与世纪后的大分分流" [ref=e816] [cursor=pointer] [box=826,1251,323,24]:
+              - generic [ref=e819] [box=844,1251,170,24]:
+                - generic [ref=e820] [box=844,1251,170,11]: 07·公元20世纪 ~ 当代
+                - generic [ref=e821] [box=844,1262,170,13]: 现代派、英美分析与世纪后的大分分流
+    - generic [ref=e822] [box=32,4288,1136,694]:
+      - generic [ref=e823] [box=32,4288,1136,37]:
+        - img [ref=e824] [box=32,4292,20,20]
+        - heading "对话广场 · 雅典论辩 (Symposium Arena)" [level=2] [ref=e827] [box=60,4288,404,28]
+      - generic [ref=e828] [box=32,4341,1136,641]:
+        - generic [ref=e833] [box=57,4366,1086,88]:
+          - generic [ref=e834] [box=57,4366,1086,16]: THE PALESTRA symposium
+          - heading "雅典学园之辩 · 思想交锋" [level=3] [ref=e835] [box=57,4386,1086,32]
+          - paragraph [ref=e836] [box=312,4422,576,32]: 将两位先哲并置于思想沙龙之中。通过极具张力的虚拟对话与辩证对比，洞若观火地解析心物、理路与救赎之争的异同。
+        - generic [ref=e837] [box=57,4478,1086,479]:
+          - generic [ref=e838] [box=57,4478,346,479]:
+            - generic [ref=e839] [box=57,4478,346,284]:
+              - heading "👑 精选思想公案 (Presets)" [level=4] [ref=e840] [box=74,4495,312,25]
+              - generic [ref=e841] [box=74,4532,312,213]:
+                - button "第一本原：心灵的终极指向 柏拉图 vs 亚里士多德" [ref=e842] [cursor=pointer] [box=74,4532,312,47]
+                - button "知识探求：天赋还是白板 笛卡尔 vs 洛克" [ref=e845] [cursor=pointer] [box=74,4587,312,47]
+                - button "救赎之道：寂灭亦或狂歌 叔本华 vs 尼采" [ref=e848] [cursor=pointer] [box=74,4642,312,47]
+                - button "历史车轮：绝对精神与生产力 黑格尔 vs 马克思" [ref=e851] [cursor=pointer] [box=74,4698,312,47]
+            - generic [ref=e854] [box=57,4778,346,179]:
+              - heading "🏛️ 自定义群星对照" [level=4] [ref=e855] [box=74,4795,312,25]
+              - generic [ref=e856] [box=74,4832,312,108]:
+                - generic [ref=e857] [box=74,4832,312,50]
+                - generic [ref=e860] [box=74,4890,312,50]
+          - generic [ref=e864] [box=448,4499,674,437]:
+            - generic [ref=e865] [box=448,4499,674,63]:
+              - text: 公案辩题
+              - heading "“世界的终极绝对本质，究竟是理念实体还是客观事物本身？”" [level=4] [ref=e866] [box=448,4525,674,24]
+            - generic [ref=e867] [box=448,4583,674,300]:
+              - generic [ref=e868] [box=448,4583,670,88]:
+                - generic [ref=e870] [box=448,4583,42,19]: 柏拉图
+                - generic [ref=e871] [box=448,4606,570,65]: 贤徒，你看看这世间的大理石柱。每一根石柱都会风化、残损，因为它们只是物质界的影子。唯有“石柱的理念”（Idea）在纯粹的智慧界永恒不灭，物质世界只是不完美摹本。
+              - generic [ref=e872] [box=448,4687,670,88]:
+                - generic [ref=e874] [box=1056,4687,62,19]: 亚里士多德
+                - generic [ref=e875] [box=549,4710,570,65]: 吾师，我敬爱您，但更爱真理。如果理念脱离了具体的石柱而单独存在，那理念就毫无用处，也无法解释万物的运动。质料与形式结合，才构成了具体的“第一实体（ousia）”！
+              - generic [ref=e876] [box=448,4791,670,88]:
+                - generic [ref=e878] [box=448,4791,42,19]: 柏拉图
+                - generic [ref=e879] [box=448,4814,570,65]: 但如果灵魂不在出生前就见过那完美的绝对真善美，我们如何能在不完美的经验世界中，回忆起并辨认出哪怕一丁点的正义和圆满？
+              - generic [ref=e880] [box=448,4895,670,88]:
+                - generic [ref=e882] [box=1056,4895,62,19]: 亚里士多德
+                - generic [ref=e883] [box=549,4918,570,65]: 灵魂不是回忆，而是人心灵通过对多根大理石柱的经验观察，进而抽象概括出其共性形式。认识世界必须自具体的“质料”向“形式目的”演进。
+            - generic [ref=e884] [box=448,4912,674,24]:
+              - generic [ref=e885] [box=448,4921,150,15]: 主持：古希腊阿卡德米学院秘书处
+              - generic [ref=e886] [box=968,4921,154,15]:
+                - generic [ref=e887] [cursor=pointer] [box=968,4921,56,15]: 查阅 柏拉图
+                - generic [ref=e888] [box=1032,4921,6,15]: "|"
+                - generic [ref=e889] [cursor=pointer] [box=1046,4921,76,15]: 查阅 亚里士多德
+    - generic [ref=e890] [box=32,5038,1136,346]:
+      - generic [ref=e891] [box=58,5064,345,294]:
+        - heading "传承连线与学术定位" [level=4] [ref=e892] [box=58,5064,345,16]:
+          - img [ref=e893] [box=58,5065,14,14]
+          - text: 传承连线与学术定位
+        - list [ref=e895] [box=58,5090,345,179]:
+          - listitem [ref=e896] [box=58,5090,345,17]:
+            - generic [ref=e899] [box=82,5090,210,17]: "实线箭头 (➜): 严密师资授受/正统流派继承。"
+          - listitem [ref=e900] [box=58,5115,345,17]:
+            - generic [ref=e903] [box=82,5115,238,17]: "虚线箭头 (┈➜): 跨越时代的间接灵感与思想交锋。"
+          - listitem [ref=e904] [box=58,5140,345,129]:
+            - generic [ref=e905] [box=58,5151,345,17]: 五维学术继承层级
+            - list [ref=e906] [box=58,5172,345,97]:
+              - listitem [ref=e907] [box=62,5172,341,16]:
+                - generic [ref=e908] [box=62,5174,96,12]: ★★★★★ 巨擘宗师
+                - text: ": 哲学王座基石，独享「流光」卡片与星盘刻度轴。"
+              - listitem [ref=e909] [box=62,5192,341,16]:
+                - generic [ref=e910] [box=62,5194,95,12]: ★★★★☆ 传世先驱
+                - text: ": 流派核心奠基人，享金砂哑光卡片与辅助定位轴。"
+              - listitem [ref=e911] [box=62,5213,341,16]:
+                - generic [ref=e912] [box=62,5215,95,12]: ★★★☆☆ 核心贤哲
+                - text: ": 学说谱系主力承传者，享经典金相层。"
+              - listitem [ref=e913] [box=62,5233,341,16]:
+                - generic [ref=e914] [box=62,5235,95,12]: ★★☆☆☆ 沿袭学者
+                - text: ": 学派集大成者/完善评注者。"
+              - listitem [ref=e915] [box=62,5253,341,16]:
+                - generic [ref=e916] [box=62,5255,104,12]: ★☆☆☆☆ 界外探索者
+                - text: ": 旁支外围发展与思想交涉的探索者。"
+      - generic [ref=e917] [box=427,5064,345,294]:
+        - heading "🎨 学说学派与卡片色彩 (Card Colors)" [level=4] [ref=e918] [box=427,5064,345,16]
+        - generic [ref=e919] [box=427,5090,345,268]:
+          - generic [ref=e922] [box=450,5095,259,16]: "古自然哲学与宇宙学 (Teal): 探讨世界的本原与自然科学。"
+          - generic [ref=e925] [box=450,5125,262,16]: "古希腊雅典流派 (Sky Blue): 雅典三杰、智者派与学院派。"
+          - generic [ref=e928] [box=450,5156,272,16]: "希腊化与罗马伦理 (Amber): 斯多葛、伊壁鸠鲁、新柏拉图。"
+          - generic [ref=e931] [box=450,5186,240,16]: "中世纪神学经院 (Emerald): 教父、阿奎那、唯名论。"
+          - generic [ref=e934] [box=450,5216,240,16]: "近代唯理论 (Indigo): 笛卡尔、斯宾诺莎、莱布尼茨。"
+          - generic [ref=e937] [box=450,5246,231,16]: "近代经验论 (Yellow): 培根、洛克、贝克莱、休谟。"
+          - generic [ref=e940] [box=450,5277,243,16]: "文艺复兴启蒙 (Rose): 人文主义、宗教改革与激进派。"
+          - generic [ref=e943] [box=450,5307,251,16]: "德意志古典哲学 (Purple): 康德批判、黑格尔绝对精神。"
+          - generic [ref=e946] [box=450,5337,257,16]: "实证与非理性 (Red): 意志主义、实证主义、马克思哲学。"
+      - generic [ref=e947] [box=797,5064,345,294]:
+        - heading "🧭 史学操作与时空轴心定位" [level=4] [ref=e948] [box=797,5064,345,16]
+        - generic [ref=e949] [box=797,5090,345,147]:
+          - paragraph [ref=e950] [box=797,5090,345,51]:
+            - generic [ref=e951] [box=797,5092,118,12]: ① 脉络图谱纵向无限滑动
+            - text: ": 页面呈现单一、连续、长画卷轴。下划即是时光穿梭，随滚轮见证两千年哲学长河洗礼！右侧辅助面板实时展示当前高亮的活跃纪元时区（Temporal Axis）。"
+          - paragraph [ref=e952] [box=797,5151,345,85]:
+            - generic [ref=e953] [box=797,5153,128,12]: ② 学人操作锁定与关系高亮
+            - text: ":"
+            - text: "• 单击卡片: 在右侧“贤哲神龛”载入核心概念，并在图中照亮其师资、思想传承影响连线。"
+            - text: "• 双击卡片: 开启解构式的贤哲生平独立行卷，展示学说、传记、不朽经典作品档案，点击“返回”一键归队。"
+  - contentinfo [ref=e954] [box=0,5464,1200,180]:
+    - img [ref=e956] [box=0,5481,1200,24]
+    - paragraph [ref=e958] [box=0,5529,1200,16]: —— L O G O S · A C A D E M Y ——
+    - paragraph [ref=e959] [box=0,5551,1200,29]: 西方哲学思想库交互史迹脉络图谱 © 2026. Designed with Athens Alabaster Marble & Mediterranean Aegean Blue Palette
+  - generic [ref=e960] [box=404,794,392,54]:
+    - generic [ref=e961] [box=425,813,68,16]: v1.0.2
+    - generic [ref=e962] [box=525,812,131,19]:
+      - button "help" [ref=e963] [cursor=pointer] [box=525,812,47,19]:
+        - img [ref=e964] [box=525,814,14,14]
+        - text: help
+      - button "contact" [ref=e967] [cursor=pointer] [box=588,812,67,19]:
+        - img [ref=e968] [box=588,814,14,14]
+        - text: contact
+    - generic [ref=e971] [box=688,807,87,28]:
+      - button "English" [ref=e972] [cursor=pointer] [box=705,807,28,28]:
+        - img [ref=e973] [box=711,813,16,16]
+        - generic [box=701,787,37,16]: English
+      - button "Study Track" [ref=e977] [cursor=pointer] [box=747,807,28,28]:
+        - img [ref=e978] [box=753,813,16,16]
+        - generic [box=733,787,55,16]: Study Track
