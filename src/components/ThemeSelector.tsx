@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { cn } from "@/lib/utils";
 
 const themeOptions = [
@@ -21,6 +21,10 @@ interface ThemeSelectorProps {
 export default function ThemeSelector({ onSelectionChange }: ThemeSelectorProps) {
   const [selected, setSelected] = useState<string[]>([]);
 
+  useEffect(() => {
+    onSelectionChange?.(selected);
+  }, [selected, onSelectionChange]);
+
   const toggle = useCallback(
     (title: string) => {
       setSelected((prev) => {
@@ -29,11 +33,10 @@ export default function ThemeSelector({ onSelectionChange }: ThemeSelectorProps)
           : prev.length < MAX_SELECTION
             ? [...prev, title]
             : prev;
-        onSelectionChange?.(next);
         return next;
       });
     },
-    [onSelectionChange]
+    []
   );
 
   return (
