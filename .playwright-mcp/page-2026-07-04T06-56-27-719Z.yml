@@ -1,0 +1,156 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "🍳 表情厨房" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: 🍳
+        - generic [ref=e6]: 表情厨房
+      - generic [ref=e7]:
+        - navigation [ref=e8]:
+          - link "AI 制作" [ref=e9] [cursor=pointer]:
+            - /url: /
+          - link "案例教程" [ref=e10] [cursor=pointer]:
+            - /url: /guide
+          - link "联系我" [ref=e11] [cursor=pointer]:
+            - /url: /#contact
+        - button "登录" [ref=e12]
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - paragraph [ref=e16]: 表情厨房
+        - heading "AI 微信表情包制作工具" [level=1] [ref=e17]
+        - paragraph [ref=e18]: 在线生成 24 张微信表情包主图，自动切割后可直接下载聊天表情。 注册赠送 4 credits，可免费生成 1 次主图；横幅、封面、图标等上架素材需充值后按需生成。
+        - generic [ref=e19]:
+          - generic [ref=e20]: 24 张表情自动生成
+          - generic [ref=e21]: 自动切割 240×240
+          - generic [ref=e22]: 聊天自用可直接下载
+        - link "先看案例教程" [ref=e24] [cursor=pointer]:
+          - /url: /guide
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: "1"
+          - text: 生成表情
+        - generic [ref=e28]: →
+        - generic [ref=e29]:
+          - generic [ref=e30]: "2"
+          - text: 切割表情
+        - generic [ref=e31]: →
+        - generic [ref=e32]:
+          - generic [ref=e33]: "3"
+          - text: 下载打包
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: 选择角色风格
+          - generic [ref=e38]:
+            - button "🥰 Q版可爱 圆润可爱的Q版风格，大头小身体" [ref=e39]:
+              - generic [ref=e40]: 🥰
+              - generic [ref=e41]: Q版可爱
+              - generic [ref=e42]: 圆润可爱的Q版风格，大头小身体
+              - img [ref=e44]
+            - button "👾 像素风 复古像素游戏风格" [ref=e46]:
+              - generic [ref=e47]: 👾
+              - generic [ref=e48]: 像素风
+              - generic [ref=e49]: 复古像素游戏风格
+            - button "✏️ 手绘涂鸦 随性手绘涂鸦风格" [ref=e50]:
+              - generic [ref=e51]: ✏️
+              - generic [ref=e52]: 手绘涂鸦
+              - generic [ref=e53]: 随性手绘涂鸦风格
+            - button "🧸 3D毛绒 3D毛绒玩具质感" [ref=e54]:
+              - generic [ref=e55]: 🧸
+              - generic [ref=e56]: 3D毛绒
+              - generic [ref=e57]: 3D毛绒玩具质感
+        - generic [ref=e58]:
+          - generic [ref=e59]: 选择表情主题
+          - paragraph [ref=e60]: 最多选择 3 个主题，已选 0/3
+          - generic [ref=e61]:
+            - button "👋 日常问候 你好、谢谢、再见、早安..." [ref=e62]:
+              - generic [ref=e63]:
+                - generic [ref=e64]: 👋
+                - generic [ref=e65]: 日常问候
+              - generic [ref=e66]: 你好、谢谢、再见、早安...
+            - button "🤪 搞笑沙雕 哈哈哈、笑死、裂开、社死..." [ref=e67]:
+              - generic [ref=e68]:
+                - generic [ref=e69]: 🤪
+                - generic [ref=e70]: 搞笑沙雕
+              - generic [ref=e71]: 哈哈哈、笑死、裂开、社死...
+            - button "💼 职场打工 收到、好的、已阅、加油..." [ref=e72]:
+              - generic [ref=e73]:
+                - generic [ref=e74]: 💼
+                - generic [ref=e75]: 职场打工
+              - generic [ref=e76]: 收到、好的、已阅、加油...
+            - button "💕 恋爱甜蜜 爱你、想你了、亲亲、抱抱..." [ref=e77]:
+              - generic [ref=e78]:
+                - generic [ref=e79]: 💕
+                - generic [ref=e80]: 恋爱甜蜜
+              - generic [ref=e81]: 爱你、想你了、亲亲、抱抱...
+            - button "🍜 吃货日常 干饭、好饿、奶茶!、加鸡腿..." [ref=e82]:
+              - generic [ref=e83]:
+                - generic [ref=e84]: 🍜
+                - generic [ref=e85]: 吃货日常
+              - generic [ref=e86]: 干饭、好饿、奶茶!、加鸡腿...
+            - button "🎉 节日祝福 新年好、恭喜发财、生日快乐、中秋快乐..." [ref=e87]:
+              - generic [ref=e88]:
+                - generic [ref=e89]: 🎉
+                - generic [ref=e90]: 节日祝福
+              - generic [ref=e91]: 新年好、恭喜发财、生日快乐、中秋快乐...
+        - generic [ref=e92]:
+          - generic [ref=e93]: 自定义表情文字（可选）
+          - paragraph [ref=e94]: 输入你想要的表情文字，用逗号或换行分隔。
+          - textbox "例如：哈哈哈，谢谢，辛苦了，下班啦，摸鱼中，好的收到" [ref=e95]
+        - generic [ref=e96]:
+          - generic [ref=e97]: 自定义角色（可选）
+          - generic [ref=e99]:
+            - button "📷 上传参考" [ref=e100] [cursor=pointer]:
+              - generic [ref=e101]: 📷
+              - generic [ref=e102]: 上传参考
+            - generic [ref=e103]:
+              - textbox "例如：一个短发女生，圆脸，戴眼镜，穿黄色卫衣，整体可爱活泼，保持人物形象一致" [ref=e104]
+              - paragraph [ref=e105]: 无需上传参考图，直接输入角色描述也可以生成。
+              - paragraph [ref=e106]: 建议描述：角色身份、外观特征、服装配饰和整体气质，并说明保持形象一致。
+              - paragraph [ref=e107]:
+                - generic [ref=e108]: 推荐写法：
+                - text: 一个短发女生，圆脸，戴眼镜，穿黄色卫衣，整体可爱活泼，保持人物形象一致。
+        - button "生成表情包" [disabled] [ref=e109]
+        - paragraph [ref=e110]: 请选择表情主题或输入自定义表情文字
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - heading "为什么用表情厨房做微信表情包？" [level=2] [ref=e113]
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - heading "AI 生成整套微信表情包" [level=3] [ref=e116]
+              - paragraph [ref=e117]: 支持 Q 版可爱、像素风、手绘涂鸦、3D 毛绒等多种风格，可快速生成 24 张微信表情包，适合做个人 IP、品牌表情或上架作品。
+            - generic [ref=e118]:
+              - heading "支持自定义角色形象" [level=3] [ref=e119]
+              - paragraph [ref=e120]: 上传参考图片或输入文字描述，让 AI 基于你的角色形象生成整套表情包，适合打造个人形象、品牌吉祥物或专属聊天表情。
+            - generic [ref=e121]:
+              - heading "自动切割微信表情包尺寸" [level=3] [ref=e122]
+              - paragraph [ref=e123]: 自动识别表情边界，切割为单张 240×240 标准尺寸，减少手动裁图和排版的时间，适合直接进入上传流程。
+            - generic [ref=e124]:
+              - heading "聊天自用与上架分开走" [level=3] [ref=e125]
+              - paragraph [ref=e126]: 免费先完成主图、切图和聊天表情下载；要上传微信表情开放平台，再按需生成横幅、封面、图标、赞赏图和艺术家资料。
+        - generic [ref=e127]:
+          - heading "微信表情包制作常见问题" [level=2] [ref=e128]
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - term [ref=e131]: 微信表情包怎么制作？
+              - definition [ref=e132]: 在表情厨房选择风格和主题后，AI 会先生成 24 张表情合集主图，并自动切割成单张表情。聊天自用可直接下载；要上传微信平台，再按需生成横幅、封面和图标。
+            - generic [ref=e133]:
+              - term [ref=e134]: 上传微信表情开放平台需要哪些素材？
+              - definition [ref=e135]: 上架需要表情单图 + 横幅、封面、图标。开通赞赏还需要赞赏引导图、致谢图，以及艺术家头像和主页横幅。表情厨房可以一站式生成全部素材。
+            - generic [ref=e136]:
+              - term [ref=e137]: 微信表情包尺寸是多少？
+              - definition [ref=e138]: 单张表情为 240×240 像素，横幅为 750×400，封面为 240×240，图标为 50×50，均按微信表情开放平台常用规格生成。
+            - generic [ref=e139]:
+              - term [ref=e140]: 不会画画也能做微信表情包吗？
+              - definition [ref=e141]: 可以。你只需要选择风格、主题，或者上传参考图和输入角色描述，AI 就能生成整套微信表情包，适合没有绘画基础的用户。
+            - generic [ref=e142]:
+              - term [ref=e143]: 生成一套微信表情包要多久？
+              - definition [ref=e144]: 通常 1-2 分钟即可完成 24 张表情主图的生成。注册即赠送 4 credits，可免费生成 1 次主图并切图下载聊天表情；平台素材需充值后继续生成。
+        - generic [ref=e146]:
+          - heading "联系我" [level=2] [ref=e147]
+          - paragraph [ref=e148]: 有使用问题、Bug 反馈、功能建议或合作咨询，都可以直接加我微信。
+          - paragraph [ref=e149]: 如果你想进交流群，也可以先加我微信，我会拉你进群。
+          - generic [ref=e150]:
+            - img "表情厨房微信联系方式二维码" [ref=e151]
+            - paragraph [ref=e152]: 微信联系
+            - paragraph [ref=e153]: 扫码添加微信，备注“表情包”我会更快处理。

@@ -1,0 +1,91 @@
+[    1040ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    1249ms] [ERROR] WebSocket connection to 'ws://192.168.199.221:3000/_next/webpack-hmr?id=ZtOnnAsQPPyx6t0-neL3a' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[    2258ms] [ERROR] WebSocket connection to 'ws://192.168.199.221:3000/_next/webpack-hmr?id=ZtOnnAsQPPyx6t0-neL3a' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[    3263ms] [ERROR] WebSocket connection to 'ws://192.168.199.221:3000/_next/webpack-hmr?id=ZtOnnAsQPPyx6t0-neL3a' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[    4273ms] [ERROR] WebSocket connection to 'ws://192.168.199.221:3000/_next/webpack-hmr?id=ZtOnnAsQPPyx6t0-neL3a' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[    5283ms] [ERROR] WebSocket connection to 'ws://192.168.199.221:3000/_next/webpack-hmr?id=ZtOnnAsQPPyx6t0-neL3a' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[    6042ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    6078ms] [ERROR] WebSocket connection to 'ws://192.168.199.221:3000/_next/webpack-hmr?id=x_GccJCcFUKQp5r6sqLaS' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[    7091ms] [ERROR] WebSocket connection to 'ws://192.168.199.221:3000/_next/webpack-hmr?id=x_GccJCcFUKQp5r6sqLaS' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[    8120ms] [ERROR] WebSocket connection to 'ws://192.168.199.221:3000/_next/webpack-hmr?id=x_GccJCcFUKQp5r6sqLaS' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[    9141ms] [ERROR] WebSocket connection to 'ws://192.168.199.221:3000/_next/webpack-hmr?id=x_GccJCcFUKQp5r6sqLaS' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   10191ms] [ERROR] WebSocket connection to 'ws://192.168.199.221:3000/_next/webpack-hmr?id=x_GccJCcFUKQp5r6sqLaS' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   11230ms] [ERROR] WebSocket connection to 'ws://192.168.199.221:3000/_next/webpack-hmr?id=x_GccJCcFUKQp5r6sqLaS' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   16336ms] [ERROR] WebSocket connection to 'ws://192.168.199.221:3000/_next/webpack-hmr?id=x_GccJCcFUKQp5r6sqLaS' failed: Error during WebSocket handshake: net::ERR_INVALID_HTTP_RESPONSE @ http://192.168.199.221:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   20158ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   20307ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   20444ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   20483ms] [LOG] [Fast Refresh] done in 140ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   29528ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=bUeX-5u1BIDBjnBgpIZ3x' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   30532ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=bUeX-5u1BIDBjnBgpIZ3x' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   31536ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=bUeX-5u1BIDBjnBgpIZ3x' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   32540ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=bUeX-5u1BIDBjnBgpIZ3x' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   33545ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=bUeX-5u1BIDBjnBgpIZ3x' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   38549ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=bUeX-5u1BIDBjnBgpIZ3x' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   43555ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=bUeX-5u1BIDBjnBgpIZ3x' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   48563ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=bUeX-5u1BIDBjnBgpIZ3x' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   53569ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=bUeX-5u1BIDBjnBgpIZ3x' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[   56782ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   56799ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   57831ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   57845ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   83877ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   85005ms] [LOG] [Fast Refresh] done in 1203ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   88009ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   88061ms] [LOG] [Fast Refresh] done in 54ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   88145ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/seo/favicon.ico:0
+[   93495ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   93525ms] [LOG] [Fast Refresh] done in 68ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  105109ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  105139ms] [LOG] [Fast Refresh] done in 83ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  109773ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  109804ms] [LOG] [Fast Refresh] done in 44ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  115076ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  115105ms] [LOG] [Fast Refresh] done in 35ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  149858ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  149887ms] [LOG] [Fast Refresh] done in 35ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  160873ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  160902ms] [LOG] [Fast Refresh] done in 80ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  163206ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  163236ms] [LOG] [Fast Refresh] done in 36ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  164578ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  164608ms] [LOG] [Fast Refresh] done in 33ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  166994ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  167023ms] [LOG] [Fast Refresh] done in 47ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  172143ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  172173ms] [LOG] [Fast Refresh] done in 34ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  175872ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  175929ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  177087ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  177117ms] [LOG] [Fast Refresh] done in 62ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  179542ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  179571ms] [LOG] [Fast Refresh] done in 33ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  184456ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  184486ms] [LOG] [Fast Refresh] done in 39ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  186483ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  186512ms] [LOG] [Fast Refresh] done in 52ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  189723ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  190654ms] [LOG] [Fast Refresh] done in 1032ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  292782ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  292817ms] [LOG] [Fast Refresh] done in 137ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  302732ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  302763ms] [LOG] [Fast Refresh] done in 78ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  362236ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  362264ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  365045ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  365062ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  366284ms] [WARNING] Image with src "/images/contact-qr.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  377537ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/guide?_rsc=lquux:0
+[  377624ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/guide:0
+[  377671ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  377687ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  379164ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  379182ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  381576ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/guide:0
+[  381603ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  381612ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  403468ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  403483ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  405724ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  405743ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  407675ms] [WARNING] Image with src "/images/contact-qr.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431

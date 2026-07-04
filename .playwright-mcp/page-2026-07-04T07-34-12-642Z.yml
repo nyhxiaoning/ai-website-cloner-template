@@ -1,0 +1,136 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - link "🍳 表情厨房" [ref=f4e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f4e5]: 🍳
+        - generic [ref=f4e6]: 表情厨房
+      - navigation [ref=f4e7]:
+        - link "AI 制作" [ref=f4e8] [cursor=pointer]:
+          - /url: /
+        - link "案例教程" [ref=f4e9] [cursor=pointer]:
+          - /url: /guide
+        - link "联系我" [ref=f4e10] [cursor=pointer]:
+          - /url: /#contact
+      - button "登录" [ref=f4e11] [cursor=pointer]
+  - main [ref=f4e12]:
+    - generic [ref=f4e13]:
+      - heading "从零做出可上架的 微信表情包" [level=1] [ref=f4e14]
+      - paragraph [ref=f4e15]: 先看别人做出来什么样，再跟着 4 步流程做自己的。注册赠送 4 credits，可先免费做出一套聊天表情；要上架微信平台，再按需充值补齐素材。
+      - generic [ref=f4e16]:
+        - link "立即开始制作" [ref=f4e17] [cursor=pointer]:
+          - /url: /
+        - link "先看教程" [ref=f4e18] [cursor=pointer]:
+          - /url: "#steps"
+    - generic [ref=f4e19]:
+      - paragraph [ref=f4e20]: 上架案例
+      - heading "这些表情包都是用表情厨房做的" [level=2] [ref=f4e21]
+      - generic [ref=f4e22]:
+        - article [ref=f4e23]:
+          - generic [ref=f4e24]:
+            - img "捌哥的上班日常——微信表情包成品" [ref=f4e25]
+            - generic [ref=f4e26]: 已上架
+          - generic [ref=f4e27]:
+            - generic [ref=f4e28]:
+              - generic [ref=f4e29]: Q版可爱 · 职场主题
+              - generic [ref=f4e30]: 含参考图
+            - heading "捌哥的上班日常" [level=3] [ref=f4e31]
+            - paragraph [ref=f4e32]: 基于一张半身照生成的职场表情包，蓝色工装还原度高，表情动作贴合打工人日常。
+            - paragraph [ref=f4e33]: 💡 上传参考图时选一张五官清晰的正面或半身照，AI 还原效果最好。
+            - link "查看 捌哥的上班日常 的参考原型大图 →" [ref=f4e34] [cursor=pointer]:
+              - /url: /images/demo1_prototype.png
+        - article [ref=f4e35]:
+          - generic [ref=f4e36]:
+            - img "阿升的恋爱日常——微信表情包成品" [ref=f4e37]
+            - generic [ref=f4e38]: 已上架
+          - generic [ref=f4e39]:
+            - generic [ref=f4e40]:
+              - generic [ref=f4e41]: Q版可爱 · 情侣主题
+              - generic [ref=f4e42]: 含参考图
+            - heading "阿升的恋爱日常" [level=3] [ref=f4e43]
+            - paragraph [ref=f4e44]: 用一张骑摩托车的照片生成情侣表情包，橙色小摩托贯穿全套，辨识度很高。
+            - paragraph [ref=f4e45]: 💡 照片里有标志性道具（车、帽子、宠物等），生成时会自动融入表情，让整套更有记忆点。
+            - link "查看 阿升的恋爱日常 的参考原型大图 →" [ref=f4e46] [cursor=pointer]:
+              - /url: /images/demo2_prototype.png
+        - article [ref=f4e47]:
+          - generic [ref=f4e48]:
+            - img "男人妹日常——微信表情包成品" [ref=f4e49]
+            - generic [ref=f4e50]: 已上架
+          - generic [ref=f4e51]:
+            - generic [ref=f4e53]: Q版可爱 · 女生日常
+            - heading "男人妹日常" [level=3] [ref=f4e54]
+            - paragraph [ref=f4e55]: 贝雷帽女生形象，覆盖问候、恋爱、吃瓜、摸鱼等场景，表情丰富，适合日常聊天高频使用。
+            - paragraph [ref=f4e56]: 💡 主题选多个可以让表情覆盖更多场景，日常使用频率更高。
+    - generic [ref=f4e57]:
+      - paragraph [ref=f4e58]: 新手教程
+      - heading "4 步完成一套表情包" [level=2] [ref=f4e59]
+      - generic [ref=f4e60]:
+        - article [ref=f4e61]:
+          - generic [ref=f4e62]: "1"
+          - heading "首页先生成主图" [level=3] [ref=f4e63]
+          - paragraph [ref=f4e64]: 注册赠送 4 credits，只覆盖 1 次主图生成。
+          - paragraph [ref=f4e65]: 选风格、选主题，必要时加参考图或角色说明。首页现在只负责生成主表情图，成功后会自动进入切割页，不会在首页同步生成横幅、封面、图标。
+        - article [ref=f4e66]:
+          - generic [ref=f4e67]: "2"
+          - heading "进入切割页筛掉不满意的图" [level=3] [ref=f4e68]
+          - paragraph [ref=f4e69]: 微信专辑只要求 8-24 张，不需要硬留满 24 张。
+          - paragraph [ref=f4e70]: 先看切图结果，把明显出错、压线或文字不满意的图删掉，只保留最稳的那一批。聊天自用时，做到这一步就已经够用了。
+        - article [ref=f4e71]:
+          - generic [ref=f4e72]: "3"
+          - heading "按需补齐上架素材" [level=3] [ref=f4e73]
+          - paragraph [ref=f4e74]: 只有要上架微信平台时，才需要充值后继续生成素材。
+          - paragraph [ref=f4e75]: 上架必须：横幅、封面、图标。开赞赏还需要赞赏引导图、致谢图，以及艺术家头像和主页横幅（在艺术家资料页生成，账号级只需做一次）。这些素材按张扣 credits，失败自动退回。
+        - article [ref=f4e76]:
+          - generic [ref=f4e77]: "4"
+          - heading "按用途下载" [level=3] [ref=f4e78]
+          - paragraph [ref=f4e79]: 聊天用和上架用，下载入口不一样。
+          - paragraph [ref=f4e80]: 只想在微信聊天里使用，直接下载切出来的表情。要上传微信表情开放平台，就在切割页补齐素材后再打包下载完整包。
+    - generic [ref=f4e81]:
+      - paragraph [ref=f4e82]: 上架清单
+      - heading "不同目标，不同下载方式" [level=2] [ref=f4e83]
+      - generic [ref=f4e84]:
+        - generic [ref=f4e85]:
+          - heading "只想在微信聊天里用" [level=3] [ref=f4e86]
+          - paragraph [ref=f4e87]: 注册赠送的 4 credits 足够生成 1 次主图。切割页删掉不满意的图，点「下载表情」即可，不需要任何额外素材。
+        - generic [ref=f4e88]:
+          - heading "上架微信表情开放平台" [level=3] [ref=f4e89]
+          - paragraph [ref=f4e90]: 切图后继续生成横幅、封面、图标。它们属于付费素材，充值后按需生成，再打包下载提交审核。
+          - link "打开微信表情开放平台 →" [ref=f4e91] [cursor=pointer]:
+            - /url: https://sticker.weixin.qq.com/
+          - paragraph [ref=f4e92]: sticker.weixin.qq.com
+        - generic [ref=f4e93]:
+          - heading "上架并开通赞赏" [level=3] [ref=f4e94]
+          - paragraph [ref=f4e95]: 在上面的基础上，还需要赞赏引导图、致谢图，以及艺术家头像和主页横幅。艺术家资料是账号级的，只需做一次。
+    - generic [ref=f4e96]:
+      - paragraph [ref=f4e97]: 常见误区
+      - heading "新手最容易走的弯路" [level=2] [ref=f4e98]
+      - generic [ref=f4e99]:
+        - article [ref=f4e100]:
+          - heading "不是必须保留 24 张" [level=3] [ref=f4e101]
+          - paragraph [ref=f4e102]: 很多新用户会强迫自己凑满 24 张。实际上微信专辑要求是 8-24 张之间，删掉明显差的图，整体通过率会更高。
+        - article [ref=f4e103]:
+          - heading "切完图不等于已经能上架" [level=3] [ref=f4e104]
+          - paragraph [ref=f4e105]: 切图完成后，你已经能下载聊天表情，但要上架微信平台，还需要横幅、封面、图标这些平台素材，而且这些素材需要充值后继续生成。
+        - article [ref=f4e106]:
+          - heading "赞赏素材不是每次都必须做" [level=3] [ref=f4e107]
+          - paragraph [ref=f4e108]: 只有你准备开赞赏功能时，才需要生成赞赏引导图和致谢图。不开赞赏可以直接跳过。
+        - article [ref=f4e109]:
+          - heading "艺术家资料是全局资料，不是每套都重做" [level=3] [ref=f4e110]
+          - paragraph [ref=f4e111]: 艺术家头像和主页横幅放在单独页面维护。它们是你账号级别的资料，不需要每生成一套表情都重新做一次。
+    - generic [ref=f4e112]:
+      - heading "看完了？现在做你的第一套" [level=2] [ref=f4e113]
+      - paragraph [ref=f4e114]: 建议先用 Q 版可爱风格打样，最容易出成品。
+      - generic [ref=f4e115]:
+        - link "立即生成我的表情包" [ref=f4e116] [cursor=pointer]:
+          - /url: /
+        - link "还有疑问，先联系我" [ref=f4e117] [cursor=pointer]:
+          - /url: /#contact
+    - generic [ref=f4e118]:
+      - heading "联系我" [level=2] [ref=f4e119]
+      - paragraph [ref=f4e120]: 有使用问题、Bug 反馈、功能建议或合作咨询，都可以直接加我微信。
+      - paragraph [ref=f4e121]: 如果你想进交流群，也可以先加我微信，我会拉你进群。
+      - generic [ref=f4e123]:
+        - img "表情厨房微信联系方式二维码" [ref=f4e124]
+        - paragraph [ref=f4e125]: 微信联系
+        - paragraph [ref=f4e126]: 扫码添加微信，备注“表情包”我会更快处理。
+  - alert [ref=f4e127]

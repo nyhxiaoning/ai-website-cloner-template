@@ -1,0 +1,6 @@
+[    4195ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3007/node_modules/.vite/deps/chunk-RGKVGJTR.js?v=d76268c9:21535
+[   16550ms] [ERROR] Warning: Instance created by `useForm` is not connected to any Form element. Forget to pass `form` prop? @ http://localhost:3007/node_modules/.vite/deps/antd.js?v=d76268c9:728
+[   16554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3007/agnes-api/agnes-api/health?_t=1783149787025:0
+[   16555ms] [ERROR] Warning: [antd: message] Static function can not consume context like dynamic theme. Please use 'App' component instead. @ http://localhost:3007/node_modules/.vite/deps/antd.js?v=d76268c9:728
+[   16613ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3007/agnes-api/agnes-api/health?_t=1783149787025:0
+[   16639ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3007/settings:0
