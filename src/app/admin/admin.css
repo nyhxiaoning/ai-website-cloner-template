@@ -1,0 +1,389 @@
+/* Admin page styles */
+
+.admin-page {
+  display: grid;
+  gap: 14px;
+}
+
+.admin-section {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+.admin-section h2 {
+  margin: 0 0 16px;
+  font-size: 22px;
+  letter-spacing: 0;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.admin-table th {
+  text-align: left;
+  padding: 10px 8px;
+  border-bottom: 2px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+.admin-table td {
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: middle;
+}
+
+.admin-table tr:hover td {
+  background: var(--surface-hover);
+}
+
+.admin-table .book-title-cell {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.admin-table .book-author-cell {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.admin-table .tag-cell {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.admin-table .tag-cell span {
+  font-size: 11px;
+  padding: 2px 6px;
+  border: 1px solid var(--chip-border);
+  color: var(--green);
+  background: var(--chip-bg);
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+  line-height: 1;
+}
+
+.btn:hover {
+  border-color: var(--line-strong);
+  background: var(--surface-hover);
+}
+
+.btn-primary {
+  border-color: var(--green);
+  background: var(--green);
+  color: var(--primary-text);
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+.btn-danger {
+  border-color: var(--danger-border);
+  color: var(--red);
+  background: var(--red-soft);
+}
+
+.btn-danger:hover {
+  border-color: var(--red);
+  background: var(--red);
+  color: var(--primary-text);
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+/* Book form styles */
+.book-form {
+  display: grid;
+  gap: 20px;
+  max-width: 720px;
+}
+
+.form-group {
+  display: grid;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.form-group .required::after {
+  content: " *";
+  color: var(--red);
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  background: var(--input-bg);
+  color: var(--text);
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.18s ease;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: var(--green);
+  outline: none;
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+.form-textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.form-error {
+  color: var(--red);
+  font-size: 12px;
+  margin: 2px 0 0;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.form-checkboxes {
+  display: flex;
+  gap: 16px;
+  padding: 8px 0;
+}
+
+.form-checkboxes label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form-checkboxes input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--green);
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  padding-top: 8px;
+}
+
+/* Tag input */
+.tag-input-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  background: var(--input-bg);
+  border-radius: 8px;
+  min-height: 42px;
+  align-items: center;
+  cursor: text;
+}
+
+.tag-input-wrapper:focus-within {
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border: 1px solid var(--chip-border);
+  color: var(--green);
+  background: var(--chip-bg);
+  border-radius: 999px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.tag-chip button {
+  border: none;
+  background: none;
+  color: var(--soft);
+  cursor: pointer;
+  padding: 0 2px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.tag-chip button:hover {
+  color: var(--red);
+}
+
+.tag-input-inner {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 14px;
+  min-width: 80px;
+  flex: 1;
+  padding: 4px 0;
+}
+
+/* Category manager */
+.category-list {
+  display: grid;
+  gap: 8px;
+}
+
+.category-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-soft);
+}
+
+.category-item .tag-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.category-item .tag-count {
+  color: var(--muted);
+  font-size: 12px;
+  background: var(--surface-strong);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.category-item .category-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.category-item .rename-input {
+  border: 1px solid var(--green);
+  outline: none;
+  background: var(--input-bg);
+  color: var(--text);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  width: 140px;
+}
+
+/* Confirm dialog */
+.dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: grid;
+  place-items: center;
+  z-index: 100;
+}
+
+.dialog-box {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: var(--shadow);
+}
+
+.dialog-box h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.dialog-box p {
+  color: var(--muted);
+  margin: 0 0 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+  .admin-section {
+    padding: 14px;
+    border-width: 1px 0 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-table {
+    font-size: 13px;
+  }
+
+  .admin-table th,
+  .admin-table td {
+    padding: 8px 6px;
+  }
+
+  .admin-actions {
+    flex-direction: column;
+  }
+}

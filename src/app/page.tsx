@@ -3,7 +3,8 @@
 import { useState, useMemo, useEffect } from "react";
 import type { Book, ThemeId, ViewMode } from "@/types";
 import { VIEW_LABELS, THEME_LABELS } from "@/types";
-import { MOCK_BOOKS, MOCK_PURCHASE_STATS, MOCK_CONFIG } from "@/data/mock-data";
+import { getBooks, clearCache } from "@/lib/book-store";
+import { MOCK_PURCHASE_STATS, MOCK_CONFIG } from "@/data/mock-data";
 import Topbar from "@/components/Topbar";
 import HeroManifesto from "@/components/HeroManifesto";
 import StatsStrip from "@/components/StatsStrip";
@@ -16,6 +17,7 @@ import RecentNotes from "@/components/RecentNotes";
 const THEME_STORAGE_KEY = "books-ledger:theme";
 
 export default function Home() {
+  const [books, setBooks] = useState<Book[]>([]);
   const [theme, setTheme] = useState<ThemeId>("github-light");
   const [view, setView] = useState<ViewMode>("all");
   const [year, setYear] = useState<string>("all");
@@ -25,8 +27,10 @@ export default function Home() {
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [mounted, setMounted] = useState(false);
 
-  // Load theme from localStorage on mount
+  // Load books from store and theme from localStorage on mount
   useEffect(() => {
+    clearCache();
+    setBooks(getBooks());
     try {
       const stored = localStorage.getItem(THEME_STORAGE_KEY);
       if (stored && Object.keys(THEME_LABELS).includes(stored)) {
@@ -50,11 +54,11 @@ export default function Home() {
 
   // Determine which books match the current view filter
   const viewItems = useMemo(() => {
-    if (view === "all") return MOCK_BOOKS;
-    if (view === "owned") return MOCK_BOOKS.filter((b) => b.ownership.length > 0);
-    if (view === "purchased") return MOCK_BOOKS.filter((b) => (b.purchases?.length ?? 0) > 0);
-    return MOCK_BOOKS.filter((b) => b.status === view);
-  }, [view]);
+    if (view === "all") return books;
+    if (view === "owned") return books.filter((b) => b.ownership.length > 0);
+    if (view === "purchased") return books.filter((b) => (b.purchases?.length ?? 0) > 0);
+    return books.filter((b) => b.status === view);
+  }, [view, books]);
 
   // Filter by year, search, and tag
   const filteredBooks = useMemo(() => {
@@ -154,7 +158,7 @@ export default function Home() {
       <HeroManifesto quotes={MOCK_CONFIG.homeIntro.quotes} />
 
       {/* Stats Strip */}
-      <StatsStrip books={MOCK_BOOKS} purchaseStats={MOCK_PURCHASE_STATS} />
+      <StatsStrip books={books} purchaseStats={MOCK_PURCHASE_STATS} />
 
       {/* Workspace */}
       <section className="workspace">
@@ -218,11 +222,11 @@ export default function Home() {
       {/* Lower Grid: Tag Cloud + Recent Notes */}
       <div className="lower-grid">
         <TagCloud
-          books={MOCK_BOOKS}
+          books={books}
           selectedTag={selectedTag}
           onTagSelect={setSelectedTag}
         />
-        <RecentNotes books={MOCK_BOOKS} />
+        <RecentNotes books={books} />
       </div>
     </main>
   );

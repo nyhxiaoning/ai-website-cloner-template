@@ -40,6 +40,10 @@ export default function Topbar({ theme, onThemeChange, query, onQueryChange }: T
           ))}
         </select>
       </label>
+
+      <a href="/admin" className="tab" style={{ textDecoration: "none", textAlign: "center" }}>
+        管理
+      </a>
     </header>
   );
 }
