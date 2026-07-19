@@ -15,7 +15,7 @@ export default function Topbar({ theme, onThemeChange, query, onQueryChange }: T
       <a href="/" className="brand">
         <span className="brand-mark">阅</span>
         <span>
-          <strong>罗杰的阅读档案</strong>
+          <strong>大宁的阅读档案</strong>
           <small>藏书、阅读与笔记</small>
         </span>
       </a>

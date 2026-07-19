@@ -1,11 +1,11 @@
 - generic [active] [ref=e1]:
   - main [ref=e2]:
     - generic [ref=e3]:
-      - link "阅 罗杰的阅读档案 藏书、阅读与笔记" [ref=e4] [cursor=pointer]:
+      - link "大宁的阅读档案 藏书、阅读与笔记" [ref=e4] [cursor=pointer]:
         - /url: /
         - generic [ref=e5]: 阅
         - generic [ref=e6]:
-          - strong [ref=e7]: 罗杰的阅读档案
+          - strong [ref=e7]: 大宁的阅读档案
           - generic [ref=e8]: 藏书、阅读与笔记
       - generic [ref=e9]:
         - generic [ref=e10]: 检索
@@ -87,7 +87,7 @@
         - generic [ref=e71]:
           - generic [ref=e72]:
             - heading "阅读记录" [level=1] [ref=e73]
-            - paragraph [ref=e74]: 罗杰的阅读档案（beta）
+            - paragraph [ref=e74]: 大宁的阅读档案（beta）
           - paragraph [ref=e75]: 共 32 条记录
         - generic [ref=e76]:
           - generic [ref=e77]:

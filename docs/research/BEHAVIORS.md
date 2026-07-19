@@ -1,4 +1,4 @@
-# Behaviors — 罗杰的阅读档案
+# Behaviors — 大宁的阅读档案
 
 ## Interaction Model
 - **Click-driven** — tabs, year buttons, book cards, tag filters

@@ -3,7 +3,7 @@ import "@/styles/themes.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "罗杰的阅读档案（beta）",
+  title: "大宁的阅读档案（beta）",
   description:
     "个人阅读档案用于记录读过、在读、想读、拥有和已购买的书籍，以及对应的阅读笔记。",
 };

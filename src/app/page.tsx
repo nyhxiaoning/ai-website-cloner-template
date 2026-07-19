@@ -186,7 +186,7 @@ export default function Home() {
           <div className="section-head">
             <div>
               <h1>阅读记录</h1>
-              <p className="section-label">罗杰的阅读档案（beta）</p>
+              <p className="section-label">大宁的阅读档案（beta）</p>
             </div>
             <p>共 {filteredBooks.length} 条记录</p>
           </div>
