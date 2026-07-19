@@ -387,3 +387,252 @@
     flex-direction: column;
   }
 }
+
+/* =============================================
+   GitHub Sync Modal
+   ============================================= */
+.github-sync-modal {
+  width: min(520px, calc(100vw - 40px));
+  padding: 0;
+  overflow: hidden;
+  border-radius: 22px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  animation: gs-scale-in 0.18s ease;
+}
+
+@keyframes gs-scale-in {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* Header */
+.gs-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 22px 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.gs-head-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-soft);
+  color: var(--text);
+  flex-shrink: 0;
+}
+
+.gs-head-copy {
+  min-width: 0;
+  flex: 1;
+}
+
+.gs-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.gs-sub {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+  line-height: 1.45;
+}
+
+/* Sync Status Banner */
+.gs-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  background: var(--green-soft);
+  border-bottom: 1px solid var(--secondary-border);
+}
+
+.gs-banner-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--green);
+  flex-shrink: 0;
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+.gs-banner-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+  flex: 1;
+}
+
+.gs-banner-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--green);
+}
+
+.gs-banner-sub {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* Body */
+.gs-body {
+  padding: 18px 22px 20px;
+  overflow-y: auto;
+  max-height: 60vh;
+}
+
+/* Section */
+.gs-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px;
+  border-radius: 14px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+}
+
+.gs-section + .gs-section {
+  margin-top: 12px;
+}
+
+.gs-section-head {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.gs-section-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-strong);
+  color: var(--soft);
+  flex-shrink: 0;
+}
+
+.gs-section-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+/* Fields */
+.gs-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.gs-field-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.gs-field-hint {
+  font-size: 10.5px;
+  color: var(--soft);
+  line-height: 1.5;
+  margin-top: 2px;
+}
+
+.gs-field-hint code {
+  font-size: 10px;
+  background: var(--surface-strong);
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.gs-field-row {
+  display: flex;
+  gap: 10px;
+}
+
+/* Token row */
+.gs-token-row {
+  display: flex;
+  gap: 6px;
+}
+
+.gs-token-row .form-input {
+  flex: 1;
+}
+
+.gs-token-toggle {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--soft);
+  cursor: pointer;
+  transition: all 0.14s;
+}
+
+.gs-token-toggle:hover {
+  background: var(--surface-hover);
+  color: var(--text);
+  border-color: var(--line-strong);
+}
+
+/* Link */
+.gs-link {
+  color: var(--green);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.gs-link:hover {
+  text-decoration: underline;
+}
+
+/* Actions */
+.gs-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 16px;
+  margin-top: 4px;
+  border-top: 1px solid var(--line);
+}
+
+.gs-actions-left {
+  flex: 1;
+}
+
+/* Sync Toast */
+.sync-toast {
+  animation: gs-toast-in 0.25s ease;
+}
+
+@keyframes gs-toast-in {
+  from { transform: translateX(20px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.btn-icon {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+}

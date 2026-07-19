@@ -1,9 +1,11 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { getBooks, deleteBook, saveBooks, getAllTags, renameTag, deleteTag } from "@/lib/book-store";
-import { VIEW_LABELS, OWNERSHIP_LABELS, type Book } from "@/types";
+import { getBooks, deleteBook, saveBooks, getAllTags, renameTag, deleteTag, clearCache } from "@/lib/book-store";
+import { getGitHubConfig, pushToGitHub, pullFromGitHub } from "@/lib/github-sync";
+import { VIEW_LABELS, type Book } from "@/types";
 import Link from "next/link";
+import GitHubSyncModal from "@/components/GitHubSyncModal";
 import "./admin.css";
 
 export default function AdminPage() {
@@ -15,6 +17,9 @@ export default function AdminPage() {
   const [renameValue, setRenameValue] = useState("");
   const [newTag, setNewTag] = useState("");
   const [search, setSearch] = useState("");
+  const [syncModalOpen, setSyncModalOpen] = useState(false);
+  const [syncing, setSyncing] = useState<"pull" | "push" | null>(null);
+  const [syncMessage, setSyncMessage] = useState<{ text: string; type: "success" | "error" } | null>(null);
 
   const refresh = useCallback(() => {
     const b = getBooks();
@@ -52,15 +57,54 @@ export default function AdminPage() {
 
   const handleAddTag = () => {
     if (!newTag.trim()) return;
-    // Add a placeholder book so the tag appears in the system
     const tag = newTag.trim();
-    // Check if tag already exists
-    const exists = tags.some((t) => t.tag === tag);
-    if (!exists) {
-      // Tag will appear when a book uses it
-    }
     setNewTag("");
     refresh();
+  };
+
+  const handlePull = async () => {
+    const config = getGitHubConfig();
+    if (!config) {
+      setSyncMessage({ text: "请先配置 GitHub 同步", type: "error" });
+      return;
+    }
+    setSyncing("pull");
+    setSyncMessage(null);
+    try {
+      const data = await pullFromGitHub(config);
+      const books = Array.isArray(data) ? data : (data as { books?: Book[] }).books ?? [];
+      if (Array.isArray(books) && books.length > 0) {
+        saveBooks(books);
+        clearCache();
+        refresh();
+        setSyncMessage({ text: `成功从 GitHub 拉取 ${books.length} 本书`, type: "success" });
+      } else {
+        setSyncMessage({ text: "GitHub 数据格式无效", type: "error" });
+      }
+    } catch (e) {
+      setSyncMessage({ text: `拉取失败: ${e instanceof Error ? e.message : "未知错误"}`, type: "error" });
+    } finally {
+      setSyncing(null);
+    }
+  };
+
+  const handlePush = async () => {
+    const config = getGitHubConfig();
+    if (!config) {
+      setSyncMessage({ text: "请先配置 GitHub 同步", type: "error" });
+      return;
+    }
+    setSyncing("push");
+    setSyncMessage(null);
+    try {
+      const books = getBooks();
+      await pushToGitHub(books, config);
+      setSyncMessage({ text: `成功推送 ${books.length} 本书到 GitHub`, type: "success" });
+    } catch (e) {
+      setSyncMessage({ text: `推送失败: ${e instanceof Error ? e.message : "未知错误"}`, type: "error" });
+    } finally {
+      setSyncing(null);
+    }
   };
 
   const filteredBooks = search
@@ -85,7 +129,30 @@ export default function AdminPage() {
       <section className="admin-section">
         <div className="section-head">
           <h2>图书管理</h2>
-          <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
+          <div style={{ display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
+            <button
+              type="button"
+              className="btn btn-sm"
+              onClick={() => setSyncModalOpen(true)}
+            >
+              GitHub 配置
+            </button>
+            <button
+              type="button"
+              className="btn btn-sm"
+              onClick={handlePull}
+              disabled={syncing !== null}
+            >
+              {syncing === "pull" ? "拉取中..." : "拉取"}
+            </button>
+            <button
+              type="button"
+              className="btn btn-sm btn-primary"
+              onClick={handlePush}
+              disabled={syncing !== null}
+            >
+              {syncing === "push" ? "推送中..." : "推送"}
+            </button>
             <input
               type="text"
               className="form-input"
@@ -272,6 +339,41 @@ export default function AdminPage() {
           </div>
         </div>
       )}
+
+      {/* Sync Message Toast */}
+      {syncMessage && (
+        <div
+          className="sync-toast"
+          style={{
+            position: "fixed",
+            bottom: 24,
+            right: 24,
+            zIndex: 200,
+            padding: "12px 18px",
+            borderRadius: 10,
+            fontSize: 14,
+            fontWeight: 600,
+            background: syncMessage.type === "success" ? "var(--green-soft)" : "var(--red-soft)",
+            color: syncMessage.type === "success" ? "var(--green)" : "var(--red)",
+            border: `1px solid ${syncMessage.type === "success" ? "var(--secondary-border)" : "var(--danger-border)"}`,
+            boxShadow: "var(--shadow)",
+            maxWidth: 360,
+            cursor: "pointer",
+          }}
+          onClick={() => setSyncMessage(null)}
+        >
+          {syncMessage.text}
+        </div>
+      )}
+
+      {/* GitHub Sync Modal */}
+      <GitHubSyncModal
+        open={syncModalOpen}
+        onClose={() => setSyncModalOpen(false)}
+        onSaved={() => {
+          setSyncMessage({ text: "GitHub 配置已保存", type: "success" });
+        }}
+      />
     </div>
   );
 }
