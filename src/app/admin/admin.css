@@ -191,6 +191,30 @@
   gap: 14px;
 }
 
+.form-input-suffix {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.form-input-suffix .form-input {
+  border-radius: 8px 0 0 8px;
+}
+
+.input-suffix {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 12px;
+  height: 42px;
+  border: 1px solid var(--line);
+  border-left: none;
+  background: var(--surface-soft);
+  color: var(--muted);
+  border-radius: 0 8px 8px 0;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
 .form-checkboxes {
   display: flex;
   gap: 16px;

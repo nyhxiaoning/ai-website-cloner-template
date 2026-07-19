@@ -12,6 +12,8 @@ export const MOCK_BOOKS: Book[] = [
     year: 2026,
     notesReady: false,
     cover: "https://books-ledger.luojie.dev/api/douban-covers/img1/s28807248.jpg",
+    estimatedReadingTime: 8,
+    completedReadingTime: 10,
   },
   {
     id: "2",
@@ -24,6 +26,8 @@ export const MOCK_BOOKS: Book[] = [
     year: 2026,
     notesReady: false,
     cover: "https://books-ledger.luojie.dev/api/douban-covers/img9/s35204154.jpg",
+    estimatedReadingTime: 6,
+    completedReadingTime: 7,
   },
   {
     id: "3",
@@ -60,6 +64,8 @@ export const MOCK_BOOKS: Book[] = [
     year: 2026,
     notesReady: false,
     cover: "https://books-ledger.luojie.dev/api/douban-covers/img3/s27814883.jpg",
+    estimatedReadingTime: 12,
+    completedReadingTime: 15,
   },
   {
     id: "6",
@@ -120,6 +126,8 @@ export const MOCK_BOOKS: Book[] = [
     year: 2026,
     notesReady: false,
     cover: "https://books-ledger.luojie.dev/api/douban-covers/img3/s1738643.jpg",
+    estimatedReadingTime: 10,
+    completedReadingTime: 12,
   },
   {
     id: "11",
@@ -192,6 +200,8 @@ export const MOCK_BOOKS: Book[] = [
     year: 2025,
     notesReady: false,
     cover: "https://books-ledger.luojie.dev/api/douban-covers/img3/s4091153.jpg",
+    estimatedReadingTime: 10,
+    completedReadingTime: 14,
   },
   {
     id: "17",

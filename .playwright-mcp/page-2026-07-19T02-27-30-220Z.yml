@@ -1,0 +1,97 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - link "阅 管理后台 图书与分类管理" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e5]: 阅
+        - generic [ref=f1e6]:
+          - strong [ref=f1e7]: 管理后台
+          - generic [ref=f1e8]: 图书与分类管理
+      - generic [ref=f1e9]:
+        - generic [ref=f1e10]: 主题
+        - combobox "主题" [ref=f1e11]:
+          - option "GitHub Light" [selected]
+          - option "VS Code Dark"
+          - option "Monokai"
+          - option "Dracula"
+          - option "Solarized Light"
+          - option "Night Owl"
+      - link "返回前台" [ref=f1e12] [cursor=pointer]:
+        - /url: /
+    - generic [ref=f1e13]:
+      - link "图书管理" [ref=f1e14] [cursor=pointer]:
+        - /url: /admin
+      - link "新增图书" [ref=f1e15] [cursor=pointer]:
+        - /url: /admin/books/new
+    - generic [ref=f1e824]:
+      - heading "新增图书" [level=2] [ref=f1e826]
+      - generic [ref=f1e827]:
+        - generic [ref=f1e828]:
+          - generic [ref=f1e829]:
+            - generic [ref=f1e830]: 书名 *
+            - textbox "输入书名" [ref=f1e831]
+          - generic [ref=f1e832]:
+            - generic [ref=f1e833]: 作者 *
+            - textbox "输入作者" [ref=f1e834]
+        - generic [ref=f1e835]:
+          - generic [ref=f1e836]:
+            - generic [ref=f1e837]: 状态
+            - combobox [ref=f1e838]:
+              - option "读过" [selected]
+              - option "在读"
+              - option "想读"
+          - generic [ref=f1e839]:
+            - generic [ref=f1e840]: 阅读年份 *
+            - spinbutton [ref=f1e841]: "2026"
+        - generic [ref=f1e842]:
+          - generic [ref=f1e843]: 拥有方式
+          - generic [ref=f1e844]:
+            - generic [ref=f1e845] [cursor=pointer]:
+              - checkbox "实体书" [ref=f1e846]
+              - text: 实体书
+            - generic [ref=f1e847] [cursor=pointer]:
+              - checkbox "电子书" [ref=f1e848]
+              - text: 电子书
+        - generic [ref=f1e849]:
+          - generic [ref=f1e850]: 标签
+          - combobox "输入标签后按回车" [ref=f1e852]
+          - generic [ref=f1e853]:
+            - button "+ 技术" [ref=f1e854] [cursor=pointer]
+            - button "+ 编程" [ref=f1e855] [cursor=pointer]
+            - button "+ 小说" [ref=f1e856] [cursor=pointer]
+            - button "+ 社科" [ref=f1e857] [cursor=pointer]
+            - button "+ 文学" [ref=f1e858] [cursor=pointer]
+            - button "+ 历史" [ref=f1e859] [cursor=pointer]
+            - button "+ 心理学" [ref=f1e860] [cursor=pointer]
+            - button "+ 哲学" [ref=f1e861] [cursor=pointer]
+            - button "+ 自我提升" [ref=f1e862] [cursor=pointer]
+            - button "+ 经典" [ref=f1e863] [cursor=pointer]
+        - generic [ref=f1e864]:
+          - generic [ref=f1e865]: 简介
+          - textbox "输入书籍简介..." [ref=f1e866]
+        - generic [ref=f1e867]:
+          - generic [ref=f1e868]:
+            - generic [ref=f1e869]: 预计阅读时长
+            - generic [ref=f1e870]:
+              - spinbutton "小时" [ref=f1e871]
+              - generic [ref=f1e872]: 小时
+          - generic [ref=f1e873]:
+            - generic [ref=f1e874]: 完成阅读时长
+            - generic [ref=f1e875]:
+              - spinbutton "小时" [ref=f1e876]
+              - generic [ref=f1e877]: 小时
+        - generic [ref=f1e878]:
+          - generic [ref=f1e879]:
+            - generic [ref=f1e880]: 封面 URL
+            - textbox "https://..." [ref=f1e881]
+          - generic [ref=f1e882]:
+            - generic [ref=f1e883]: 笔记 URL
+            - textbox "https://..." [ref=f1e884]
+            - generic [ref=f1e885] [cursor=pointer]:
+              - checkbox "笔记已就绪" [ref=f1e886]
+              - text: 笔记已就绪
+        - generic [ref=f1e887]:
+          - button "创建图书" [ref=f1e888] [cursor=pointer]
+          - button "取消" [ref=f1e889] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f1e819] [cursor=pointer]
+  - alert [ref=f1e823]

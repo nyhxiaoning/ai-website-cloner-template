@@ -299,7 +299,7 @@ dt {
    Stats Strip
    ============================================= */
 .stats-strip {
-  grid-template-columns: repeat(8, minmax(0, 1fr));
+  grid-template-columns: repeat(10, minmax(0, 1fr));
   margin-bottom: 14px;
 }
 
@@ -320,6 +320,10 @@ dt {
 
 .stats-strip article.is-spend {
   grid-column: span 2;
+}
+
+.stats-strip article.is-reading-time {
+  grid-column: span 1;
 }
 
 .stats-strip strong {

@@ -1,0 +1,566 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "阅 罗杰的阅读档案 藏书、阅读与笔记" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: 阅
+        - generic [ref=e6]:
+          - strong [ref=e7]: 罗杰的阅读档案
+          - generic [ref=e8]: 藏书、阅读与笔记
+      - generic [ref=e9]:
+        - generic [ref=e10]: 检索
+        - textbox "检索" [ref=e11]:
+          - /placeholder: 书名、作者、标签...
+      - generic [ref=e12]:
+        - generic [ref=e13]: 主题
+        - combobox "主题" [ref=e14]:
+          - option "GitHub Light" [selected]
+          - option "VS Code Dark"
+          - option "Monokai"
+          - option "Dracula"
+          - option "Solarized Light"
+          - option "Night Owl"
+      - link "管理" [ref=e15] [cursor=pointer]:
+        - /url: /admin
+    - generic [ref=e16]:
+      - button "全部" [ref=e17] [cursor=pointer]
+      - button "读过" [ref=e18] [cursor=pointer]
+      - button "在读" [ref=e19] [cursor=pointer]
+      - button "想读" [ref=e20] [cursor=pointer]
+      - button "已拥有" [ref=e21] [cursor=pointer]
+      - button "已购买" [ref=e22] [cursor=pointer]
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - text: 阅读资产
+        - heading "让每一次阅读，都成为可回望的积累" [level=1] [ref=e25]
+        - paragraph [ref=e26]: 把零散的阅读经历沉淀为清晰、可检索、可持续生长的个人知识档案。 记录读过、在读、想读的书籍，追踪购买与拥有情况，附上阅读笔记。
+      - figure "— 从此刻开始" [ref=e27]:
+        - blockquote [ref=e28]: 种一棵树最好的时间是十年前，其次是现在。
+    - generic [ref=e30]:
+      - article [ref=e31]:
+        - text: 读过
+        - strong [ref=e32]: "29"
+      - article [ref=e33]:
+        - text: 在读
+        - strong [ref=e34]: "1"
+      - article [ref=e35]:
+        - text: 想读
+        - strong [ref=e36]: "2"
+      - article [ref=e37]:
+        - text: 实体书
+        - strong [ref=e38]: "26"
+      - article [ref=e39]:
+        - text: 电子书
+        - strong [ref=e40]: "7"
+      - article [ref=e41]:
+        - text: 已购买
+        - strong [ref=e42]: "69"
+      - article [ref=e43]:
+        - text: 花费
+        - strong [ref=e44]: ¥4181
+      - article [ref=e45]:
+        - text: 预计阅读
+        - strong [ref=e46]: 46h
+      - article [ref=e47]:
+        - text: 完成阅读
+        - strong [ref=e48]: 58h
+    - generic [ref=e49]:
+      - complementary [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]: 年份
+          - strong [ref=e53]: "4"
+        - generic [ref=e54]:
+          - button "全部 32" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: 全部
+            - strong [ref=e57]: "32"
+          - button "2026 18" [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]: "2026"
+            - strong [ref=e60]: "18"
+          - button "2025 4" [ref=e61] [cursor=pointer]:
+            - generic [ref=e62]: "2025"
+            - strong [ref=e63]: "4"
+          - button "更多年份 +2" [ref=e64] [cursor=pointer]
+      - generic [ref=e66]:
+        - generic [ref=e68]:
+          - strong [ref=e69]: 书籍数据已载入
+          - generic [ref=e70]: 已缓存到本地，下次打开会先显示缓存。
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - heading "阅读记录" [level=1] [ref=e73]
+            - paragraph [ref=e74]: 罗杰的阅读档案（beta）
+          - paragraph [ref=e75]: 共 32 条记录
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - heading "2026" [level=2] [ref=e78]
+            - generic [ref=e79]:
+              - button "当下的力量 封面 当下的力量 读过 [德] 埃克哈特·托利 畅销书作家埃克哈特·托利所著，教导人们如何活在当下，摆脱思维的控制，获得内心的平静与力量。 实体书" [pressed] [ref=e80] [cursor=pointer]:
+                - img "当下的力量 封面" [ref=e81]
+                - generic [ref=e82]:
+                  - generic [ref=e83]:
+                    - heading "当下的力量" [level=3] [ref=e84]
+                    - generic [ref=e85]: 读过
+                  - paragraph [ref=e87]: "[德] 埃克哈特·托利"
+                  - paragraph [ref=e88]: 畅销书作家埃克哈特·托利所著，教导人们如何活在当下，摆脱思维的控制，获得内心的平静与力量。
+                  - generic [ref=e89]: 实体书
+              - button "AI文明史·前史 封面 AI文明史·前史 读过 张逸 从历史角度梳理人工智能发展的前史阶段，探讨人类对智能的思考与探索。 电子书" [ref=e91] [cursor=pointer]:
+                - img "AI文明史·前史 封面" [ref=e92]
+                - generic [ref=e93]:
+                  - generic [ref=e94]:
+                    - heading "AI文明史·前史" [level=3] [ref=e95]
+                    - generic [ref=e96]: 读过
+                  - paragraph [ref=e98]: 张逸
+                  - paragraph [ref=e99]: 从历史角度梳理人工智能发展的前史阶段，探讨人类对智能的思考与探索。
+                  - generic [ref=e100]: 电子书
+              - button "AI工程 封面 AI工程 读过 腾讯云 系统介绍AI工程化的实践方法，涵盖从模型开发到部署运维的全流程。 电子书" [ref=e102] [cursor=pointer]:
+                - img "AI工程 封面" [ref=e103]
+                - generic [ref=e104]:
+                  - generic [ref=e105]:
+                    - heading "AI工程" [level=3] [ref=e106]
+                    - generic [ref=e107]: 读过
+                  - paragraph [ref=e109]: 腾讯云
+                  - paragraph [ref=e110]: 系统介绍AI工程化的实践方法，涵盖从模型开发到部署运维的全流程。
+                  - generic [ref=e111]: 电子书
+              - button "Clean Architecture：软件架构与设计匠艺（英文版） 封面 Clean Architecture：软件架构与设计匠艺（英文版） 读过 Robert C. Martin 经典软件架构书籍，阐述了整洁架构的原则与实践。 实体书" [ref=e113] [cursor=pointer]:
+                - img "Clean Architecture：软件架构与设计匠艺（英文版） 封面" [ref=e114]
+                - generic [ref=e115]:
+                  - generic [ref=e116]:
+                    - heading "Clean Architecture：软件架构与设计匠艺（英文版）" [level=3] [ref=e117]
+                    - generic [ref=e118]: 读过
+                  - paragraph [ref=e120]: Robert C. Martin
+                  - paragraph [ref=e121]: 经典软件架构书籍，阐述了整洁架构的原则与实践。
+                  - generic [ref=e122]: 实体书
+              - button "人类简史 封面 人类简史 读过 [以色列] 尤瓦尔·赫拉利 从认知革命到人工智能，一部宏大的人类历史。 实体书" [ref=e124] [cursor=pointer]:
+                - img "人类简史 封面" [ref=e125]
+                - generic [ref=e126]:
+                  - generic [ref=e127]:
+                    - heading "人类简史" [level=3] [ref=e128]
+                    - generic [ref=e129]: 读过
+                  - paragraph [ref=e131]: "[以色列] 尤瓦尔·赫拉利"
+                  - paragraph [ref=e132]: 从认知革命到人工智能，一部宏大的人类历史。
+                  - generic [ref=e133]: 实体书
+              - button "好的家庭教育 封面 好的家庭教育 读过 王人平 关于家庭教育理念与方法的思考。 电子书" [ref=e135] [cursor=pointer]:
+                - img "好的家庭教育 封面" [ref=e136]
+                - generic [ref=e137]:
+                  - generic [ref=e138]:
+                    - heading "好的家庭教育" [level=3] [ref=e139]
+                    - generic [ref=e140]: 读过
+                  - paragraph [ref=e142]: 王人平
+                  - paragraph [ref=e143]: 关于家庭教育理念与方法的思考。
+                  - generic [ref=e144]: 电子书
+              - button "工作、消费主义和新穷人 封面 工作、消费主义和新穷人 读过 [英] 齐格蒙特·鲍曼 社会学经典，探讨消费主义社会中的贫穷与工作问题。 实体书" [ref=e146] [cursor=pointer]:
+                - img "工作、消费主义和新穷人 封面" [ref=e147]
+                - generic [ref=e148]:
+                  - generic [ref=e149]:
+                    - heading "工作、消费主义和新穷人" [level=3] [ref=e150]
+                    - generic [ref=e151]: 读过
+                  - paragraph [ref=e153]: "[英] 齐格蒙特·鲍曼"
+                  - paragraph [ref=e154]: 社会学经典，探讨消费主义社会中的贫穷与工作问题。
+                  - generic [ref=e155]: 实体书
+              - button "影响人类历史进程的100名人排行榜（修订版） 封面 影响人类历史进程的100名人排行榜（修订版） 读过 Michael H. Hart 盘点影响人类历史进程的100位重要人物。 实体书" [ref=e157] [cursor=pointer]:
+                - img "影响人类历史进程的100名人排行榜（修订版） 封面" [ref=e158]
+                - generic [ref=e159]:
+                  - generic [ref=e160]:
+                    - heading "影响人类历史进程的100名人排行榜（修订版）" [level=3] [ref=e161]
+                    - generic [ref=e162]: 读过
+                  - paragraph [ref=e164]: Michael H. Hart
+                  - paragraph [ref=e165]: 盘点影响人类历史进程的100位重要人物。
+                  - generic [ref=e166]: 实体书
+              - button "本杰明·富兰克林自传 封面 本杰明·富兰克林自传 读过 本杰明·富兰克林 美国开国元勋富兰克林的自传，记录其奋斗与成长历程。 实体书" [ref=e168] [cursor=pointer]:
+                - img "本杰明·富兰克林自传 封面" [ref=e169]
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - heading "本杰明·富兰克林自传" [level=3] [ref=e172]
+                    - generic [ref=e173]: 读过
+                  - paragraph [ref=e175]: 本杰明·富兰克林
+                  - paragraph [ref=e176]: 美国开国元勋富兰克林的自传，记录其奋斗与成长历程。
+                  - generic [ref=e177]: 实体书
+              - button "枪炮、病菌与钢铁 封面 枪炮、病菌与钢铁 读过 [美] 贾雷德·戴蒙德 探讨地理与环境对人类文明发展差异的影响。 实体书" [ref=e179] [cursor=pointer]:
+                - img "枪炮、病菌与钢铁 封面" [ref=e180]
+                - generic [ref=e181]:
+                  - generic [ref=e182]:
+                    - heading "枪炮、病菌与钢铁" [level=3] [ref=e183]
+                    - generic [ref=e184]: 读过
+                  - paragraph [ref=e186]: "[美] 贾雷德·戴蒙德"
+                  - paragraph [ref=e187]: 探讨地理与环境对人类文明发展差异的影响。
+                  - generic [ref=e188]: 实体书
+              - button "洞见 封面 洞见 读过 罗伯特·赖特 从进化心理学角度解读佛学智慧。 实体书" [ref=e190] [cursor=pointer]:
+                - img "洞见 封面" [ref=e191]
+                - generic [ref=e192]:
+                  - generic [ref=e193]:
+                    - heading "洞见" [level=3] [ref=e194]
+                    - generic [ref=e195]: 读过
+                  - paragraph [ref=e197]: 罗伯特·赖特
+                  - paragraph [ref=e198]: 从进化心理学角度解读佛学智慧。
+                  - generic [ref=e199]: 实体书
+              - button "瓦尔登湖 封面 瓦尔登湖 读过 [美] 亨利·戴维·梭罗 梭罗在瓦尔登湖畔的隐居生活记录。 实体书" [ref=e201] [cursor=pointer]:
+                - img "瓦尔登湖 封面" [ref=e202]
+                - generic [ref=e203]:
+                  - generic [ref=e204]:
+                    - heading "瓦尔登湖" [level=3] [ref=e205]
+                    - generic [ref=e206]: 读过
+                  - paragraph [ref=e208]: "[美] 亨利·戴维·梭罗"
+                  - paragraph [ref=e209]: 梭罗在瓦尔登湖畔的隐居生活记录。
+                  - generic [ref=e210]: 实体书
+              - button "纳瓦尔宝典 封面 纳瓦尔宝典 读过 Eric Jorgenson 收集了硅谷投资人纳瓦尔关于财富与幸福的智慧箴言。 实体书" [ref=e212] [cursor=pointer]:
+                - img "纳瓦尔宝典 封面" [ref=e213]
+                - generic [ref=e214]:
+                  - generic [ref=e215]:
+                    - heading "纳瓦尔宝典" [level=3] [ref=e216]
+                    - generic [ref=e217]: 读过
+                  - paragraph [ref=e219]: Eric Jorgenson
+                  - paragraph [ref=e220]: 收集了硅谷投资人纳瓦尔关于财富与幸福的智慧箴言。
+                  - generic [ref=e221]: 实体书
+              - button "金刚经说什么 封面 金刚经说什么 读过 南怀瑾 南怀瑾先生对《金刚经》的深入讲解。 实体书" [ref=e223] [cursor=pointer]:
+                - img "金刚经说什么 封面" [ref=e224]
+                - generic [ref=e225]:
+                  - generic [ref=e226]:
+                    - heading "金刚经说什么" [level=3] [ref=e227]
+                    - generic [ref=e228]: 读过
+                  - paragraph [ref=e230]: 南怀瑾
+                  - paragraph [ref=e231]: 南怀瑾先生对《金刚经》的深入讲解。
+                  - generic [ref=e232]: 实体书
+              - button "预测之书2 封面 预测之书2 读过 罗振宇 对未来趋势的预测与分析。 电子书" [ref=e234] [cursor=pointer]:
+                - img "预测之书2 封面" [ref=e235]
+                - generic [ref=e236]:
+                  - generic [ref=e237]:
+                    - heading "预测之书2" [level=3] [ref=e238]
+                    - generic [ref=e239]: 读过
+                  - paragraph [ref=e241]: 罗振宇
+                  - paragraph [ref=e242]: 对未来趋势的预测与分析。
+                  - generic [ref=e243]: 电子书
+              - button "数据密集型应用系统设计 封面 数据密集型应用系统设计 在读 Martin Kleppmann 现代分布式系统设计的权威指南。 实体书" [ref=e245] [cursor=pointer]:
+                - img "数据密集型应用系统设计 封面" [ref=e246]
+                - generic [ref=e247]:
+                  - generic [ref=e248]:
+                    - heading "数据密集型应用系统设计" [level=3] [ref=e249]
+                    - generic [ref=e250]: 在读
+                  - paragraph [ref=e252]: Martin Kleppmann
+                  - paragraph [ref=e253]: 现代分布式系统设计的权威指南。
+                  - generic [ref=e254]: 实体书
+              - button "AI工程 封面 AI工程 想读 腾讯云 AI工程化实践指南。 电子书" [ref=e256] [cursor=pointer]:
+                - img "AI工程 封面" [ref=e257]
+                - generic [ref=e258]:
+                  - generic [ref=e259]:
+                    - heading "AI工程" [level=3] [ref=e260]
+                    - generic [ref=e261]: 想读
+                  - paragraph [ref=e263]: 腾讯云
+                  - paragraph [ref=e264]: AI工程化实践指南。
+                  - generic [ref=e265]: 电子书
+              - button "软件设计的哲学 封面 软件设计的哲学 想读 John Ousterhout 斯坦福教授关于软件设计原则的思考。 电子书" [ref=e267] [cursor=pointer]:
+                - img "软件设计的哲学 封面" [ref=e268]
+                - generic [ref=e269]:
+                  - generic [ref=e270]:
+                    - heading "软件设计的哲学" [level=3] [ref=e271]
+                    - generic [ref=e272]: 想读
+                  - paragraph [ref=e274]: John Ousterhout
+                  - paragraph [ref=e275]: 斯坦福教授关于软件设计原则的思考。
+                  - generic [ref=e276]: 电子书
+          - generic [ref=e278]:
+            - heading "2025" [level=2] [ref=e279]
+            - generic [ref=e280]:
+              - button "The Pragmatic Programmer 封面 The Pragmatic Programmer 读过 Andrew Hunt / David Thomas 经典程序员必读书籍，关于编程实践与职业素养。 实体书、电子书" [ref=e281] [cursor=pointer]:
+                - img "The Pragmatic Programmer 封面" [ref=e282]
+                - generic [ref=e283]:
+                  - generic [ref=e284]:
+                    - heading "The Pragmatic Programmer" [level=3] [ref=e285]
+                    - generic [ref=e286]: 读过
+                  - paragraph [ref=e288]: Andrew Hunt / David Thomas
+                  - paragraph [ref=e289]: 经典程序员必读书籍，关于编程实践与职业素养。
+                  - generic [ref=e290]: 实体书、电子书
+              - button "黑客与画家 封面 黑客与画家 读过 Paul Graham 硅谷创业教父Paul Graham的文集，关于编程、创业与生活。 实体书" [ref=e292] [cursor=pointer]:
+                - img "黑客与画家 封面" [ref=e293]
+                - generic [ref=e294]:
+                  - generic [ref=e295]:
+                    - heading "黑客与画家" [level=3] [ref=e296]
+                    - generic [ref=e297]: 读过
+                  - paragraph [ref=e299]: Paul Graham
+                  - paragraph [ref=e300]: 硅谷创业教父Paul Graham的文集，关于编程、创业与生活。
+                  - generic [ref=e301]: 实体书
+              - button "如何阅读一本书 封面 如何阅读一本书 读过 [美] 莫提默·J·艾德勒 阅读的经典指南，教你如何更有效地阅读。 实体书" [ref=e303] [cursor=pointer]:
+                - img "如何阅读一本书 封面" [ref=e304]
+                - generic [ref=e305]:
+                  - generic [ref=e306]:
+                    - heading "如何阅读一本书" [level=3] [ref=e307]
+                    - generic [ref=e308]: 读过
+                  - paragraph [ref=e310]: "[美] 莫提默·J·艾德勒"
+                  - paragraph [ref=e311]: 阅读的经典指南，教你如何更有效地阅读。
+                  - generic [ref=e312]: 实体书
+              - button "挪威的森林 封面 挪威的森林 读过 [日] 村上春树 村上春树最著名的小说之一，关于青春与爱情。 实体书" [ref=e314] [cursor=pointer]:
+                - img "挪威的森林 封面" [ref=e315]
+                - generic [ref=e316]:
+                  - generic [ref=e317]:
+                    - heading "挪威的森林" [level=3] [ref=e318]
+                    - generic [ref=e319]: 读过
+                  - paragraph [ref=e321]: "[日] 村上春树"
+                  - paragraph [ref=e322]: 村上春树最著名的小说之一，关于青春与爱情。
+                  - generic [ref=e323]: 实体书
+          - generic [ref=e325]:
+            - heading "2024" [level=2] [ref=e326]
+            - generic [ref=e327]:
+              - button "非暴力沟通 封面 非暴力沟通 读过 [美] 马歇尔·卢森堡 一种以同理心为基础的沟通方式，帮助人们建立更和谐的关系。 实体书" [ref=e328] [cursor=pointer]:
+                - img "非暴力沟通 封面" [ref=e329]
+                - generic [ref=e330]:
+                  - generic [ref=e331]:
+                    - heading "非暴力沟通" [level=3] [ref=e332]
+                    - generic [ref=e333]: 读过
+                  - paragraph [ref=e335]: "[美] 马歇尔·卢森堡"
+                  - paragraph [ref=e336]: 一种以同理心为基础的沟通方式，帮助人们建立更和谐的关系。
+                  - generic [ref=e337]: 实体书
+              - button "认知觉醒 封面 认知觉醒 读过 周岭 开启自我改变的原动力，探讨认知科学与个人成长。 实体书" [ref=e339] [cursor=pointer]:
+                - img "认知觉醒 封面" [ref=e340]
+                - generic [ref=e341]:
+                  - generic [ref=e342]:
+                    - heading "认知觉醒" [level=3] [ref=e343]
+                    - generic [ref=e344]: 读过
+                  - paragraph [ref=e346]: 周岭
+                  - paragraph [ref=e347]: 开启自我改变的原动力，探讨认知科学与个人成长。
+                  - generic [ref=e348]: 实体书
+              - button "三体 封面 三体 读过 刘慈欣 中国科幻文学的里程碑之作，讲述地球文明与三体文明的首次接触。 实体书" [ref=e350] [cursor=pointer]:
+                - img "三体 封面" [ref=e351]
+                - generic [ref=e352]:
+                  - generic [ref=e353]:
+                    - heading "三体" [level=3] [ref=e354]
+                    - generic [ref=e355]: 读过
+                  - paragraph [ref=e357]: 刘慈欣
+                  - paragraph [ref=e358]: 中国科幻文学的里程碑之作，讲述地球文明与三体文明的首次接触。
+                  - generic [ref=e359]: 实体书
+              - button "百年孤独 封面 百年孤独 读过 [哥伦比亚] 加西亚·马尔克斯 魔幻现实主义文学的代表作，讲述布恩迪亚家族七代人的传奇故事。 实体书" [ref=e361] [cursor=pointer]:
+                - img "百年孤独 封面" [ref=e362]
+                - generic [ref=e363]:
+                  - generic [ref=e364]:
+                    - heading "百年孤独" [level=3] [ref=e365]
+                    - generic [ref=e366]: 读过
+                  - paragraph [ref=e368]: "[哥伦比亚] 加西亚·马尔克斯"
+                  - paragraph [ref=e369]: 魔幻现实主义文学的代表作，讲述布恩迪亚家族七代人的传奇故事。
+                  - generic [ref=e370]: 实体书
+              - button "Programming in Lua, Third Edition 封面 Programming in Lua, Third Edition 读过 Roberto Ierusalimschy Lua编程语言的权威指南。 实体书" [ref=e372] [cursor=pointer]:
+                - img "Programming in Lua, Third Edition 封面" [ref=e373]
+                - generic [ref=e374]:
+                  - generic [ref=e375]:
+                    - heading "Programming in Lua, Third Edition" [level=3] [ref=e376]
+                    - generic [ref=e377]: 读过
+                  - paragraph [ref=e379]: Roberto Ierusalimschy
+                  - paragraph [ref=e380]: Lua编程语言的权威指南。
+                  - generic [ref=e381]: 实体书
+              - button "追风筝的人 封面 追风筝的人 读过 [美] 卡勒德·胡赛尼 关于友谊、背叛与救赎的感人故事。 实体书" [ref=e383] [cursor=pointer]:
+                - img "追风筝的人 封面" [ref=e384]
+                - generic [ref=e385]:
+                  - generic [ref=e386]:
+                    - heading "追风筝的人" [level=3] [ref=e387]
+                    - generic [ref=e388]: 读过
+                  - paragraph [ref=e390]: "[美] 卡勒德·胡赛尼"
+                  - paragraph [ref=e391]: 关于友谊、背叛与救赎的感人故事。
+                  - generic [ref=e392]: 实体书
+              - button "解忧杂货店 封面 解忧杂货店 读过 [日] 东野圭吾 一个连接过去与现在的杂货店，温暖人心的故事。 实体书" [ref=e394] [cursor=pointer]:
+                - img "解忧杂货店 封面" [ref=e395]
+                - generic [ref=e396]:
+                  - generic [ref=e397]:
+                    - heading "解忧杂货店" [level=3] [ref=e398]
+                    - generic [ref=e399]: 读过
+                  - paragraph [ref=e401]: "[日] 东野圭吾"
+                  - paragraph [ref=e402]: 一个连接过去与现在的杂货店，温暖人心的故事。
+                  - generic [ref=e403]: 实体书
+              - button "白夜行 封面 白夜行 读过 [日] 东野圭吾 东野圭吾最著名的推理小说之一。 实体书" [ref=e405] [cursor=pointer]:
+                - img "白夜行 封面" [ref=e406]
+                - generic [ref=e407]:
+                  - generic [ref=e408]:
+                    - heading "白夜行" [level=3] [ref=e409]
+                    - generic [ref=e410]: 读过
+                  - paragraph [ref=e412]: "[日] 东野圭吾"
+                  - paragraph [ref=e413]: 东野圭吾最著名的推理小说之一。
+                  - generic [ref=e414]: 实体书
+          - generic [ref=e416]:
+            - heading "2023" [level=2] [ref=e417]
+            - generic [ref=e418]:
+              - button "代码大全 (第2版) 封面 代码大全 (第2版) 读过 [美] Steve McConnell 软件构建的百科全书，程序员的必备参考书。 实体书" [ref=e419] [cursor=pointer]:
+                - img "代码大全 (第2版) 封面" [ref=e420]
+                - generic [ref=e421]:
+                  - generic [ref=e422]:
+                    - heading "代码大全 (第2版)" [level=3] [ref=e423]
+                    - generic [ref=e424]: 读过
+                  - paragraph [ref=e426]: "[美] Steve McConnell"
+                  - paragraph [ref=e427]: 软件构建的百科全书，程序员的必备参考书。
+                  - generic [ref=e428]: 实体书
+              - button "代码整洁之道 封面 代码整洁之道 读过 [美] Robert C. Martin 教你编写整洁、可维护的代码。 实体书" [ref=e430] [cursor=pointer]:
+                - img "代码整洁之道 封面" [ref=e431]
+                - generic [ref=e432]:
+                  - generic [ref=e433]:
+                    - heading "代码整洁之道" [level=3] [ref=e434]
+                    - generic [ref=e435]: 读过
+                  - paragraph [ref=e437]: "[美] Robert C. Martin"
+                  - paragraph [ref=e438]: 教你编写整洁、可维护的代码。
+                  - generic [ref=e439]: 实体书
+      - complementary [ref=e441]:
+        - img "当下的力量 封面" [ref=e442]
+        - heading "当下的力量" [level=2] [ref=e443]
+        - paragraph [ref=e444]: "[德] 埃克哈特·托利"
+        - generic [ref=e445]:
+          - generic [ref=e446]:
+            - term [ref=e447]: 状态
+            - definition [ref=e448]: 读过
+          - generic [ref=e449]:
+            - term [ref=e450]: 拥有
+            - definition [ref=e451]: 实体书
+          - generic [ref=e452]:
+            - term [ref=e453]: 阅读年份
+            - definition [ref=e454]: "2026"
+          - generic [ref=e455]:
+            - term [ref=e456]: 预计阅读时长
+            - definition [ref=e457]: 8 小时
+          - generic [ref=e458]:
+            - term [ref=e459]: 完成阅读时长
+            - definition [ref=e460]: 10 小时
+        - generic [ref=e461]:
+          - generic [ref=e462]: 心灵成长
+          - generic [ref=e463]: 心理学
+          - generic [ref=e464]: 自我提升
+        - generic [ref=e465]: 笔记整理中
+    - generic [ref=e466]:
+      - generic [ref=e467]:
+        - heading "主题索引" [level=2] [ref=e469]
+        - generic [ref=e470]:
+          - button "技术 9" [ref=e471] [cursor=pointer]:
+            - generic [ref=e472]: 技术
+            - strong [ref=e473]: "9"
+          - button "编程 8" [ref=e474] [cursor=pointer]:
+            - generic [ref=e475]: 编程
+            - strong [ref=e476]: "8"
+          - button "小说 6" [ref=e477] [cursor=pointer]:
+            - generic [ref=e478]: 小说
+            - strong [ref=e479]: "6"
+          - button "社科 5" [ref=e480] [cursor=pointer]:
+            - generic [ref=e481]: 社科
+            - strong [ref=e482]: "5"
+          - button "文学 5" [ref=e483] [cursor=pointer]:
+            - generic [ref=e484]: 文学
+            - strong [ref=e485]: "5"
+          - button "心理学 4" [ref=e486] [cursor=pointer]:
+            - generic [ref=e487]: 心理学
+            - strong [ref=e488]: "4"
+          - button "自我提升 4" [ref=e489] [cursor=pointer]:
+            - generic [ref=e490]: 自我提升
+            - strong [ref=e491]: "4"
+          - button "历史 4" [ref=e492] [cursor=pointer]:
+            - generic [ref=e493]: 历史
+            - strong [ref=e494]: "4"
+          - button "哲学 4" [ref=e495] [cursor=pointer]:
+            - generic [ref=e496]: 哲学
+            - strong [ref=e497]: "4"
+          - button "AI 3" [ref=e498] [cursor=pointer]:
+            - generic [ref=e499]: AI
+            - strong [ref=e500]: "3"
+          - button "经典 3" [ref=e501] [cursor=pointer]:
+            - generic [ref=e502]: 经典
+            - strong [ref=e503]: "3"
+          - button "日本文学 3" [ref=e504] [cursor=pointer]:
+            - generic [ref=e505]: 日本文学
+            - strong [ref=e506]: "3"
+          - button "工程实践 2" [ref=e507] [cursor=pointer]:
+            - generic [ref=e508]: 工程实践
+            - strong [ref=e509]: "2"
+          - button "教育 2" [ref=e510] [cursor=pointer]:
+            - generic [ref=e511]: 教育
+            - strong [ref=e512]: "2"
+          - button "佛学 2" [ref=e513] [cursor=pointer]:
+            - generic [ref=e514]: 佛学
+            - strong [ref=e515]: "2"
+          - button "软件工程 2" [ref=e516] [cursor=pointer]:
+            - generic [ref=e517]: 软件工程
+            - strong [ref=e518]: "2"
+          - button "心灵成长 1" [ref=e519] [cursor=pointer]:
+            - generic [ref=e520]: 心灵成长
+            - strong [ref=e521]: "1"
+          - button "科技史 1" [ref=e522] [cursor=pointer]:
+            - generic [ref=e523]: 科技史
+            - strong [ref=e524]: "1"
+          - button "计算机 1" [ref=e525] [cursor=pointer]:
+            - generic [ref=e526]: 计算机
+            - strong [ref=e527]: "1"
+          - button "软件架构 1" [ref=e528] [cursor=pointer]:
+            - generic [ref=e529]: 软件架构
+            - strong [ref=e530]: "1"
+          - button "科普 1" [ref=e531] [cursor=pointer]:
+            - generic [ref=e532]: 科普
+            - strong [ref=e533]: "1"
+          - button "家庭 1" [ref=e534] [cursor=pointer]:
+            - generic [ref=e535]: 家庭
+            - strong [ref=e536]: "1"
+          - button "亲子 1" [ref=e537] [cursor=pointer]:
+            - generic [ref=e538]: 亲子
+            - strong [ref=e539]: "1"
+          - button "社会学 1" [ref=e540] [cursor=pointer]:
+            - generic [ref=e541]: 社会学
+            - strong [ref=e542]: "1"
+          - button "人物 1" [ref=e543] [cursor=pointer]:
+            - generic [ref=e544]: 人物
+            - strong [ref=e545]: "1"
+          - button "传记 1" [ref=e546] [cursor=pointer]:
+            - generic [ref=e547]: 传记
+            - strong [ref=e548]: "1"
+          - button "励志 1" [ref=e549] [cursor=pointer]:
+            - generic [ref=e550]: 励志
+            - strong [ref=e551]: "1"
+          - button "人类学 1" [ref=e552] [cursor=pointer]:
+            - generic [ref=e553]: 人类学
+            - strong [ref=e554]: "1"
+          - button "投资 1" [ref=e555] [cursor=pointer]:
+            - generic [ref=e556]: 投资
+            - strong [ref=e557]: "1"
+          - button "人生哲学 1" [ref=e558] [cursor=pointer]:
+            - generic [ref=e559]: 人生哲学
+            - strong [ref=e560]: "1"
+          - button "国学 1" [ref=e561] [cursor=pointer]:
+            - generic [ref=e562]: 国学
+            - strong [ref=e563]: "1"
+          - button "趋势 1" [ref=e564] [cursor=pointer]:
+            - generic [ref=e565]: 趋势
+            - strong [ref=e566]: "1"
+          - button "商业 1" [ref=e567] [cursor=pointer]:
+            - generic [ref=e568]: 商业
+            - strong [ref=e569]: "1"
+          - button "职业 1" [ref=e570] [cursor=pointer]:
+            - generic [ref=e571]: 职业
+            - strong [ref=e572]: "1"
+          - button "创业 1" [ref=e573] [cursor=pointer]:
+            - generic [ref=e574]: 创业
+            - strong [ref=e575]: "1"
+          - button "科技 1" [ref=e576] [cursor=pointer]:
+            - generic [ref=e577]: 科技
+            - strong [ref=e578]: "1"
+          - button "阅读 1" [ref=e579] [cursor=pointer]:
+            - generic [ref=e580]: 阅读
+            - strong [ref=e581]: "1"
+          - button "学习方法 1" [ref=e582] [cursor=pointer]:
+            - generic [ref=e583]: 学习方法
+            - strong [ref=e584]: "1"
+          - button "沟通 1" [ref=e585] [cursor=pointer]:
+            - generic [ref=e586]: 沟通
+            - strong [ref=e587]: "1"
+          - button "成长 1" [ref=e588] [cursor=pointer]:
+            - generic [ref=e589]: 成长
+            - strong [ref=e590]: "1"
+          - button "科幻 1" [ref=e591] [cursor=pointer]:
+            - generic [ref=e592]: 科幻
+            - strong [ref=e593]: "1"
+          - button "中国文学 1" [ref=e594] [cursor=pointer]:
+            - generic [ref=e595]: 中国文学
+            - strong [ref=e596]: "1"
+          - button "Lua 1" [ref=e597] [cursor=pointer]:
+            - generic [ref=e598]: Lua
+            - strong [ref=e599]: "1"
+          - button "推理 1" [ref=e600] [cursor=pointer]:
+            - generic [ref=e601]: 推理
+            - strong [ref=e602]: "1"
+          - button "分布式系统 1" [ref=e603] [cursor=pointer]:
+            - generic [ref=e604]: 分布式系统
+            - strong [ref=e605]: "1"
+          - button "软件设计 1" [ref=e606] [cursor=pointer]:
+            - generic [ref=e607]: 软件设计
+            - strong [ref=e608]: "1"
+      - generic [ref=e609]:
+        - heading "最近归档" [level=2] [ref=e611]
+        - link "📝 解忧杂货店" [ref=e613] [cursor=pointer]:
+          - /url: https://example.com/notes/namiya
+          - generic [ref=e614]: 📝
+          - text: 解忧杂货店
+  - alert [ref=e615]

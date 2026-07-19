@@ -11,6 +11,8 @@ export interface Book {
   notesReady: boolean;
   cover?: string;
   purchases?: Purchase[];
+  estimatedReadingTime?: number;
+  completedReadingTime?: number;
 }
 
 export interface Purchase {

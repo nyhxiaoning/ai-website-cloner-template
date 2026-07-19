@@ -9,6 +9,15 @@ interface StatsStripProps {
 }
 
 export default function StatsStrip({ books, purchaseStats }: StatsStripProps) {
+  const totalEstimated = books.reduce(
+    (sum, b) => sum + (b.estimatedReadingTime ?? 0),
+    0
+  );
+  const totalCompleted = books.reduce(
+    (sum, b) => sum + (b.completedReadingTime ?? 0),
+    0
+  );
+
   const stats = [
     [VIEW_LABELS.read, books.filter((b) => b.status === "read").length],
     [VIEW_LABELS.reading, books.filter((b) => b.status === "reading").length],
@@ -17,6 +26,8 @@ export default function StatsStrip({ books, purchaseStats }: StatsStripProps) {
     [OWNERSHIP_LABELS.ebook, books.filter((b) => b.ownership.includes("ebook")).length],
     [VIEW_LABELS.purchased, purchaseStats.count],
     ["花费", `¥${Math.trunc(purchaseStats.totalPrice)}`, "is-spend"],
+    ["预计阅读", `${totalEstimated}h`, "is-reading-time"],
+    ["完成阅读", `${totalCompleted}h`, "is-reading-time"],
   ] as [string, string | number, string?][];
 
   return (

@@ -47,6 +47,14 @@ export default function InspectorPanel({ book }: InspectorPanelProps) {
             <dd>{book.year}</dd>
           </div>
         )}
+        <div>
+          <dt>预计阅读时长</dt>
+          <dd>{book.estimatedReadingTime != null ? `${book.estimatedReadingTime} 小时` : "暂无"}</dd>
+        </div>
+        <div>
+          <dt>完成阅读时长</dt>
+          <dd>{book.completedReadingTime != null ? `${book.completedReadingTime} 小时` : "暂无"}</dd>
+        </div>
       </dl>
 
       {tags.length > 0 && (

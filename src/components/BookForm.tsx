@@ -21,6 +21,12 @@ export default function BookForm({ initial, onSave, onCancel }: BookFormProps) {
   const [cover, setCover] = useState(initial?.cover ?? "");
   const [blogUrl, setBlogUrl] = useState(initial?.blogUrl ?? "");
   const [notesReady, setNotesReady] = useState(initial?.notesReady ?? false);
+  const [estimatedReadingTime, setEstimatedReadingTime] = useState(
+    initial?.estimatedReadingTime ? String(initial.estimatedReadingTime) : ""
+  );
+  const [completedReadingTime, setCompletedReadingTime] = useState(
+    initial?.completedReadingTime ? String(initial.completedReadingTime) : ""
+  );
   const [tagInput, setTagInput] = useState("");
   const [errors, setErrors] = useState<Record<string, string>>({});
   const tagInputRef = useRef<HTMLInputElement>(null);
@@ -51,6 +57,8 @@ export default function BookForm({ initial, onSave, onCancel }: BookFormProps) {
       cover: cover.trim() || undefined,
       blogUrl: blogUrl.trim() || undefined,
       notesReady,
+      estimatedReadingTime: estimatedReadingTime ? Number(estimatedReadingTime) : undefined,
+      completedReadingTime: completedReadingTime ? Number(completedReadingTime) : undefined,
     });
   };
 
@@ -224,6 +232,39 @@ export default function BookForm({ initial, onSave, onCancel }: BookFormProps) {
           onChange={(e) => setSummary(e.target.value)}
           placeholder="输入书籍简介..."
         />
+      </div>
+
+      <div className="form-row">
+        <div className="form-group">
+          <label>预计阅读时长</label>
+          <div className="form-input-suffix">
+            <input
+              type="number"
+              className="form-input"
+              value={estimatedReadingTime}
+              onChange={(e) => setEstimatedReadingTime(e.target.value)}
+              placeholder="小时"
+              min={0}
+              step={0.5}
+            />
+            <span className="input-suffix">小时</span>
+          </div>
+        </div>
+        <div className="form-group">
+          <label>完成阅读时长</label>
+          <div className="form-input-suffix">
+            <input
+              type="number"
+              className="form-input"
+              value={completedReadingTime}
+              onChange={(e) => setCompletedReadingTime(e.target.value)}
+              placeholder="小时"
+              min={0}
+              step={0.5}
+            />
+            <span className="input-suffix">小时</span>
+          </div>
+        </div>
       </div>
 
       <div className="form-row">
