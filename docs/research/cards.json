@@ -1,0 +1,194 @@
+[
+  {
+    "title": "禅意小镇·拈花湾",
+    "trend": "热门",
+    "meta": [
+      "无锡市"
+    ],
+    "coverClass": "place-cover cover-0"
+  },
+  {
+    "title": "恩施大峡谷",
+    "trend": "热门",
+    "meta": [
+      "恩施土家族苗族自治州"
+    ],
+    "coverClass": "place-cover cover-1"
+  },
+  {
+    "title": "横店影视城",
+    "trend": "热门",
+    "meta": [
+      "金华市"
+    ],
+    "coverClass": "place-cover cover-2"
+  },
+  {
+    "title": "喀纳斯景区",
+    "trend": "热门",
+    "meta": [
+      "阿勒泰地区"
+    ],
+    "coverClass": "place-cover cover-3"
+  },
+  {
+    "title": "喀什古城景区",
+    "trend": "热门",
+    "meta": [
+      "喀什地区"
+    ],
+    "coverClass": "place-cover cover-0"
+  },
+  {
+    "title": "老君山景区",
+    "trend": "热门",
+    "meta": [
+      "洛阳市"
+    ],
+    "coverClass": "place-cover cover-1"
+  },
+  {
+    "title": "那拉提旅游风景区",
+    "trend": "热门",
+    "meta": [
+      "伊犁哈萨克自治州"
+    ],
+    "coverClass": "place-cover cover-2"
+  },
+  {
+    "title": "清明上河园",
+    "trend": "热门",
+    "meta": [
+      "开封市"
+    ],
+    "coverClass": "place-cover cover-3"
+  },
+  {
+    "title": "赛里木湖景区",
+    "trend": "热门",
+    "meta": [
+      "博尔塔拉蒙古自治州"
+    ],
+    "coverClass": "place-cover cover-0"
+  },
+  {
+    "title": "茶卡盐湖景区",
+    "trend": "热门",
+    "meta": [
+      "海西蒙古族藏族自治州"
+    ],
+    "coverClass": "place-cover cover-1"
+  },
+  {
+    "title": "万岁山武侠城",
+    "trend": "热门",
+    "meta": [
+      "开封市"
+    ],
+    "coverClass": "place-cover cover-2"
+  },
+  {
+    "title": "阿那亚黄金海岸社区",
+    "trend": "热门",
+    "meta": [
+      "秦皇岛市"
+    ],
+    "coverClass": "place-cover cover-3"
+  },
+  {
+    "title": "安吉云上草原",
+    "trend": "热门",
+    "meta": [
+      "湖州市"
+    ],
+    "coverClass": "place-cover cover-0"
+  },
+  {
+    "title": "北京环球度假区",
+    "trend": "热门",
+    "meta": [
+      "通州区"
+    ],
+    "coverClass": "place-cover cover-1"
+  },
+  {
+    "title": "潮州牌坊街",
+    "trend": "热门",
+    "meta": [
+      "潮州市"
+    ],
+    "coverClass": "place-cover cover-2"
+  },
+  {
+    "title": "大唐不夜城",
+    "trend": "热门",
+    "meta": [
+      "西安市"
+    ],
+    "coverClass": "place-cover cover-3"
+  },
+  {
+    "title": "凤凰古城",
+    "trend": "热门",
+    "meta": [
+      "湘西土家族苗族自治州"
+    ],
+    "coverClass": "place-cover cover-0"
+  },
+  {
+    "title": "哈尔滨冰雪大世界",
+    "trend": "热门",
+    "meta": [
+      "哈尔滨市"
+    ],
+    "coverClass": "place-cover cover-1"
+  },
+  {
+    "title": "洪崖洞民俗风貌区",
+    "trend": "热门",
+    "meta": [
+      "渝中区"
+    ],
+    "coverClass": "place-cover cover-2"
+  },
+  {
+    "title": "基诺山雨林徒步",
+    "trend": "热门",
+    "meta": [
+      "西双版纳傣族自治州"
+    ],
+    "coverClass": "place-cover cover-3"
+  },
+  {
+    "title": "李子坝单轨穿楼观景平台",
+    "trend": "热门",
+    "meta": [
+      "渝中区"
+    ],
+    "coverClass": "place-cover cover-0"
+  },
+  {
+    "title": "良渚文化艺术中心（大屋顶）",
+    "trend": "热门",
+    "meta": [
+      "杭州市"
+    ],
+    "coverClass": "place-cover cover-1"
+  },
+  {
+    "title": "上海迪士尼度假区",
+    "trend": "热门",
+    "meta": [
+      "浦东新区"
+    ],
+    "coverClass": "place-cover cover-2"
+  },
+  {
+    "title": "武康路历史文化街区",
+    "trend": "热门",
+    "meta": [
+      "徐汇区"
+    ],
+    "coverClass": "place-cover cover-3"
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "images": [
+    {
+      "src": "https://china.zecrs.com/assets/app-icon.svg-Ca62YEq5.png",
+      "alt": "",
+      "width": 1024,
+      "height": 1024,
+      "parentClasses": "brand",
+      "position": "static",
+      "zIndex": "auto"
+    }
+  ],
+  "videos": [],
+  "backgroundImages": [
+    {
+      "url": "radial-gradient(circle at 65% 48%, rgba(220, 203, 177, 0.22), rgba(0, 0, 0, 0) 30%), linear-gradient(145deg, rgb(245, 241, 232), rgb(235, 229, 217))",
+      "element": "DIV.map-area"
+    },
+    {
+      "url": "linear-gradient(90deg, rgb(237, 233, 225), rgb(223, 185, 170), rgb(184, 90, 78))",
+      "element": "I."
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(158, 124, 95), rgb(99, 74, 60))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(138, 161, 147), rgb(71, 102, 87))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(165, 140, 120), rgb(117, 86, 79))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(133, 154, 171), rgb(78, 101, 118))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(158, 124, 95), rgb(99, 74, 60))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(138, 161, 147), rgb(71, 102, 87))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(165, 140, 120), rgb(117, 86, 79))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(133, 154, 171), rgb(78, 101, 118))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(158, 124, 95), rgb(99, 74, 60))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(138, 161, 147), rgb(71, 102, 87))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(165, 140, 120), rgb(117, 86, 79))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(133, 154, 171), rgb(78, 101, 118))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(158, 124, 95), rgb(99, 74, 60))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(138, 161, 147), rgb(71, 102, 87))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(165, 140, 120), rgb(117, 86, 79))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(133, 154, 171), rgb(78, 101, 118))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(158, 124, 95), rgb(99, 74, 60))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(138, 161, 147), rgb(71, 102, 87))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(165, 140, 120), rgb(117, 86, 79))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(133, 154, 171), rgb(78, 101, 118))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(158, 124, 95), rgb(99, 74, 60))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(138, 161, 147), rgb(71, 102, 87))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(165, 140, 120), rgb(117, 86, 79))",
+      "element": "DIV.place-cover"
+    },
+    {
+      "url": "linear-gradient(145deg, rgb(133, 154, 171), rgb(78, 101, 118))",
+      "element": "DIV.place-cover"
+    }
+  ],
+  "svgCount": 253,
+  "fonts": [
+    "-apple-system, \"system-ui\", \"SF Pro Display\", \"SF Pro Text\", \"PingFang SC\", \"Helvetica Neue\", Arial, sans-serif",
+    "\"Songti SC\", STSong, serif"
+  ],
+  "favicons": [
+    {
+      "href": "https://china.zecrs.com/favicon-32.png",
+      "sizes": "32x32"
+    },
+    {
+      "href": "https://china.zecrs.com/apple-touch-icon.png",
+      "sizes": ""
+    }
+  ],
+  "manifestLink": "https://china.zecrs.com/manifest.webmanifest"
+}

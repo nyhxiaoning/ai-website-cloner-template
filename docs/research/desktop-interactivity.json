@@ -1,0 +1,1093 @@
+{
+  "buttons": [
+    {
+      "tag": "BUTTON",
+      "text": "华夏迹山河有迹，文明有声",
+      "classes": "brand",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "footprint-count",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "收藏0",
+      "classes": "collection-count",
+      "role": null,
+      "ariaLabel": "打开我的备选，共0处"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "登录",
+      "classes": "account-button",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "EN",
+      "classes": "icon-button desktop-only-action",
+      "role": null,
+      "ariaLabel": "切换至 English"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "icon-button desktop-only-action",
+      "role": null,
+      "ariaLabel": "切换深色模式"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "icon-button mobile-menu-trigger",
+      "role": null,
+      "ariaLabel": "更多设置"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "精选",
+      "classes": "",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "地图",
+      "classes": "active",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "中国",
+      "classes": "",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "+",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "放大"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "−",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "缩小"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "↻",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "重置地图"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "全部等级",
+      "classes": "active",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "5A",
+      "classes": "",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "4A",
+      "classes": "",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "3A",
+      "classes": "",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "类型筛选",
+      "classes": "filter-more-toggle",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "全部",
+      "classes": "active",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "人文古迹",
+      "classes": "",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "自然名胜",
+      "classes": "",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "博物馆",
+      "classes": "",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "主题乐园",
+      "classes": "",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "文化场馆",
+      "classes": "",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "休闲度假",
+      "classes": "",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "城市地标",
+      "classes": "",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "5A禅意小镇·拈花湾无锡市休闲度假热门以太湖马山为依托的唐风禅意文旅小镇，香月花街、夜游光影与汉服旅拍长期占据江浙沪周边游热门。1–2 天以官方及预约渠道实时价…10",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看禅意小镇·拈花湾详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过禅意小镇·拈花湾"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "1",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞禅意小镇·拈花湾"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩禅意小镇·拈花湾"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "5A恩施大峡谷恩施土家族苗族自治州自然名胜热门拥有绝壁、峰柱、天坑与地缝等喀斯特地貌景观。1 天票价待确认00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看恩施大峡谷详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过恩施大峡谷"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞恩施大峡谷"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩恩施大峡谷"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "5A横店影视城金华市人文古迹热门由多座大型影视拍摄基地组成，可体验不同历史时期的建筑与影视文化。1–2 天票价待确认00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看横店影视城详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过横店影视城"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞横店影视城"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩横店影视城"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "5A喀纳斯景区阿勒泰地区自然名胜热门阿尔泰山深处的高山湖泊与森林景区，以湖色变化、秋林和图瓦村落闻名。1–2 天票价待确认00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看喀纳斯景区详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过喀纳斯景区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞喀纳斯景区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩喀纳斯景区"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "5A喀什古城景区喀什地区人文古迹热门保存传统街巷、民居与手工艺空间，是南疆历史文化和城市生活的重要载体。半天–1 天票价待确认00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看喀什古城景区详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过喀什古城景区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞喀什古城景区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩喀什古城景区"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "5A老君山景区洛阳市自然名胜热门伏牛山主峰道教名山，金顶云海、金秋红叶与玻璃栈道内容长期占据河南文旅与小红书热搜。1 天以官方及预约渠道实时价…00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看老君山景区详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过老君山景区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞老君山景区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩老君山景区"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "5A那拉提旅游风景区伊犁哈萨克自治州自然名胜热门伊犁河谷东部的高山草原，森林、河谷与哈萨克族牧业景观相映成趣。1–2 天票价待确认00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看那拉提旅游风景区详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过那拉提旅游风景区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞那拉提旅游风景区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩那拉提旅游风景区"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "5A清明上河园开封市人文古迹热门以《清明上河图》和北宋市井文化为主题的大型文化景区。半天–1 天票价待确认00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看清明上河园详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过清明上河园"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞清明上河园"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩清明上河园"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "5A赛里木湖景区博尔塔拉蒙古自治州自然名胜热门天山西段高山湖泊，以澄澈湖水、雪山和环湖草原景观著称。1 天票价待确认00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看赛里木湖景区详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过赛里木湖景区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞赛里木湖景区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩赛里木湖景区"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "4A茶卡盐湖景区海西蒙古族藏族自治州自然名胜热门柴达木盆地东缘盐湖，晴朗无风时湖面可形成开阔的镜面倒影。3–4 小时票价待确认00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看茶卡盐湖景区详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过茶卡盐湖景区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞茶卡盐湖景区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩茶卡盐湖景区"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "4A万岁山武侠城开封市主题乐园热门以宋代与武侠文化为主题的沉浸式景区，实景演艺、NPC互动和夜游体验使其成为近年现象级热门目的地。1 天票价待确认00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看万岁山武侠城详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过万岁山武侠城"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞万岁山武侠城"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩万岁山武侠城"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "阿那亚黄金海岸社区秦皇岛市休闲度假热门以孤独图书馆、海边礼堂和艺术场馆形成独特滨海审美体验，是建筑、艺术与度假内容的热门打卡地。1–2 天入园及场馆政策以阿那亚…00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看阿那亚黄金海岸社区详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过阿那亚黄金海岸社区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞阿那亚黄金海岸社区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩阿那亚黄金海岸社区"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "安吉云上草原湖州市休闲度假热门海拔千米的高山草原度假区，悬崖秋千、云海栈道与四季玩法使其成为江浙沪小红书暑期避暑热门目的地。1 天以官方及预约渠道实时价…00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看安吉云上草原详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过安吉云上草原"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞安吉云上草原"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩安吉云上草原"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "北京环球度假区通州区休闲度假热门由环球影城主题公园、北京环球城市大道和度假酒店组成，以哈利·波特、变形金刚、小黄人等电影主题沉浸体验闻名。1 天实行指定日票价，以官方…00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看北京环球度假区详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过北京环球度假区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞北京环球度假区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩北京环球度假区"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "潮州牌坊街潮州市人文古迹热门潮州古城核心步行街，密集石牌坊与骑楼商铺并存，工夫茶、非遗与夜游内容使其成为粤东小红书热门打卡地。2–4 小时街区免费00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看潮州牌坊街详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过潮州牌坊街"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞潮州牌坊街"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩潮州牌坊街"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "大唐不夜城西安市城市地标热门大雁塔南侧的盛唐主题步行街区，灯光秀、实景演艺与汉服旅拍使其长期占据小红书西安夜游热门榜。2–4 小时街区免费，部分场馆与主…00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看大唐不夜城详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过大唐不夜城"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞大唐不夜城"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩大唐不夜城"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "凤凰古城湘西土家族苗族自治州人文古迹热门沱江两岸保存吊脚楼、城楼与石板街的历史文化名城。1–2 天票价待确认00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看凤凰古城详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过凤凰古城"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞凤凰古城"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩凤凰古城"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "哈尔滨冰雪大世界哈尔滨市人文古迹热门以大型冰雪建筑、冰雕艺术和冬季娱乐项目闻名的季节性主题景区。4–6 小时票价待确认00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看哈尔滨冰雪大世界详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过哈尔滨冰雪大世界"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞哈尔滨冰雪大世界"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩哈尔滨冰雪大世界"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "洪崖洞民俗风貌区渝中区人文古迹热门依山临江而建的吊脚楼建筑群，集中展现山城街巷风貌。2–3 小时票价待确认00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看洪崖洞民俗风貌区详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过洪崖洞民俗风貌区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞洪崖洞民俗风貌区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩洪崖洞民俗风貌区"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "基诺山雨林徒步西双版纳傣族自治州自然名胜热门融合热带雨林穿越、溯溪与基诺族文化体验的向导型户外项目，近年来在亲子与轻探险人群中快速走红。1 天线路与服务价格不同，以…00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看基诺山雨林徒步详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过基诺山雨林徒步"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞基诺山雨林徒步"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩基诺山雨林徒步"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "李子坝单轨穿楼观景平台渝中区城市地标热门轨道交通 2 号线列车穿楼而过的城市奇观观景点，是重庆“8D 魔幻”影像与小红书打卡的标志机位。30–60 分钟免费（乘坐轻轨需另购交…00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看李子坝单轨穿楼观景平台详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过李子坝单轨穿楼观景平台"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞李子坝单轨穿楼观景平台"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩李子坝单轨穿楼观景平台"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "良渚文化艺术中心（大屋顶）杭州市文化场馆热门安藤忠雄设计的清水混凝土文化建筑，以标志性大屋顶、光影空间与春日樱景成为杭州小红书热门打卡地。1–2 小时公共空间多免费，展览与…00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看良渚文化艺术中心（大屋顶）详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过良渚文化艺术中心（大屋顶）"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞良渚文化艺术中心（大屋顶）"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩良渚文化艺术中心（大屋顶）"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "上海迪士尼度假区浦东新区休闲度假热门中国内地首座迪士尼度假区，拥有奇幻童话城堡、疯狂动物城、加勒比海盗等主题园区与大型巡游演出。1–2 天实行指定日票价，以官方…10",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看上海迪士尼度假区详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过上海迪士尼度假区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "1",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞上海迪士尼度假区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩上海迪士尼度假区"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "武康路历史文化街区徐汇区城市地标热门汇集武康大楼、名人故居与历史建筑的城市漫步街区，是上海 Citywalk 与梧桐美学的代表路线。2–4 小时街区免费，部分场馆另行…00",
+      "classes": "place-card",
+      "role": "button",
+      "ariaLabel": "查看武康路历史文化街区详情"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "visited-button",
+      "role": null,
+      "ariaLabel": "标记去过武康路历史文化街区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "heart-button",
+      "role": null,
+      "ariaLabel": "收藏景点"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点赞武康路历史文化街区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "0",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "点踩武康路历史文化街区"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "加载更多24 / 11,850",
+      "classes": "load-more",
+      "role": null,
+      "ariaLabel": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "classes": "support-toggle",
+      "role": null,
+      "ariaLabel": "支持与反馈"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "我要反馈",
+      "classes": "",
+      "role": null,
+      "ariaLabel": "我要反馈"
+    },
+    {
+      "tag": "A",
+      "text": "请我喝杯咖啡",
+      "classes": "",
+      "href": "https://ko-fi.com/haloha",
+      "role": null,
+      "ariaLabel": "请我喝杯咖啡"
+    },
+    {
+      "tag": "A",
+      "text": "爱发电支持",
+      "classes": "afdian-link",
+      "href": "https://ifdian.net/a/haloha",
+      "role": null,
+      "ariaLabel": "爱发电支持"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "搜索景点、省份或城市",
+      "classes": ""
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "classes": ""
+    }
+  ],
+  "sections": [
+    {
+      "tag": "SCRIPT",
+      "id": "vite-plugin-pwa:register-sw",
+      "classes": ""
+    },
+    {
+      "tag": "DIV",
+      "id": "root",
+      "classes": ""
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "classes": "workspace mobile-map"
+    }
+  ]
+}

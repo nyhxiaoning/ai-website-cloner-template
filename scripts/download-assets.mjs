@@ -1,56 +1,43 @@
-// scripts/download-assets.mjs
-// Download favicons, OG image from target site
-import { writeFileSync, mkdirSync } from 'fs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
+import https from 'https';
+import fs from 'fs';
+import path from 'path';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const PUBLIC_DIR = join(__dirname, '..', 'public');
-const SEO_DIR = join(PUBLIC_DIR, 'seo');
-const IMAGES_DIR = join(PUBLIC_DIR, 'images');
-
-const BASE_URL = 'https://trial81.toolooz.com';
-
-const assets = [
-  { url: '/favicon.ico', dest: 'seo/favicon.ico' },
-  { url: '/favicon-16x16.png', dest: 'seo/favicon-16x16.png' },
-  { url: '/favicon-32x32.png', dest: 'seo/favicon-32x32.png' },
-  { url: '/apple-touch-icon.png', dest: 'seo/apple-touch-icon.png' },
-  { url: '/android-chrome-192x192.png', dest: 'seo/android-chrome-192x192.png' },
-  { url: '/android-chrome-512x512.png', dest: 'seo/android-chrome-512x512.png' },
-  { url: '/og-image.png', dest: 'seo/og-image.png' },
-  { url: '/donate.jpg', dest: 'images/donate.jpg' },
+const ASSETS = [
+  { url: 'https://china.zecrs.com/favicon-32.png', dest: 'public/seo/favicon-32.png' },
+  { url: 'https://china.zecrs.com/apple-touch-icon.png', dest: 'public/seo/apple-touch-icon.png' },
+  { url: 'https://china.zecrs.com/app-icon-512.png', dest: 'public/seo/app-icon-512.png' },
+  { url: 'https://china.zecrs.com/assets/app-icon.svg-Ca62YEq5.png', dest: 'public/images/app-icon.png' },
+  { url: 'https://china.zecrs.com/manifest.webmanifest', dest: 'public/manifest.webmanifest' },
 ];
 
-async function download(url, destPath) {
-  const fullUrl = url.startsWith('http') ? url : `${BASE_URL}${url}`;
-  try {
-    const response = await fetch(fullUrl);
-    if (!response.ok) {
-      console.log(`  [${response.status}] Skipped: ${fullUrl}`);
-      return;
-    }
-    const buffer = Buffer.from(await response.arrayBuffer());
-    writeFileSync(destPath, buffer);
-    console.log(`  Downloaded: ${destPath} (${buffer.length} bytes)`);
-  } catch (err) {
-    console.log(`  Failed: ${fullUrl} - ${err.message}`);
-  }
+function download(url, dest) {
+  return new Promise((resolve, reject) => {
+    const dir = path.dirname(dest);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    const file = fs.createWriteStream(dest);
+    https.get(url, (res) => {
+      if (res.statusCode === 301 || res.statusCode === 302) {
+        https.get(res.headers.location, (res2) => {
+          res2.pipe(file);
+          file.on('finish', () => { file.close(); resolve(); });
+        }).on('error', reject);
+      } else {
+        res.pipe(file);
+        file.on('finish', () => { file.close(); resolve(); });
+      }
+    }).on('error', (err) => { fs.unlink(dest, () => {}); reject(err); });
+  });
 }
 
 async function main() {
-  mkdirSync(SEO_DIR, { recursive: true });
-  mkdirSync(IMAGES_DIR, { recursive: true });
-  console.log('Downloading assets...');
-  // Download in parallel (4 at a time)
-  const batchSize = 4;
-  for (let i = 0; i < assets.length; i += batchSize) {
-    const batch = assets.slice(i, i + batchSize);
-    await Promise.all(
-      batch.map(a => download(a.url, join(PUBLIC_DIR, a.dest)))
-    );
+  for (const a of ASSETS) {
+    try {
+      await download(a.url, a.dest);
+      console.log(`OK: ${a.dest}`);
+    } catch (e) {
+      console.error(`FAIL: ${a.url} -> ${e.message}`);
+    }
   }
-  console.log('Done downloading assets.');
 }
 
-main().catch(console.error);
+main();
