@@ -27,7 +27,7 @@ export interface PlaceCardData {
 
 export default function PlaceCard({ card }: { card: PlaceCardData }) {
   return (
-    <button className="place-card">
+    <article className="place-card" role="button" tabIndex={0}>
       {/* Cover */}
       <div className={`place-cover ${card.coverClass}`}>
         <div className="image-placeholder">
@@ -86,6 +86,6 @@ export default function PlaceCard({ card }: { card: PlaceCardData }) {
           <ChevronRightIcon className="card-chevron" />
         </div>
       </div>
-    </button>
+    </article>
   );
 }

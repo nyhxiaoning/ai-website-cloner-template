@@ -360,6 +360,7 @@
   margin: 0 0 20px;
   font-size: 16px;
   color: #988f87;
+  align-items: center;
 }
 
 .breadcrumbs button {
@@ -385,6 +386,18 @@
   inset: 0;
 }
 
+.echarts-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.echarts-container canvas {
+  outline: none;
+}
+
 /* Map insight card (全国地图 11,850 景点) */
 .map-insight {
   position: absolute;
@@ -393,7 +406,7 @@
   padding: 13px 14px;
   border-radius: 16px;
   display: block;
-  z-index: 3;
+  z-index: 5;
 }
 
 .map-insight span {
@@ -426,7 +439,7 @@
   align-items: center;
   padding: 0 10px;
   border-radius: 11px;
-  z-index: 3;
+  z-index: 5;
 }
 
 .map-density-legend span {
@@ -496,22 +509,7 @@
   box-shadow: rgba(68, 54, 37, 0.08) 0px 4px 12px;
 }
 
-/* China map */
-.china-map-container {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 80px 40px 60px;
-}
-
-.china-map-svg {
-  width: 100%;
-  height: 100%;
-  max-width: 800px;
-  max-height: 600px;
-}
+/* China map container (moved to echarts-container) */
 
 /* ===== Explore Panel ===== */
 .explore-panel {
@@ -1038,6 +1036,17 @@
 .place-list {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+/* ===== Empty State ===== */
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  font-size: 12px;
+  color: #988f87;
+  text-align: center;
 }
 
 /* ===== Load More Button ===== */

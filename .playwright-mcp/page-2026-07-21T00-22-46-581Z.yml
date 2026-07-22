@@ -1,0 +1,434 @@
+- generic [active] [ref=f1e1]:
+  - main [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - button "华夏迹 山河有迹，文明有声" [ref=f1e4] [cursor=pointer]:
+        - generic [ref=f1e5]:
+          - strong [ref=f1e6]: 华夏迹
+          - generic [ref=f1e7]: 山河有迹，文明有声
+      - textbox "搜索景点、省份或城市" [ref=f1e12]
+      - generic [ref=f1e13]:
+        - button "0" [ref=f1e14] [cursor=pointer]
+        - button "打开我的备选，共0处" [ref=f1e19] [cursor=pointer]:
+          - generic [ref=f1e22]: 收藏
+          - generic [ref=f1e23]: "0"
+        - button "登录" [ref=f1e24] [cursor=pointer]
+        - button "切换至 English" [ref=f1e29] [cursor=pointer]: EN
+        - button "切换深色模式" [ref=f1e30] [cursor=pointer]
+    - generic [ref=f1e33]:
+      - generic [ref=f1e34]:
+        - generic [ref=f1e35]:
+          - navigation "地图层级" [ref=f1e36]:
+            - button "中国" [ref=f1e37] [cursor=pointer]
+          - generic [ref=f1e38]:
+            - paragraph [ref=f1e39]: 发现中国
+            - heading "在地图上，遇见华夏" [level=1] [ref=f1e40]
+            - paragraph [ref=f1e41]: 点击一片区域，从省份到城市，发现山河与文明留下的印记。
+        - generic [ref=f1e42]:
+          - generic [ref=f1e43]:
+            - generic [ref=f1e44]: 全国地图
+            - strong [ref=f1e45]: 11,850
+            - generic [ref=f1e46]: 景点
+          - generic [ref=f1e47]:
+            - generic [ref=f1e48]: 景点
+            - generic [ref=f1e49]: 全部
+            - generic [ref=f1e51]: 热门
+          - generic [ref=f1e52]:
+            - button "放大" [ref=f1e53] [cursor=pointer]: +
+            - button "缩小" [ref=f1e54] [cursor=pointer]: −
+            - button "重置地图" [ref=f1e55] [cursor=pointer]: ↻
+          - generic [ref=f1e56]: 放大 · 深入了解
+        - img [ref=f1e58]:
+          - generic [ref=f1e60]: 黑龙江省
+          - generic [ref=f1e62]: 吉林省
+          - generic [ref=f1e64]: 辽宁省
+          - generic [ref=f1e66]: 内蒙古自治区
+          - generic [ref=f1e68]: 新疆维吾尔自治区
+          - generic [ref=f1e70]: 西藏自治区
+          - generic [ref=f1e72]: 青海省
+          - generic [ref=f1e74]: 甘肃省
+          - generic [ref=f1e76]: 宁夏
+          - generic [ref=f1e78]: 陕西省
+          - generic [ref=f1e80]: 山西省
+          - generic [ref=f1e82]: 河北省
+          - generic [ref=f1e84]: 北京市
+          - generic [ref=f1e86]: 天津市
+          - generic [ref=f1e88]: 山东省
+          - generic [ref=f1e90]: 河南省
+          - generic [ref=f1e92]: 江苏省
+          - generic [ref=f1e94]: 安徽省
+          - generic [ref=f1e96]: 上海市
+          - generic [ref=f1e98]: 湖北省
+          - generic [ref=f1e100]: 四川省
+          - generic [ref=f1e102]: 重庆市
+          - generic [ref=f1e104]: 江西省
+          - generic [ref=f1e106]: 浙江省
+          - generic [ref=f1e108]: 福建省
+          - generic [ref=f1e110]: 湖南省
+          - generic [ref=f1e112]: 贵州省
+          - generic [ref=f1e114]: 云南省
+          - generic [ref=f1e116]: 广西壮族自治区
+          - generic [ref=f1e118]: 广东省
+          - generic [ref=f1e120]: 海南省
+          - generic [ref=f1e122]: 台湾省
+      - complementary [ref=f1e123]:
+        - generic [ref=f1e124]:
+          - generic [ref=f1e125]:
+            - paragraph [ref=f1e126]: 全国探索
+            - heading "今日精选" [level=2] [ref=f1e127]
+          - generic [ref=f1e128]: 11,850 处
+        - paragraph [ref=f1e129]: 点击景点查看详情
+        - generic [ref=f1e132]: 14/31 个省级名录达到完整口径
+        - group "景区等级筛选" [ref=f1e136]:
+          - button "全部等级" [ref=f1e137] [cursor=pointer]
+          - button "5A" [ref=f1e138] [cursor=pointer]
+          - button "4A" [ref=f1e139] [cursor=pointer]
+          - button "3A" [ref=f1e140] [cursor=pointer]
+        - group "景点类型筛选" [ref=f1e141]:
+          - button "全部" [ref=f1e142] [cursor=pointer]
+          - button "人文古迹" [ref=f1e143] [cursor=pointer]
+          - button "自然名胜" [ref=f1e144] [cursor=pointer]
+          - button "博物馆" [ref=f1e145] [cursor=pointer]
+          - button "主题乐园" [ref=f1e146] [cursor=pointer]
+          - button "文化场馆" [ref=f1e147] [cursor=pointer]
+          - button "休闲度假" [ref=f1e148] [cursor=pointer]
+          - button "城市地标" [ref=f1e149] [cursor=pointer]
+        - generic [ref=f1e150]:
+          - generic [ref=f1e151]: 推荐目的地
+          - generic [ref=f1e152]:
+            - generic [ref=f1e153]: 排序
+            - combobox "排序" [ref=f1e154] [cursor=pointer]:
+              - option "综合推荐" [selected]
+              - option "热门优先"
+              - option "等级优先"
+              - option "省时优先"
+        - generic [ref=f1e155]:
+          - button "5A 禅意小镇·拈花湾" [ref=f1e156] [cursor=pointer]:
+            - generic [ref=f1e157]: 5A
+            - heading "禅意小镇·拈花湾" [level=3] [ref=f1e164]
+          - button "标记去过禅意小镇·拈花湾" [ref=f1e165] [cursor=pointer]
+          - button "收藏景点" [ref=f1e169] [cursor=pointer]
+        - generic [ref=f1e172]:
+          - generic [ref=f1e173]: 无锡市
+          - generic [ref=f1e177]: 休闲度假
+          - generic [ref=f1e178]: 热门
+        - generic: 以太湖马山为依托的唐风禅意文旅小镇，香月花街、夜游光影与汉服旅拍长期占据江浙沪周边游热门。
+        - generic [ref=f1e181]:
+          - generic [ref=f1e182]: 1–2 天
+          - generic [ref=f1e186]: 以官方及预约渠道实时价…
+        - generic [ref=f1e190]:
+          - button "0" [ref=f1e191] [cursor=pointer]
+          - button "0" [ref=f1e195] [cursor=pointer]
+        - button "5A 恩施大峡谷" [ref=f1e201] [cursor=pointer]:
+          - generic [ref=f1e202]: 5A
+          - heading "恩施大峡谷" [level=3] [ref=f1e209]
+        - button "标记去过恩施大峡谷" [ref=f1e210] [cursor=pointer]
+        - button "收藏景点" [ref=f1e214] [cursor=pointer]
+        - generic [ref=f1e217]:
+          - generic [ref=f1e218]: 恩施土家族苗族自治州
+          - generic [ref=f1e222]: 自然名胜
+          - generic [ref=f1e223]: 热门
+        - generic: 拥有绝壁、峰柱、天坑与地缝等喀斯特地貌景观。
+        - generic [ref=f1e226]:
+          - generic [ref=f1e227]: 1 天
+          - generic [ref=f1e231]: 票价待确认
+        - generic [ref=f1e235]:
+          - button "0" [ref=f1e236] [cursor=pointer]
+          - button "0" [ref=f1e240] [cursor=pointer]
+        - button "5A 横店影视城" [ref=f1e246] [cursor=pointer]:
+          - generic [ref=f1e247]: 5A
+          - heading "横店影视城" [level=3] [ref=f1e254]
+        - button "标记去过横店影视城" [ref=f1e255] [cursor=pointer]
+        - button "收藏景点" [ref=f1e259] [cursor=pointer]
+        - generic [ref=f1e262]:
+          - generic [ref=f1e263]: 金华市
+          - generic [ref=f1e267]: 人文古迹
+          - generic [ref=f1e268]: 热门
+        - generic: 由多座大型影视拍摄基地组成，可体验不同历史时期的建筑与影视文化。
+        - generic [ref=f1e271]:
+          - generic [ref=f1e272]: 1–2 天
+          - generic [ref=f1e276]: 票价待确认
+        - generic [ref=f1e280]:
+          - button "0" [ref=f1e281] [cursor=pointer]
+          - button "0" [ref=f1e285] [cursor=pointer]
+        - button "5A 喀纳斯景区" [ref=f1e291] [cursor=pointer]:
+          - generic [ref=f1e292]: 5A
+          - heading "喀纳斯景区" [level=3] [ref=f1e299]
+        - button "标记去过喀纳斯景区" [ref=f1e300] [cursor=pointer]
+        - button "收藏景点" [ref=f1e304] [cursor=pointer]
+        - generic [ref=f1e307]:
+          - generic [ref=f1e308]: 阿勒泰地区
+          - generic [ref=f1e312]: 自然名胜
+          - generic [ref=f1e313]: 热门
+        - generic: 阿尔泰山深处的高山湖泊与森林景区，以湖色变化、秋林和图瓦村落闻名。
+        - generic [ref=f1e316]:
+          - generic [ref=f1e317]: 1–2 天
+          - generic [ref=f1e321]: 票价待确认
+        - generic [ref=f1e325]:
+          - button "0" [ref=f1e326] [cursor=pointer]
+          - button "0" [ref=f1e330] [cursor=pointer]
+        - button "5A 喀什古城景区" [ref=f1e336] [cursor=pointer]:
+          - generic [ref=f1e337]: 5A
+          - heading "喀什古城景区" [level=3] [ref=f1e344]
+        - button "标记去过喀什古城景区" [ref=f1e345] [cursor=pointer]
+        - button "收藏景点" [ref=f1e349] [cursor=pointer]
+        - generic [ref=f1e352]:
+          - generic [ref=f1e353]: 喀什地区
+          - generic [ref=f1e357]: 人文古迹
+          - generic [ref=f1e358]: 热门
+        - generic: 保存传统街巷、民居与手工艺空间，是南疆历史文化和城市生活的重要载体。
+        - generic [ref=f1e361]:
+          - generic [ref=f1e362]: 半天–1 天
+          - generic [ref=f1e366]: 票价待确认
+        - generic [ref=f1e370]:
+          - button "0" [ref=f1e371] [cursor=pointer]
+          - button "0" [ref=f1e375] [cursor=pointer]
+        - button "5A 老君山景区" [ref=f1e381] [cursor=pointer]:
+          - generic [ref=f1e382]: 5A
+          - heading "老君山景区" [level=3] [ref=f1e389]
+        - button "标记去过老君山景区" [ref=f1e390] [cursor=pointer]
+        - button "收藏景点" [ref=f1e394] [cursor=pointer]
+        - generic [ref=f1e397]:
+          - generic [ref=f1e398]: 洛阳市
+          - generic [ref=f1e402]: 自然名胜
+          - generic [ref=f1e403]: 热门
+        - generic: 伏牛山脉主峰，以金顶道观群、云海与冬雪景观著称。
+        - generic [ref=f1e406]:
+          - generic [ref=f1e407]: 1 天
+          - generic [ref=f1e411]: 票价待确认
+        - generic [ref=f1e415]:
+          - button "0" [ref=f1e416] [cursor=pointer]
+          - button "0" [ref=f1e420] [cursor=pointer]
+        - button "5A 那拉提旅游风景区" [ref=f1e426] [cursor=pointer]:
+          - generic [ref=f1e427]: 5A
+          - heading "那拉提旅游风景区" [level=3] [ref=f1e434]
+        - button "标记去过那拉提旅游风景区" [ref=f1e435] [cursor=pointer]
+        - button "收藏景点" [ref=f1e439] [cursor=pointer]
+        - generic [ref=f1e442]:
+          - generic [ref=f1e443]: 伊犁哈萨克自治州
+          - generic [ref=f1e447]: 自然名胜
+          - generic [ref=f1e448]: 热门
+        - generic: 天山腹地的高山草原，以河谷、雪山和哈萨克牧民文化闻名。
+        - generic [ref=f1e451]:
+          - generic [ref=f1e452]: 1–2 天
+          - generic [ref=f1e456]: 票价待确认
+        - generic [ref=f1e460]:
+          - button "0" [ref=f1e461] [cursor=pointer]
+          - button "0" [ref=f1e465] [cursor=pointer]
+        - button "5A 清明上河园" [ref=f1e471] [cursor=pointer]:
+          - generic [ref=f1e472]: 5A
+          - heading "清明上河园" [level=3] [ref=f1e479]
+        - button "标记去过清明上河园" [ref=f1e480] [cursor=pointer]
+        - button "收藏景点" [ref=f1e484] [cursor=pointer]
+        - generic [ref=f1e487]:
+          - generic [ref=f1e488]: 开封市
+          - generic [ref=f1e492]: 人文古迹
+          - generic [ref=f1e493]: 热门
+        - generic: 以北宋张择端《清明上河图》为蓝本的大型宋代文化主题公园。
+        - generic [ref=f1e496]:
+          - generic [ref=f1e497]: 1 天
+          - generic [ref=f1e501]: 票价待确认
+        - generic [ref=f1e505]:
+          - button "0" [ref=f1e506] [cursor=pointer]
+          - button "0" [ref=f1e510] [cursor=pointer]
+        - button "5A 赛里木湖景区" [ref=f1e516] [cursor=pointer]:
+          - generic [ref=f1e517]: 5A
+          - heading "赛里木湖景区" [level=3] [ref=f1e524]
+        - button "标记去过赛里木湖景区" [ref=f1e525] [cursor=pointer]
+        - button "收藏景点" [ref=f1e529] [cursor=pointer]
+        - generic [ref=f1e532]:
+          - generic [ref=f1e533]: 博尔塔拉蒙古自治州
+          - generic [ref=f1e537]: 自然名胜
+          - generic [ref=f1e538]: 热门
+        - generic: 天山西部高山湖泊，以湖水澄澈、雪山环绕和花海著称。
+        - generic [ref=f1e541]:
+          - generic [ref=f1e542]: 1 天
+          - generic [ref=f1e546]: 票价待确认
+        - generic [ref=f1e550]:
+          - button "0" [ref=f1e551] [cursor=pointer]
+          - button "0" [ref=f1e555] [cursor=pointer]
+        - button "5A 茶卡盐湖景区" [ref=f1e561] [cursor=pointer]:
+          - generic [ref=f1e562]: 5A
+          - heading "茶卡盐湖景区" [level=3] [ref=f1e569]
+        - button "标记去过茶卡盐湖景区" [ref=f1e570] [cursor=pointer]
+        - button "收藏景点" [ref=f1e574] [cursor=pointer]
+        - generic [ref=f1e577]:
+          - generic [ref=f1e578]: 海西蒙古族藏族自治州
+          - generic [ref=f1e582]: 自然名胜
+          - generic [ref=f1e583]: 热门
+        - generic: 柴达木盆地的天然结晶盐湖，以「天空之镜」景观闻名。
+        - generic [ref=f1e586]:
+          - generic [ref=f1e587]: 1 天
+          - generic [ref=f1e591]: 票价待确认
+        - generic [ref=f1e595]:
+          - button "0" [ref=f1e596] [cursor=pointer]
+          - button "0" [ref=f1e600] [cursor=pointer]
+        - button "5A 万岁山武侠城" [ref=f1e606] [cursor=pointer]:
+          - generic [ref=f1e607]: 5A
+          - heading "万岁山武侠城" [level=3] [ref=f1e614]
+        - button "标记去过万岁山武侠城" [ref=f1e615] [cursor=pointer]
+        - button "收藏景点" [ref=f1e619] [cursor=pointer]
+        - generic [ref=f1e622]:
+          - generic [ref=f1e623]: 开封市
+          - generic [ref=f1e627]: 主题乐园
+          - generic [ref=f1e628]: 热门
+        - generic: 以武侠文化为主题的沉浸式体验景区，定期上演武侠实景演出。
+        - generic [ref=f1e631]:
+          - generic [ref=f1e632]: 半天–1 天
+          - generic [ref=f1e636]: 票价待确认
+        - generic [ref=f1e640]:
+          - button "0" [ref=f1e641] [cursor=pointer]
+          - button "0" [ref=f1e645] [cursor=pointer]
+        - button "5A 阿那亚黄金海岸社区" [ref=f1e651] [cursor=pointer]:
+          - generic [ref=f1e652]: 5A
+          - heading "阿那亚黄金海岸社区" [level=3] [ref=f1e659]
+        - button "标记去过阿那亚黄金海岸社区" [ref=f1e660] [cursor=pointer]
+        - button "收藏景点" [ref=f1e664] [cursor=pointer]
+        - generic [ref=f1e667]:
+          - generic [ref=f1e668]: 秦皇岛市
+          - generic [ref=f1e672]: 休闲度假
+          - generic [ref=f1e673]: 热门
+        - generic: 以孤独图书馆、阿那亚礼堂等地标建筑闻名的滨海度假社区。
+        - generic [ref=f1e676]:
+          - generic [ref=f1e677]: 1–2 天
+          - generic [ref=f1e681]: 票价待确认
+        - generic [ref=f1e685]:
+          - button "0" [ref=f1e686] [cursor=pointer]
+          - button "0" [ref=f1e690] [cursor=pointer]
+        - button "5A 安吉云上草原" [ref=f1e696] [cursor=pointer]:
+          - generic [ref=f1e697]: 5A
+          - heading "安吉云上草原" [level=3] [ref=f1e704]
+        - button "标记去过安吉云上草原" [ref=f1e705] [cursor=pointer]
+        - button "收藏景点" [ref=f1e709] [cursor=pointer]
+        - generic [ref=f1e712]:
+          - generic [ref=f1e713]: 湖州市
+          - generic [ref=f1e717]: 自然名胜
+          - generic [ref=f1e718]: 热门
+        - generic: 高山草甸与户外运动结合的度假区，以云海、玻璃栈道和滑草体验著称。
+        - generic [ref=f1e721]:
+          - generic [ref=f1e722]: 1 天
+          - generic [ref=f1e726]: 票价待确认
+        - generic [ref=f1e730]:
+          - button "0" [ref=f1e731] [cursor=pointer]
+          - button "0" [ref=f1e735] [cursor=pointer]
+        - button "5A 北京环球度假区" [ref=f1e741] [cursor=pointer]:
+          - generic [ref=f1e742]: 5A
+          - heading "北京环球度假区" [level=3] [ref=f1e749]
+        - button "标记去过北京环球度假区" [ref=f1e750] [cursor=pointer]
+        - button "收藏景点" [ref=f1e754] [cursor=pointer]
+        - generic [ref=f1e757]:
+          - generic [ref=f1e758]: 通州区
+          - generic [ref=f1e762]: 主题乐园
+          - generic [ref=f1e763]: 热门
+        - generic: 环球影城在中国的首个主题公园，包含七大主题景区和两家度假酒店。
+        - generic [ref=f1e766]:
+          - generic [ref=f1e767]: 1–2 天
+          - generic [ref=f1e771]: 票价待确认
+        - generic [ref=f1e775]:
+          - button "0" [ref=f1e776] [cursor=pointer]
+          - button "0" [ref=f1e780] [cursor=pointer]
+        - button "5A 潮州牌坊街" [ref=f1e786] [cursor=pointer]:
+          - generic [ref=f1e787]: 5A
+          - heading "潮州牌坊街" [level=3] [ref=f1e794]
+        - button "标记去过潮州牌坊街" [ref=f1e795] [cursor=pointer]
+        - button "收藏景点" [ref=f1e799] [cursor=pointer]
+        - generic [ref=f1e802]:
+          - generic [ref=f1e803]: 潮州市
+          - generic [ref=f1e807]: 人文古迹
+          - generic [ref=f1e808]: 热门
+        - generic: 保存完好的骑楼街道与石牌坊群，是潮州历史文化的缩影。
+        - generic [ref=f1e811]:
+          - generic [ref=f1e812]: 半天–1 天
+          - generic [ref=f1e816]: 免费开放
+        - generic [ref=f1e820]:
+          - button "0" [ref=f1e821] [cursor=pointer]
+          - button "0" [ref=f1e825] [cursor=pointer]
+        - button "5A 大唐不夜城" [ref=f1e831] [cursor=pointer]:
+          - generic [ref=f1e832]: 5A
+          - heading "大唐不夜城" [level=3] [ref=f1e839]
+        - button "标记去过大唐不夜城" [ref=f1e840] [cursor=pointer]
+        - button "收藏景点" [ref=f1e844] [cursor=pointer]
+        - generic [ref=f1e847]:
+          - generic [ref=f1e848]: 西安市
+          - generic [ref=f1e852]: 文化场馆
+          - generic [ref=f1e853]: 热门
+        - generic: 以盛唐文化为主题的步行街，以灯光、演出和互动体验吸引游客。
+        - generic [ref=f1e856]:
+          - generic [ref=f1e857]: 半天–1 天
+          - generic [ref=f1e861]: 免费开放
+        - generic [ref=f1e865]:
+          - button "0" [ref=f1e866] [cursor=pointer]
+          - button "0" [ref=f1e870] [cursor=pointer]
+        - button "5A 凤凰古城" [ref=f1e876] [cursor=pointer]:
+          - generic [ref=f1e877]: 5A
+          - heading "凤凰古城" [level=3] [ref=f1e884]
+        - button "标记去过凤凰古城" [ref=f1e885] [cursor=pointer]
+        - button "收藏景点" [ref=f1e889] [cursor=pointer]
+        - generic [ref=f1e892]:
+          - generic [ref=f1e893]: 湘西土家族苗族自治州
+          - generic [ref=f1e897]: 人文古迹
+          - generic [ref=f1e898]: 热门
+        - generic: 沈从文笔下的湘西边城，以吊脚楼、沱江和苗族文化闻名。
+        - generic [ref=f1e901]:
+          - generic [ref=f1e902]: 1–2 天
+          - generic [ref=f1e906]: 票价待确认
+        - generic [ref=f1e910]:
+          - button "0" [ref=f1e911] [cursor=pointer]
+          - button "0" [ref=f1e915] [cursor=pointer]
+        - button "5A 哈尔滨冰雪大世界" [ref=f1e921] [cursor=pointer]:
+          - generic [ref=f1e922]: 5A
+          - heading "哈尔滨冰雪大世界" [level=3] [ref=f1e929]
+        - button "标记去过哈尔滨冰雪大世界" [ref=f1e930] [cursor=pointer]
+        - button "收藏景点" [ref=f1e934] [cursor=pointer]
+        - generic [ref=f1e937]:
+          - generic [ref=f1e938]: 哈尔滨市
+          - generic [ref=f1e942]: 主题乐园
+          - generic [ref=f1e943]: 热门
+        - generic: 全球最大的冰雪主题乐园，以巨型冰雕、灯光秀和冰雪娱乐项目著称。
+        - generic [ref=f1e946]:
+          - generic [ref=f1e947]: 半天–1 天
+          - generic [ref=f1e951]: 票价待确认
+        - generic [ref=f1e955]:
+          - button "0" [ref=f1e956] [cursor=pointer]
+          - button "0" [ref=f1e960] [cursor=pointer]
+        - button "5A 洪崖洞民俗风貌区" [ref=f1e966] [cursor=pointer]:
+          - generic [ref=f1e967]: 5A
+          - heading "洪崖洞民俗风貌区" [level=3] [ref=f1e974]
+        - button "标记去过洪崖洞民俗风貌区" [ref=f1e975] [cursor=pointer]
+        - button "收藏景点" [ref=f1e979] [cursor=pointer]
+        - generic [ref=f1e982]:
+          - generic [ref=f1e983]: 渝中区
+          - generic [ref=f1e987]: 人文古迹
+          - generic [ref=f1e988]: 热门
+        - generic: 依山而建的吊脚楼建筑群，以夜景和巴渝民俗文化闻名。
+        - generic [ref=f1e991]:
+          - generic [ref=f1e992]: 半天
+          - generic [ref=f1e996]: 免费开放
+        - generic [ref=f1e1000]:
+          - button "0" [ref=f1e1001] [cursor=pointer]
+          - button "0" [ref=f1e1005] [cursor=pointer]
+        - button "5A 基诺山雨林徒步" [ref=f1e1011] [cursor=pointer]:
+          - generic [ref=f1e1012]: 5A
+          - heading "基诺山雨林徒步" [level=3] [ref=f1e1019]
+        - button "标记去过基诺山雨林徒步" [ref=f1e1020] [cursor=pointer]
+        - button "收藏景点" [ref=f1e1024] [cursor=pointer]
+        - generic [ref=f1e1027]:
+          - generic [ref=f1e1028]: 西双版纳傣族自治州
+          - generic [ref=f1e1032]: 自然名胜
+          - generic [ref=f1e1033]: 热门
+        - generic: 热带雨林徒步体验，以基诺族文化和原始森林生态为特色。
+        - generic [ref=f1e1036]:
+          - generic [ref=f1e1037]: 半天–1 天
+          - generic [ref=f1e1041]: 票价待确认
+        - generic [ref=f1e1045]:
+          - button "0" [ref=f1e1046] [cursor=pointer]
+          - button "0" [ref=f1e1050] [cursor=pointer]
+        - button "加载更多 24 / 11,850" [ref=f1e1056] [cursor=pointer]:
+          - text: 加载更多
+          - generic [ref=f1e1057]: 24 / 11,850
+    - generic [ref=f1e1059]:
+      - button "我要反馈" [ref=f1e1060] [cursor=pointer]
+      - link "请我喝杯咖啡" [ref=f1e1064] [cursor=pointer]:
+        - /url: https://ko-fi.com/haloha
+      - link "爱发电支持" [ref=f1e1069] [cursor=pointer]:
+        - /url: https://ifdian.net/a/haloha
+  - button "Open Next.js Dev Tools" [ref=f1e1078] [cursor=pointer]

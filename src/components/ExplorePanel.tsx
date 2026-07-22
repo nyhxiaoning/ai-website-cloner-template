@@ -1,8 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { MapIcon } from "./icons";
 import PlaceCard, { PlaceCardData } from "./PlaceCard";
+import { useAppContext } from "@/lib/AppContext";
+import { findProvinceByLocation } from "@/data/provinces";
 
 const CARDS_DATA: PlaceCardData[] = [
   {
@@ -68,7 +70,7 @@ const CARDS_DATA: PlaceCardData[] = [
     trend: "热门",
     description: "伏牛山脉主峰，以金顶道观群、云海与冬雪景观著称。",
     duration: "1 天",
-    price: "票价待确认",
+    price: "以官方及预约渠道实时价…",
     coverClass: "cover-1",
   },
   {
@@ -105,7 +107,7 @@ const CARDS_DATA: PlaceCardData[] = [
     coverClass: "cover-0",
   },
   {
-    level: "5A",
+    level: "4A",
     title: "茶卡盐湖景区",
     location: "海西蒙古族藏族自治州",
     type: "自然名胜",
@@ -116,113 +118,157 @@ const CARDS_DATA: PlaceCardData[] = [
     coverClass: "cover-1",
   },
   {
-    level: "5A",
+    level: "4A",
     title: "万岁山武侠城",
     location: "开封市",
     type: "主题乐园",
     trend: "热门",
     description: "以武侠文化为主题的沉浸式体验景区，定期上演武侠实景演出。",
-    duration: "半天–1 天",
+    duration: "1 天",
     price: "票价待确认",
     coverClass: "cover-2",
   },
   {
-    level: "5A",
+    level: "4A",
     title: "阿那亚黄金海岸社区",
     location: "秦皇岛市",
     type: "休闲度假",
     trend: "热门",
     description: "以孤独图书馆、阿那亚礼堂等地标建筑闻名的滨海度假社区。",
     duration: "1–2 天",
-    price: "票价待确认",
+    price: "入园及场馆政策以阿那亚…",
     coverClass: "cover-3",
   },
   {
-    level: "5A",
+    level: "4A",
     title: "安吉云上草原",
     location: "湖州市",
-    type: "自然名胜",
+    type: "休闲度假",
     trend: "热门",
-    description: "高山草甸与户外运动结合的度假区，以云海、玻璃栈道和滑草体验著称。",
+    description: "海拔千米的高山草原度假区，悬崖秋千、云海栈道与四季玩法使其成为江浙沪小红书暑期避暑热门目的地。",
     duration: "1 天",
-    price: "票价待确认",
+    price: "以官方及预约渠道实时价…",
     coverClass: "cover-0",
   },
   {
-    level: "5A",
+    level: "4A",
     title: "北京环球度假区",
     location: "通州区",
-    type: "主题乐园",
+    type: "休闲度假",
     trend: "热门",
-    description: "环球影城在中国的首个主题公园，包含七大主题景区和两家度假酒店。",
-    duration: "1–2 天",
-    price: "票价待确认",
+    description: "由环球影城主题公园、北京环球城市大道和度假酒店组成，以哈利·波特、变形金刚、小黄人等电影主题沉浸体验闻名。",
+    duration: "1 天",
+    price: "实行指定日票价，以官方…",
     coverClass: "cover-1",
   },
   {
-    level: "5A",
+    level: "4A",
     title: "潮州牌坊街",
     location: "潮州市",
     type: "人文古迹",
     trend: "热门",
-    description: "保存完好的骑楼街道与石牌坊群，是潮州历史文化的缩影。",
-    duration: "半天–1 天",
-    price: "免费开放",
+    description: "潮州古城核心步行街，密集石牌坊与骑楼商铺并存，工夫茶、非遗与夜游内容使其成为粤东小红书热门打卡地。",
+    duration: "2–4 小时",
+    price: "街区免费",
     coverClass: "cover-2",
   },
   {
-    level: "5A",
+    level: "4A",
     title: "大唐不夜城",
     location: "西安市",
-    type: "文化场馆",
+    type: "城市地标",
     trend: "热门",
-    description: "以盛唐文化为主题的步行街，以灯光、演出和互动体验吸引游客。",
-    duration: "半天–1 天",
-    price: "免费开放",
+    description: "大雁塔南侧的盛唐主题步行街区，灯光秀、实景演艺与汉服旅拍使其长期占据小红书西安夜游热门榜。",
+    duration: "2–4 小时",
+    price: "街区免费，部分场馆与主…",
     coverClass: "cover-3",
   },
   {
-    level: "5A",
+    level: "4A",
     title: "凤凰古城",
     location: "湘西土家族苗族自治州",
     type: "人文古迹",
     trend: "热门",
-    description: "沈从文笔下的湘西边城，以吊脚楼、沱江和苗族文化闻名。",
+    description: "沱江两岸保存吊脚楼、城楼与石板街的历史文化名城。",
     duration: "1–2 天",
     price: "票价待确认",
     coverClass: "cover-0",
   },
   {
-    level: "5A",
+    level: "4A",
     title: "哈尔滨冰雪大世界",
     location: "哈尔滨市",
-    type: "主题乐园",
+    type: "人文古迹",
     trend: "热门",
-    description: "全球最大的冰雪主题乐园，以巨型冰雕、灯光秀和冰雪娱乐项目著称。",
-    duration: "半天–1 天",
+    description: "以大型冰雪建筑、冰雕艺术和冬季娱乐项目闻名的季节性主题景区。",
+    duration: "4–6 小时",
     price: "票价待确认",
     coverClass: "cover-1",
   },
   {
-    level: "5A",
+    level: "4A",
     title: "洪崖洞民俗风貌区",
     location: "渝中区",
     type: "人文古迹",
     trend: "热门",
-    description: "依山而建的吊脚楼建筑群，以夜景和巴渝民俗文化闻名。",
-    duration: "半天",
-    price: "免费开放",
+    description: "依山临江而建的吊脚楼建筑群，集中展现山城街巷风貌。",
+    duration: "2–3 小时",
+    price: "票价待确认",
     coverClass: "cover-2",
   },
   {
-    level: "5A",
+    level: "4A",
     title: "基诺山雨林徒步",
     location: "西双版纳傣族自治州",
     type: "自然名胜",
     trend: "热门",
-    description: "热带雨林徒步体验，以基诺族文化和原始森林生态为特色。",
-    duration: "半天–1 天",
-    price: "票价待确认",
+    description: "融合热带雨林穿越、溯溪与基诺族文化体验的向导型户外项目，近年来在亲子与轻探险人群中快速走红。",
+    duration: "1 天",
+    price: "线路与服务价格不同，以…",
+    coverClass: "cover-3",
+  },
+  {
+    level: "4A",
+    title: "李子坝单轨穿楼观景平台",
+    location: "渝中区",
+    type: "城市地标",
+    trend: "热门",
+    description: "轨道交通 2 号线列车穿楼而过的城市奇观观景点，是重庆「8D 魔幻」影像与小红书打卡的标志机位。",
+    duration: "30–60 分钟",
+    price: "免费（乘坐轻轨需另购交…",
+    coverClass: "cover-0",
+  },
+  {
+    level: "4A",
+    title: "良渚文化艺术中心（大屋顶）",
+    location: "杭州市",
+    type: "文化场馆",
+    trend: "热门",
+    description: "安藤忠雄设计的清水混凝土文化建筑，以标志性大屋顶、光影空间与春日樱景成为杭州小红书热门打卡地。",
+    duration: "1–2 小时",
+    price: "公共空间多免费，展览与…",
+    coverClass: "cover-1",
+  },
+  {
+    level: "4A",
+    title: "上海迪士尼度假区",
+    location: "浦东新区",
+    type: "休闲度假",
+    trend: "热门",
+    description: "中国内地首座迪士尼度假区，拥有奇幻童话城堡、疯狂动物城、加勒比海盗等主题园区与大型巡游演出。",
+    duration: "1–2 天",
+    price: "实行指定日票价，以官方…",
+    coverClass: "cover-2",
+  },
+  {
+    level: "4A",
+    title: "武康路历史文化街区",
+    location: "徐汇区",
+    type: "城市地标",
+    trend: "热门",
+    description: "汇集武康大楼、名人故居与历史建筑的城市漫步街区，是上海 Citywalk 与梧桐美学的代表路线。",
+    duration: "2–4 小时",
+    price: "街区免费，部分场馆另行…",
     coverClass: "cover-3",
   },
 ];
@@ -233,21 +279,48 @@ const TYPE_FILTERS = ["全部", "人文古迹", "自然名胜", "博物馆", "�
 export default function ExplorePanel() {
   const [activeRating, setActiveRating] = useState("全部等级");
   const [activeType, setActiveType] = useState("全部");
+  const { selectedProvince } = useAppContext();
+
+  // Filter cards by province
+  const filteredCards = useMemo(() => {
+    if (!selectedProvince) return CARDS_DATA;
+    return CARDS_DATA.filter((card) => {
+      const province = findProvinceByLocation(card.location);
+      return province?.id === selectedProvince.id;
+    });
+  }, [selectedProvince]);
+
+  // Apply rating/type filters on top of province filter
+  const displayCards = useMemo(() => {
+    let cards = filteredCards;
+    if (activeRating !== "全部等级") {
+      cards = cards.filter((c) => c.level === activeRating);
+    }
+    if (activeType !== "全部") {
+      cards = cards.filter((c) => c.type === activeType);
+    }
+    return cards;
+  }, [filteredCards, activeRating, activeType]);
+
+  const totalCount = filteredCards.length;
+  const displayCount = displayCards.length;
+  const headingText = selectedProvince ? `${selectedProvince.fullName} · 精选` : "今日精选";
+  const countLabel = selectedProvince ? `${totalCount} 处` : "11,850 处";
 
   return (
     <aside className="explore-panel glass">
       {/* Header */}
       <div className="panel-header">
         <div>
-          <p className="panel-overline">全国探索</p>
-          <h2>今日精选</h2>
+          <p className="panel-overline">{selectedProvince ? selectedProvince.fullName : "全国探索"}</p>
+          <h2>{headingText}</h2>
         </div>
-        <span className="result-count">11,850 处</span>
+        <span className="result-count">{countLabel}</span>
       </div>
 
       <p className="map-link-hint">
         <MapIcon />
-        点击景点查看详情
+        {selectedProvince ? `点击景点查看${selectedProvince.name}详情` : "点击景点查看详情"}
       </p>
 
       {/* Coverage note */}
@@ -298,12 +371,22 @@ export default function ExplorePanel() {
 
       {/* Card list */}
       <div className="place-list">
-        {CARDS_DATA.map((card, i) => (
-          <PlaceCard key={i} card={card} />
-        ))}
-        <button type="button" className="load-more">
-          加载更多<small>24 / 11,850</small>
-        </button>
+        {displayCards.length > 0 ? (
+          displayCards.map((card, i) => (
+            <PlaceCard key={i} card={card} />
+          ))
+        ) : (
+          <div className="empty-state">
+            {selectedProvince
+              ? `${selectedProvince.fullName}暂无收录景点`
+              : "暂无收录景点"}
+          </div>
+        )}
+        {displayCards.length > 0 && (
+          <button type="button" className="load-more">
+            加载更多<small>{displayCount} / 11,850</small>
+          </button>
+        )}
       </div>
     </aside>
   );

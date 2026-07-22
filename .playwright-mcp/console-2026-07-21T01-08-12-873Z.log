@@ -1,0 +1,75 @@
+[     486ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[     521ms] [LOG] [Fast Refresh] done in 137ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    2472ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    2772ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    3352ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    4378ms] [LOG] [Fast Refresh] done in 1132ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    5112ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    5289ms] [LOG] [Fast Refresh] done in 278ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   12170ms] [LOG] ECharts click: 甘肃省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   12172ms] [LOG] Found province: 甘肃 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   31306ms] [LOG] ECharts click: 吉林省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   31306ms] [LOG] Found province: 吉林 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   32667ms] [LOG] ECharts click: 河北省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   32667ms] [LOG] Found province: 河北 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   37875ms] [LOG] ECharts click: 河北省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   37876ms] [LOG] Found province: 河北 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   39110ms] [LOG] ECharts click: 重庆市 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   39110ms] [LOG] Found province: 重庆 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   40978ms] [LOG] ECharts click: 四川省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   40979ms] [LOG] Found province: 四川 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   42508ms] [LOG] ECharts click: 内蒙古自治区 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   42508ms] [LOG] Found province: 内蒙古 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   44023ms] [LOG] ECharts click: 河北省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   44023ms] [LOG] Found province: 河北 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   55611ms] [LOG] ECharts click: 重庆市 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   55612ms] [LOG] Found province: 重庆 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   55844ms] [LOG] ECharts click: 湖南省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   55844ms] [LOG] Found province: 湖南 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   56044ms] [LOG] ECharts click: 江西省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   56045ms] [LOG] Found province: 江西 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   56201ms] [LOG] ECharts click: 广西壮族自治区 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   56201ms] [LOG] Found province: 广西 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   56464ms] [LOG] ECharts click: 山西省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   56464ms] [LOG] Found province: 山西 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   67108ms] [LOG] ECharts click: 重庆市 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   67108ms] [LOG] Found province: 重庆 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   74500ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   74592ms] [LOG] [Fast Refresh] done in 179ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17115014ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41149423ms] [LOG] ECharts click: 内蒙古自治区 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41149426ms] [LOG] Found province: 内蒙古 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41150804ms] [LOG] ECharts click: 内蒙古自治区 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41150804ms] [LOG] Found province: 内蒙古 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41151854ms] [LOG] ECharts click: 甘肃省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41151855ms] [LOG] Found province: 甘肃 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41153420ms] [LOG] ECharts click: 河北省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41153420ms] [LOG] Found province: 河北 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41154936ms] [LOG] ECharts click: 河南省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41154937ms] [LOG] Found province: 河南 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41187718ms] [LOG] ECharts click: 新疆维吾尔自治区 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41187718ms] [LOG] Found province: 新疆 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41189202ms] [LOG] ECharts click: 西藏自治区 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41189203ms] [LOG] Found province: 西藏 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41190019ms] [LOG] ECharts click: 青海省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41190019ms] [LOG] Found province: 青海 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41191251ms] [LOG] ECharts click: 四川省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41191252ms] [LOG] Found province: 四川 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41192102ms] [LOG] ECharts click: 贵州省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41192102ms] [LOG] Found province: 贵州 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41192902ms] [LOG] ECharts click: 湖北省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41192902ms] [LOG] Found province: 湖北 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41193801ms] [LOG] ECharts click: 湖南省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41193801ms] [LOG] Found province: 湖南 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41194951ms] [LOG] ECharts click: 江西省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41194951ms] [LOG] Found province: 江西 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41195701ms] [LOG] ECharts click: 福建省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41195701ms] [LOG] Found province: 福建 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41196602ms] [LOG] ECharts click: 广东省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41196602ms] [LOG] Found province: 广东 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41302650ms] [LOG] ECharts click: 河北省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41302650ms] [LOG] Found province: 河北 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41303484ms] [LOG] ECharts click: 内蒙古自治区 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41303484ms] [LOG] Found province: 内蒙古 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41304651ms] [LOG] ECharts click: 河北省 series {componentType: series, componentSubType: map, componentIndex: 0, seriesType: map, seriesIndex: 0} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[41304652ms] [LOG] Found province: 河北 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
