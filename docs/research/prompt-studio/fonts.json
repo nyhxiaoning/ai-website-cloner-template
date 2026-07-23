@@ -1,0 +1,146 @@
+[
+  {
+    "tag": "HTML",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "HEAD",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "META",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "LINK",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "META",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "TITLE",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "SCRIPT",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "LINK",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "LINK",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "LINK",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "SCRIPT",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "LINK",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "BODY",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "DIV",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "MAIN",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "SECTION",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "DIV",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "DIV",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "P",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "10px",
+    "fontWeight": "600"
+  },
+  {
+    "tag": "H1",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "24px",
+    "fontWeight": "500"
+  },
+  {
+    "tag": "P",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "12px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "DIV",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  },
+  {
+    "tag": "BUTTON",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "12px",
+    "fontWeight": "600"
+  },
+  {
+    "tag": "DIV",
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400"
+  }
+]

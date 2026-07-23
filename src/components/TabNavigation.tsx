@@ -1,13 +1,11 @@
 'use client';
 
-import type { TabView } from "@/types";
-
 interface TabNavigationProps {
-  activeTab: TabView;
-  onTabChange: (tab: TabView) => void;
+  activeTab: string;
+  onTabChange: (tab: string) => void;
 }
 
-const tabs: { id: TabView; icon: string; label: string }[] = [
+const tabs: { id: string; icon: string; label: string }[] = [
   { id: "map", icon: "fa-map", label: "地图视图" },
   { id: "timeline", icon: "fa-scroll", label: "时间轴视图" },
   { id: "mindmap", icon: "fa-brain", label: "思维导图" },

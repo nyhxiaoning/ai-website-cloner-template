@@ -1,0 +1,101 @@
+{
+  "tag": "body",
+  "classes": "",
+  "text": null,
+  "attrs": {
+    "id": "",
+    "role": null,
+    "data-testid": null
+  },
+  "childCount": 1,
+  "children": [
+    {
+      "tag": "div",
+      "classes": "",
+      "text": "Prompt Studio选择工作目录Prompt Studio 是本地运行的 AIGC 提示词工作台。你的项目、片段和生成结果都只保存在你选的这个文件夹里，不上传、不联网。选一个文件夹开始。选择工作目录",
+      "attrs": {
+        "id": "root",
+        "role": null,
+        "data-testid": null
+      },
+      "childCount": 2,
+      "children": [
+        {
+          "tag": "main",
+          "classes": "flex min-h-screen items-center justify-center bg-studio-bg px-6 text-studio-text",
+          "text": "Prompt Studio选择工作目录Prompt Studio 是本地运行的 AIGC 提示词工作台。你的项目、片段和生成结果都只保存在你选的这个文件夹里，不上传、不联网。选一个文件夹开始。选择工作目录",
+          "attrs": {
+            "id": "",
+            "role": null,
+            "data-testid": null
+          },
+          "childCount": 1,
+          "children": [
+            {
+              "tag": "section",
+              "classes": "w-full max-w-xl rounded-lg border border-studio-border bg-studio-elev-1 p-8 shadow-2xl shadow-black/25",
+              "text": "Prompt Studio选择工作目录Prompt Studio 是本地运行的 AIGC 提示词工作台。你的项目、片段和生成结果都只保存在你选的这个文件夹里，不上传、不联网。选一个文件夹开始。选择工作目录",
+              "attrs": {
+                "id": "",
+                "role": null,
+                "data-testid": null
+              },
+              "childCount": 1,
+              "children": [
+                {
+                  "tag": "div",
+                  "classes": "space-y-6",
+                  "text": "Prompt Studio选择工作目录Prompt Studio 是本地运行的 AIGC 提示词工作台。你的项目、片段和生成结果都只保存在你选的这个文件夹里，不上传、不联网。选一个文件夹开始。选择工作目录",
+                  "attrs": {
+                    "id": "",
+                    "role": null,
+                    "data-testid": null
+                  },
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classes": "space-y-2",
+                      "text": null,
+                      "attrs": {
+                        "id": "",
+                        "role": null,
+                        "data-testid": null
+                      },
+                      "childCount": 3,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "classes": "flex flex-wrap gap-3",
+                      "text": "选择工作目录",
+                      "attrs": {
+                        "id": "",
+                        "role": null,
+                        "data-testid": null
+                      },
+                      "childCount": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": "pointer-events-none fixed bottom-6 left-1/2 z-[60] flex -translate-x-1/2 flex-col items-center gap-2",
+          "text": "",
+          "attrs": {
+            "id": "",
+            "role": null,
+            "data-testid": null
+          },
+          "childCount": 0,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

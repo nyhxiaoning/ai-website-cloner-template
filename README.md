@@ -1,5 +1,13 @@
 # AI Website Cloner Template
 
+# 启发prompt的管理思考：
+
+https://prompt-studio-7gh.pages.dev/
+
+- 对于同类型复用的prompt和碎片化，系统化的prompt整理，形成片段可以复用，
+- 类型可以统一管理
+
+
 <a href="https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a> <a href="https://github.com/JCodesMore/ai-website-cloner-template/stargazers"><img src="https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat" alt="Stars" /></a> <a href="https://discord.gg/hrTSX5yTpB"><img src="https://img.shields.io/discord/1400896964597383279?label=discord" alt="Discord" /></a>
 
 A reusable template for reverse-engineering any website into a clean, modern Next.js codebase using AI coding agents. 

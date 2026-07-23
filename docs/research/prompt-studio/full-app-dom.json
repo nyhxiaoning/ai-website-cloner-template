@@ -1,0 +1,111 @@
+{
+  "tag": "body",
+  "id": "",
+  "classes": "",
+  "text": "Prompt Studio选择工作目录Prompt Studio 是本地运行的 AIGC 提示词工作台。你的项目、片段和生成结果都只保存在你选的这个文件夹里，不上传、不联网。选一个文件夹开始。保存工作目录句柄失败选择工作目录",
+  "childCount": 1,
+  "children": [
+    {
+      "tag": "div",
+      "id": "root",
+      "classes": "",
+      "text": "Prompt Studio选择工作目录Prompt Studio 是本地运行的 AIGC 提示词工作台。你的项目、片段和生成结果都只保存在你选的这个文件夹里，不上传、不联网。选一个文件夹开始。保存工作目录句柄失败选择工作目录",
+      "childCount": 2,
+      "children": [
+        {
+          "tag": "main",
+          "id": "",
+          "classes": "flex min-h-screen items-center justify-center bg-studio-bg px-6 text-studio-text",
+          "text": "Prompt Studio选择工作目录Prompt Studio 是本地运行的 AIGC 提示词工作台。你的项目、片段和生成结果都只保存在你选的这个文件夹里，不上传、不联网。选一个文件夹开始。保存工作目录句柄失败选择工作目录",
+          "childCount": 1,
+          "children": [
+            {
+              "tag": "section",
+              "id": "",
+              "classes": "w-full max-w-xl rounded-lg border border-studio-border bg-studio-elev-1 p-8 shadow-2xl",
+              "text": "Prompt Studio选择工作目录Prompt Studio 是本地运行的 AIGC 提示词工作台。你的项目、片段和生成结果都只保存在你选的这个文件夹里，不上传、不联网。选一个文件夹开始。保存工作目录句柄失败选择工作目录",
+              "childCount": 1,
+              "children": [
+                {
+                  "tag": "div",
+                  "id": "",
+                  "classes": "space-y-6",
+                  "text": "Prompt Studio选择工作目录Prompt Studio 是本地运行的 AIGC 提示词工作台。你的项目、片段和生成结果都只保存在你选的这个文件夹里，不上传、不联网。选一个文件夹开始。保存工作目录句柄失败选择工作目录",
+                  "childCount": 3,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "id": "",
+                      "classes": "space-y-2",
+                      "text": "Prompt Studio选择工作目录Prompt Studio 是本地运行的 AIGC 提示词工作台。你的项目、片段和生成结果都只保存在你选的这个文件夹里，不上传、不联网。选一个文件夹开始。",
+                      "childCount": 3,
+                      "children": [
+                        {
+                          "tag": "p",
+                          "id": "",
+                          "classes": "text-xs font-semibold uppercase tracking-wide text-studio-accent",
+                          "text": "Prompt Studio",
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "tag": "h1",
+                          "id": "",
+                          "classes": "font-sans text-2xl font-medium text-studio-text",
+                          "text": "选择工作目录",
+                          "childCount": 0,
+                          "children": []
+                        },
+                        {
+                          "tag": "p",
+                          "id": "",
+                          "classes": "text-sm leading-6 text-studio-text-dim",
+                          "text": "Prompt Studio 是本地运行的 AIGC 提示词工作台。你的项目、片段和生成结果都只保存在你选的这个文件夹里，不上传、不联网。选一个文件夹开始。",
+                          "childCount": 0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "id": "",
+                      "classes": "rounded-md border border-studio-neg/25 bg-studio-neg/10 px-4 py-3 text-sm text-studio-neg",
+                      "text": "保存工作目录句柄失败",
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "id": "",
+                      "classes": "flex flex-wrap gap-3",
+                      "text": "选择工作目录",
+                      "childCount": 1,
+                      "children": [
+                        {
+                          "tag": "button",
+                          "id": "",
+                          "classes": "inline-flex items-center justify-center rounded-md bg-studio-accent px-4 py-2 text-sm",
+                          "text": "选择工作目录",
+                          "childCount": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "id": "",
+          "classes": "pointer-events-none fixed bottom-6 left-1/2 z-[60] flex -translate-x-1/2 flex-col",
+          "text": "",
+          "childCount": 0,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

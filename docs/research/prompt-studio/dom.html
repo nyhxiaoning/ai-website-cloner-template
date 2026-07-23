@@ -1,0 +1,37 @@
+<html lang="zh-CN" data-theme="dark"><head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Studio</title>
+    <script>
+      // 首帧前同步设好 data-theme，避免主题闪烁（FOUC）。默认 / 失败回退 dark。
+      (function () {
+        try {
+          var pref = localStorage.getItem('prompt-studio-theme');
+          if (pref !== 'dark' && pref !== 'light' && pref !== 'system') {
+            pref = 'dark';
+          }
+          var resolved =
+            pref === 'system'
+              ? window.matchMedia &&
+                window.matchMedia('(prefers-color-scheme: light)').matches
+                ? 'light'
+                : 'dark'
+              : pref;
+          document.documentElement.dataset.theme = resolved;
+        } catch (e) {
+          document.documentElement.dataset.theme = 'dark';
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500&amp;family=Noto+Sans+SC:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <script type="module" crossorigin="" src="/assets/index-D9RcSUfR.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-DkW70tu-.css">
+  </head>
+  <body>
+    <div id="root"><main class="flex min-h-screen items-center justify-center bg-studio-bg px-6 text-studio-text"><section class="w-full max-w-xl rounded-lg border border-studio-border bg-studio-elev-1 p-8 shadow-2xl shadow-black/25"><div class="space-y-6"><div class="space-y-2"><p class="text-xs font-semibold uppercase tracking-wide text-studio-accent">Prompt Studio</p><h1 class="font-sans text-2xl font-medium text-studio-text">选择工作目录</h1><p class="text-sm leading-6 text-studio-text-dim">Prompt Studio 是本地运行的 AIGC 提示词工作台。你的项目、片段和生成结果都只保存在你选的这个文件夹里，不上传、不联网。选一个文件夹开始。</p></div><div class="flex flex-wrap gap-3"><button type="button" class="inline-flex items-center justify-center rounded-md bg-studio-accent px-4 py-2 text-sm font-semibold text-studio-on-accent transition hover:bg-studio-accent/90 disabled:cursor-not-allowed disabled:opacity-60">选择工作目录</button></div></div></section></main><div aria-live="polite" class="pointer-events-none fixed bottom-6 left-1/2 z-[60] flex -translate-x-1/2 flex-col items-center gap-2"></div></div>
+  
+
+</body></html>

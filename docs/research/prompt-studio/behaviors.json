@@ -1,0 +1,14 @@
+{
+  "hasLenis": false,
+  "hasScrollSnap": false,
+  "scrollBehavior": "auto",
+  "title": "Prompt Studio",
+  "bodyChildren": [
+    {
+      "tag": "DIV",
+      "classes": [
+        ""
+      ]
+    }
+  ]
+}

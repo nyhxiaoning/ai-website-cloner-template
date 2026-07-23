@@ -5,39 +5,11 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: "Microsoft YaHei", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: ui-monospace, monospace;
-  --color-sidebar-ring: var(--sidebar-ring);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
-  --color-ring: var(--ring);
-  --color-input: var(--input);
-  --color-border: var(--border);
-  --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-popover: var(--popover);
-  --color-card-foreground: var(--card-foreground);
-  --color-card: var(--card);
+  /* Fonts */
+  --font-sans: "Geist", "Noto Sans SC", system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+
+  /* Radii (depend on --radius defined in :root) */
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -47,220 +19,104 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-:root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-}
-
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
-}
-
 /* =============================================
-   Site-specific styles for Journey to the West
+   Prompt Studio Design Tokens
    ============================================= */
 
-/* Glass effect */
-.glass-effect {
-  background: inherit;
+:root,
+[data-theme="dark"] {
+  /* Background & Surfaces */
+  --studio-bg: 14 14 16;
+  --studio-elev-1: 22 22 24;
+  --studio-elev-2: 29 29 32;
+  --studio-elev-3: 37 37 42;
+
+  /* Text */
+  --studio-text: 237 237 237;
+  --studio-text-dim: 170 170 179;
+  --studio-text-faint: 140 140 149;
+  --studio-on-accent: 9 9 11;
+  --studio-on-scrim: 235 235 235;
+
+  /* Semantic */
+  --studio-border: 42 42 47;
+  --studio-border-strong: 58 58 66;
+  --studio-accent: 244 162 97;
+  --studio-snippet: 244 162 97;
+  --studio-neg: 217 119 87;
+  --studio-ok: 122 184 122;
+  --studio-warn: 175 57 31;
+  --studio-info: 107 155 209;
+  --studio-rule: 178 148 214;
+  --studio-style: 233 196 106;
+  --studio-char: 200 156 184;
+  --studio-compo: 107 155 209;
+  --studio-field: 14 14 16;
+
+  color-scheme: dark;
 }
 
-/* Text shadow for hero */
-.text-shadow-lg {
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+[data-theme="light"] {
+  --studio-bg: 243 241 236;
+  --studio-elev-1: 249 248 244;
+  --studio-elev-2: 252 251 249;
+  --studio-elev-3: 255 255 255;
+  --studio-text: 35 34 31;
+  --studio-text-dim: 82 80 74;
+  --studio-text-faint: 110 108 101;
+  --studio-on-accent: 255 255 255;
+  --studio-border: 220 217 209;
+  --studio-border-strong: 196 192 181;
+  --studio-accent: 159 74 12;
+  --studio-snippet: 159 74 12;
+  --studio-neg: 175 57 31;
+  --studio-ok: 37 112 55;
+  --studio-warn: 175 57 31;
+  --studio-info: 43 100 164;
+  --studio-rule: 109 73 166;
+  --studio-style: 125 94 17;
+  --studio-char: 143 77 121;
+  --studio-compo: 43 100 164;
+  --studio-field: 255 255 255;
+  --studio-on-scrim: 235 235 235;
+
+  color-scheme: light;
 }
 
-/* Cloud animations - floating clouds */
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+/* Base radius variable (required for @theme inline radius calc) */
+:root {
+  --radius: 0.5rem;
 }
 
-.animate-float {
-  animation: float 6s ease-in-out infinite;
+/* CSS custom property helpers */
+.bg-studio-bg { background-color: rgb(var(--studio-bg)); }
+.text-studio-text { color: rgb(var(--studio-text)); }
+.text-studio-text-dim { color: rgb(var(--studio-text-dim)); }
+.text-studio-text-faint { color: rgb(var(--studio-text-faint)); }
+.text-studio-accent { color: rgb(var(--studio-accent)); }
+.text-studio-on-accent { color: rgb(var(--studio-on-accent)); }
+.bg-studio-accent { background-color: rgb(var(--studio-accent)); }
+.text-studio-on-accent { color: rgb(var(--studio-on-accent)); }
+.bg-studio-elev-1 { background-color: rgb(var(--studio-elev-1)); }
+.bg-studio-elev-2 { background-color: rgb(var(--studio-elev-2)); }
+.bg-studio-elev-3 { background-color: rgb(var(--studio-elev-3)); }
+.bg-studio-field { background-color: rgb(var(--studio-field)); }
+.border-studio-border { border-color: rgb(var(--studio-border)); }
+.border-studio-border-strong { border-color: rgb(var(--studio-border-strong)); }
+
+/* Base */
+* {
+  box-sizing: border-box;
 }
 
-/* Cloud decorations on map */
-.map-clouds {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 5;
-  overflow: hidden;
+body {
+  margin: 0;
+  background-color: rgb(var(--studio-bg));
+  color: rgb(var(--studio-text));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.cloud {
-  position: absolute;
-  font-size: 2rem;
-  opacity: 0.15;
-  animation: cloudDrift linear infinite;
-}
-
-.cloud-1 {
-  top: 5%;
-  left: -5%;
-  animation-duration: 20s;
-  font-size: 2.5rem;
-}
-
-.cloud-2 {
-  top: 15%;
-  left: -5%;
-  animation-duration: 25s;
-  animation-delay: -5s;
-  font-size: 1.8rem;
-}
-
-.cloud-3 {
-  top: 60%;
-  left: -5%;
-  animation-duration: 22s;
-  animation-delay: -10s;
-  font-size: 2.2rem;
-}
-
-.cloud-4 {
-  top: 70%;
-  left: -5%;
-  animation-duration: 28s;
-  animation-delay: -15s;
-  font-size: 1.5rem;
-}
-
-.cloud-5 {
-  top: 30%;
-  left: -5%;
-  animation-duration: 18s;
-  animation-delay: -3s;
-  font-size: 2rem;
-}
-
-@keyframes cloudDrift {
-  from { transform: translateX(0); }
-  to { transform: translateX(110vw); }
-}
-
-/* Map marker bounce animation */
-.marker-bounce {
-  transition: all 0.3s ease;
-}
-
-@keyframes markerBounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
-}
-
-/* Custom marker styling */
-.custom-marker {
-  background: transparent;
-  border: none;
-}
-
-/* Route animation on map */
-.route-animation {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  animation: drawRoute 8s ease-in-out forwards;
-}
-
-@keyframes drawRoute {
-  to { stroke-dashoffset: 0; }
-}
-
-/* River flow animation */
-.river-flow {
-  stroke-dasharray: 10 15;
-  animation: flow 3s linear infinite;
-}
-
-@keyframes flow {
-  to { stroke-dashoffset: -50; }
-}
-
-/* Leaflet overrides for map */
-.leaflet-container {
-  font-family: "Microsoft YaHei", sans-serif !important;
-}
-
-.leaflet-control-zoom {
-  display: none !important;
-}
-
-.leaflet-control-attribution {
-  font-size: 9px !important;
-}
-
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-  html {
-    @apply font-sans;
-  }
+html {
+  font-family: "Geist", "Noto Sans SC", system-ui, sans-serif;
 }

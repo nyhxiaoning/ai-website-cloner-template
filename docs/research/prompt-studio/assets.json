@@ -1,0 +1,28 @@
+{
+  "images": [],
+  "links": [
+    {
+      "rel": "icon",
+      "href": "https://prompt-studio-7gh.pages.dev/vite.svg"
+    },
+    {
+      "rel": "preconnect",
+      "href": "https://fonts.googleapis.com/"
+    },
+    {
+      "rel": "preconnect",
+      "href": "https://fonts.gstatic.com/"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600&display=swap"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://prompt-studio-7gh.pages.dev/assets/index-DkW70tu-.css"
+    }
+  ],
+  "scripts": [
+    "https://prompt-studio-7gh.pages.dev/assets/index-D9RcSUfR.js"
+  ]
+}

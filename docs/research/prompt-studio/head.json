@@ -1,0 +1,45 @@
+{
+  "links": [
+    {
+      "rel": "icon",
+      "href": "https://prompt-studio-7gh.pages.dev/vite.svg",
+      "as": "",
+      "type": "image/svg+xml"
+    },
+    {
+      "rel": "preconnect",
+      "href": "https://fonts.googleapis.com/",
+      "as": "",
+      "type": ""
+    },
+    {
+      "rel": "preconnect",
+      "href": "https://fonts.gstatic.com/",
+      "as": "",
+      "type": ""
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600&display=swap",
+      "as": "",
+      "type": ""
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://prompt-studio-7gh.pages.dev/assets/index-DkW70tu-.css",
+      "as": "",
+      "type": ""
+    }
+  ],
+  "metas": [
+    {
+      "name": "",
+      "content": ""
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    }
+  ],
+  "title": "Prompt Studio"
+}

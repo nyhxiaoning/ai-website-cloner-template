@@ -1,0 +1,11 @@
+{
+  "body": {
+    "fontFamily": "Geist, \"Noto Sans SC\", system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(237, 237, 237)",
+    "lineHeight": "24px"
+  },
+  "rootCSSVars": {}
+}
