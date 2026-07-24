@@ -1,42 +1,45 @@
 'use client';
 
 import { useState } from 'react';
-import type { Snippet, Rule } from '@/types';
+import { useStudio } from '@/hooks/useStudio';
 import StudioShell from '@/components/StudioShell';
 import SnippetsView from '@/components/SnippetsView';
-import { mockSnippets, mockRules, mockProjects } from '@/data/mock-data';
+import CreateSnippetDialog from '@/components/CreateSnippetDialog';
 
 export default function SnippetsPage() {
-  const [snippets, setSnippets] = useState<Snippet[]>(mockSnippets);
-  const [rules] = useState<Rule[]>(mockRules);
-  const [createOpen, setCreateOpen] = useState(false);
-  const projects = mockProjects;
+  const {
+    projects,
+    activeProjectId,
+    projectSnippets,
+    createSnippet,
+    updateSnippet,
+    deleteSnippet,
+  } = useStudio();
 
-  const handleCreate = (data: {
-    key: string;
-    title: string;
-    content: string;
-    type: string;
-    suggestedPosition: string;
-    tags: string;
-  }) => {
-    const newSnippet: Snippet = {
+  const [createOpen, setCreateOpen] = useState(false);
+
+  const handleCreate = (data: { key: string; title: string; content: string; type: string; suggestedPosition: string; tags: string }) => {
+    createSnippet({
       id: data.key,
       title: data.title || data.key,
       content: data.content,
       createdAt: new Date().toISOString(),
-    };
-    setSnippets((prev) => [...prev, newSnippet]);
+    });
   };
 
   return (
-    <StudioShell projects={projects} activeProjectId={projects[0]?.id}>
+    <StudioShell>
       <SnippetsView
-        snippets={snippets}
-        rules={rules}
-        onCreateOpen={createOpen}
-        onCreateChange={setCreateOpen}
+        snippets={projectSnippets ?? []}
+        rules={[]}
         onCreateSnippet={handleCreate}
+        onUpdateSnippet={updateSnippet}
+        onDeleteSnippet={deleteSnippet}
+      />
+      <CreateSnippetDialog
+        open={createOpen}
+        onOpenChange={setCreateOpen}
+        onConfirm={handleCreate}
       />
     </StudioShell>
   );

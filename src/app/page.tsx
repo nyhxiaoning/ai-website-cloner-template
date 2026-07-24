@@ -1,8 +1,7 @@
 'use client';
 
-import { useState } from 'react';
-import type { Project, Prompt, ViewState } from '@/types';
-import { mockProjects, mockPrompts } from '@/data/mock-data';
+import { useStudio } from '@/hooks/useStudio';
+import { useToast } from '@/components/ToastProvider';
 import SetupScreen from '@/components/SetupScreen';
 import StudioShell from '@/components/StudioShell';
 import BoardsView from '@/components/BoardsView';
@@ -11,52 +10,43 @@ import SnippetsView from '@/components/SnippetsView';
 import RulesView from '@/components/RulesView';
 
 export default function Home() {
-  const [view, setView] = useState<ViewState>('setup');
-  const [currentView, setCurrentView] = useState<'boards' | 'prompt' | 'snippets' | 'rules'>('boards');
-  const [activeProject, setActiveProject] = useState<Project | null>(null);
-  const [activeBoardId, setActiveBoardId] = useState<string | null>(null);
-  const [activePromptId, setActivePromptId] = useState<string | null>(null);
-  const [projects, setProjects] = useState<Project[]>(mockProjects);
-  const [prompts, setPrompts] = useState<Prompt[]>(mockPrompts);
+  const {
+    projects,
+    activeProject,
+    activeProjectId,
+    activePrompt,
+    currentView,
+    activeBoardId,
+    searchQuery,
+    setSearchQuery,
+    setCurrentView,
+    setActiveProjectId,
+    setActiveBoardId,
+    setActivePromptId,
+    setLibraryPanelOpen,
+    updatePrompt,
+    deletePrompt,
+    addResult,
+    createProject,
+    renameProject,
+    createBoard,
+    renameBoard,
+    deleteBoard,
+    removePromptFromBoard,
+    createPrompt,
+    expandPrompt,
+  } = useStudio();
 
-  // Navigate to workspace after directory selection
-  const handleDirectorySelected = () => {
-    setView('workspace');
-    setActiveProject(mockProjects[0] ?? null);
+  const { showToast } = useToast();
+
+  // derive activePromptId from activePrompt for navigator
+  const activePromptId = activePrompt?.id ?? null;
+
+  const handleSelectPrompt = (promptId: string) => {
+    setActivePromptId(promptId);
+    setCurrentView('prompt');
   };
 
-  // Save prompt
-  const handleSavePrompt = (updated: Prompt) => {
-    setPrompts((prev) =>
-      prev.map((p) => (p.id === updated.id ? updated : p))
-    );
-    setProjects((prev) =>
-      prev.map((proj) => ({
-        ...proj,
-        prompts: proj.prompts.map((p) => (p.id === updated.id ? updated : p)),
-      }))
-    );
-  };
-
-  // Delete prompt
-  const handleDeletePrompt = () => {
-    if (!activePromptId || !activeProject) return;
-    setPrompts((prev) => prev.filter((p) => p.id !== activePromptId));
-    setProjects((prev) =>
-      prev.map((proj) => ({
-        ...proj,
-        prompts: proj.prompts.filter((p) => p.id !== activePromptId),
-        boards: proj.boards.map((b) => ({
-          ...b,
-          promptIds: b.promptIds.filter((id) => id !== activePromptId),
-        })),
-      }))
-    );
-    setActivePromptId(null);
-    setCurrentView('boards');
-  };
-
-  // Navigate prompt (prev/next)
   const handleNavigatePrompt = (direction: -1 | 1) => {
     if (!activeProject || !activePromptId || !activeBoardId) return;
     const board = activeProject.boards.find((b) => b.id === activeBoardId);
@@ -68,38 +58,40 @@ export default function Home() {
     }
   };
 
-  // Import results (simulate)
-  const handleImportResults = () => {
-    alert('从 Agent 导入结果功能 — 拖放 Agent 输出包到对话框即可。');
+  const handleCreateProject = (name: string, description?: string, tags?: string) => {
+    createProject(name, description, tags);
+    showToast(`项目 "${name}" 创建成功`, 'success');
   };
 
-  // Board view navigation
-  const handleSelectPrompt = (promptId: string) => {
-    setActivePromptId(promptId);
+  const handleCreatePrompt = () => {
+    if (!activeProjectId) {
+      showToast('请先选择一个项目', 'warning');
+      return;
+    }
+    const newId = createPrompt({ title: '新 Prompt' });
+    setActivePromptId(newId);
     setCurrentView('prompt');
+    showToast('新 Prompt 已创建', 'success');
   };
 
-  if (view === 'setup') {
-    return <SetupScreen onDirectorySelected={handleDirectorySelected} />;
-  }
+  const handleImportResults = (files: File[]) => {
+    if (!activePrompt) return;
+    for (const file of files) {
+      const url = URL.createObjectURL(file);
+      addResult(activePrompt.id, url);
+    }
+  };
 
   if (!activeProject) {
-    return <SetupScreen onDirectorySelected={handleDirectorySelected} />;
+    return <SetupScreen />;
   }
 
-  const projectPrompts = activeProject.prompts;
   const projectSnippets = activeProject.snippets;
   const projectRules = activeProject.rules;
-  const allBoardIds = activeProject.boards.flatMap((b) => b.promptIds);
-  const activeBoard = activeBoardId
-    ? activeProject.boards.find((b) => b.id === activeBoardId)
-    : null;
-  const boardPromptIds = activeBoard?.promptIds ?? allBoardIds;
-  const activePrompt = activePromptId
-    ? projectPrompts.find((p) => p.id === activePromptId)
-    : null;
+  const projectPrompts = activeProject.prompts;
+  const activeBoard = activeBoardId ? activeProject.boards.find((b) => b.id === activeBoardId) : null;
+  const boardPromptIds = activeBoard?.promptIds ?? activeProject.boards.flatMap((b) => b.promptIds);
 
-  // Render workspace content
   const renderContent = () => {
     switch (currentView) {
       case 'boards':
@@ -108,6 +100,25 @@ export default function Home() {
             boards={activeProject.boards}
             prompts={projectPrompts}
             onSelectPrompt={handleSelectPrompt}
+            onCreateBoard={(name) => {
+              createBoard(name);
+              showToast(`看板 "${name}" 已创建`, 'success');
+            }}
+            onRenameBoard={(id, name) => {
+              renameBoard(id, name);
+              showToast(`看板已重命名为 "${name}"`, 'success');
+            }}
+            onDeleteBoard={(id) => {
+              deleteBoard(id);
+              showToast('看板已删除', 'success');
+            }}
+            onRemovePromptFromBoard={(boardId, promptId) => {
+              removePromptFromBoard(boardId, promptId);
+              showToast('Prompt 已从看板移除', 'info');
+            }}
+            searchQuery={searchQuery}
+            onSearchChange={setSearchQuery}
+            onCreatePrompt={handleCreatePrompt}
           />
         );
       case 'prompt':
@@ -128,31 +139,51 @@ export default function Home() {
             snippets={projectSnippets}
             rules={projectRules}
             boardPromptIds={boardPromptIds}
-            onSave={handleSavePrompt}
-            onDelete={handleDeletePrompt}
+            onSave={updatePrompt}
+            onDelete={() => {
+              deletePrompt(activePrompt.id);
+              showToast('Prompt 已删除', 'success');
+            }}
             onNavigate={handleNavigatePrompt}
-            onImportResult={handleImportResults}
             onBack={() => {
               setActivePromptId(null);
               setCurrentView('boards');
             }}
+            onLibraryToggle={() => setLibraryPanelOpen(true)}
+            onImportResult={handleImportResults}
+            onSnipCreate={() => {
+              // PromptEditor's library panel uses a simplified callback;
+              // actual creation is handled in the dialog's onConfirm.
+              // This triggers the dialog in project/[id] context.
+              setLibraryPanelOpen(true);
+            }}
+            onRuleCreate={() => {
+              setLibraryPanelOpen(true);
+            }}
+            expandPrompt={expandPrompt}
           />
         );
       case 'snippets':
-        return <SnippetsView snippets={projectSnippets} rules={projectRules} />;
+        return (
+          <SnippetsView
+            snippets={projectSnippets}
+            rules={projectRules}
+          />
+        );
       case 'rules':
-        return <RulesView snippets={projectSnippets} rules={projectRules} />;
+        return (
+          <RulesView
+            snippets={projectSnippets}
+            rules={projectRules}
+          />
+        );
       default:
         return null;
     }
   };
 
   return (
-    <StudioShell
-      projects={projects}
-      activeProjectId={activeProject.id}
-    >
-      {/* Top nav bar for non-shell pages */}
+    <StudioShell>
       {currentView !== 'boards' && (
         <div className="border-b border-studio-border px-8 py-3">
           <div className="flex items-center gap-4">

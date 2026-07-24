@@ -23,27 +23,23 @@ function FormField({ label, htmlFor, required, children, description }: FormFiel
   );
 }
 
-export interface CreateRuleDialogProps {
+export interface CreateProjectDialogProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
-  onConfirm: (data: { key: string; title: string; content: string; description: string; tags: string }) => void;
+  onConfirm: (data: { name: string; description: string; tags: string }) => void;
 }
 
-export default function CreateRuleDialog({
+export default function CreateProjectDialog({
   open,
   onOpenChange,
   onConfirm,
-}: CreateRuleDialogProps) {
-  const [key, setKey] = useState('');
-  const [title, setTitle] = useState('');
-  const [content, setContent] = useState('');
+}: CreateProjectDialogProps) {
+  const [name, setName] = useState('');
   const [description, setDescription] = useState('');
   const [tags, setTags] = useState('');
 
   const reset = () => {
-    setKey('');
-    setTitle('');
-    setContent('');
+    setName('');
     setDescription('');
     setTags('');
   };
@@ -54,8 +50,8 @@ export default function CreateRuleDialog({
   };
 
   const handleConfirm = () => {
-    if (!key.trim() || !content.trim()) return;
-    onConfirm({ key: key.trim(), title: title.trim(), content: content.trim(), description: description.trim(), tags: tags.trim() });
+    if (!name.trim()) return;
+    onConfirm({ name: name.trim(), description: description.trim(), tags: tags.trim() });
     reset();
     onOpenChange(false);
   };
@@ -77,7 +73,7 @@ export default function CreateRuleDialog({
       <div className="flex h-full max-h-[90vh] w-full max-w-2xl flex-col overflow-hidden rounded-lg border border-studio-border bg-studio-elev-1 shadow-2xl">
         {/* Header */}
         <div className="flex shrink-0 items-center justify-between border-b border-studio-border px-6 py-4">
-          <h2 className="text-sm font-semibold text-studio-text">新建全局规则</h2>
+          <h2 className="text-sm font-semibold text-studio-text">新建项目</h2>
           <button
             type="button"
             onClick={() => handleOpenChange(false)}
@@ -91,60 +87,33 @@ export default function CreateRuleDialog({
 
         {/* Body */}
         <div className="flex-1 overflow-y-auto px-6 py-4 space-y-4">
-          {/* Key */}
-          <FormField label="key" htmlFor="rule-key" required description="规则通过 key 引用">
+          <FormField label="项目名称" htmlFor="proj-name" required>
             <input
-              id="rule-key"
+              id="proj-name"
               className={inputClass}
-              placeholder="PLATFORM_RULES"
-              value={key}
-              onChange={(e) => setKey(e.target.value)}
+              placeholder="输入项目名称"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
               onKeyDown={handleKeyDown}
               autoFocus
             />
           </FormField>
 
-          {/* 显示名 */}
-          <FormField label="显示名" htmlFor="rule-title" description="可选">
-            <input
-              id="rule-title"
-              className={inputClass}
-              placeholder="可选"
-              value={title}
-              onChange={(e) => setTitle(e.target.value)}
-              onKeyDown={handleKeyDown}
-            />
-          </FormField>
-
-          {/* 描述 */}
-          <FormField label="描述" htmlFor="rule-desc" description="一句话说明这个规则的用途">
-            <input
-              id="rule-desc"
-              className={inputClass}
-              placeholder="可选，描述规则用途"
+          <FormField label="描述" htmlFor="proj-desc">
+            <textarea
+              id="proj-desc"
+              className={textareaClass}
+              placeholder="可选，描述项目用途"
+              rows={3}
               value={description}
               onChange={(e) => setDescription(e.target.value)}
               onKeyDown={handleKeyDown}
             />
           </FormField>
 
-          {/* 内容 */}
-          <FormField label="内容" htmlFor="rule-content" required description="写入会附加到 prompt 的规则文本">
-            <textarea
-              id="rule-content"
-              className={textareaClass}
-              placeholder="写入会附加到 prompt 的规则文本"
-              rows={6}
-              value={content}
-              onChange={(e) => setContent(e.target.value)}
-              onKeyDown={handleKeyDown}
-            />
-          </FormField>
-
-          {/* 标签 */}
-          <FormField label="标签" htmlFor="rule-tags" description="以逗号分隔">
+          <FormField label="标签" htmlFor="proj-tags">
             <input
-              id="rule-tags"
+              id="proj-tags"
               className={inputClass}
               placeholder="标签，多个用逗号分隔"
               value={tags}
@@ -166,10 +135,10 @@ export default function CreateRuleDialog({
           <button
             type="button"
             onClick={handleConfirm}
-            disabled={!key.trim() || !content.trim()}
+            disabled={!name.trim()}
             className="rounded-md bg-studio-accent px-4 py-1.5 text-xs font-semibold text-studio-on-accent transition hover:bg-studio-accent/90 disabled:cursor-not-allowed disabled:opacity-60"
           >
-            创建规则
+            创建项目
           </button>
         </div>
       </div>

@@ -1,41 +1,45 @@
 'use client';
 
 import { useState } from 'react';
-import type { Snippet, Rule } from '@/types';
+import { useStudio } from '@/hooks/useStudio';
 import StudioShell from '@/components/StudioShell';
 import RulesView from '@/components/RulesView';
-import { mockSnippets, mockRules, mockProjects } from '@/data/mock-data';
+import CreateRuleDialog from '@/components/CreateRuleDialog';
 
 export default function RulesPage() {
-  const [snippets] = useState<Snippet[]>(mockSnippets);
-  const [rules, setRules] = useState<Rule[]>(mockRules);
-  const [createOpen, setCreateOpen] = useState(false);
-  const projects = mockProjects;
+  const {
+    projects,
+    activeProjectId,
+    projectRules,
+    createRule,
+    updateRule,
+    deleteRule,
+  } = useStudio();
 
-  const handleCreate = (data: {
-    key: string;
-    title: string;
-    content: string;
-    description: string;
-    tags: string;
-  }) => {
-    const newRule: Rule = {
+  const [createOpen, setCreateOpen] = useState(false);
+
+  const handleCreate = (data: { key: string; title: string; content: string; description: string; tags: string }) => {
+    createRule({
       id: data.key,
       title: data.title || data.key,
       content: data.content,
       createdAt: new Date().toISOString(),
-    };
-    setRules((prev) => [...prev, newRule]);
+    });
   };
 
   return (
-    <StudioShell projects={projects} activeProjectId={projects[0]?.id}>
+    <StudioShell>
       <RulesView
-        snippets={snippets}
-        rules={rules}
-        onCreateOpen={createOpen}
-        onCreateChange={setCreateOpen}
+        snippets={[]}
+        rules={projectRules ?? []}
         onCreateRule={handleCreate}
+        onUpdateRule={updateRule}
+        onDeleteRule={deleteRule}
+      />
+      <CreateRuleDialog
+        open={createOpen}
+        onOpenChange={setCreateOpen}
+        onConfirm={handleCreate}
       />
     </StudioShell>
   );

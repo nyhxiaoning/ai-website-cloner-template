@@ -1,9 +1,12 @@
 'use client';
 
-import { useState } from 'react';
-import type { Prompt, Snippet, Rule, GenerationResult } from '@/types';
+import { useCallback, useEffect, useState } from 'react';
+import type { Prompt, Snippet, Rule } from '@/types';
 import GenerationResults from './GenerationResults';
 import ConfirmDialog from './ConfirmDialog';
+import ImportResultsDialog from './ImportResultsDialog';
+import { useKeyboardShortcuts } from '@/hooks/useKeyboardShortcuts';
+import { useToast } from '@/components/ToastProvider';
 
 interface PromptEditorProps {
   prompt: Prompt;
@@ -15,8 +18,12 @@ interface PromptEditorProps {
   onSave: (prompt: Prompt) => void;
   onDelete: () => void;
   onNavigate: (direction: -1 | 1) => void;
-  onImportResult?: () => void;
+  onImportResult?: (files: File[]) => void;
   onBack?: () => void;
+  onLibraryToggle?: () => void;
+  onSnipCreate?: () => void;
+  onRuleCreate?: () => void;
+  expandPrompt?: (prompt: Prompt, snippets: Snippet[], rules: Rule[]) => string;
 }
 
 export default function PromptEditor({
@@ -31,6 +38,10 @@ export default function PromptEditor({
   onNavigate,
   onImportResult,
   onBack,
+  onLibraryToggle,
+  onSnipCreate,
+  onRuleCreate,
+  expandPrompt,
 }: PromptEditorProps) {
   const [title, setTitle] = useState(prompt.title);
   const [taskLabels, setTaskLabels] = useState(prompt.taskLabels);
@@ -40,7 +51,10 @@ export default function PromptEditor({
   const [content, setContent] = useState(prompt.content);
   const [libraryOpen, setLibraryOpen] = useState(false);
   const [confirmOpen, setConfirmOpen] = useState(false);
+  const [importOpen, setImportOpen] = useState(false);
   const [saving, setSaving] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const { showToast } = useToast();
 
   const currentIndex = boardPromptIds.indexOf(prompt.id);
   const hasPrev = currentIndex > 0;
@@ -53,28 +67,80 @@ export default function PromptEditor({
     positive !== prompt.positive ||
     negative !== prompt.negative;
 
-  const handleSave = async () => {
-    setSaving(true);
-    await onSave({
-      ...prompt,
-      title,
-      taskLabels,
-      generationParams,
-      content,
-      positive,
-      negative,
-    });
-    setSaving(false);
+  const assembledPrompt = expandPrompt
+    ? expandPrompt({ ...prompt, content, positive, negative, generationParams, title, taskLabels, results: prompt.results, createdAt: prompt.createdAt, updatedAt: prompt.updatedAt }, snippets, rules)
+    : '';
+
+  const handleCopy = async () => {
+    if (!assembledPrompt) {
+      showToast('没有可复制的内容', 'warning');
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(assembledPrompt);
+      setCopied(true);
+      showToast('完整 Prompt 已复制到剪贴板', 'success');
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      const ta = document.createElement('textarea');
+      ta.value = assembledPrompt;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      setCopied(true);
+      showToast('完整 Prompt 已复制到剪贴板', 'success');
+      setTimeout(() => setCopied(false), 2000);
+    }
   };
 
-  const handleDelete = () => {
-    setConfirmOpen(true);
+  const handleSave = async () => {
+    if (saving) {
+      showToast('正在保存中，请稍候', 'info');
+      return;
+    }
+    if (!isDirty) {
+      showToast('内容没有变化，无需保存', 'info');
+      return;
+    }
+    if (!title.trim()) {
+      showToast('请先填写 Prompt 标题', 'warning');
+      return;
+    }
+    setSaving(true);
+    try {
+      await onSave({
+        ...prompt,
+        title,
+        taskLabels,
+        generationParams,
+        content,
+        positive,
+        negative,
+      });
+      showToast(`Prompt "${title}" 已保存`, 'success');
+    } catch {
+      showToast('保存失败，请重试', 'error');
+    } finally {
+      setSaving(false);
+    }
   };
 
   const confirmDelete = () => {
     setConfirmOpen(false);
     onDelete();
+    showToast('Prompt 已删除', 'success');
   };
+
+  // Keyboard shortcuts
+  useKeyboardShortcuts({
+    onSave: handleSave,
+    onEscape: () => {
+      if (libraryOpen) setLibraryOpen(false);
+      if (importOpen) setImportOpen(false);
+      if (confirmOpen) setConfirmOpen(false);
+    },
+  });
 
   return (
     <main className="min-h-0 bg-studio-bg text-studio-text flex flex-col">
@@ -97,9 +163,7 @@ export default function PromptEditor({
               aria-label="上一条 Prompt"
               className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-studio-border transition hover:border-studio-accent hover:text-studio-text disabled:cursor-not-allowed disabled:opacity-40"
             >
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="m15 18-6-6 6-6" />
-              </svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6" /></svg>
             </button>
             <span className="font-mono tabular-nums">
               {currentIndex + 1} / {boardPromptIds.length}
@@ -111,9 +175,7 @@ export default function PromptEditor({
               aria-label="下一条 Prompt"
               className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-studio-border transition hover:border-studio-accent hover:text-studio-text disabled:cursor-not-allowed disabled:opacity-40"
             >
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="m9 18 6-6-6-6" />
-              </svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
             </button>
           </div>
         )}
@@ -121,11 +183,31 @@ export default function PromptEditor({
         <div className="ml-auto flex flex-wrap items-center gap-2">
           <button
             type="button"
-            onClick={onImportResult}
+            onClick={() => { setLibraryOpen(!libraryOpen); onLibraryToggle?.(); }}
             className="rounded-md border border-studio-border px-3 py-1.5 text-xs font-semibold text-studio-text-dim transition hover:border-studio-accent hover:text-studio-accent"
           >
             库 <span className="ml-1 font-mono text-studio-text-faint">⌘K</span>
           </button>
+          {assembledPrompt && (
+            <button
+              type="button"
+              onClick={handleCopy}
+              className="inline-flex items-center gap-1 rounded-md border border-studio-border px-3 py-1.5 text-xs font-semibold text-studio-text-dim transition hover:border-studio-ok hover:text-studio-ok"
+              title="复制完整 Prompt"
+            >
+              {copied ? (
+                <>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"/></svg>
+                  已复制
+                </>
+              ) : (
+                <>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                  复制
+                </>
+              )}
+            </button>
+          )}
           <button
             type="button"
             onClick={handleSave}
@@ -137,7 +219,7 @@ export default function PromptEditor({
           </button>
           <button
             type="button"
-            onClick={handleDelete}
+            onClick={() => setConfirmOpen(true)}
             disabled={saving}
             className="inline-flex h-9 shrink-0 items-center rounded-md border border-studio-border px-3 text-sm font-semibold text-studio-text-dim transition hover:border-studio-neg/50 hover:text-studio-neg disabled:cursor-not-allowed disabled:opacity-60"
           >
@@ -169,7 +251,7 @@ export default function PromptEditor({
         <label className="block space-y-1">
           <span className="text-xs font-medium text-studio-text-faint">
             生成参数
-            <span className="ml-2 font-normal">随「复制给 Agent」输出到 PARAMETERS 段；通用参数建议做成规则</span>
+            <span className="ml-2 font-normal">随「复制」输出；通用参数建议做成规则</span>
           </span>
           <input
             value={generationParams}
@@ -180,6 +262,18 @@ export default function PromptEditor({
         </label>
       </div>
 
+      {/* Assembled preview (collapsed by default) */}
+      {assembledPrompt && (
+        <details className="mt-4 rounded-md border border-studio-border bg-studio-elev-1">
+          <summary className="cursor-pointer px-3 py-2 text-xs font-semibold text-studio-text-faint hover:text-studio-text">
+            展开预览（引用已展开）
+          </summary>
+          <pre className="whitespace-pre-wrap break-words px-3 pb-3 text-xs font-mono text-studio-text-dim">
+            {assembledPrompt}
+          </pre>
+        </details>
+      )}
+
       {/* Editor + Results */}
       <section className="mt-8 grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start">
         {/* Editor */}
@@ -188,7 +282,7 @@ export default function PromptEditor({
             <h2 className="text-sm font-semibold text-studio-text">Prompt</h2>
             <button
               type="button"
-              onClick={() => setLibraryOpen(!libraryOpen)}
+              onClick={() => { setLibraryOpen(!libraryOpen); onLibraryToggle?.(); }}
               className="rounded-md border border-studio-border px-3 py-1.5 text-xs font-semibold text-studio-text-dim transition hover:border-studio-accent hover:text-studio-accent"
             >
               库 <span className="ml-1 font-mono text-studio-text-faint">⌘K</span>
@@ -221,11 +315,11 @@ export default function PromptEditor({
 
           {/* Main content editor */}
           <div className="space-y-1">
-            <label className="text-xs font-medium text-studio-text-faint">Prompt 内容</label>
+            <label className="text-xs font-medium text-studio-text-faint">Prompt 内容（支持 {'{{snippet:id}}'} / {'{{rule:id}}'} 引用）</label>
             <textarea
               value={content}
               onChange={(e) => setContent(e.target.value)}
-              placeholder="编写你的完整 prompt..."
+              placeholder="编写你的完整 prompt... 支持 {{snippet:id}} 和 {{rule:id}} 引用片段和规则"
               rows={10}
               className="w-full rounded-md border border-studio-border bg-studio-field px-3 py-2 font-mono text-sm text-studio-text outline-none transition placeholder:text-studio-text-faint focus:border-studio-accent resize-y"
             />
@@ -238,9 +332,10 @@ export default function PromptEditor({
               rules={rules}
               onInsert={(text) => {
                 setContent((prev) => prev + text);
-                setLibraryOpen(false);
               }}
               onClose={() => setLibraryOpen(false)}
+              onSnipCreate={onSnipCreate}
+              onRuleCreate={onRuleCreate}
             />
           )}
         </div>
@@ -255,8 +350,10 @@ export default function PromptEditor({
           </div>
           <GenerationResults
             prompt={prompt}
-            onImport={onImportResult}
-            onDelete={() => {}}
+            onImport={onImportResult ? (files) => { onImportResult(files); } : undefined}
+            onDelete={(id) => {
+              // Handled by parent via onSave after mutation
+            }}
           />
         </div>
       </section>
@@ -270,6 +367,15 @@ export default function PromptEditor({
         cancelLabel="取消"
         onConfirm={confirmDelete}
       />
+
+      {/* Import results dialog */}
+      {onImportResult && (
+        <ImportResultsDialog
+          open={importOpen}
+          onOpenChange={setImportOpen}
+          onImport={onImportResult}
+        />
+      )}
     </main>
   );
 }
@@ -279,11 +385,15 @@ function SnippetLibrary({
   rules,
   onInsert,
   onClose,
+  onSnipCreate,
+  onRuleCreate,
 }: {
   snippets: Snippet[];
   rules: Rule[];
   onInsert: (text: string) => void;
   onClose: () => void;
+  onSnipCreate?: () => void;
+  onRuleCreate?: () => void;
 }) {
   return (
     <div className="rounded-md border border-studio-border bg-studio-elev-1 p-3">
@@ -296,9 +406,25 @@ function SnippetLibrary({
           onClick={onClose}
           className="text-studio-text-faint hover:text-studio-text"
         >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M18 6 6 18" /><path d="m6 6 12 12" />
-          </svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
+        </button>
+      </div>
+
+      {/* Project snippet / rule creation */}
+      <div className="mb-3 flex gap-2">
+        <button
+          type="button"
+          onClick={onSnipCreate}
+          className="flex-1 rounded border border-dashed border-studio-border px-2 py-1 text-left text-[10px] text-studio-text-faint transition hover:border-studio-accent hover:text-studio-accent"
+        >
+          + 创建项目片段
+        </button>
+        <button
+          type="button"
+          onClick={onRuleCreate}
+          className="flex-1 rounded border border-dashed border-studio-border px-2 py-1 text-left text-[10px] text-studio-text-faint transition hover:border-studio-accent hover:text-studio-accent"
+        >
+          + 创建项目规则
         </button>
       </div>
 

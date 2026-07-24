@@ -1,20 +1,27 @@
 'use client';
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import type { Project, Snippet, Rule } from '@/types';
+import { useStudio } from '@/hooks/useStudio';
 import ImportDialog from './ImportDialog';
+import CreateProjectDialog from './CreateProjectDialog';
 
-interface StudioShellProps {
+export default function StudioShell({
+  children,
+}: {
   children: React.ReactNode;
-  projects: Project[];
-  activeProjectId?: string;
-}
+}) {
+  const {
+    projects,
+    activeProjectId,
+    createProject,
+    setCurrentView,
+    setActiveBoardId,
+    setActivePromptId,
+  } = useStudio();
 
-export default function StudioShell({ children, projects, activeProjectId }: StudioShellProps) {
-  const pathname = usePathname();
+  const pathname = typeof window !== 'undefined' ? window.location.pathname : '';
   const [importOpen, setImportOpen] = useState(false);
+  const [createOpen, setCreateOpen] = useState(false);
 
   const navItemClass = (active: boolean) =>
     `flex items-center rounded-md px-3 py-1.5 text-xs font-semibold uppercase tracking-wide transition ${
@@ -37,12 +44,15 @@ export default function StudioShell({ children, projects, activeProjectId }: Stu
         <div className="mt-6 min-w-0 md:flex md:min-h-0 md:flex-1 md:flex-col">
           {/* Projects section */}
           <div>
-            <Link href="/" className={navItemClass(pathname === '/')}>
+            <a
+              href="/projects"
+              className={navItemClass(pathname === '/projects')}
+            >
               项目
-            </Link>
+            </a>
             <div className="mt-1 space-y-1 md:min-h-0 md:flex-1 md:overflow-y-auto">
               {projects.map((project) => (
-                <Link
+                <a
                   key={project.id}
                   href={`/projects/${project.id}`}
                   className={`block truncate rounded-md px-3 py-1.5 text-xs transition hover:bg-studio-elev-2 ${
@@ -52,19 +62,31 @@ export default function StudioShell({ children, projects, activeProjectId }: Stu
                   }`}
                 >
                   {project.name}
-                </Link>
+                </a>
               ))}
             </div>
+            <button
+              type="button"
+              onClick={() => {
+                setCurrentView('boards');
+                setActiveBoardId(null);
+                setActivePromptId(null);
+                setCreateOpen(true);
+              }}
+              className="mt-1 flex w-full items-center rounded-md px-3 py-1.5 text-left text-xs text-studio-text-faint transition hover:bg-studio-elev-2 hover:text-studio-text"
+            >
+              + 新建项目
+            </button>
           </div>
 
           {/* Navigation */}
           <nav className="mt-4 space-y-1 border-t border-studio-border pt-4">
-            <Link href="/snippets" className={navItemClass(pathname === '/snippets')}>
+            <a href="/snippets" className={navItemClass(pathname === '/snippets')}>
               片段库
-            </Link>
-            <Link href="/rules" className={navItemClass(pathname === '/rules')}>
+            </a>
+            <a href="/rules" className={navItemClass(pathname === '/rules')}>
               规则库
-            </Link>
+            </a>
             <button
               type="button"
               onClick={() => setImportOpen(true)}
@@ -81,6 +103,16 @@ export default function StudioShell({ children, projects, activeProjectId }: Stu
 
       {/* Import Dialog */}
       <ImportDialog open={importOpen} onOpenChange={setImportOpen} />
+
+      {/* Create Project Dialog */}
+      <CreateProjectDialog
+        open={createOpen}
+        onOpenChange={setCreateOpen}
+        onConfirm={(data) => {
+          createProject(data.name || '新建项目', data.description, data.tags);
+          setCreateOpen(false);
+        }}
+      />
     </div>
   );
 }
