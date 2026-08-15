@@ -1,0 +1,6 @@
+[    3024ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:86
+[    9316ms] [ERROR] Not signed in with the identity provider. @ https://aiclotheschanger.io/:0
+[   12551ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://scripts.clarity.ms/0.8.69/clarity.js:0
+[   23590ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:87
+[   24595ms] [ERROR] Not signed in with the identity provider. @ https://aiclotheschanger.io/:0
+[   26507ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:87

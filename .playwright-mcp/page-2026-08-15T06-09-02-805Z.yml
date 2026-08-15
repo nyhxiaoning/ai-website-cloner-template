@@ -1,0 +1,477 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - banner:
+      - generic [ref=f6e5]:
+        - generic [ref=f6e6]:
+          - link "AI Clothes Changer logo AI Clothes Changer" [ref=f6e7] [cursor=pointer]:
+            - /url: /
+            - img "AI Clothes Changer logo" [ref=f6e8]
+            - generic [ref=f6e9]: AI Clothes Changer
+          - navigation "Main" [ref=f6e10]:
+            - list [ref=f6e12]:
+              - link "Virtual Try-On" [ref=f6e13] [cursor=pointer]:
+                - /url: /virtual-try-on-clothes
+              - link "AI Fashion Models" [ref=f6e16] [cursor=pointer]:
+                - /url: /ai-fashion-model-generator
+              - link "Pricing" [ref=f6e20] [cursor=pointer]:
+                - /url: /pricing
+        - generic [ref=f6e24]:
+          - button "Switch to dark mode" [ref=f6e25] [cursor=pointer]
+          - button "Sign In" [ref=f6e29] [cursor=pointer]
+    - main [ref=f6e30]:
+      - navigation "Breadcrumb" [ref=f6e31]:
+        - list [ref=f6e32]:
+          - listitem [ref=f6e33]:
+            - link "Home" [ref=f6e34] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f6e35]:
+            - generic [ref=f6e38]: AI Fashion Model Generator
+      - generic [ref=f6e40]:
+        - generic [ref=f6e41]:
+          - generic [ref=f6e42]:
+            - heading "AI FASHION MODEL GENERATOR Turn Clothing Photos Into On-Model Images" [level=1] [ref=f6e43]:
+              - generic [ref=f6e44]: AI FASHION MODEL GENERATOR
+              - generic [ref=f6e45]: Turn Clothing Photos
+              - generic [ref=f6e46]: Into On-Model Images
+            - paragraph [ref=f6e47]: Upload a product photo, choose an AI fashion model, and create on-model images for listings, ads, and social content.
+            - paragraph [ref=f6e48]:
+              - text: Want to try clothes on yourself?
+              - link "Try Virtual Try-On" [ref=f6e49] [cursor=pointer]:
+                - /url: /virtual-try-on-clothes
+          - generic [ref=f6e53]:
+            - group [ref=f6e54]:
+              - generic [ref=f6e55]:
+                - paragraph [ref=f6e56]: Upload a garment photo
+                - paragraph [ref=f6e57]: Use a flat-lay, hanger, mannequin, or product image.
+              - button "Upload a clothing product image" [ref=f6e58]
+              - generic [ref=f6e59]:
+                - img "Caramel cable-knit sweater shown as a flat-lay clothing product photo" [ref=f6e61]
+                - generic [ref=f6e62]:
+                  - paragraph [ref=f6e63]: Cable-knit sweater
+                  - paragraph [ref=f6e64]: Sample garment
+                  - generic [ref=f6e65]:
+                    - button "Replace" [ref=f6e66] [cursor=pointer]
+                    - button "Remove" [ref=f6e67] [cursor=pointer]
+              - paragraph [ref=f6e68]: JPEG, PNG or WebP · Max 4 MB
+            - generic [ref=f6e69]:
+              - paragraph [ref=f6e70]: Or try a sample garment
+              - generic [ref=f6e71]:
+                - 'button "Use the sample garment: Cable-knit sweater" [pressed] [ref=f6e72] [cursor=pointer]':
+                  - img "Caramel cable-knit sweater shown as a flat-lay clothing product photo" [ref=f6e73]
+                - 'button "Use the sample garment: Graphic hoodie" [ref=f6e77] [cursor=pointer]':
+                  - img "Black graphic hoodie photographed on an invisible ghost mannequin" [ref=f6e78]
+                - 'button "Use the sample garment: Striped shirt" [ref=f6e79] [cursor=pointer]':
+                  - img "Blue and ivory striped button-up shirt photographed on a wooden hanger" [ref=f6e80]
+            - group [ref=f6e81]:
+              - generic [ref=f6e82]:
+                - paragraph [ref=f6e83]: Choose a fashion model
+                - paragraph [ref=f6e84]: Use your own brand model to keep your existing brand look.
+              - paragraph [ref=f6e85]: Preset models
+              - generic [ref=f6e86]:
+                - button "Select Model 1" [pressed] [ref=f6e87] [cursor=pointer]:
+                  - 'img "Preset fashion model: woman in a plain white tank top and beige trousers on a neutral studio background" [ref=f6e88]'
+                - button "Select Model 2" [ref=f6e92] [cursor=pointer]:
+                  - 'img "Preset fashion model: man in a plain white T-shirt and grey joggers on a neutral studio background" [ref=f6e93]'
+                - button "Select Model 3" [ref=f6e94] [cursor=pointer]:
+                  - 'img "Preset fashion model: woman in a plain beige knit top and trousers on a neutral studio background" [ref=f6e95]'
+                - button "Upload your own model photo" [ref=f6e96]
+                - button "Upload your own model" [ref=f6e97] [cursor=pointer]
+              - paragraph [ref=f6e102]: "Selected: Model 1"
+            - group [ref=f6e103]:
+              - generic "Styling instructions (optional)" [ref=f6e104] [cursor=pointer]
+            - generic [ref=f6e105]:
+              - button "Generate On-Model Photo" [ref=f6e106] [cursor=pointer]
+              - paragraph [ref=f6e111]: 1 image · 1 creditFirst generation free after sign-up
+            - paragraph [ref=f6e112]:
+              - text: Use this tool only for lawful clothing visualization. Upload only images you have the right to use, and get explicit consent from every identifiable person in a model photo you upload. No photos of minors, NSFW, sexually explicit, sexually suggestive, or harmful content.
+              - link "Read the Acceptable Use Policy" [ref=f6e113] [cursor=pointer]:
+                - /url: /acceptable-use-policy
+              - text: .
+        - generic [ref=f6e115]:
+          - generic [ref=f6e116]:
+            - generic [ref=f6e117]:
+              - paragraph [ref=f6e118]: Your garment
+              - img "Caramel cable-knit sweater shown as a flat-lay clothing product photo" [ref=f6e120]
+            - generic [ref=f6e121]:
+              - paragraph [ref=f6e122]: Selected model
+              - 'img "Preset fashion model: woman in a plain white tank top and beige trousers on a neutral studio background" [ref=f6e124]'
+          - generic [ref=f6e125]:
+            - generic [ref=f6e126]:
+              - paragraph [ref=f6e127]: Generated result
+              - generic [ref=f6e128]: Sample result
+            - img "On-model image of Model 1 wearing the caramel cable-knit sweater" [ref=f6e130]
+            - paragraph [ref=f6e131]: Designed to preserve logos, prints, patterns, and garment details. Review each result before publishing.
+      - generic [ref=f6e133]:
+        - generic [ref=f6e136]:
+          - heading "Real On-Model Results from Product Photos" [level=2] [ref=f6e137]
+          - paragraph [ref=f6e138]: Each example shows the garment image that went in, the model photo it was placed on, and the AI result — so you can judge print, pattern, and fabric detail before you use it in a listing.
+        - generic [ref=f6e139]:
+          - generic [ref=f6e140]:
+            - button "Featured" [pressed] [ref=f6e141] [cursor=pointer]
+            - button "Flat lay & hanger" [ref=f6e142] [cursor=pointer]
+            - button "Logos & prints" [ref=f6e143] [cursor=pointer]
+          - generic [ref=f6e144]:
+            - article [ref=f6e146]:
+              - generic [ref=f6e147]:
+                - generic [ref=f6e148]:
+                  - heading "Flat-Lay Sweater to On-Model Photo" [level=3] [ref=f6e149]
+                  - paragraph [ref=f6e150]: A top-down flat lay is the cheapest product photo a store can make, and the hardest to sell from. This turns one into a worn look.
+                - generic [ref=f6e151]:
+                  - generic [ref=f6e152]:
+                    - generic [ref=f6e153]: Flat lay input
+                    - generic [ref=f6e157]: Knit texture kept
+                    - generic [ref=f6e161]: Listing ready
+                  - paragraph [ref=f6e165]: Unedited output generated from these two photos
+                  - button "View details" [ref=f6e166] [cursor=pointer]
+              - generic [ref=f6e167]:
+                - generic [ref=f6e168]:
+                  - img "Preset model photo used as the on-model base for the knit sweater" [ref=f6e169]
+                  - generic [ref=f6e170]: Person
+                - generic [ref=f6e173]:
+                  - img "Caramel cable-knit sweater shown as a flat-lay product photo" [ref=f6e174]
+                  - generic [ref=f6e175]: Reference
+                - generic [ref=f6e178]:
+                  - img "AI on-model image of the model wearing the caramel cable-knit sweater" [ref=f6e179]
+                  - generic [ref=f6e180]: Result
+            - article [ref=f6e182]:
+              - generic [ref=f6e183]:
+                - generic [ref=f6e184]:
+                  - heading "Printed Logo Hoodie on a Model" [level=3] [ref=f6e185]
+                  - paragraph [ref=f6e186]: A bold chest print is where AI distortion shows first, and where a shopper looks first. This checks the print survives.
+                - generic [ref=f6e187]:
+                  - generic [ref=f6e188]:
+                    - generic [ref=f6e189]: Print readable
+                    - generic [ref=f6e193]: Ghost mannequin input
+                    - generic [ref=f6e197]: Face natural
+                  - paragraph [ref=f6e201]: Unedited output generated from these two photos
+                  - button "View details" [ref=f6e202] [cursor=pointer]
+              - generic [ref=f6e203]:
+                - generic [ref=f6e204]:
+                  - img "Preset model photo used as the on-model base for the printed hoodie" [ref=f6e205]
+                  - generic [ref=f6e206]: Person
+                - generic [ref=f6e209]:
+                  - img "Black hooded sweatshirt product photo with a printed chest logo" [ref=f6e210]
+                  - generic [ref=f6e211]: Reference
+                - generic [ref=f6e214]:
+                  - img "AI on-model image of the model wearing the black hoodie with the chest print still readable" [ref=f6e215]
+                  - generic [ref=f6e216]: Result
+            - article [ref=f6e218]:
+              - generic [ref=f6e219]:
+                - generic [ref=f6e220]:
+                  - heading "Hanger Dress to Catalogue Shot" [level=3] [ref=f6e221]
+                  - paragraph [ref=f6e222]: A dense ditsy print on a hanger shot. This checks pattern density and colour balance hold up on a body.
+                - generic [ref=f6e223]:
+                  - generic [ref=f6e224]:
+                    - generic [ref=f6e225]: Hanger input
+                    - generic [ref=f6e229]: Pattern retained
+                    - generic [ref=f6e233]: Natural drape
+                  - paragraph [ref=f6e237]: Raw result — no retouching or colour correction
+                  - button "View details" [ref=f6e238] [cursor=pointer]
+              - generic [ref=f6e239]:
+                - generic [ref=f6e240]:
+                  - img "Preset model photo used as the on-model base for the floral dress" [ref=f6e241]
+                  - generic [ref=f6e242]: Person
+                - generic [ref=f6e245]:
+                  - img "Floral midi dress with a dense repeating print photographed on a hanger" [ref=f6e246]
+                  - generic [ref=f6e247]: Reference
+                - generic [ref=f6e250]:
+                  - img "AI on-model image of the model wearing the floral midi dress with the print density preserved" [ref=f6e251]
+                  - generic [ref=f6e252]: Result
+      - generic [ref=f6e254]:
+        - generic [ref=f6e256]:
+          - heading "What to review before you publish a listing photo" [level=2] [ref=f6e257]
+          - paragraph [ref=f6e258]: Generated on-model images are designed to preserve logos, prints, patterns, and garment details — but you are the one publishing them. Check the garment, the model, and the final image before it goes on a product page.
+        - generic [ref=f6e260]:
+          - generic [ref=f6e261]:
+            - generic [ref=f6e262]:
+              - generic [ref=f6e263]: Publish-ready inspection
+              - generic [ref=f6e267]: Logo clarity check
+            - generic [ref=f6e271]:
+              - 'img "Unedited AI try-on output: cream hoodie with the chest logo still sharp and readable" [ref=f6e272]'
+              - generic [ref=f6e276]: Logo clarity
+              - generic [ref=f6e277]:
+                - heading "Logo stays readable" [level=3] [ref=f6e280]
+                - paragraph [ref=f6e281]: Small logos, printed text, and patterns remain clear after try-on.
+            - generic [ref=f6e282]:
+              - generic [ref=f6e287]:
+                - paragraph [ref=f6e288]: Logo readable
+                - paragraph [ref=f6e289]: Print clarity
+              - generic [ref=f6e294]:
+                - paragraph [ref=f6e295]: Texture retained
+                - paragraph [ref=f6e296]: Material detail
+              - generic [ref=f6e301]:
+                - paragraph [ref=f6e302]: Lighting matched
+                - paragraph [ref=f6e303]: Pose and shadows
+          - generic [ref=f6e305]:
+            - generic [ref=f6e306]:
+              - heading "1. Image fidelity" [level=3] [ref=f6e313]
+              - generic [ref=f6e314]:
+                - button "Keep logos and prints sharp Small logos, printed text, graphics, and repeated patterns remain readable after try-on." [pressed] [ref=f6e315] [cursor=pointer]:
+                  - generic [ref=f6e319]:
+                    - generic [ref=f6e320]: Keep logos and prints sharp
+                    - generic [ref=f6e321]: Small logos, printed text, graphics, and repeated patterns remain readable after try-on.
+                - button "Preserve fabric texture" [ref=f6e322] [cursor=pointer]
+                - button "Match body pose and lighting" [ref=f6e328] [cursor=pointer]
+            - generic [ref=f6e334]:
+              - heading "2. Reference flexibility" [level=3] [ref=f6e339]
+              - generic [ref=f6e340]:
+                - button "Flat lay clothing references" [ref=f6e341] [cursor=pointer]
+                - button "On-model clothing references" [ref=f6e347] [cursor=pointer]
+                - button "One model across your catalog" [ref=f6e353] [cursor=pointer]
+            - generic [ref=f6e359]:
+              - heading "3. What you download" [level=3] [ref=f6e365]
+              - generic [ref=f6e366]:
+                - button "Your framing, preserved" [ref=f6e367] [cursor=pointer]
+                - button "Full quality on every plan" [ref=f6e373] [cursor=pointer]
+                - button "Commercial usage" [ref=f6e379] [cursor=pointer]
+      - generic [ref=f6e386]:
+        - generic [ref=f6e388]:
+          - heading "What Clothing Sellers Use On-Model Images For" [level=2] [ref=f6e389]
+          - paragraph [ref=f6e390]: "For independent labels and Shopify, Etsy, Amazon, and TikTok Shop sellers: turn the garment photos you already have into images you can publish."
+        - generic [ref=f6e392]:
+          - link "Listing photos without a photoshoot Turn a flat-lay, hanger, or mannequin shot into an on-model image for your product page, without booking a model, a studio, or a photographer. Product pages Catalogue Create a listing photo" [ref=f6e393] [cursor=pointer]:
+            - /url: "#hero"
+            - generic: "01"
+            - generic [ref=f6e394]:
+              - heading "Listing photos without a photoshoot" [level=3] [ref=f6e403]
+              - paragraph [ref=f6e404]: Turn a flat-lay, hanger, or mannequin shot into an on-model image for your product page, without booking a model, a studio, or a photographer.
+              - generic [ref=f6e405]:
+                - generic [ref=f6e406]: Product pages
+                - generic [ref=f6e407]: Catalogue
+              - generic [ref=f6e408]: Create a listing photo
+          - link "Show every colourway you stock Generate an on-model image for each colour or print you sell, one garment photo at a time, so a shopper sees the exact variant instead of guessing from a swatch. Variants Colourways Generate a variant" [ref=f6e412] [cursor=pointer]:
+            - /url: "#hero"
+            - generic: "02"
+            - generic [ref=f6e413]:
+              - heading "Show every colourway you stock" [level=3] [ref=f6e421]
+              - paragraph [ref=f6e422]: Generate an on-model image for each colour or print you sell, one garment photo at a time, so a shopper sees the exact variant instead of guessing from a swatch.
+              - generic [ref=f6e423]:
+                - generic [ref=f6e424]: Variants
+                - generic [ref=f6e425]: Colourways
+              - generic [ref=f6e426]: Generate a variant
+          - link "Keep one model across your store Upload your own brand model and use it for your garments so your storefront keeps a consistent look. Results vary between generations, so review each image before publishing. Brand look Storefront Use your own model" [ref=f6e430] [cursor=pointer]:
+            - /url: "#hero"
+            - generic: "03"
+            - generic [ref=f6e431]:
+              - heading "Keep one model across your store" [level=3] [ref=f6e440]
+              - paragraph [ref=f6e441]: Upload your own brand model and use it for your garments so your storefront keeps a consistent look. Results vary between generations, so review each image before publishing.
+              - generic [ref=f6e442]:
+                - generic [ref=f6e443]: Brand look
+                - generic [ref=f6e444]: Storefront
+              - generic [ref=f6e445]: Use your own model
+          - link "Test creative before you spend on ads Produce on-model variants of the same garment for social posts and ad creative, and find the image that performs before committing a shoot budget. Ad creative Social Create ad creative" [ref=f6e449] [cursor=pointer]:
+            - /url: "#hero"
+            - generic: "04"
+            - generic [ref=f6e450]:
+              - heading "Test creative before you spend on ads" [level=3] [ref=f6e459]
+              - paragraph [ref=f6e460]: Produce on-model variants of the same garment for social posts and ad creative, and find the image that performs before committing a shoot budget.
+              - generic [ref=f6e461]:
+                - generic [ref=f6e462]: Ad creative
+                - generic [ref=f6e463]: Social
+              - generic [ref=f6e464]: Create ad creative
+        - paragraph [ref=f6e468]: Pick a scenario, then upload a garment photo and choose a model.
+      - generic [ref=f6e470]:
+        - generic [ref=f6e472]:
+          - heading "How to Put Your Clothes on an AI Fashion Model in 3 Steps" [level=2] [ref=f6e474]
+          - paragraph [ref=f6e475]: No photoshoot and no model booking. Start from the product photo you already have and download an on-model image.
+        - generic [ref=f6e477]:
+          - article [ref=f6e478]:
+            - generic [ref=f6e479]:
+              - img "Flat-lay photo of a caramel cable-knit sweater used as the garment input" [ref=f6e480]
+              - generic [ref=f6e482]: "01"
+              - generic [ref=f6e487]: Your product photo
+            - generic [ref=f6e488]:
+              - heading "Upload your garment photo" [level=3] [ref=f6e489]
+              - paragraph [ref=f6e490]: A flat-lay, hanger shot, ghost-mannequin image, or a plain product photo all work. One clear, unobstructed garment per image gives the most reliable result.
+              - paragraph [ref=f6e491]: JPEG, PNG or WebP · up to 4 MB per image
+          - article [ref=f6e493]:
+            - generic [ref=f6e494]:
+              - img "Preset fashion model photo used as the on-model base" [ref=f6e495]
+              - generic [ref=f6e497]: "02"
+              - generic [ref=f6e501]: Preset or your model
+            - generic [ref=f6e502]:
+              - heading "Choose a fashion model" [level=3] [ref=f6e503]
+              - paragraph [ref=f6e504]: Pick one of the preset models, or upload your own brand model to keep your existing look. Uploaded model photos need consent from the person in them.
+              - paragraph [ref=f6e505]: 3 preset models, or your own model photo
+          - article [ref=f6e507]:
+            - generic [ref=f6e508]:
+              - img "AI-generated on-model image of the model wearing the caramel cable-knit sweater" [ref=f6e509]
+              - generic [ref=f6e511]: "03"
+              - generic [ref=f6e516]: Real AI output
+            - generic [ref=f6e517]:
+              - heading "Generate and download" [level=3] [ref=f6e518]
+              - paragraph [ref=f6e519]: The AI places the garment on the model while keeping the pose and background natural. Download the image without a watermark and review it before publishing.
+              - paragraph [ref=f6e520]: 1 credit per image · watermark-free download
+        - generic [ref=f6e522]:
+          - link "Generate an on-model photo — first image free" [ref=f6e523] [cursor=pointer]:
+            - /url: "#hero"
+          - paragraph [ref=f6e526]: Try the sample garments above, then use your free generation on your own product photo.
+      - generic [ref=f6e528]:
+        - generic [ref=f6e529]:
+          - heading "Pricing" [level=2] [ref=f6e530]
+          - paragraph [ref=f6e531]: Choose how many on-model images you need. Every plan runs the same model and includes HD downloads with no watermark.
+          - generic [ref=f6e532]: Sign up and generate one on-model image free before choosing a plan.
+          - link "Try 1 image free" [ref=f6e536] [cursor=pointer]:
+            - /url: "#hero"
+        - generic [ref=f6e541]:
+          - button "Monthly" [ref=f6e542] [cursor=pointer]
+          - button "Yearly 2 months free" [ref=f6e543] [cursor=pointer]:
+            - text: Yearly
+            - generic [ref=f6e544]: 2 months free
+        - generic [ref=f6e545]:
+          - article [ref=f6e546]:
+            - generic [ref=f6e551]:
+              - heading "Starter" [level=3] [ref=f6e552]
+              - paragraph [ref=f6e553]: For personal try-on, avatars, and a small batch of content images.
+            - generic [ref=f6e554]:
+              - generic [ref=f6e555]: $9.9
+              - generic [ref=f6e556]: / month
+            - paragraph [ref=f6e557]: 100 credits per month
+            - list [ref=f6e558]:
+              - listitem [ref=f6e559]:
+                - generic [ref=f6e562]: HD download, no watermark
+              - listitem [ref=f6e563]:
+                - generic [ref=f6e566]: Commercial use license
+              - listitem [ref=f6e567]:
+                - generic [ref=f6e570]: About $0.10 per image
+            - button "Get Starter" [ref=f6e572] [cursor=pointer]
+          - article [ref=f6e576]:
+            - generic [ref=f6e577]: Most Popular
+            - generic [ref=f6e582]:
+              - heading "Creator" [level=3] [ref=f6e583]
+              - paragraph [ref=f6e584]: For TikTok, Instagram, Xiaohongshu, and ad creative testing.
+            - generic [ref=f6e585]:
+              - generic [ref=f6e586]: $19.9
+              - generic [ref=f6e587]: / month
+            - paragraph [ref=f6e588]: 250 credits per month
+            - list [ref=f6e589]:
+              - listitem [ref=f6e590]:
+                - generic [ref=f6e593]: HD download, no watermark
+              - listitem [ref=f6e594]:
+                - generic [ref=f6e597]: Commercial use license
+              - listitem [ref=f6e598]:
+                - generic [ref=f6e601]: About $0.08 per image
+              - listitem [ref=f6e602]:
+                - generic [ref=f6e605]: Email support
+            - button "Choose Creator" [ref=f6e607] [cursor=pointer]
+          - article [ref=f6e611]:
+            - generic [ref=f6e617]:
+              - heading "Seller" [level=3] [ref=f6e618]
+              - paragraph [ref=f6e619]: For Shopify, Etsy, Amazon, and independent store product images.
+            - generic [ref=f6e620]:
+              - generic [ref=f6e621]: $39.9
+              - generic [ref=f6e622]: / month
+            - paragraph [ref=f6e623]: 580 credits per month
+            - list [ref=f6e624]:
+              - listitem [ref=f6e625]:
+                - generic [ref=f6e628]: HD download, no watermark
+              - listitem [ref=f6e629]:
+                - generic [ref=f6e632]: Commercial use license
+              - listitem [ref=f6e633]:
+                - generic [ref=f6e636]: About $0.07 per image
+              - listitem [ref=f6e637]:
+                - generic [ref=f6e640]: Priority email support
+            - button "Choose Seller" [ref=f6e642] [cursor=pointer]
+        - list [ref=f6e646]:
+          - listitem [ref=f6e647]:
+            - generic [ref=f6e650]: 1 credit = 1 image
+          - listitem [ref=f6e651]:
+            - generic [ref=f6e654]: Failed generations automatically return the credit
+          - listitem [ref=f6e655]:
+            - generic [ref=f6e658]: No watermark
+        - generic [ref=f6e660]:
+          - generic [ref=f6e661]:
+            - heading "Not ready to subscribe?" [level=3] [ref=f6e662]
+            - paragraph [ref=f6e663]: Best for occasional projects. Pay once, keep credits for 12 months, and subscribe anytime for a lower per-image price.
+          - button "Mini $5.9 40 credits $0.15 / credit" [ref=f6e665] [cursor=pointer]:
+            - generic [ref=f6e666]: Mini
+            - generic [ref=f6e667]:
+              - generic [ref=f6e668]: $5.9
+              - generic [ref=f6e669]: 40 credits
+            - generic [ref=f6e670]: $0.15 / credit
+        - generic [ref=f6e671]:
+          - paragraph [ref=f6e672]: "Auto-renewal: Subscription plans renew automatically at the end of each billing period until you cancel. You can cancel at any time in Settings → Billing; your plan and remaining credits stay available until the end of the current period. One-time credit packs are a single payment and do not renew."
+          - paragraph [ref=f6e673]: "Refunds: If you have consumed no credits from a purchase, you may request a full refund within 7 days at support@aiclotheschanger.io. Credits that have already been consumed are non-refundable."
+          - paragraph [ref=f6e674]:
+            - link "Terms of Service" [ref=f6e676] [cursor=pointer]:
+              - /url: /terms-of-service
+            - generic [ref=f6e677]:
+              - generic [ref=f6e678]: ·
+              - link "Privacy Policy" [ref=f6e679] [cursor=pointer]:
+                - /url: /privacy-policy
+            - generic [ref=f6e680]:
+              - generic [ref=f6e681]: ·
+              - link "Acceptable Use Policy" [ref=f6e682] [cursor=pointer]:
+                - /url: /acceptable-use-policy
+      - generic [ref=f6e685]:
+        - generic [ref=f6e687]:
+          - heading "AI Fashion Model Generator, Answered" [level=2] [ref=f6e688]
+          - paragraph [ref=f6e689]: What the tool does with a garment photo, which images work, how models are chosen, and how your uploads are handled.
+          - generic [ref=f6e690]:
+            - paragraph [ref=f6e691]: Ready to try it? Upload a garment photo above.
+            - link "Generate an on-model photo" [ref=f6e692] [cursor=pointer]:
+              - /url: "#hero"
+        - generic [ref=f6e694]:
+          - generic [ref=f6e695]:
+            - heading [level=3] [ref=f6e696]:
+              - button "What is an AI fashion model generator?" [expanded] [ref=f6e697] [cursor=pointer]
+            - region "What is an AI fashion model generator?" [ref=f6e698]:
+              - paragraph [ref=f6e700]: It is an online tool that takes a clothing product image and generates a photo of that garment worn by a fashion model. You upload the garment photo, choose a model, and get an on-model image you can use in listings, ads, and social content — without booking a model or a studio.
+          - heading [level=3] [ref=f6e702]:
+            - button "Can I use a flat-lay or hanger photo?" [ref=f6e703] [cursor=pointer]
+          - heading [level=3] [ref=f6e705]:
+            - button "Do I need to upload a model photo?" [ref=f6e706] [cursor=pointer]
+          - heading [level=3] [ref=f6e708]:
+            - button "Can I upload my own brand model?" [ref=f6e709] [cursor=pointer]
+          - heading [level=3] [ref=f6e711]:
+            - button "How consistent are generated models?" [ref=f6e712] [cursor=pointer]
+          - heading [level=3] [ref=f6e714]:
+            - button "Is the first generation free?" [ref=f6e715] [cursor=pointer]
+          - heading [level=3] [ref=f6e717]:
+            - button "Can I use results for product listings?" [ref=f6e718] [cursor=pointer]
+          - heading [level=3] [ref=f6e720]:
+            - button "Which image formats are supported?" [ref=f6e721] [cursor=pointer]
+          - heading [level=3] [ref=f6e723]:
+            - button "How are uploaded photos handled?" [ref=f6e724] [cursor=pointer]
+    - contentinfo [ref=f6e725]:
+      - generic [ref=f6e726]:
+        - generic [ref=f6e727]:
+          - generic [ref=f6e728]:
+            - link "AI Clothes Changer logo AI Clothes Changer" [ref=f6e729] [cursor=pointer]:
+              - /url: /
+              - img "AI Clothes Changer logo" [ref=f6e730]
+              - generic [ref=f6e731]: AI Clothes Changer
+            - paragraph [ref=f6e732]: AI clothes changer for small fashion sellers, creators, and independent brands. Turn one person photo and a garment reference into publish-ready try-on images.
+            - generic [ref=f6e733]:
+              - link [ref=f6e734] [cursor=pointer]:
+                - /url: https://toolrain.com/item/ai-clothes-changer
+                - img "Listed on ToolRain" [ref=f6e735]
+              - link [ref=f6e736] [cursor=pointer]:
+                - /url: https://toolbit.ai/ai-tool/aiclotheschanger-io?ref=embed
+                - img "Featured on ToolBit.ai - AI Clothes Changer" [ref=f6e737]
+          - generic [ref=f6e739]:
+            - generic [ref=f6e740]: Product
+            - generic [ref=f6e741]:
+              - link "Virtual Try-On" [ref=f6e742] [cursor=pointer]:
+                - /url: /virtual-try-on-clothes
+              - link "AI Fashion Models" [ref=f6e743] [cursor=pointer]:
+                - /url: /ai-fashion-model-generator
+              - link "Pricing" [ref=f6e744] [cursor=pointer]:
+                - /url: /pricing
+        - generic [ref=f6e746]:
+          - generic [ref=f6e747]:
+            - text: © 2026
+            - link "AI Clothes Changer" [ref=f6e748] [cursor=pointer]:
+              - /url: /
+            - text: ", All rights reserved"
+          - generic [ref=f6e750]:
+            - link "Privacy Policy" [ref=f6e751] [cursor=pointer]:
+              - /url: /privacy-policy
+            - link "Terms of Service" [ref=f6e752] [cursor=pointer]:
+              - /url: /terms-of-service
+            - link "Acceptable Use Policy" [ref=f6e753] [cursor=pointer]:
+              - /url: /acceptable-use-policy
+          - link "Email" [ref=f6e755] [cursor=pointer]:
+            - /url: mailto:support@aiclotheschanger.io
+  - region "Notifications alt+T"
+  - alert [ref=f6e759]

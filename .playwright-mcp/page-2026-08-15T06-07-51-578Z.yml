@@ -1,0 +1,165 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - banner:
+      - generic [ref=f4e5]:
+        - generic [ref=f4e6]:
+          - link "AI Clothes Changer logo AI Clothes Changer" [ref=f4e7] [cursor=pointer]:
+            - /url: /
+            - img "AI Clothes Changer logo" [ref=f4e8]
+            - generic [ref=f4e9]: AI Clothes Changer
+          - navigation "Main" [ref=f4e10]:
+            - list [ref=f4e12]:
+              - link "Virtual Try-On" [ref=f4e13] [cursor=pointer]:
+                - /url: /virtual-try-on-clothes
+              - link "AI Fashion Models" [ref=f4e16] [cursor=pointer]:
+                - /url: /ai-fashion-model-generator
+              - link "Pricing" [ref=f4e20] [cursor=pointer]:
+                - /url: /pricing
+        - generic [ref=f4e24]:
+          - button "Switch to dark mode" [ref=f4e25] [cursor=pointer]
+          - button "Sign In" [ref=f4e29] [cursor=pointer]
+    - main [ref=f4e30]:
+      - heading "Pricing" [level=1] [ref=f4e31]
+      - generic [ref=f4e33]:
+        - generic [ref=f4e34]:
+          - generic [ref=f4e35]: PRICING
+          - heading "Pricing for AI Clothes Changer" [level=2] [ref=f4e38]
+          - paragraph [ref=f4e39]: Every plan runs the same AI model with the same image quality. 1 credit = 1 image. Sign up free and get 1 trial generation first.
+          - link "Try 1 image free" [ref=f4e40] [cursor=pointer]:
+            - /url: /#hero
+        - tablist [ref=f4e45]:
+          - tab "Monthly" [selected] [ref=f4e46] [cursor=pointer]
+          - tab "Yearly 2 months free" [ref=f4e47] [cursor=pointer]:
+            - text: Yearly
+            - generic [ref=f4e48]: 2 months free
+        - paragraph [ref=f4e49]: Subscriptions offer the lowest cost per image and refresh credits every billing cycle.
+        - generic [ref=f4e50]:
+          - article [ref=f4e51]:
+            - generic [ref=f4e52]:
+              - heading "Starter" [level=3] [ref=f4e53]
+              - paragraph [ref=f4e54]: For personal try-on, avatars, and a small batch of content images.
+            - generic [ref=f4e55]:
+              - generic [ref=f4e56]: $9.9
+              - generic [ref=f4e57]: / month
+            - paragraph [ref=f4e58]: 100 credits per month
+            - paragraph [ref=f4e59]: Includes
+            - list [ref=f4e60]:
+              - listitem [ref=f4e61]:
+                - generic [ref=f4e64]: HD download, no watermark
+              - listitem [ref=f4e65]:
+                - generic [ref=f4e68]: Commercial use license
+              - listitem [ref=f4e69]:
+                - generic [ref=f4e72]: About $0.10 per image
+            - button "Get Starter" [ref=f4e74] [cursor=pointer]
+          - article [ref=f4e78]:
+            - generic [ref=f4e79]: Popular
+            - generic [ref=f4e80]:
+              - heading "Creator" [level=3] [ref=f4e81]
+              - paragraph [ref=f4e82]: For TikTok, Instagram, Xiaohongshu, and ad creative testing.
+            - generic [ref=f4e83]:
+              - generic [ref=f4e84]: $19.9
+              - generic [ref=f4e85]: / month
+            - paragraph [ref=f4e86]: 250 credits per month
+            - paragraph [ref=f4e87]: Includes
+            - list [ref=f4e88]:
+              - listitem [ref=f4e89]:
+                - generic [ref=f4e92]: HD download, no watermark
+              - listitem [ref=f4e93]:
+                - generic [ref=f4e96]: Commercial use license
+              - listitem [ref=f4e97]:
+                - generic [ref=f4e100]: Email support
+              - listitem [ref=f4e101]:
+                - generic [ref=f4e104]: About $0.08 per image
+            - button "Choose Creator" [ref=f4e106] [cursor=pointer]
+          - article [ref=f4e110]:
+            - generic [ref=f4e111]:
+              - heading "Seller" [level=3] [ref=f4e112]
+              - paragraph [ref=f4e113]: For Shopify, Etsy, Amazon, and independent store product images.
+            - generic [ref=f4e114]:
+              - generic [ref=f4e115]: $39.9
+              - generic [ref=f4e116]: / month
+            - paragraph [ref=f4e117]: 580 credits per month
+            - paragraph [ref=f4e118]: Includes
+            - list [ref=f4e119]:
+              - listitem [ref=f4e120]:
+                - generic [ref=f4e123]: HD download, no watermark
+              - listitem [ref=f4e124]:
+                - generic [ref=f4e127]: Commercial use license
+              - listitem [ref=f4e128]:
+                - generic [ref=f4e131]: Priority email support
+              - listitem [ref=f4e132]:
+                - generic [ref=f4e135]: About $0.07 per image
+            - button "Choose Seller" [ref=f4e137] [cursor=pointer]
+        - list [ref=f4e141]:
+          - listitem [ref=f4e142]:
+            - generic [ref=f4e145]: 1 credit = 1 image
+          - listitem [ref=f4e146]:
+            - generic [ref=f4e149]: Failed generations automatically return the credit
+          - listitem [ref=f4e150]:
+            - generic [ref=f4e153]: No watermark
+        - generic [ref=f4e155]:
+          - generic [ref=f4e156]:
+            - heading "Not ready to subscribe?" [level=3] [ref=f4e157]
+            - paragraph [ref=f4e158]: Best for occasional projects. Pay once, keep credits for 12 months, and subscribe anytime for a lower per-image price.
+          - generic [ref=f4e160]:
+            - generic [ref=f4e161]: Mini Pack
+            - generic [ref=f4e163]: $5.9
+            - generic [ref=f4e165]: 40 image generation credits
+            - generic [ref=f4e166]: One-time payment. No subscription.
+            - button "Buy Mini Pack" [ref=f4e168] [cursor=pointer]
+        - generic [ref=f4e170]:
+          - paragraph [ref=f4e171]: "Auto-renewal: Subscription plans renew automatically at the end of each billing period until you cancel. You can cancel at any time in Settings → Billing; your plan and remaining credits stay available until the end of the current period. One-time credit packs are a single payment and do not renew."
+          - paragraph [ref=f4e172]: "Refunds: If you have consumed no credits from a purchase, you may request a full refund within 7 days at support@aiclotheschanger.io. Credits that have already been consumed are non-refundable."
+          - paragraph [ref=f4e173]:
+            - link "Terms of Service" [ref=f4e175] [cursor=pointer]:
+              - /url: /terms-of-service
+            - generic [ref=f4e176]:
+              - generic [ref=f4e177]: ·
+              - link "Privacy Policy" [ref=f4e178] [cursor=pointer]:
+                - /url: /privacy-policy
+            - generic [ref=f4e179]:
+              - generic [ref=f4e180]: ·
+              - link "Acceptable Use Policy" [ref=f4e181] [cursor=pointer]:
+                - /url: /acceptable-use-policy
+    - contentinfo [ref=f4e182]:
+      - generic [ref=f4e183]:
+        - generic [ref=f4e184]:
+          - generic [ref=f4e185]:
+            - link "AI Clothes Changer logo AI Clothes Changer" [ref=f4e186] [cursor=pointer]:
+              - /url: /
+              - img "AI Clothes Changer logo" [ref=f4e187]
+              - generic [ref=f4e188]: AI Clothes Changer
+            - paragraph [ref=f4e189]: AI clothes changer for small fashion sellers, creators, and independent brands. Turn one person photo and a garment reference into publish-ready try-on images.
+            - generic [ref=f4e190]:
+              - link [ref=f4e191] [cursor=pointer]:
+                - /url: https://toolrain.com/item/ai-clothes-changer
+                - img "Listed on ToolRain" [ref=f4e192]
+              - link [ref=f4e193] [cursor=pointer]:
+                - /url: https://toolbit.ai/ai-tool/aiclotheschanger-io?ref=embed
+                - img "Featured on ToolBit.ai - AI Clothes Changer" [ref=f4e194]
+          - generic [ref=f4e196]:
+            - generic [ref=f4e197]: Product
+            - generic [ref=f4e198]:
+              - link "Virtual Try-On" [ref=f4e199] [cursor=pointer]:
+                - /url: /virtual-try-on-clothes
+              - link "AI Fashion Models" [ref=f4e200] [cursor=pointer]:
+                - /url: /ai-fashion-model-generator
+              - link "Pricing" [ref=f4e201] [cursor=pointer]:
+                - /url: /pricing
+        - generic [ref=f4e203]:
+          - generic [ref=f4e204]:
+            - text: © 2026
+            - link "AI Clothes Changer" [ref=f4e205] [cursor=pointer]:
+              - /url: /
+            - text: ", All rights reserved"
+          - generic [ref=f4e207]:
+            - link "Privacy Policy" [ref=f4e208] [cursor=pointer]:
+              - /url: /privacy-policy
+            - link "Terms of Service" [ref=f4e209] [cursor=pointer]:
+              - /url: /terms-of-service
+            - link "Acceptable Use Policy" [ref=f4e210] [cursor=pointer]:
+              - /url: /acceptable-use-policy
+          - link "Email" [ref=f4e212] [cursor=pointer]:
+            - /url: mailto:support@aiclotheschanger.io
+  - region "Notifications alt+T"
+  - alert [ref=f4e216]
